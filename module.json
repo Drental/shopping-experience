@@ -1,0 +1,24 @@
+{   
+   "name": "shoping-experience",   
+   "title": "PF2e a shopping experience",   
+   "description": "A set of prestocked shops to make the act of spending gold more enjoyable and memorable than looking up the list of all common items.",   
+   "author": "DrentalBot",
+   "version": "0.7",
+   "minimumCoreVersion": "0.8.9",
+   "packs": [
+    {
+      "name": "common-shops",
+      "label": "Common shops",
+      "path": "packs/common-shops.db",
+      "entity": "Actor",
+      "module": "shoping-experience"
+    },
+    {
+      "name": "otari-shops",
+      "label": "Otari shops",
+      "path": "packs/otari-shops.db",
+      "entity": "Actor",
+      "module": "shoping-experience"
+    }
+  ]
+ }
