@@ -1,6 +1,12 @@
 # Changelog
 
-## Initial Release [0.10] 2021-11-19
+## Initial Release [0.16] 2021-11-24
+
+### Changed
+
+- add shop for levels 11-16
+
+## Initial Release [0.10] 2021-11-24
 
 ### Changed
 
