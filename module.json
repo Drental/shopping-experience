@@ -3,7 +3,7 @@
    "title": "PF2e a shopping experience",   
    "description": "A set of prestocked shops to make the act of spending gold more enjoyable and memorable than looking up the list of all common items.",   
    "author": "DrentalBot",
-   "version": "2.0.1",
+   "version": "2.1.0",
    "minimumCoreVersion": "9",
    "compatibleCoreVersion": "9",
    "packs": [
@@ -26,5 +26,5 @@
     "pf2e"
   ],
   "manifest": "https://github.com/Drental/shopping-experience/releases/latest/download/module.json",
-  "download": "https://github.com/Drental/shopping-experience/releases/download/2.0.1/module.zip"
+  "download": "https://github.com/Drental/shopping-experience/releases/download/2.1.0/module.zip"
  }
