@@ -1,5 +1,12 @@
 # Changelog
 
+## Release [3.0] 2023-06-20
+
+### Changed
+
+- v11 compatibility
+- refresh shop items from compendium
+
 ## Release [2.0] 2022-01-09
 
 ### Changed
