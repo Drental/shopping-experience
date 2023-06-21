@@ -1,6 +1,6 @@
 {   
    "id": "shopping-experience",   
-   "version": "3.0",
+   "version": "3.0.0",
    "title": "PF2e a shopping experience",   
    "description": "A set of prestocked shops to make the act of spending gold more enjoyable and memorable than looking up the list of all common items.",   
   "compatibility": {
@@ -44,5 +44,5 @@
     ]
   },
   "manifest": "https://github.com/Drental/shopping-experience/releases/latest/download/module.json",
-  "download": "https://github.com/Drental/shopping-experience/releases/download/2.1.0/module.zip"
+  "download": "https://github.com/Drental/shopping-experience/releases/download/3.0.0/module.zip"
  }
