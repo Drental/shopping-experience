@@ -1,16 +1,18 @@
-{   
-   "id": "shopping-experience",   
-   "version": "3.0.0",
-   "title": "PF2e a shopping experience",   
-   "description": "A set of prestocked shops to make the act of spending gold more enjoyable and memorable than looking up the list of all common items.",   
+{
+  "id": "shopping-experience",
+  "version": "5.15.0",
+  "title": "PF2e a shopping experience",
+  "description": "A set of prestocked shops to make the act of spending gold more enjoyable and memorable than looking up the list of all common items.",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
   },
-  "authors": [{
+  "authors": [
+    {
       "name": "DrentalBot"
-    }],
-   "packs": [
+    }
+  ],
+  "packs": [
     {
       "name": "common-shops",
       "label": "Common Shops",
@@ -37,7 +39,7 @@
       {
         "id": "pf2e",
         "compatibility": {
-          "minimum": "5.0.0"
+          "minimum": "5.15.0"
         },
         "type": "system"
       }
@@ -45,4 +47,4 @@
   },
   "manifest": "https://github.com/Drental/shopping-experience/releases/latest/download/module.json",
   "download": "https://github.com/Drental/shopping-experience/releases/download/3.0.0/module.zip"
- }
+}
