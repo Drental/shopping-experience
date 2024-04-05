@@ -11,39 +11,38 @@ items:
         value: >-
           <p>This small, bladed weapon is held in one hand and used to stab a
           creature in close combat. It can also be thrown.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: dagger
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - agile
           - finesse
           - thrown-10
           - versatile-s
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 11
       baseItem: dagger
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 2
@@ -51,15 +50,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -87,22 +82,12 @@ items:
       range: null
       reload:
         value: '-'
-      MAP:
-        value: ''
-      potencyRune:
-        value: 0
-      strikingRune:
-        value: ''
-      specific:
-        value: false
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -140,37 +125,36 @@ items:
           <p>While many greatclubs are intricately carved, others are little
           more than a sturdy tree branch. These massive clubs are too heavy to
           wield with only one hand.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: greatclub
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - backswing
           - shove
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: greatclub
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -178,15 +162,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -214,22 +194,12 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 0
-      strikingRune:
-        value: ''
-      specific:
-        value: false
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -266,51 +236,46 @@ items:
         value: >-
           <p>This long piece of wood can aid in walking and deliver a mighty
           blow.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: staff
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - two-hand-d8
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: staff
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value: {}
       equipped:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -338,22 +303,12 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: null
-      strikingRune:
-        value: ''
-      specific:
-        value: false
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -391,51 +346,46 @@ items:
           <p>This is a piece of stout wood shaped or repurposed to bludgeon an
           enemy. Clubs can be intricately carved pieces of martial art or as
           simple as a tree branch or piece of wood.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: club
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - thrown-10
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: club
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value: {}
       equipped:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -463,22 +413,12 @@ items:
       range: null
       reload:
         value: '-'
-      MAP:
-        value: ''
-      potencyRune:
-        value: null
-      strikingRune:
-        value: ''
-      specific:
-        value: false
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -508,7 +448,7 @@ items:
     _id: jtJIrerXeCDHkZLa
     _key: '!actors.items!4dYDnGg7CKpRTDHi.jtJIrerXeCDHkZLa'
   - img: systems/pf2e/icons/equipment/adventuring-gear/clothes-explorers.webp
-    name: Clothing (Explorer's)
+    name: Explorer's Clothing
     system:
       description:
         gm: ''
@@ -518,36 +458,35 @@ items:
           forms, though the most common sorts look like clerical vestments,
           monk's garments, or wizard's robes, as members of all three classes
           are likely to avoid wearing armor.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
-      slug: clothing-explorers
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      slug: explorers-clothing
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - comfort
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 6
       baseItem: explorers-clothing
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: L
       price:
         value:
           sp: 1
@@ -556,15 +495,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -574,32 +509,20 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 0
       category: unarmored
       group: cloth
-      strength:
-        value: 0
+      acBonus: 0
+      strength: null
+      dexCap: 5
+      checkPenalty: 0
+      speedPenalty: 0
+      runes:
+        potency: 0
+        resilient: 0
+        property: []
+      subitems: []
       dex:
         value: 5
-      check:
-        value: 0
-      speed:
-        value: 0
-      potencyRune:
-        value: 0
-      resiliencyRune:
-        value: ''
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
     type: armor
     flags:
       core:
@@ -625,8 +548,6 @@ items:
       description:
         gm: ''
         value: <p>A lit candle sheds dim light in a 10‐foot radius for 8 hours.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: TokenLight
           predicate:
@@ -649,31 +570,32 @@ items:
             - lit-candle
           value: systems/pf2e/icons/equipment/adventuring-gear/candle.webp
       slug: candle
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 30
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 1
@@ -681,15 +603,11 @@ items:
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -699,17 +617,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: other
-      charges:
+      category: other
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -743,50 +659,45 @@ items:
           square you target. You must succeed at a @Check[type:flat|dc:10] for
           the oil to ignite successfully when it hits. If the oil ignites, the
           target takes 1d6 fire damage.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: oil-1-pint
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 20
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 1
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -796,17 +707,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: oil
-      charges:
+      category: oil
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -833,50 +742,45 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: rations
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 9
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 4
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -886,17 +790,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: other
-      charges:
+      category: other
+      uses:
         value: 7
         max: 7
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -926,50 +828,45 @@ items:
           <p>These projectiles are the ammunition for bows. The shaft of an
           arrow is made of wood. It is stabilized in flight by fletching at one
           end and bears a metal head on the other.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: arrows
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 10
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
         per: 10
       equipped:
         carryType: worn
-      stackGroup: arrows
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -979,17 +876,15 @@ items:
             description:
               value: ''
         misidentified: {}
+      category: ammo
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+      damage: null
       usage:
         value: held-in-one-hand
-      consumableType:
-        value: ammo
-      charges:
-        value: 0
-        max: 0
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+      stackGroup: arrows
       spell: null
     type: consumable
     flags:
@@ -1018,35 +913,34 @@ items:
         value: >-
           <p>Shorter than traditional arrows but similar in construction, bolts
           are the ammunition used by crossbows.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: bolts
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 30
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
@@ -1054,15 +948,11 @@ items:
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: bolts
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1072,17 +962,15 @@ items:
             description:
               value: ''
         misidentified: {}
+      category: ammo
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+      damage: null
       usage:
         value: held-in-one-hand
-      consumableType:
-        value: ammo
-      charges:
-        value: 0
-        max: 0
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+      stackGroup: bolts
       spell: null
     type: consumable
     flags:
@@ -1109,35 +997,37 @@ items:
       description:
         gm: ''
         value: <p>A wooden chest can hold up to 8 Bulk of items.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: chest
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
+        heldOrStowed: 2
+        capacity: 8
+        ignored: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 6
@@ -1145,15 +1035,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1163,12 +1049,10 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-two-hands
-      bulkCapacity:
-        value: '8'
       collapsed: false
       stowing: true
+      usage:
+        value: held-in-two-hands
     type: backpack
     flags:
       core:
@@ -1198,35 +1082,37 @@ items:
           these items don't count against your Bulk limits. If you're carrying
           or stowing the pack rather than wearing it on your back, its Bulk is
           light instead of negligible</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: backpack
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
+        heldOrStowed: 0.1
+        capacity: 4
+        ignored: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: '0'
       price:
         value:
           sp: 1
@@ -1235,15 +1121,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '2'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1253,12 +1135,10 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornbackpack
-      bulkCapacity:
-        value: '4'
       collapsed: false
       stowing: true
+      usage:
+        value: wornbackpack
     type: backpack
     flags:
       core:
@@ -1288,35 +1168,37 @@ items:
           Bulk or less can be worn on the body, usually tucked into a belt. You
           can carry a sack with one hand, but must use two hands to transfer
           items in and out.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: sack
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 20
       baseItem: null
+      bulk:
+        value: 0.1
+        heldOrStowed: 0.1
+        capacity: 8
+        ignored: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 1
@@ -1324,15 +1206,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: sacks
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1342,12 +1220,10 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: worn
-      bulkCapacity:
-        value: '8'
       collapsed: false
       stowing: false
+      usage:
+        value: held-in-one-hand
     type: backpack
     flags:
       core:
@@ -1378,35 +1254,37 @@ items:
           Bulk limit. The Bulk value given is for saddlebags worn by a mount. If
           you are carrying or stowing saddlebags, they count as 1 Bulk instead
           of light Bulk.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: saddlebags
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
+        heldOrStowed: 1
+        capacity: 6
+        ignored: 6
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: L
       price:
         value:
           sp: 2
@@ -1414,15 +1292,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '6'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1432,12 +1306,10 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: worn
-      bulkCapacity:
-        value: '6'
       collapsed: false
       stowing: false
+      usage:
+        value: worn
     type: backpack
     flags:
       core:
@@ -1463,49 +1335,44 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: platinum-pieces
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: 0
-      equippedBulk:
-        value: ''
       price:
         value:
           pp: 1
       equipped:
         carryType: worn
-      stackGroup: coins
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1515,8 +1382,7 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: ''
+      stackGroup: coins
     type: treasure
     flags:
       core:
@@ -1542,49 +1408,44 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: gold-pieces
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 9
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: 0
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
       equipped:
         carryType: worn
-      stackGroup: coins
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1594,8 +1455,7 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: ''
+      stackGroup: coins
     type: treasure
     flags:
       core:
@@ -1621,49 +1481,44 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: silver-pieces
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 10
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: 0
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
       equipped:
         carryType: worn
-      stackGroup: coins
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1673,8 +1528,7 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: ''
+      stackGroup: coins
     type: treasure
     flags:
       core:
@@ -1705,50 +1559,45 @@ items:
           determined by the GM; for example, blacksmith's tools differ from
           woodworker's tools. If you wear your artisan's tools, you can draw and
           replace them as part of the action that uses them.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: artisans-tools
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 4
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1760,6 +1609,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1787,50 +1637,45 @@ items:
         value: >-
           <p>This book contains the formulas for Crafting the 0-level common
           items in Chapter 6 of the core rulebook.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: basic-crafters-book
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1842,6 +1687,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1867,50 +1713,45 @@ items:
       description:
         gm: ''
         value: <p>A rolled up bed.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: bedroll
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 2
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1922,6 +1763,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1959,50 +1801,45 @@ items:
           creatures moving into the square are safe. Deployed caltrops can be
           salvaged and reused if no creatures took damage from them. Otherwise,
           enough caltrops are ruined that they can't be salvaged.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: caltrops
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 3
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2014,6 +1851,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2039,50 +1877,45 @@ items:
       description:
         gm: ''
         value: <p>10 feet of chain.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: chain-10-feet
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 4
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2094,6 +1927,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2119,35 +1953,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: chalk
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 30
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 1
@@ -2155,15 +1988,11 @@ items:
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2173,17 +2002,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: other
-      charges:
+      category: other
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2217,50 +2044,45 @@ items:
           @Check[type:flat|dc:5] whenever you critically fail to prevent a fall.
           A single kit has only enough materials for one climber; each climber
           needs their own kit.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: climbing-kit
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 5
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2272,6 +2094,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2307,8 +2130,6 @@ items:
           <p>You gain a +1 item bonus to Athletics checks to Climb while using
           an extreme climbing kit. A single kit has only enough materials for
           one climber; each climber needs their own kit.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Climbing Kit, Extreme (Climb)
@@ -2318,46 +2139,43 @@ items:
           type: item
           value: 1
       slug: climbing-kit-extreme
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 1
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2369,6 +2187,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2396,50 +2215,45 @@ items:
         value: >-
           <p>Ordinary clothing is functional with basic tailoring, such as
           peasant garb, monk's robes, or work clothes.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: clothing-ordinary
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2451,6 +2265,7 @@ items:
         misidentified: {}
       usage:
         value: worn
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2478,50 +2293,45 @@ items:
         value: >-
           <p>Fine clothing, suitable for a noble or royal, is made with
           expensive fabrics, precious metals, and intricate patterns.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: clothing-fine
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2533,6 +2343,7 @@ items:
         misidentified: {}
       usage:
         value: worn
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2562,8 +2373,6 @@ items:
           expensive fabrics, precious metals, and intricate patterns. You gain a
           +1 item bonus to checks to Make an Impression on nobility or other
           upper‑class folk while wearing high‑fashion fine clothing.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: High-Fashion Clothes (Make an Impression on nobility)
@@ -2573,46 +2382,43 @@ items:
           type: item
           value: 1
       slug: clothing-high-fashion-fine
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 55
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2624,6 +2430,7 @@ items:
         misidentified: {}
       usage:
         value: worn
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2652,50 +2459,45 @@ items:
           <p>Winter clothing allows you to negate the damage from severe
           environmental cold and reduce the damage from extreme cold to that of
           severe cold.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: clothing-winter
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 4
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2707,6 +2509,7 @@ items:
         misidentified: {}
       usage:
         value: worn
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2735,39 +2538,38 @@ items:
           <p>A compass helps you Sense Direction or navigate, provided you're in
           a location with uniform magnetic fields. Without a compass, you take a
           -2 item penalty to these checks (similar to using a shoddy item).</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - domain: skill-check
           key: RollOption
           option: compass-in-possession
           requiresEquipped: false
       slug: compass
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -2775,15 +2577,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2795,6 +2593,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2825,8 +2624,6 @@ items:
           -2 item penalty to these checks (similar to using a shoddy item).</p>
 
           <p>A lensatic compass gives you a +1 item bonus to these checks.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - domain: skill-check
           key: RollOption
@@ -2842,31 +2639,32 @@ items:
           type: item
           value: 1
       slug: compass-lensatic
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 20
@@ -2874,15 +2672,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2894,6 +2688,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -2919,35 +2714,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: cookware
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -2955,15 +2749,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2975,6 +2765,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3004,39 +2795,38 @@ items:
           crowbar makes it easier to gain the necessary leverage. Without a
           crowbar, prying something open takes a -2 item penalty to the
           Athletics check to Force Open (similar to using a shoddy item).</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: AdjustModifier
           selector: athletics
           slug: no-crowbar
           suppress: true
       slug: crowbar
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 5
@@ -3044,15 +2834,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3064,6 +2850,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3096,8 +2883,6 @@ items:
 
           <p>A levered crowbar grants you a +1 item bonus to Athletics checks to
           Force Open anything that can be pried open.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Levered Crowbar (Force Open)
@@ -3111,31 +2896,32 @@ items:
           slug: no-crowbar
           suppress: true
       slug: crowbar-levered
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 20
@@ -3143,15 +2929,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3163,6 +2945,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3194,35 +2977,34 @@ items:
           If you've crafted a large number of disguises, you can replenish your
           cosmetics supply with replacement cosmetics suitable for the type of
           your disguise kit.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: disguise-kit
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2
@@ -3230,15 +3012,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3250,6 +3028,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3281,35 +3060,34 @@ items:
           If you've crafted a large number of disguises, you can replenish your
           cosmetics supply with replacement cosmetics suitable for the type of
           your disguise kit.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: disguise-kit-replacement-cosmetics
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
@@ -3317,15 +3095,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3337,6 +3111,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3364,35 +3139,34 @@ items:
         value: >-
           <p>This kit include a collapsible fishing pole, fishhooks, line,
           lures, and a fishing net.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: fishing-tackle
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 8
@@ -3400,15 +3174,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3420,6 +3190,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3450,35 +3221,34 @@ items:
           be practical during an encounter. Even in ideal conditions, using
           flint and steel to light a flame requires using at least 3 actions,
           and often significantly longer.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: flint-and-steel
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 5
@@ -3486,15 +3256,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3506,6 +3272,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3538,35 +3305,34 @@ items:
           tablets, and almost any other medium; there's no need for you to copy
           them into a specific book as long as you can keep them on hand to
           reference them.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: formula-book-blank
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -3574,15 +3340,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3594,6 +3356,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3625,35 +3388,34 @@ items:
           DC 20. On a success, your hook has a firm hold, but on a critical
           failure, the hook seems like it will hold but actually falls when
           you're partway up.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: grappling-hook
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
@@ -3661,15 +3423,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3681,6 +3439,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3706,35 +3465,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: hammer
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
@@ -3742,15 +3500,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3762,6 +3516,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3791,35 +3546,34 @@ items:
           Medicine checks to Administer First Aid, Treat Disease, Treat Poison,
           or Treat Wounds. If you wear your healer's tools, you can draw and
           replace them as part of the action that uses them.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: healers-tools
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5
@@ -3827,15 +3581,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3847,6 +3597,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3877,8 +3628,6 @@ items:
           or Treat Wounds. Expanded healer's tools provide a +1 item bonus to
           such checks. If you wear your healer's tools, you can draw and replace
           them as part of the action that uses them.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Expanded Healer's Tools (1st aid, treat disease, poison or wounds
@@ -3892,31 +3641,32 @@ items:
           type: item
           value: 1
       slug: healers-tools-expanded
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 50
@@ -3924,15 +3674,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3944,6 +3690,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -3969,35 +3716,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: hourglass
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3
@@ -4005,15 +3751,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4025,6 +3767,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4050,35 +3793,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: ladder-10-foot
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 3
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '3'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 3
@@ -4086,15 +3828,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4106,6 +3844,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4137,8 +3876,6 @@ items:
           30‑foot radius (and dim light in the next 30 feet) and is equipped
           with shutters, which you can close to block the light. Closing or
           opening the shutters takes an Interact action.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: TokenEffectIcon
           value: systems/pf2e/icons/equipment/adventuring-gear/lantern-bulls-eye.webp
@@ -4154,31 +3891,32 @@ items:
             dim: 120
             shadows: 0.2
       slug: lantern-bulls-eye
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -4186,15 +3924,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4206,6 +3940,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4237,8 +3972,6 @@ items:
           30‑foot radius (and dim light in the next 30 feet) and is equipped
           with shutters, which you can close to block the light. Closing or
           opening the shutters takes an Interact action.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: TokenLight
           value:
@@ -4253,31 +3986,32 @@ items:
         - key: TokenEffectIcon
           value: systems/pf2e/icons/equipment/adventuring-gear/lantern.webp
       slug: lantern-hooded
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 7
@@ -4285,15 +4019,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4305,6 +4035,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4333,35 +4064,34 @@ items:
           <p>Picking a poor lock requires two successful
           @Check[type:thievery|dc:15|traits:action:pick-a-lock|immutable:true]
           checks.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: lock-poor
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 2
@@ -4369,15 +4099,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4389,6 +4115,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4417,35 +4144,34 @@ items:
           <p>Picking a simple lock requires three successful
           @Check[type:thievery|dc:20|traits:action:pick-a-lock|immutable:true]
           checks.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: lock-simple
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 1
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2
@@ -4453,15 +4179,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4473,6 +4195,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4501,35 +4224,34 @@ items:
           <p>Picking an average lock requires four successful
           @Check[type:thievery|dc:25|traits:action:pick-a-lock|immutable:true]
           checks.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: lock-average
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 15
@@ -4537,15 +4259,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4557,6 +4275,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4585,8 +4304,6 @@ items:
           <p>This quality handheld lens gives you a +1 item bonus to Perception
           checks to notice minute details of documents, fabric, and the
           like.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Magnifying Glass (minute details)
@@ -4596,31 +4313,32 @@ items:
           type: item
           value: 1
       slug: magnifying-glass
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40
@@ -4628,15 +4346,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4648,6 +4362,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4685,35 +4400,34 @@ items:
           determines what effect manacles have, if any. Freeing a creature from
           poor manacles requires two successful
           @Check[type:thievery|dc:17|traits:action:pick-a-lock] checks.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: manacles-poor
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 3
@@ -4721,15 +4435,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4741,6 +4451,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4778,35 +4489,34 @@ items:
           determines what effect manacles have, if any. Freeing a creature from
           simple manacles requires three successful
           @Check[type:thievery|dc:22|traits:action:pick-a-lock] checks.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: manacles-simple
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 1
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3
@@ -4814,15 +4524,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4834,6 +4540,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4871,35 +4578,34 @@ items:
           determines what effect manacles have, if any. Freeing a creature from
           average manacles requires four successful
           @Check[type:thievery|dc:27|traits:action:pick-a-lock] checks.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: manacles-average
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 20
@@ -4907,15 +4613,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4927,6 +4629,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -4956,35 +4659,34 @@ items:
           <p>This pouch contains material components for those spells that
           require them. Though the components are used up over time, you can
           refill spent components during your daily preparations.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: material-component-pouch
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 5
@@ -4992,15 +4694,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5012,6 +4710,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5037,35 +4736,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: merchants-scale
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 2
@@ -5073,15 +4771,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5093,6 +4787,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5118,35 +4813,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: mirror
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -5154,15 +4848,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5174,6 +4864,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5199,35 +4890,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: mug
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 1
@@ -5235,15 +4925,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5255,6 +4941,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5288,35 +4975,34 @@ items:
           Heavy instruments such as large drums, a full set of chimes, and
           keyboard instruments are less portable and generally need to be
           stationary while played.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: musical-instrument-handheld
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 8
@@ -5324,15 +5010,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5344,6 +5026,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5377,35 +5060,34 @@ items:
           Heavy instruments such as large drums, a full set of chimes, and
           keyboard instruments are less portable and generally need to be
           stationary while played.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: musical-instrument-heavy
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 16
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '16'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2
@@ -5413,15 +5095,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5433,6 +5111,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5467,8 +5146,6 @@ items:
           keyboard instruments are less portable and generally need to be
           stationary while played. A virtuoso instrument gives a +1 item bonus
           to Performance checks using that instrument.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Virtuoso Instrument (playing it)
@@ -5478,31 +5155,32 @@ items:
           type: item
           value: 1
       slug: musical-instrument-virtuoso-handheld
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 50
@@ -5510,15 +5188,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5530,6 +5204,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5564,8 +5239,6 @@ items:
           keyboard instruments are less portable and generally need to be
           stationary while played. A virtuoso instrument gives a +1 item bonus
           to Performance checks using that instrument.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Virtuoso Instrument (playing it)
@@ -5575,31 +5248,32 @@ items:
           type: item
           value: 1
       slug: musical-instrument-virtuoso-heavy
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 16
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '16'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 100
@@ -5607,15 +5281,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5627,6 +5297,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5657,35 +5328,34 @@ items:
           drive it in with your other hand. You can attach a rope to the
           hammered piton so that you don't fall all the way to the ground on a
           critical failure while Climbing.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: piton
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 20
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 1
@@ -5693,15 +5363,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5713,6 +5379,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5743,39 +5410,38 @@ items:
           use a religious symbol of their deity as a divine focus to use certain
           abilities and cast some spells. A religious symbol must be held in one
           hand to use it.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - domain: all
           key: RollOption
           option: has-religious-symbol
           requiresEquipped: false
       slug: religious-symbol-wooden
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.936-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
@@ -5783,15 +5449,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5803,6 +5465,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5833,39 +5496,38 @@ items:
           use a religious symbol of their deity as a divine focus to use certain
           abilities and cast some spells. A religious symbol must be held in one
           hand to use it.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - domain: all
           key: RollOption
           option: has-religious-symbol
           requiresEquipped: false
       slug: religious-symbol-silver
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2
@@ -5873,15 +5535,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5893,6 +5551,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -5922,35 +5581,34 @@ items:
           divine spellcasters, such as clerics, can use a religious text as a
           divine focus to use certain abilities and cast some spells. A
           religious text must be held in one hand to use it.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: religious-text
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -5958,15 +5616,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -5978,6 +5632,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6007,35 +5662,34 @@ items:
           It contains a portable anvil, tongs, woodworking tools, a whetstone,
           and oils for conditioning leather and wood. You can use a repair kit
           to Repair items using the Crafting skill.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: repair-kit
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2
@@ -6043,15 +5697,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6063,6 +5713,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6093,8 +5744,6 @@ items:
           and oils for conditioning leather and wood. You can use a repair kit
           to Repair items using the Crafting skill. A superb repair kit gives
           you a +1 item bonus to the check.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Repair Kit, Superb (Repair)
@@ -6104,31 +5753,32 @@ items:
           type: item
           value: 1
       slug: repair-kit-superb
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 25
@@ -6136,15 +5786,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6156,6 +5802,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6181,35 +5828,34 @@ items:
       description:
         gm: ''
         value: <p>50 feet of rope.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: rope
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 5
@@ -6217,15 +5863,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6237,6 +5879,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6264,35 +5907,34 @@ items:
         value: >-
           <p>When sounded, a signal whistle can be heard clearly up to half a
           mile away across open terrain.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: signal-whistle
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 8
@@ -6300,15 +5942,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6320,6 +5958,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6347,35 +5986,34 @@ items:
         value: >-
           <p>This kit contains tools and materials for creating snares. A snare
           kit allows you to Craft snares using the Crafting skill.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: snare-kit
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5
@@ -6383,15 +6021,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6403,6 +6037,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6431,8 +6066,6 @@ items:
           <p>This kit contains tools and materials for creating snares. A snare
           kit allows you to Craft snares using the Crafting skill. A specialist
           snare kit gives you a +1 item bonus to the check.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Snare Kit (Craft snares)
@@ -6442,31 +6075,32 @@ items:
           type: item
           value: 1
       slug: snare-kit-specialist
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 55
@@ -6474,15 +6108,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6494,6 +6124,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6519,35 +6150,34 @@ items:
       description:
         gm: ''
         value: <p>Bar of soap.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: soap
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 10
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 2
@@ -6555,15 +6185,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6575,6 +6201,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6605,35 +6232,34 @@ items:
           for free) and a useful luxury for other spellcasters looking to learn
           additional spells. Each spellbook can hold up to 100 spells. The Price
           listed is for a blank spellbook.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: spellbook-blank
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -6641,15 +6267,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6661,6 +6283,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6688,35 +6311,34 @@ items:
         value: >-
           <p>A typical spyglass lets you see eight times farther than
           normal.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: spyglass
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 20
@@ -6724,15 +6346,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6744,6 +6362,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6772,8 +6391,6 @@ items:
           <p>A typical spyglass lets you see eight times farther than normal. A
           fine spyglass adds a +1 item bonus to Perception checks to notice
           details at a distance.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Fine Spyglass (Notice details at distance)
@@ -6783,31 +6400,32 @@ items:
           type: item
           value: 1
       slug: spyglass-fine
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 4
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 80
@@ -6815,15 +6433,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6835,6 +6449,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6866,35 +6481,34 @@ items:
           saddles. These can be more expensive or hard to find, as determined by
           the GM. The Bulk value given is for tack worn by a creature. If
           carried, the Bulk increases to 2.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: tack
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: '1'
       price:
         value:
           gp: 4
@@ -6902,15 +6516,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -6922,6 +6532,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -6950,35 +6561,34 @@ items:
           <p>When wielding this long pole, you can use Seek to search a square
           up to 10 feet away. The pole is not sturdy enough to use as a
           weapon.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: ten-foot-pole
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 1
@@ -6986,15 +6596,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7006,6 +6612,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7031,35 +6638,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: tent-pup
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 8
@@ -7067,15 +6673,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7087,6 +6689,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7112,35 +6715,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: tent-four-person
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5
@@ -7148,15 +6750,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7168,6 +6766,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7193,35 +6792,34 @@ items:
       description:
         gm: ''
         value: ''
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: tent-pavilion
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 2
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
       quantity: 5
       baseItem: null
+      bulk:
+        value: 12
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '12'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40
@@ -7229,15 +6827,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7249,6 +6843,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7285,35 +6880,34 @@ items:
           Picks} appropriate to your tools; this doesn't require using the
           Repair action. If you wear your thieves' tools, you can draw and
           replace them as part of the action that uses them.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: thieves-tools
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3
@@ -7321,15 +6915,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7341,6 +6931,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7369,35 +6960,34 @@ items:
           <p>These are replacement picks for
           @UUID[Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc]{Thieves'
           Tools}.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: thieves-tools-replacement-picks
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 30
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 3
@@ -7405,15 +6995,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7425,6 +7011,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7463,8 +7050,6 @@ items:
           Picks} appropriate to your tools; this doesn't require using the
           Repair action. If you wear your thieves' tools, you can draw and
           replace them as part of the action that uses them.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           predicate:
@@ -7475,31 +7060,32 @@ items:
           type: item
           value: 1
       slug: thieves-tools-infiltrator
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 50
@@ -7507,15 +7093,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7527,6 +7109,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7555,35 +7138,34 @@ items:
           <p>These are replacement picks for
           @UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{Thieves'
           Tools (Infiltrator)}.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: thieves-tools-infiltrator-picks
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 3
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
       quantity: 10
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3
@@ -7591,15 +7173,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7611,6 +7189,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7642,35 +7221,34 @@ items:
           can usually be used as an improvised weapon, dealing 1d6 damage. The
           GM determines the damage type that's appropriate or adjusts the damage
           if needed.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: tool-long
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 10
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -7678,15 +7256,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7698,6 +7272,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7729,35 +7304,34 @@ items:
           can usually be used as an improvised weapon, dealing 1d4 damage. The
           GM determines the damage type that's appropriate or adjusts the damage
           if needed.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: tool-short
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 10
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 4
@@ -7765,15 +7339,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7785,6 +7355,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7813,8 +7384,6 @@ items:
           <p>A torch sheds bright light in a 20-foot radius (and dim light to
           the next 20 feet) for 1 hour. It can be used as an improvised weapon
           that deals 1d4 bludgeoning damage plus 1 fire damage.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: TokenLight
           predicate:
@@ -7853,31 +7422,32 @@ items:
             - lit-torch
           value: systems/pf2e/icons/equipment/held-items/everburning-torch.webp
       slug: torch
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 20
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 1
@@ -7885,15 +7455,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7905,6 +7471,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -7932,35 +7499,34 @@ items:
         value: >-
           <p>When it's full, a waterskin contains roughly 1 day's worth of water
           for a Small or Medium creature.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: waterskin
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 10
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           cp: 5
@@ -7968,15 +7534,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -7988,6 +7550,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -8018,35 +7581,34 @@ items:
           parchment, as well as ink, a quill or inkpen, sealing wax, and a
           simple seal. If you've written a large amount, you can refill your kit
           with extra ink and paper.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: writing-set
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 10
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -8054,15 +7616,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -8074,6 +7632,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -8099,35 +7658,34 @@ items:
       description:
         gm: ''
         value: <p>Extra ink and paper to refill your writing set.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: writing-set-extra-ink-and-paper
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.937-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 15
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
@@ -8135,15 +7693,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -8155,6 +7709,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -8195,14 +7750,12 @@ system:
       value: 0
   lootSheetType: Merchant
   hiddenWhenEmpty: false
-  schema:
-    version: 0.842
-    lastMigration:
-      datetime: '2023-06-20T09:31:23.936-07:00'
-      version:
-        schema: 0.842
-        foundry: '11.302'
-        system: 5.0.1
+  _migration:
+    version: 0.925
+    previous:
+      schema: 0.842
+      foundry: '11.315'
+      system: 5.15.0
   traits:
     rarity: common
     size:
@@ -8264,7 +7817,7 @@ prototypeToken:
     angle: 360
     enabled: false
     range: 0
-    brightness: 1
+    brightness: 0
     visionMode: basic
     attenuation: 0.1
     saturation: 0
@@ -8274,10 +7827,10 @@ prototypeToken:
   detectionModes: []
 _stats:
   systemId: pf2e
-  systemVersion: 5.0.1
-  coreVersion: '11.302'
+  systemVersion: 5.15.0
+  coreVersion: '11.315'
   createdTime: 1686850703482
-  modifiedTime: 1687278703021
-  lastModifiedBy: eJdAkXPIlso4614X
+  modifiedTime: 1712315301754
+  lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!4dYDnGg7CKpRTDHi'
 

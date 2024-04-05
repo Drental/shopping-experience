@@ -46,39 +46,37 @@ items:
           <p><strong>Effect</strong> You ride your weapon into a foe, attacking
           it as you fly past. You Fly, making a melee Strike with the weapon
           once at any point during your movement.</p>
-      source:
-        value: 'Pathfinder Lost Omens: The Grand Bazaar'
       rules: []
       slug: skyrider-sword-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - air
           - magical
-          - transmutation
           - versatile-p
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: 'Pathfinder Lost Omens: The Grand Bazaar'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: greatsword
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 32000
@@ -86,15 +84,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -122,26 +116,21 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 3
-      strikingRune:
-        value: greaterStriking
+      runes:
+        potency: 3
+        striking: 2
+        property:
+          - greaterShock
       specific:
-        value: true
-        material: null
+        material:
+          type: null
+          grade: null
         runes:
           potency: 3
-          striking: greaterStriking
-      propertyRune1:
-        value: greaterShock
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+          striking: 2
+          property:
+            - greaterShock
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -213,41 +202,39 @@ items:
           creature to protect and roll a melee attack roll against the DC of the
           electricity effect. If you succeed, the chosen creature takes no
           electricity damage from the triggering effect.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: storm-flash-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - deadly-d8
           - disarm
           - electricity
-          - evocation
           - finesse
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: rapier
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 21000
@@ -255,15 +242,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -291,26 +274,21 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 3
-      strikingRune:
-        value: greaterStriking
+      runes:
+        potency: 3
+        striking: 2
+        property:
+          - greaterShock
       specific:
-        value: true
-        material: null
+        material:
+          type: null
+          grade: null
         runes:
           potency: 3
-          striking: greaterStriking
-      propertyRune1:
-        value: greaterShock
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+          striking: 2
+          property:
+            - greaterShock
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -350,52 +328,47 @@ items:
           it harder to break and destroy.</p>
 
           <p>The shield has Hardness 20, HP 160, and BT 80.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: sturdy-shield-supreme
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - abjuration
           - magical
         rarity: common
-        otherTags: []
+        integrated: null
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
-      baseItem: null
+      baseItem: steel-shield
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 80
         value: 160
         max: 160
       hardness: 20
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -405,33 +378,24 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      armor:
-        value: 2
-      category: shield
-      group: null
-      strength:
-        value: 0
+      acBonus: 2
+      runes:
+        reinforcing: 0
+        potency: 0
+        resilient: 0
+        property: []
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          reinforcing: 0
+        integrated: null
+      speedPenalty: 0
+      subitems: []
       dex:
         value: 0
-      check:
-        value: 0
-      speed:
-        value: 0
-      potencyRune:
-        value: 0
-      resiliencyRune:
-        value: ''
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-    type: armor
+    type: shield
     flags:
       core:
         sourceId: Compendium.pf2e.equipment-srd.Item.7Z8XXGiUiyyisKOD
@@ -492,8 +456,6 @@ items:
 
           <p><strong>Craft Requirements</strong> You are an arcane
           spellcaster.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Robe of the Archmagi (against arcane spells)
@@ -503,47 +465,44 @@ items:
           type: circumstance
           value: 1
       slug: robe-of-the-archmagi-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - comfort
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: explorers-clothing
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: '1'
       price:
         value:
           gp: 32000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -553,32 +512,28 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 0
       category: unarmored
       group: null
-      strength:
-        value: 0
+      acBonus: 0
+      strength: null
+      dexCap: 5
+      checkPenalty: 0
+      speedPenalty: 0
+      runes:
+        potency: 2
+        resilient: 2
+        property: []
+      subitems: []
       dex:
         value: 5
-      check:
-        value: 0
-      speed:
-        value: 0
-      potencyRune:
-        value: 2
-      resiliencyRune:
-        value: greaterResilient
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          potency: 2
+          resilient: 2
+          property: []
     type: armor
     flags:
       core:
@@ -629,8 +584,6 @@ items:
 
           <p><strong>Effect</strong> You gain the effects of
           <em>@UUID[Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0]{Hypercognition}</em>.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           predicate:
@@ -638,59 +591,47 @@ items:
           selector: skill-check
           type: item
           value: 3
-        - key: ActiveEffectLike
-          mode: add
-          path: system.abilities.int.value
-          value: 2
-        - key: ActiveEffectLike
-          mode: upgrade
-          path: system.abilities.int.value
-          value: 18
       slug: diadem-of-intellect
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 17
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - apex
-          - divination
           - invested
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 17
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 15000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -702,6 +643,9 @@ items:
         misidentified: {}
       usage:
         value: worncirclet
+      subitems: []
+      apex:
+        attribute: int
     type: equipment
     flags:
       core:
@@ -751,62 +695,48 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.J0YS8mQsQ1BmT6Xv]{Effect:
           Emberheart}</p>
-      source:
-        value: Pathfinder Secrets of Magic
-      rules:
-        - key: ActiveEffectLike
-          mode: add
-          path: system.abilities.con.value
-          value: 2
-        - key: ActiveEffectLike
-          mode: upgrade
-          path: system.abilities.con.value
-          value: 18
+      rules: []
       slug: emberheart
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - apex
           - invested
           - magical
-          - necromancy
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 24000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -818,6 +748,9 @@ items:
         misidentified: {}
       usage:
         value: worn
+      subitems: []
+      apex:
+        attribute: con
     type: equipment
     flags:
       core:
@@ -857,62 +790,56 @@ items:
           <em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Neutralize
           Poison}</em>, or when you Treat Disease in order to produce the
           effects of a 6th-level
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.RneiyehRO6f7LP44]{Remove
-          Disease}</em>.</p>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse
+          Affliction}</em>.</p>
 
           <p>Once these medicines have been used to treat a patient's poison or
           disease, they can't be used again to treat the same affliction for
           that patient.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           selector: medicine
           type: item
           value: 3
       slug: marvelous-medicines-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - magical
-          - necromancy
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 19000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -924,6 +851,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-two-hands
+      subitems: []
     type: equipment
     flags:
       core:
@@ -974,53 +902,47 @@ items:
           to make an attack roll if the throw is unusually challenging. If no
           one hurls the sphere by the start of your next turn, it turns into a
           non-magical red bead.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: necklace-of-fireballs-vii
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 17
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - evocation
           - invested
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 17
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 9600
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1032,6 +954,7 @@ items:
         misidentified: {}
       usage:
         value: worn
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1099,8 +1022,6 @@ items:
           creature recalls about the interaction, such as believing you to be
           another individual or that the creature agreed to a favor, as
           determined by the GM.</p>
-      source:
-        value: 'Pathfinder Lost Omens: Character Guide'
       rules:
         - key: FlatModifier
           label: Unmemorable Mantle (Impersonate & Lie in character)
@@ -1112,49 +1033,46 @@ items:
           type: item
           value: 3
       slug: unmemorable-mantle-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 17
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - illusion
           - invested
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: 'Pathfinder Lost Omens: Character Guide'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 17
       quantity: 1
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 21750
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1166,6 +1084,7 @@ items:
         misidentified: {}
       usage:
         value: worncloak
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1195,55 +1114,49 @@ items:
           tingling sensation as the drinker's wounds heal rapidly. When you
           drink a healing potion, you regain [[/r (8d8+30)[healing]]]{8d8+30 Hit
           Points}.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: healing-potion-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
           - healing
           - magical
-          - necromancy
-          - positive
           - potion
+          - vitality
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1253,17 +1166,18 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: potion
-      charges:
+      category: potion
+      uses:
         value: 1
         max: 1
-      consume:
-        value: 8d8+30
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage:
+        formula: 8d8+30
+        kind: healing
+        type: vitality
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1304,54 +1218,48 @@ items:
 
           <p>After you use the breath weapon, you can't do so again for [[/r 1d4
           #rounds]]{1d4 rounds}.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: silver-dragons-breath-potion-wyrm
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 17
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - cold
           - consumable
-          - evocation
           - magical
           - potion
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 17
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1361,17 +1269,18 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: potion
-      charges:
+      category: potion
+      uses:
         value: 1
         max: 1
-      consume:
-        value: 10d6
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage:
+        formula: 10d6
+        kind: damage
+        type: cold
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1421,53 +1330,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-8th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - magical
+          - primal
+          - wand
+        rarity: common
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
       level:
         value: 17
-      traits:
-        value:
-          - magical
-          - wand
-          - arcane
-          - primal
-        rarity: common
-        otherTags: []
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 15000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1477,17 +1381,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/all-is-one-one-is-all.webp
         name: All is One, One is All
@@ -1504,38 +1406,20 @@ items:
               Hit Points of all targets however you choose, except that no
               target can receive fewer than 1 Hit Point or more than their
               maximum Hit Points.</p>
-          source:
-            value: 'Pathfinder Lost Omens: Legends'
           rules: []
           slug: all-is-one-one-is-all
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
-            value: []
+            value:
+              - concentrate
+              - manipulate
             rarity: rare
             selected:
               necromancy: Necromancy
-          level:
-            value: 8
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - arcane
               - primal
-            custom: ''
-          school:
-            value: necromancy
-          components:
-            focus: false
-            material: true
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 8
           target:
             value: You and up to 10 willing living allies
           range:
@@ -1545,30 +1429,24 @@ items:
             value: '3'
           duration:
             value: ''
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 8
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: 'Pathfinder Lost Omens: Legends'
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -1585,7 +1463,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: WLkIMQ43RC8WsUMJ
     type: consumable
     flags:
       core:
@@ -1633,54 +1511,49 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-8th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 15
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
+          - arcane
           - consumable
           - magical
-          - scroll
-          - arcane
           - primal
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 15
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1300
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1690,17 +1563,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/deluge.webp
         name: Deluge
@@ -1726,37 +1597,19 @@ items:
 
               <p><strong>Heightened (+1)</strong> The area increases by 10 feet,
               and flying creatures fall an additional 10 feet.</p>
-          source:
-            value: 'Pathfinder #156: The Apocalypse Prophet'
           rules: []
           slug: deluge
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
+              - manipulate
               - water
             rarity: uncommon
-          level:
-            value: 8
-          spellType:
-            value: save
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - arcane
               - primal
-            custom: ''
-          school:
-            value: evocation
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 8
           target:
             value: ''
           range:
@@ -1766,30 +1619,28 @@ items:
             value: '2'
           duration:
             value: ''
-          damage:
-            value: {}
-          save:
-            value: reflex
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 8
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: 'Pathfinder #156: The Apocalypse Prophet'
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense:
+            passive: null
+            save:
+              statistic: reflex
+              basic: false
         type: spell
         flags:
           core:
@@ -1806,7 +1657,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: hWBUoqJ4WCi8j8G4
     type: consumable
     flags:
       core:
@@ -1853,53 +1704,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-8th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - magical
+          - occult
+          - wand
+        rarity: common
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
       level:
         value: 17
-      traits:
-        value:
-          - magical
-          - wand
-          - arcane
-          - occult
-        rarity: common
-        otherTags: []
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 15000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1909,17 +1755,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/disapperance.webp
         name: Disappearance
@@ -1937,35 +1781,18 @@ items:
               Seeking, looking for disturbed dust, hearing gaps in the sound
               spectrum, or finding some other way to discover the presence of an
               otherwise-undetectable creature.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: disappearance
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
-            value: []
-            rarity: common
-          level:
-            value: 8
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
             value:
+              - illusion
+              - manipulate
+            rarity: common
+            traditions:
               - arcane
               - occult
-          school:
-            value: illusion
-          components:
-            focus: false
-            material: true
-            somatic: true
-            verbal: false
-          materials:
-            value: ''
+          level:
+            value: 8
           target:
             value: 1 creature
           range:
@@ -1975,30 +1802,24 @@ items:
             value: '2'
           duration:
             value: 10 minutes
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 8
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -2015,7 +1836,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: si6R9o4tnZTWNc05
     type: consumable
     flags:
       core:
@@ -2063,53 +1884,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-8th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - magical
+          - occult
+          - wand
+        rarity: common
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
       level:
         value: 17
-      traits:
-        value:
-          - magical
-          - wand
-          - arcane
-          - occult
-        rarity: common
-        otherTags: []
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 15000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2119,17 +1935,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/dream-council.webp
         name: Dream Council
@@ -2143,37 +1957,21 @@ items:
               they can communicate with one another as though they were in the
               same room. Individual targets leave this shared dream upon
               awakening, and if all the targets awaken, the spell ends.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: dream-council
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
+              - illusion
+              - manipulate
               - mental
               - sleep
             rarity: common
-          level:
-            value: 8
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - arcane
               - occult
-          school:
-            value: illusion
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 8
           target:
             value: up to 12 creatures you know by name and have met in person
           range:
@@ -2183,30 +1981,24 @@ items:
             value: 10 minutes
           duration:
             value: 1 hour
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 8
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -2223,7 +2015,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: Wl2SMjVEznKgeS78
     type: consumable
     flags:
       core:
@@ -2271,53 +2063,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-10th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
           - magical
-          - scroll
           - occult
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 8000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2327,17 +2114,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/fabricated-truth.webp
         name: Fabricated Truth
@@ -2373,36 +2158,19 @@ items:
 
               <p><strong>Critical Failure</strong> The target believes the
               statement with unlimited duration.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: fabricated-truth
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
               - incapacitation
+              - manipulate
               - mental
             rarity: common
+            traditions:
+              - occult
           level:
             value: 10
-          spellType:
-            value: save
-          category:
-            value: spell
-          traditions:
-            value:
-              - occult
-          school:
-            value: enchantment
-          components:
-            focus: false
-            material: true
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
           target:
             value: up to 5 creatures
           range:
@@ -2412,30 +2180,28 @@ items:
             value: '3'
           duration:
             value: varies
-          damage:
-            value: {}
-          save:
-            value: will
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 10
-          hasCounteractCheck:
-            value: true
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: true
+          defense:
+            passive: null
+            save:
+              statistic: will
+              basic: false
         type: spell
         flags:
           core:
@@ -2452,7 +2218,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: OUOzRN6SVGWzGT8y
     type: consumable
     flags:
       core:
@@ -2500,56 +2266,51 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-10th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - consumable
-          - magical
-          - scroll
           - arcane
+          - consumable
           - divine
+          - magical
           - occult
           - primal
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 8000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2559,17 +2320,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/indestructibility.webp
         name: Indestructibility
@@ -2582,37 +2341,20 @@ items:
               that would harm you, excluding effects caused by artifacts, deific
               power, and similarly powerful sources. You can still be affected
               by anything you're willing to have affect you.</p>
-          source:
-            value: Pathfinder Advanced Player's Guide
           rules: []
           slug: indestructibility
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
-            value: []
-            rarity: common
-          level:
-            value: 10
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
             value:
+              - concentrate
+              - manipulate
+            rarity: common
+            traditions:
               - arcane
               - divine
               - occult
               - primal
-          school:
-            value: abjuration
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 10
           target:
             value: ''
           range:
@@ -2622,30 +2364,24 @@ items:
             value: '2'
           duration:
             value: until the start of your next turn
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 10
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: false
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Advanced Player's Guide
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -2662,7 +2398,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: mta3YQHNJs6tTGMx
     type: consumable
     flags:
       core:
@@ -2710,53 +2446,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 17
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
           - magical
-          - scroll
           - primal
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 17
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2766,17 +2497,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/natures-enmity.webp
         name: Nature's Enmity
@@ -2798,7 +2527,7 @@ items:
               turn, each target rolls a @Check[type:flat|dc:8]. On a failure,
               it's attacked by swarming creatures that deal 2d10 slashing
               damage. The target attempts a basic Reflex save, and it is
-              @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Flat-Footed}
+              @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
               for 1 round on any outcome other than a critical success.</li>
 
               <li>The target loses any connection to nature or natural
@@ -2812,34 +2541,17 @@ items:
 
               <p>The GM might decide that you can't subject some creatures, such
               as an emissary of a nature deity, to the ire of nature.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: natures-enmity
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
-            value: []
+            value:
+              - concentrate
+              - manipulate
             rarity: common
+            traditions:
+              - primal
           level:
             value: 9
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
-            value:
-              - primal
-          school:
-            value: enchantment
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
           target:
             value: up to 5 creatures
           range:
@@ -2851,30 +2563,24 @@ items:
             value: '2'
           duration:
             value: 10 minutes
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -2891,7 +2597,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: lMtBPabyxpvcLU6e
     type: consumable
     flags:
       core:
@@ -2939,53 +2645,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - magical
+          - occult
+          - wand
+        rarity: common
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
       level:
         value: 19
-      traits:
-        value:
-          - magical
-          - wand
-          - divine
-          - occult
-        rarity: common
-        otherTags: []
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2995,17 +2696,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/overwhelming-presence.webp
         name: Overwhelming Presence
@@ -3036,39 +2735,22 @@ items:
 
               <p><strong>Critical Failure</strong> As failure, and the target
               must spend all its actions paying tribute if possible.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: overwhelming-presence
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
               - auditory
+              - concentrate
               - incapacitation
+              - manipulate
               - mental
               - visual
             rarity: common
-          level:
-            value: 9
-          spellType:
-            value: save
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - divine
               - occult
-          school:
-            value: enchantment
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 9
           target:
             value: any number of creatures
           range:
@@ -3080,30 +2762,28 @@ items:
             value: '2'
           duration:
             value: until full tribute is paid
-          damage:
-            value: {}
-          save:
-            value: will
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense:
+            passive: null
+            save:
+              statistic: will
+              basic: false
         type: spell
         flags:
           core:
@@ -3120,7 +2800,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: NfRkBB7mhUQLLh53
     type: consumable
     flags:
       core:
@@ -3168,54 +2848,49 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 17
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
+          - arcane
           - consumable
           - magical
-          - scroll
-          - arcane
           - occult
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 17
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3225,17 +2900,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/prismatic-sphere.webp
         name: Prismatic Sphere
@@ -3250,36 +2923,19 @@ items:
               of your space. You must form the sphere in an unbroken open space
               so its edges don't pass through any creatures or objects, or the
               spell is lost.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: prismatic-sphere
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
               - light
+              - manipulate
             rarity: common
-          level:
-            value: 9
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - arcane
               - occult
-          school:
-            value: abjuration
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 9
           target:
             value: ''
           range:
@@ -3289,30 +2945,24 @@ items:
             value: '2'
           duration:
             value: 1 hour
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -3329,7 +2979,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: cwRfghnkTOWFGNqN
     type: consumable
     flags:
       core:
@@ -3377,53 +3027,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - magical
+          - occult
+          - wand
+        rarity: common
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
       level:
         value: 19
-      traits:
-        value:
-          - magical
-          - wand
-          - arcane
-          - occult
-        rarity: common
-        otherTags: []
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3433,17 +3078,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/resplendent-mansion.webp
         name: Resplendent Mansion
@@ -3475,35 +3118,18 @@ items:
               Cast the Spell, and each has a different sound (for an audible
               alarm) or sensation (for a mental one), allowing you to instantly
               determine which portal has been used.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: resplendent-mansion
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
-            value: []
-            rarity: common
-          level:
-            value: 9
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
             value:
+              - concentrate
+              - manipulate
+            rarity: common
+            traditions:
               - arcane
               - occult
-          school:
-            value: conjuration
-          components:
-            focus: false
-            material: true
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 9
           target:
             value: ''
           range:
@@ -3513,30 +3139,24 @@ items:
             value: 1 minute
           duration:
             value: until the next time you make your daily preparations
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -3553,7 +3173,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: mF9GKCUn4jLcujmq
     type: consumable
     flags:
       core:
@@ -3601,52 +3221,47 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
+          - arcane
           - magical
           - wand
-          - arcane
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3656,17 +3271,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/summon-draconic-legion.webp
         name: Summon Draconic Legion
@@ -3696,36 +3309,18 @@ items:
               draconic legion strikes with fury, dealing [[/r 9d8[slashing]]]
               damage (basic Reflex save) to all enemy creatures in its location
               or within 20 feet.</p>
-          source:
-            value: Pathfinder Secrets of Magic
           rules: []
           slug: summon-draconic-legion
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
               - incarnate
+              - manipulate
             rarity: common
+            traditions:
+              - arcane
           level:
             value: 9
-          spellType:
-            value: save
-          category:
-            value: spell
-          traditions:
-            value:
-              - arcane
-            custom: ''
-          school:
-            value: conjuration
-          components:
-            focus: false
-            material: true
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
           target:
             value: ''
           range:
@@ -3735,30 +3330,36 @@ items:
             value: '3'
           duration:
             value: until the end of your next turn
+            sustained: false
           damage:
-            value:
-              '0':
-                applyMod: false
-                type:
-                  categories: []
-                  subtype: ''
-                  value: cold
-                value: 10d8
-            applyMod: false
-          save:
-            value: reflex
-            basic: basic
-          sustained:
-            value: false
+            '0':
+              applyMod: false
+              formula: 10d8
+              type: cold
+              category: null
+              materials: []
+              kinds:
+                - damage
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Secrets of Magic
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense:
+            passive: null
+            save:
+              statistic: reflex
+              basic: true
         type: spell
         flags:
           core:
@@ -3775,7 +3376,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: 5Vk9c4RvH4rKPBnx
     type: consumable
     flags:
       core:
@@ -3823,54 +3424,49 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-10th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
+          - arcane
           - consumable
           - magical
-          - scroll
-          - arcane
           - occult
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 8000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3880,17 +3476,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/time-stop.webp
         name: Time Stop
@@ -3915,35 +3509,18 @@ items:
               wall of fire, it immediately affects others again, but it doesn't
               have any of the effects that happen only when you first cast the
               spell.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: time-stop
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
-            value: []
-            rarity: common
-          level:
-            value: 10
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
             value:
+              - concentrate
+              - manipulate
+            rarity: common
+            traditions:
               - arcane
               - occult
-          school:
-            value: transmutation
-          components:
-            focus: false
-            material: true
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 10
           target:
             value: ''
           range:
@@ -3953,30 +3530,24 @@ items:
             value: '3'
           duration:
             value: ''
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 10
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -3993,7 +3564,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: mfPJcwSVJTj8yGtb
     type: consumable
     flags:
       core:
@@ -4041,54 +3612,49 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 17
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
+          - arcane
           - consumable
           - magical
-          - scroll
-          - arcane
           - occult
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 17
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4098,17 +3664,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/unspeakable-shadow.webp
         name: Unspeakable Shadow
@@ -4142,42 +3706,25 @@ items:
               its save, the target is
               @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
               4} and can't reduce its frightened value below 1 for 1 minute.</p>
-          source:
-            value: Pathfinder Secrets of Magic
           rules: []
           slug: unspeakable-shadow
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
               - death
               - emotion
               - fear
+              - illusion
+              - manipulate
               - mental
               - shadow
               - visual
             rarity: common
-          level:
-            value: 9
-          spellType:
-            value: save
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - arcane
               - occult
-            custom: ''
-          school:
-            value: illusion
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 9
           target:
             value: 1 creature
           range:
@@ -4187,22 +3734,28 @@ items:
             value: '2'
           duration:
             value: varies
-          damage:
-            value: {}
-          save:
-            value: will
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Secrets of Magic
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense:
+            passive: null
+            save:
+              statistic: will
+              basic: false
         type: spell
         flags:
           core:
@@ -4219,7 +3772,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: xWMQXggyb2QF4jwy
     type: consumable
     flags:
       core:
@@ -4266,53 +3819,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.954-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - magical
+          - occult
+          - wand
+        rarity: common
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
       level:
         value: 19
-      traits:
-        value:
-          - magical
-          - wand
-          - arcane
-          - occult
-        rarity: common
-        otherTags: []
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -4322,17 +3870,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/weird.webp
         name: Weird
@@ -4365,39 +3911,23 @@ items:
               @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}
               until the end of its next turn unless it critically succeeded. If
               it fails, it is reduced to 0 Hit Points and dies.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: weird
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
               - death
               - emotion
               - fear
+              - illusion
+              - manipulate
               - mental
             rarity: common
-          level:
-            value: 9
-          spellType:
-            value: save
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - arcane
               - occult
-          school:
-            value: illusion
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 9
           target:
             value: any number of creatures
           range:
@@ -4407,35 +3937,35 @@ items:
             value: '2'
           duration:
             value: ''
+            sustained: false
           damage:
-            value:
-              '0':
-                type:
-                  categories: []
-                  value: mental
-                value: 16d6
-          save:
-            value: will
-            basic: ''
-          sustained:
-            value: false
+            '0':
+              formula: 16d6
+              type: mental
+              category: null
+              materials: []
+              kinds:
+                - damage
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense:
+            passive: null
+            save:
+              statistic: will
+              basic: false
         type: spell
         flags:
           core:
@@ -4452,7 +3982,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: STKShF0sIWYVpZpY
     type: consumable
     flags:
       core:
@@ -4499,14 +4029,12 @@ system:
       value: 0
   lootSheetType: Merchant
   hiddenWhenEmpty: false
-  schema:
-    version: 0.842
-    lastMigration:
-      datetime: '2023-06-20T09:31:23.954-07:00'
-      version:
-        schema: 0.842
-        foundry: '11.302'
-        system: 5.0.1
+  _migration:
+    version: 0.925
+    previous:
+      schema: 0.842
+      foundry: '11.315'
+      system: 5.15.0
   traits:
     rarity: common
     size:
@@ -4568,7 +4096,7 @@ prototypeToken:
     angle: 360
     enabled: false
     range: 0
-    brightness: 1
+    brightness: 0
     visionMode: basic
     attenuation: 0.1
     saturation: 0
@@ -4578,10 +4106,10 @@ prototypeToken:
   detectionModes: []
 _stats:
   systemId: pf2e
-  systemVersion: 5.0.1
-  coreVersion: '11.302'
+  systemVersion: 5.15.0
+  coreVersion: '11.315'
   createdTime: 1686850696517
-  modifiedTime: 1687278696568
-  lastModifiedBy: eJdAkXPIlso4614X
+  modifiedTime: 1712315294935
+  lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!qEDUExigNWt70M9P'
 

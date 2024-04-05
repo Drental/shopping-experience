@@ -48,40 +48,38 @@ items:
           normal length. If you use this activation again, any previous chain
           you created with it disappears after 1 round. As with most obviously
           magical and temporary constructs, the chain cannot be sold.</p>
-      source:
-        value: Pathfinder Secrets of Magic
       rules: []
       slug: ouroboros-flail-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 20
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - disarm
           - magical
           - sweep
-          - transmutation
           - trip
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 20
       quantity: 1
       baseItem: war-flail
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 65000
@@ -89,15 +87,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -125,26 +119,21 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 3
-      strikingRune:
-        value: greaterStriking
+      runes:
+        potency: 3
+        striking: 2
+        property:
+          - greaterExtending
       specific:
-        value: true
-        material: null
+        material:
+          type: null
+          grade: null
         runes:
-          potency: 2
-          striking: greaterStriking
-      propertyRune1:
-        value: greaterExtending
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+          potency: 3
+          striking: 2
+          property:
+            - greaterExtending
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -254,39 +243,38 @@ items:
           <em>@UUID[Compendium.pf2e.spells-srd.Item.qDjeG6dxT4aEEC6J]{Weird}</em></li>
 
           </ul>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: staff-of-impossible-visions-true
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 20
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - illusion
           - magical
           - staff
           - two-hand-d8
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 20
       quantity: 1
       baseItem: staff
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 70000
@@ -294,15 +282,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -330,22 +314,12 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: null
-      strikingRune:
-        value: ''
-      specific:
-        value: false
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -411,53 +385,47 @@ items:
           pushed 20 feet away from you and fall
           @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.
           The armor's absorbed damage resets to 0.</p>
-      source:
-        value: Pathfinder Secrets of Magic
       rules: []
       slug: rebounding-breastplate
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 20
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - evocation
           - force
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 20
       quantity: 1
       baseItem: breastplate
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '3'
-      equippedBulk:
-        value: '2'
       price:
         value:
           gp: 70000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -467,32 +435,30 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 4
       category: medium
       group: plate
-      strength:
-        value: 16
+      acBonus: 4
+      strength: 3
+      dexCap: 5
+      checkPenalty: -2
+      speedPenalty: -5
+      runes:
+        potency: 3
+        resilient: 2
+        property:
+          - greaterFortification
+      subitems: []
       dex:
         value: 1
-      check:
-        value: -2
-      speed:
-        value: -5
-      potencyRune:
-        value: 3
-      resiliencyRune:
-        value: greaterResilient
-      propertyRune1:
-        value: greaterFortification
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          potency: 3
+          resilient: 2
+          property:
+            - greaterFortification
     type: armor
     flags:
       core:
@@ -571,54 +537,49 @@ items:
           </tbody>
 
           </table>
-      source:
-        value: Pathfinder Secrets of Magic
       rules: []
       slug: staff-storing-shield-true
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 20
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - extradimensional
           - invested
           - magical
-          - transmutation
         rarity: common
-        otherTags: []
+        integrated: null
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 20
       quantity: 1
-      baseItem: null
+      baseItem: wooden-shield
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 48
         value: 96
         max: 96
       hardness: 16
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 55000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -628,33 +589,24 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      armor:
-        value: 2
-      category: shield
-      group: null
-      strength:
-        value: 0
+      acBonus: 2
+      runes:
+        reinforcing: 0
+        potency: 0
+        resilient: 0
+        property: []
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          reinforcing: 0
+        integrated: null
+      speedPenalty: 0
+      subitems: []
       dex:
         value: 0
-      check:
-        value: 0
-      speed:
-        value: 0
-      potencyRune:
-        value: 0
-      resiliencyRune:
-        value: ''
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-    type: armor
+    type: shield
     flags:
       core:
         sourceId: Compendium.pf2e.equipment-srd.Item.xAOVPVH6cX3iVFlk
@@ -684,8 +636,6 @@ items:
           saving throws, and a maximum Dexterity modifier of +5. You can affix
           talismans to <em>bracers of armor</em> as though they were light
           armor.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           selector:
@@ -697,49 +647,45 @@ items:
         - key: DexterityModifierCap
           value: 5
       slug: bracers-of-armor-iii
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 20
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - abjuration
           - invested
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 20
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 60000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -751,6 +697,7 @@ items:
         misidentified: {}
       usage:
         value: wornbracers
+      subitems: []
     type: equipment
     flags:
       core:
@@ -786,8 +733,6 @@ items:
           preparing spells of the appropriate level, the grimoire's nature leaks
           into your mind, allowing you to prepare an additional 7th-level
           spell.</p>
-      source:
-        value: Pathfinder Secrets of Magic
       rules:
         - key: FlatModifier
           predicate:
@@ -800,49 +745,45 @@ items:
           type: item
           value: 3
       slug: endless-grimoire-true
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - divination
           - grimoire
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 23000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -854,6 +795,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+      subitems: []
     type: equipment
     flags:
       core:
@@ -914,8 +856,6 @@ items:
           <em>@UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{Mending}</em>
           spell. This lasts for 10 minutes, after which the item returns to its
           previous state of disrepair unless you've Repaired it before then.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           label: Inexplicable Apparatus (craft, earn income, repair
@@ -928,49 +868,45 @@ items:
           type: item
           value: 3
       slug: inexplicable-apparatus
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - invested
           - magical
-          - transmutation
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 19000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -982,6 +918,7 @@ items:
         misidentified: {}
       usage:
         value: worngarment
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1024,7 +961,7 @@ items:
           the Banshee}</em></p>
 
           <p>Each living creature in a @Template[type:emanation|distance:40]
-          takes [[/r 8d10[negative]]] damage and must attempt a
+          takes [[/r 8d10[void]]] damage and must attempt a
           @Check[type:fortitude|dc:41|traits:damaging-effect] save.</p>
 
           <p><strong>Critical Success</strong> The creature is unaffected.</p>
@@ -1044,59 +981,53 @@ items:
 
           <p><strong>Craft Requirements</strong> Supply a casting of <em>wail of
           the banshee</em>.</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules:
         - key: FlatModifier
           selector: intimidation
           type: item
           value: 3
       slug: mask-of-the-banshee-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - auditory
           - invested
           - magical
-          - necromancy
-          - negative
+          - void
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 35000
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1108,6 +1039,7 @@ items:
         misidentified: {}
       usage:
         value: wornmask
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1142,52 +1074,46 @@ items:
           existing rune to those of the new rune. You must have the formula of
           the stronger rune to do so, and the Price of the upgrade is the
           difference between the two runes' Prices.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: resilient-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 20
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - abjuration
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 20
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 49440
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1199,6 +1125,7 @@ items:
         misidentified: {}
       usage:
         value: etched-onto-armor
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1236,52 +1163,46 @@ items:
           between the two runes' Prices.</p>
 
           <p>The weapon deals four weapon damage dice.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: striking-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - evocation
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 31065
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1293,6 +1214,7 @@ items:
         misidentified: {}
       usage:
         value: etched-onto-a-weapon
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1322,55 +1244,49 @@ items:
           tingling sensation as the drinker's wounds heal rapidly. When you
           drink a healing potion, you regain [[/r (8d8+30)[healing]]]{8d8+30 Hit
           Points}.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: healing-potion-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
           - healing
           - magical
-          - necromancy
-          - positive
           - potion
+          - vitality
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1380,17 +1296,18 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: potion
-      charges:
+      category: potion
+      uses:
         value: 1
         max: 1
-      consume:
-        value: 8d8+30
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage:
+        formula: 8d8+30
+        kind: healing
+        type: vitality
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1427,54 +1344,48 @@ items:
           creature regains [[/r (8d8+30)[healing]]]{8d8+30 Hit Points}. You can
           pour oil of unlife on an incorporeal undead; in this case, the
           creature absorbs the oil into itself.</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: oil-of-unlife-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
           - magical
-          - necromancy
-          - negative
           - oil
+          - void
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1484,17 +1395,18 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: oil
-      charges:
+      category: oil
+      uses:
         value: 1
         max: 1
-      consume:
-        value: 8d8+30
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage:
+        formula: 8d8+30
+        kind: healing
+        type: void
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1532,53 +1444,47 @@ items:
           weapon strike takes acid damage.</p>
 
           <p>The aura deals [[/r 4d8[acid]]] damage.</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: potion-of-acid-retaliation-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
-          - evocation
           - magical
           - potion
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1588,17 +1494,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: potion
-      charges:
+      category: potion
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1636,53 +1540,47 @@ items:
           weapon strike takes cold damage.</p>
 
           <p>The aura deals [[/r 4d8[cold]]] damage.</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: potion-of-cold-retaliation-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
-          - evocation
           - magical
           - potion
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1692,17 +1590,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: potion
-      charges:
+      category: potion
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1740,53 +1636,47 @@ items:
           a melee weapon strike takes electricity damage.</p>
 
           <p>The aura deals [[/r 4d8[electricity]]] damage.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: potion-of-electricity-retaliation-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
-          - evocation
           - magical
           - potion
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1796,17 +1686,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: potion
-      charges:
+      category: potion
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1844,53 +1732,47 @@ items:
           weapon strike takes fire damage.</p>
 
           <p>The aura deals [[/r 4d8[fire]]] damage.</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: potion-of-fire-retaliation-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
-          - evocation
           - magical
           - potion
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 5000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1900,17 +1782,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: potion
-      charges:
+      category: potion
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1954,53 +1834,48 @@ items:
           Seeing}</em>.</p>
 
           <p>The potion's effects last for 10 minutes.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: potion-of-undetectability
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 18
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
           - illusion
           - magical
           - potion
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 18
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 4400
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2010,17 +1885,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: potion
-      charges:
+      category: potion
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2070,54 +1943,49 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-10th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
+          - arcane
           - consumable
           - magical
-          - scroll
-          - arcane
           - primal
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 8000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2127,17 +1995,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/cataclysm.webp
         name: Cataclysm
@@ -2180,42 +2046,25 @@ items:
 
               <p>[[/r
               {3d10[acid],3d10[bludgeoning],3d10[cold],3d10[electricity],3d10[bludgeoning],3d10[fire]}]]{Damage}</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: cataclysm
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
               - acid
               - air
               - cold
+              - concentrate
               - earth
               - electricity
               - fire
+              - manipulate
               - water
             rarity: common
-          level:
-            value: 10
-          spellType:
-            value: save
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - arcane
               - primal
-          school:
-            value: evocation
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 10
           target:
             value: ''
           range:
@@ -2227,37 +2076,36 @@ items:
             value: '2'
           duration:
             value: ''
+            sustained: false
           damage:
-            value:
-              '0':
-                applyMod: false
-                type:
-                  categories: []
-                  subtype: ''
-                  value: ''
-                value: ''
-          save:
-            value: reflex
-            basic: basic
-          sustained:
-            value: false
+            '0':
+              applyMod: false
+              formula: ''
+              type: untyped
+              category: null
+              materials: []
+              kinds:
+                - damage
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 10
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense:
+            passive: null
+            save:
+              statistic: reflex
+              basic: true
         type: spell
         flags:
           core:
@@ -2274,7 +2122,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: Q0EgcC3Pf5UYRMnA
     type: consumable
     flags:
       core:
@@ -2322,53 +2170,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-10th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - consumable
           - magical
-          - scroll
           - primal
+          - scroll
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 8000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2378,17 +2221,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/element-embodied.webp
         name: Element Embodied
@@ -2553,36 +2394,18 @@ items:
 
               <p>@UUID[Compendium.pf2e.spell-effects.Item.w1HwO7huxJoK0gHY]{Spell
               Effect: Element Embodied (Water)}</p>
-          source:
-            value: Pathfinder Secrets of Magic
           rules: []
           slug: element-embodied
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
+              - manipulate
               - polymorph
             rarity: common
+            traditions:
+              - primal
           level:
             value: 10
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
-            value:
-              - primal
-            custom: ''
-          school:
-            value: transmutation
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
           target:
             value: ''
           range:
@@ -2592,22 +2415,24 @@ items:
             value: '2'
           duration:
             value: 1 minute
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 10
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Secrets of Magic
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -2624,7 +2449,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: cTqf5ft93vfWp380
     type: consumable
     flags:
       core:
@@ -2672,54 +2497,49 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - magical
-          - wand
           - arcane
           - divine
+          - magical
           - occult
+          - wand
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2729,17 +2549,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/proliferating-eyes.webp
         name: Proliferating Eyes
@@ -2764,38 +2582,20 @@ items:
               and can tell which original eyes budded off to make which new
               eyes, though you gain no special insight into the identity of the
               new targets other than what you can glean from spying on them.</p>
-          source:
-            value: Pathfinder Secrets of Magic
           rules: []
           slug: proliferating-eyes
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
+              - concentrate
+              - manipulate
               - scrying
             rarity: common
-          level:
-            value: 9
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
-            value:
+            traditions:
               - arcane
               - divine
               - occult
-            custom: ''
-          school:
-            value: divination
-          components:
-            focus: false
-            material: false
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
+          level:
+            value: 9
           target:
             value: 1 creature (see description)
           range:
@@ -2805,22 +2605,24 @@ items:
             value: '2'
           duration:
             value: 8 hours
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Secrets of Magic
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -2837,7 +2639,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: 2mr0mLOJH0UV07HN
     type: consumable
     flags:
       core:
@@ -2885,52 +2687,47 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: magic-wand-9th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - magical
-          - wand
           - primal
+          - wand
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 40000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2940,17 +2737,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: wand
-      charges:
+      category: wand
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: false
+        autoDestroy: false
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/storm-of-vengeance.webp
         name: Storm of Vengeance
@@ -2998,36 +2793,19 @@ items:
 
               <p><strong>Heightened (10th)</strong> The range increases to 2,200
               feet, and the cloud is a 1,000-foot burst.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: storm-of-vengeance
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
             value:
               - air
+              - concentrate
               - electricity
+              - manipulate
             rarity: common
+            traditions:
+              - primal
           level:
             value: 9
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
-            value:
-              - primal
-          school:
-            value: evocation
-          components:
-            focus: false
-            material: true
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
           target:
             value: ''
           range:
@@ -3038,23 +2816,14 @@ items:
           time:
             value: '3'
           duration:
-            value: sustained up to 1 minute
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            value: 1 minute
+            sustained: true
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 9
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
           heightening:
             levels:
               '10':
@@ -3064,14 +2833,17 @@ items:
                 range:
                   value: 2200 feet
             type: fixed
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -3088,7 +2860,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: l10EXVgeUm07sfQq
     type: consumable
     flags:
       core:
@@ -3136,53 +2908,48 @@ items:
           <p><em>Note: To create a scroll or wand of a specific spell, drag the
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scroll-of-10th-level-spell
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.952-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 19
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
+          - arcane
           - consumable
           - magical
           - scroll
-          - arcane
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 19
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 8000
       equipped:
         carryType: worn
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3192,17 +2959,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: scroll
-      charges:
+      category: scroll
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell:
         img: systems/pf2e/icons/spells/wish.webp
         name: Wish
@@ -3231,34 +2996,17 @@ items:
               <p>The GM might allow you to try using <em>wish</em> to produce
               greater effects than these, but doing so might be dangerous or the
               spell might have only a partial effect.</p>
-          source:
-            value: Pathfinder Core Rulebook
           rules: []
           slug: wish
-          schema:
-            version: 0.842
-            lastMigration: null
           traits:
-            value: []
+            value:
+              - concentrate
+              - manipulate
             rarity: common
+            traditions:
+              - arcane
           level:
             value: 10
-          spellType:
-            value: utility
-          category:
-            value: spell
-          traditions:
-            value:
-              - arcane
-          school:
-            value: divination
-          components:
-            focus: false
-            material: true
-            somatic: true
-            verbal: true
-          materials:
-            value: ''
           target:
             value: ''
           range:
@@ -3268,30 +3016,24 @@ items:
             value: '3'
           duration:
             value: ''
-          damage:
-            value: {}
-          save:
-            value: ''
-            basic: ''
-          sustained:
-            value: false
+            sustained: false
+          damage: {}
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 10
-          hasCounteractCheck:
-            value: false
-          ability:
-            value: ''
-          prepared:
-            value: ''
-          primarycheck:
-            value: ''
-          secondarycasters:
-            value: ''
-          secondarycheck:
-            value: ''
+          _migration:
+            version: 0.842
+            previous: null
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
+          requirements: ''
+          counteraction: false
+          defense: null
         type: spell
         flags:
           core:
@@ -3308,7 +3050,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: null
+        _id: K4b1bI739QFERBqa
     type: consumable
     flags:
       core:
@@ -3354,14 +3096,12 @@ system:
       value: 0
   lootSheetType: Merchant
   hiddenWhenEmpty: false
-  schema:
-    version: 0.842
-    lastMigration:
-      datetime: '2023-06-20T09:31:23.952-07:00'
-      version:
-        schema: 0.842
-        foundry: '11.302'
-        system: 5.0.1
+  _migration:
+    version: 0.925
+    previous:
+      schema: 0.842
+      foundry: '11.315'
+      system: 5.15.0
   traits:
     rarity: common
     size:
@@ -3422,7 +3162,7 @@ prototypeToken:
     angle: 360
     enabled: false
     range: 0
-    brightness: 1
+    brightness: 0
     visionMode: basic
     attenuation: 0.1
     saturation: 0
@@ -3432,10 +3172,10 @@ prototypeToken:
   detectionModes: []
 _stats:
   systemId: pf2e
-  systemVersion: 5.0.1
-  coreVersion: '11.302'
+  systemVersion: 5.15.0
+  coreVersion: '11.315'
   createdTime: 1686850696517
-  modifiedTime: 1687278696568
-  lastModifiedBy: eJdAkXPIlso4614X
+  modifiedTime: 1712315294935
+  lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!9hkQlCUzg7fY5hCR'
 

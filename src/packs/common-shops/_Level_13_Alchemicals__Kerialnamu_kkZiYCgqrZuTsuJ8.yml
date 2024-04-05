@@ -16,38 +16,37 @@ items:
           the weapon remains secured to your wrist rather than falling to the
           ground, though you must use an Interact action to grip it before using
           it again. A monkey's fist is a martial melee weapon.</p>
-      source:
-        value: 'Pathfinder #157: Devil at the Dreaming Palace'
       rules: []
       slug: monkeys-fist
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - finesse
           - monk
           - nonlethal
         rarity: common
-        otherTags: []
+      publication:
+        title: 'Pathfinder #157: Devil at the Dreaming Palace'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: monkeys-fist
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 1
@@ -55,15 +54,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -91,22 +86,13 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 2
-      strikingRune:
-        value: greaterStriking
-      specific:
-        value: false
-      propertyRune1:
-        value: frost
-      propertyRune2:
-        value: axiomatic
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 2
+        striking: 2
+        property:
+          - frost
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -152,21 +138,17 @@ items:
           <p>This flask filled with corrosive acid deals 1 acid damage, 3d6
           persistent acid damage, and 3 acid splash damage. You gain a +2 item
           bonus to attack rolls.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: acid-flask-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 11
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - acid
           - alchemical
@@ -174,18 +156,21 @@ items:
           - consumable
           - splash
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
       quantity: 14
       baseItem: alchemical-bomb
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 250
@@ -193,15 +178,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -232,22 +213,12 @@ items:
       range: 20
       reload:
         value: '-'
-      MAP:
-        value: ''
-      potencyRune:
-        value: null
-      strikingRune:
-        value: null
-      specific:
-        value: false
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -294,21 +265,17 @@ items:
           when exposed to air. Alchemist's fire deals 3d8 fire damage, 3
           persistent fire damage, and 3 fire splash damage. You gain a +2 item
           bonus to attack rolls.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: alchemists-fire-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 11
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - bomb
@@ -316,18 +283,21 @@ items:
           - fire
           - splash
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
       quantity: 18
       baseItem: alchemical-bomb
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 250
@@ -335,15 +305,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -374,22 +340,12 @@ items:
       range: 20
       reload:
         value: '-'
-      MAP:
-        value: ''
-      potencyRune:
-        value: null
-      strikingRune:
-        value: null
-      specific:
-        value: false
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -437,21 +393,17 @@ items:
           <p>Blight bombs contain volatile toxic chemicals that rot flesh. A
           blight bomb deals 3d6 poison damage, 3d4 persistent poison damage, and
           3 poison splash damage. You gain a +2 item bonus to attack rolls.</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: blight-bomb-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 11
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - bomb
@@ -459,18 +411,21 @@ items:
           - poison
           - splash
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
       quantity: 11
       baseItem: alchemical-bomb
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 250
@@ -478,15 +433,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -517,22 +468,12 @@ items:
       range: 20
       reload:
         value: '-'
-      MAP:
-        value: ''
-      potencyRune:
-        value: null
-      strikingRune:
-        value: null
-      specific:
-        value: false
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -584,24 +525,20 @@ items:
 
           <p>You gain a +2 item bonus to attack rolls. The bomb deals 3d4 sonic
           damage and 3 sonic splash damage, and the DC is 28.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: Note
           selector: '{item|_id}-damage'
           text: PF2E.BombNotes.Thunderstone.Greater.success
       slug: thunderstone-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 11
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - bomb
@@ -609,18 +546,21 @@ items:
           - sonic
           - splash
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
       quantity: 30
       baseItem: alchemical-bomb
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 250
@@ -628,15 +568,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -664,22 +600,12 @@ items:
       range: 20
       reload:
         value: '-'
-      MAP:
-        value: ''
-      potencyRune:
-        value: null
-      strikingRune:
-        value: null
-      specific:
-        value: false
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -734,42 +660,41 @@ items:
           piercing damage and 3 piercing splash damage, and the target is
           @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied
           2}.</p>
-      source:
-        value: 'Pathfinder #149: Against the Scarlet Triad'
       rules:
         - key: Note
           selector: '{item|_id}-damage'
           text: PF2E.BombNotes.PeshspineGrenade.Greater.success
       slug: peshpine-grenade-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 11
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - bomb
           - consumable
           - splash
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: 'Pathfinder #149: Against the Scarlet Triad'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
       quantity: 9
       baseItem: alchemical-bomb
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 250
@@ -777,15 +702,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -813,22 +734,12 @@ items:
       range: 20
       reload:
         value: '-'
-      MAP:
-        value: ''
-      potencyRune:
-        value: null
-      strikingRune:
-        value: null
-      specific:
-        value: false
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -903,8 +814,6 @@ items:
           <hr />
 
           <p><strong>Craft Requirements</strong> You are good.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           predicate:
@@ -921,53 +830,48 @@ items:
           type: item
           value: 2
       slug: celestial-armor
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 13
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - abjuration
           - divine
           - flexible
           - good
           - invested
           - noisy
-          - transmutation
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 13
       quantity: 1
       baseItem: chain-mail
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: '1'
       price:
         value:
           gp: 2500
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -977,33 +881,28 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 4
       category: medium
       group: chain
-      strength:
-        value: 16
+      acBonus: 4
+      strength: 3
+      dexCap: 5
+      checkPenalty: 0
+      speedPenalty: 0
+      runes:
+        potency: 2
+        resilient: 1
+        property: []
+      subitems: []
       dex:
         value: 1
-      check:
-        value: 0
-      speed:
-        value: 0
-      potencyRune:
-        value: 2
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
-      potency: {}
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          potency: 2
+          resilient: 1
+          property: []
     type: armor
     flags:
       core:
@@ -1034,37 +933,36 @@ items:
           it harder to break and destroy.</p>
 
           <p>The shield has Hardness 15, HP 120, and BT 60.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: sturdy-shield-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 13
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - abjuration
           - magical
         rarity: common
-        otherTags: []
+        integrated: null
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 13
       quantity: 3
-      baseItem: null
+      baseItem: steel-shield
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 60
         value: 120
         max: 120
       hardness: 15
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 3000
@@ -1072,15 +970,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1090,33 +984,24 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      armor:
-        value: 2
-      category: shield
-      group: null
-      strength:
-        value: 0
+      acBonus: 2
+      runes:
+        reinforcing: 0
+        potency: 0
+        resilient: 0
+        property: []
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          reinforcing: 0
+        integrated: null
+      speedPenalty: 0
+      subitems: []
       dex:
         value: 0
-      check:
-        value: 0
-      speed:
-        value: 0
-      potencyRune:
-        value: 0
-      resiliencyRune:
-        value: ''
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-    type: armor
+    type: shield
     flags:
       core:
         sourceId: Compendium.pf2e.equipment-srd.Item.rrnWORxT2Ch4pUFb
@@ -1152,8 +1037,6 @@ items:
 
           <p>You can also ignore lesser cover when making Strikes with
           alchemical bombs.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           predicate:
@@ -1170,34 +1053,34 @@ items:
           type: item
           value: 2
       slug: alchemist-goggles-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 11
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - invested
           - magical
-          - transmutation
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1400
@@ -1206,15 +1089,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: ''
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1226,6 +1105,7 @@ items:
         misidentified: {}
       usage:
         value: worneyepiece
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1260,8 +1140,6 @@ items:
           spells, as well as those of your allies. You also gain resistance 10
           to splash damage from your own alchemical items and those of your
           allies.</p>
-      source:
-        value: Pathfinder Secrets of Magic
       rules:
         - key: FlatModifier
           predicate:
@@ -1272,34 +1150,34 @@ items:
           type: circumstance
           value: 2
       slug: backfire-mantle-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 8
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - abjuration
           - invested
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 8
       quantity: 2
       baseItem: null
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 430
@@ -1308,15 +1186,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1328,6 +1202,7 @@ items:
         misidentified: {}
       usage:
         value: worncloak
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1358,56 +1233,50 @@ items:
           into sheer surfaces when you are Climbing. This ring grants you a
           climb Speed equal to half your land Speed. Penalties to your Speed
           (including those from your armor) apply before halving.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: BaseSpeed
           selector: climb
           value: '@actor.attributes.speed.total*0.5'
       slug: ring-of-climbing
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 12
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - invested
           - magical
-          - transmutation
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 12
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1750
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1419,6 +1288,7 @@ items:
         misidentified: {}
       usage:
         value: worn
+      subitems: []
     type: equipment
     flags:
       core:
@@ -1456,54 +1326,49 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.1mKjaWC65KWPuFR4]{Effect:
           Antidote (Major)}</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: antidote-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 14
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
           - healing
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 14
       quantity: 7
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 675
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1513,17 +1378,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1565,54 +1428,49 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.qVKrrKpTghgMIuGH]{Effect:
           Antiplague (Major)}</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: antiplague-major
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 14
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
           - healing
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 14
       quantity: 7
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 675
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1622,17 +1480,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1666,53 +1522,48 @@ items:
           <p>This tincture lets you pinpoint your foes. For the next 5 minutes,
           your alchemical bomb Strikes reduce the circumstance bonus to AC your
           targets gain from cover by 2.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: bombers-eye-elixir-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 14
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 14
       quantity: 8
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 700
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1722,17 +1573,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1780,52 +1629,47 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.Ja3PlqLuD9aSaPNZ]{Effect:
           Brewer's Regret (Greater)}</p>
-      source:
-        value: 'Pathfinder Lost Omens: The Grand Bazaar'
       rules: []
       slug: brewers-regret-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 14
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: 'Pathfinder Lost Omens: The Grand Bazaar'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 14
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 625
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1835,17 +1679,15 @@ items:
             description:
               value: ''
         misidentified: {}
+      category: other
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+      damage: null
       usage:
         value: held-in-one-hand
-      consumableType:
-        value: other
-      charges:
-        value: 0
-        max: 0
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -1901,21 +1743,17 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.qwoLV4awdezlEJ60]{Effect:
           Drakeheart Mutagen (Greater)}</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: drakeheart-mutagen-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 11
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
@@ -1923,33 +1761,32 @@ items:
           - mutagen
           - polymorph
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
       quantity: 3
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 300
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1959,17 +1796,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: mutagen
-      charges:
+      category: mutagen
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2007,54 +1842,49 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.Z9oPh462q82IYIZ6]{Effect:
           Elixir of Life (Greater)}</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: elixir-of-life-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 13
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
           - healing
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 13
       quantity: 25
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 600
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2064,17 +1894,18 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: 7d6+18
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage:
+        formula: 7d6+18
+        kind: healing
+        type: untyped
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2115,54 +1946,49 @@ items:
           @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}
           condition from a single source, using the source of that condition to
           determine the counteract level and DC.</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: focus-cathartic-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 12
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
           - healing
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 12
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 325
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2172,17 +1998,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2232,21 +2056,17 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.xLilBqqf34ZJYO9i]{Effect:
           Juggernaut Mutagen (Greater)}</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: juggernaut-mutagen-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 11
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
@@ -2254,33 +2074,32 @@ items:
           - mutagen
           - polymorph
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
       quantity: 8
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 300
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2290,17 +2109,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: mutagen
-      charges:
+      category: mutagen
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2334,53 +2151,48 @@ items:
           <p>This elixir is made from salamander scales to withstand fire. For
           24 hours, you are protected from the effects of severe heat. You're
           also protected from extreme heat.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: salamander-elixir-moderate
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 12
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 12
       quantity: 2
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 320
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2390,17 +2202,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2437,54 +2247,49 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.9keegq0GdS1eSrNr]{Effect:
           Sea Touch Elixir (Moderate)}</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: sea-touch-elixir-moderate
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 12
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
           - polymorph
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 12
       quantity: 2
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 300
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2494,17 +2299,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2544,54 +2347,49 @@ items:
           @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}
           condition from a single source, using the source of that condition to
           determine the counteract level and DC.</p>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: sinew-shock-serum-greater
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 12
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
           - healing
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 12
       quantity: 5
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 325
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2601,17 +2399,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2656,21 +2452,17 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.1xHHvQlW4pRR89qj]{Effect:
           Stone Body Mutagen (Moderate)}</p>
-      source:
-        value: Pathfinder Treasure Vault
       rules: []
       slug: stone-body-mutagen-moderate
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 12
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
@@ -2678,33 +2470,32 @@ items:
           - mutagen
           - polymorph
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Treasure Vault
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 12
       quantity: 3
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 300
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2714,17 +2505,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: mutagen
-      charges:
+      category: mutagen
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2758,53 +2547,48 @@ items:
           <p>This elixir warms your core and improves your circulation. For 24
           hours, you are protected from the effects of severe cold. You're also
           protected from extreme cold.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: winter-wolf-elixir-moderate
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 12
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - alchemical
           - consumable
           - elixir
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 12
       quantity: 7
       baseItem: null
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 320
       equipped:
         carryType: worn
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2814,17 +2598,15 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      consumableType:
-        value: elixir
-      charges:
+      category: elixir
+      uses:
         value: 1
         max: 1
-      consume:
-        value: ''
-      autoDestroy:
-        value: true
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: null
       spell: null
     type: consumable
     flags:
@@ -2897,53 +2679,51 @@ items:
           together before applying weaknesses or resistances. Apply any effects
           normally applied to splash damage when throwing a bomb (such as the
           effects of the Calculated Splash feat).</p>
-      source:
-        value: 'Pathfinder #155: Lord of the Black Sands'
       rules: []
       slug: bombers-saddle
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 13
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - companion
           - invested
           - magical
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: 'Pathfinder #155: Lord of the Black Sands'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 13
       quantity: 1
       baseItem: null
+      bulk:
+        value: 0
+        heldOrStowed: 2
+        capacity: 0
+        ignored: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2800
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -2953,12 +2733,10 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: worn
-      bulkCapacity:
-        value: ''
       collapsed: false
       stowing: false
+      usage:
+        value: worn
     type: backpack
     flags:
       core:
@@ -2987,38 +2765,37 @@ items:
           <p>This stout, metal blade of orc design has a horizontal basket hilt
           with blades jutting from each end, or sometimes one blade like that of
           a katar.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: orc-knuckle-dagger
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - agile
           - disarm
           - orc
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: orc-knuckle-dagger
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: L
-      equippedBulk:
-        value: ''
       price:
         value:
           sp: 7
@@ -3026,15 +2803,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: adamantine
-      preciousMaterialGrade:
-        value: standard
       size: med
+      material:
+        type: adamantine
+        grade: standard
       identification:
         status: identified
         unidentified:
@@ -3062,22 +2835,14 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 2
-      strikingRune:
-        value: greaterStriking
-      specific:
-        value: false
-      propertyRune1:
-        value: wounding
-      propertyRune2:
-        value: greaterFearsome
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 2
+        striking: 2
+        property:
+          - wounding
+          - greaterFearsome
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -3153,38 +2918,36 @@ items:
           purpose of calculating your multiple attack penalty. Alternatively,
           you Shove up to three creatures in a @Template[type:cone|distance:15],
           rolling a separate Athletics check for each creature.</p>
-      source:
-        value: 'Pathfinder #154: Siege of the Dinosaurs'
       rules: []
       slug: ankylostar
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.962-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 13
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - magical
-          - transmutation
           - versatile-p
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: 'Pathfinder #154: Siege of the Dinosaurs'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 13
       quantity: 1
       baseItem: morningstar
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2800
@@ -3192,15 +2955,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -3228,26 +2987,19 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 2
-      strikingRune:
-        value: greaterStriking
+      runes:
+        potency: 2
+        striking: 2
+        property: []
       specific:
-        value: true
-        material: null
+        material:
+          type: null
+          grade: null
         runes:
           potency: 2
-          striking: greaterStriking
-      propertyRune1:
-        value: null
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+          striking: 2
+          property: []
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -3301,14 +3053,12 @@ system:
       value: 0
   lootSheetType: Merchant
   hiddenWhenEmpty: false
-  schema:
-    version: 0.842
-    lastMigration:
-      datetime: '2023-06-20T09:31:23.962-07:00'
-      version:
-        schema: 0.842
-        foundry: '11.302'
-        system: 5.0.1
+  _migration:
+    version: 0.925
+    previous:
+      schema: 0.842
+      foundry: '11.315'
+      system: 5.15.0
   traits:
     rarity: common
     size:
@@ -3369,7 +3119,7 @@ prototypeToken:
     angle: 360
     enabled: false
     range: 0
-    brightness: 1
+    brightness: 0
     visionMode: basic
     attenuation: 0.1
     saturation: 0
@@ -3379,10 +3129,10 @@ prototypeToken:
   detectionModes: []
 _stats:
   systemId: pf2e
-  systemVersion: 5.0.1
-  coreVersion: '11.302'
+  systemVersion: 5.15.0
+  coreVersion: '11.315'
   createdTime: 1686850696517
-  modifiedTime: 1687278696568
-  lastModifiedBy: eJdAkXPIlso4614X
+  modifiedTime: 1712315294935
+  lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!kkZiYCgqrZuTsuJ8'
 

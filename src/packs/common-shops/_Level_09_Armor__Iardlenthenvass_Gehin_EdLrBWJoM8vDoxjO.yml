@@ -26,41 +26,39 @@ items:
           surface to cast 4th-level
           <em>@UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]{Sound
           Burst}</em> with a DC of 25.</p>
-      source:
-        value: Pathfinder Secrets of Magic
       rules: []
       slug: sonic-tuning-mace
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 9
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - agile
-          - evocation
           - finesse
           - magical
           - shove
           - sonic
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 9
       quantity: 1
       baseItem: light-mace
+      bulk:
+        value: 0
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '-'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 700
@@ -68,15 +66,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -104,26 +98,21 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 1
-      strikingRune:
-        value: striking
+      runes:
+        potency: 1
+        striking: 1
+        property:
+          - thundering
       specific:
-        value: true
-        material: null
+        material:
+          type: null
+          grade: null
         runes:
           potency: 1
-          striking: striking
-      propertyRune1:
-        value: thundering
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+          striking: 1
+          property:
+            - thundering
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -161,21 +150,17 @@ items:
           <p>This impressive weapon consists of a weight attached to a kama via
           a length of chain, which aids with disarming an opponent or attacking
           from a distance.</p>
-      source:
-        value: 'Pathfinder #166: Despair on Danger Island'
       rules: []
       slug: kusarigama
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - disarm
           - monk
@@ -183,18 +168,21 @@ items:
           - trip
           - versatile-b
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: 'Pathfinder #166: Despair on Danger Island'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: kusarigama
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2
@@ -202,15 +190,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: 'null'
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -238,22 +222,13 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 1
-      strikingRune:
-        value: striking
-      specific:
-        value: false
-      propertyRune1:
-        value: grievous
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 1
+        striking: 1
+        property:
+          - grievous
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -295,36 +270,35 @@ items:
           <p>This weapon has a wooden shaft ending in a large, heavy metal head.
           The head of the hammer might be single‑sided or double‑sided, but it's
           always capable of delivering powerful bludgeoning blows.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: warhammer
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - shove
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: warhammer
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1
@@ -332,15 +306,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -368,22 +338,13 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 1
-      strikingRune:
-        value: striking
-      specific:
-        value: false
-      propertyRune1:
-        value: corrosive
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 1
+        striking: 1
+        property:
+          - corrosive
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -425,37 +386,36 @@ items:
           <p>Derived from a farming tool used to mow down long grains and
           cereals, this weapon has a long wooden shaft with protruding handles,
           capped with a curved blade set at a right angle.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scythe
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - deadly-d10
           - trip
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: scythe
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 2
@@ -463,15 +423,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: cold-iron
-      preciousMaterialGrade:
-        value: low
       size: med
+      material:
+        type: cold-iron
+        grade: low
       identification:
         status: identified
         unidentified:
@@ -499,22 +455,13 @@ items:
       range: null
       reload:
         value: ''
-      MAP:
-        value: ''
-      potencyRune:
-        value: 1
-      strikingRune:
-        value: striking
-      specific:
-        value: false
-      propertyRune1:
-        value: thundering
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
+      runes:
+        potency: 1
+        striking: 1
+        property:
+          - thundering
+      specific: null
+      subitems: []
       property1:
         value: ''
         dice: 0
@@ -577,8 +524,6 @@ items:
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.G0lG7IIZnCZtYi6v]{Effect:
           Breastplate of Command}</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
         - key: FlatModifier
           selector: diplomacy
@@ -601,34 +546,34 @@ items:
           type: item
           value: -2
       slug: breastplate-of-command
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 10
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - enchantment
           - invested
           - magical
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 10
       quantity: 4
       baseItem: breastplate
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '3'
-      equippedBulk:
-        value: '2'
       price:
         value:
           gp: 1000
@@ -637,15 +582,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -655,33 +596,28 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 4
       category: medium
       group: plate
-      strength:
-        value: 16
+      acBonus: 4
+      strength: 3
+      dexCap: 5
+      checkPenalty: -2
+      speedPenalty: -5
+      runes:
+        potency: 1
+        resilient: 1
+        property: []
+      subitems: []
       dex:
         value: 1
-      check:
-        value: -2
-      speed:
-        value: -5
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-      potency: {}
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          potency: 1
+          resilient: 1
+          property: []
     type: armor
     flags:
       core:
@@ -724,35 +660,34 @@ items:
           field. For 1 minute, adjacent creatures that hit you with a melee
           Strike, as well as creatures that touch you or hit you with an unarmed
           attack, take [[/r 1d10]] electricity damage per hit.</p>
-      source:
-        value: 'Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall'
       rules: []
       slug: numerian-steel-breastplate
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 10
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: rare
-        otherTags: []
+      publication:
+        title: 'Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 10
       quantity: 2
       baseItem: breastplate
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '3'
-      equippedBulk:
-        value: '2'
       price:
         value:
           gp: 900
@@ -761,15 +696,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -779,33 +710,28 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 4
       category: medium
       group: plate
-      strength:
-        value: 16
+      acBonus: 4
+      strength: 3
+      dexCap: 5
+      checkPenalty: -2
+      speedPenalty: -5
+      runes:
+        potency: 1
+        resilient: 1
+        property: []
+      subitems: []
       dex:
         value: 1
-      check:
-        value: -2
-      speed:
-        value: -5
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-      potency: {}
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          potency: 1
+          resilient: 1
+          property: []
     type: armor
     flags:
       core:
@@ -849,10 +775,8 @@ items:
           <li>+1d8 damage to your Strike when using Sudden Charge</li>
 
           </ul>
-      source:
-        value: Pathfinder Core Rulebook
       rules:
-        - domain: damage-roll
+        - domain: damage
           key: RollOption
           label: Sudden Charge
           option: action:sudden-charge
@@ -866,34 +790,34 @@ items:
             - action:sudden-charge
           selector: strike-damage
       slug: rhino-hide
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 9
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - invested
           - magical
-          - transmutation
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 9
       quantity: 3
       baseItem: hide-armor
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '3'
-      equippedBulk:
-        value: '2'
       price:
         value:
           gp: 700
@@ -902,15 +826,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -920,33 +840,28 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 3
       category: medium
       group: leather
-      strength:
-        value: 14
+      acBonus: 3
+      strength: 2
+      dexCap: 5
+      checkPenalty: -1
+      speedPenalty: 0
+      runes:
+        potency: 1
+        resilient: 1
+        property: []
+      subitems: []
       dex:
         value: 2
-      check:
-        value: -1
-      speed:
-        value: 0
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-      potency: {}
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          potency: 1
+          resilient: 1
+          property: []
     type: armor
     flags:
       core:
@@ -993,8 +908,6 @@ items:
 
           <p><strong>Effect</strong> You dismount, moving off your mount into a
           space adjacent to it.</p>
-      source:
-        value: 'Pathfinder #152: Legacy of the Lost God'
       rules:
         - key: FlatModifier
           label: Spangled Rider's Suit (command your mount)
@@ -1005,49 +918,45 @@ items:
           type: item
           value: 2
       slug: spangled-riders-suit
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 9
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - divination
           - invested
           - magical
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: 'Pathfinder #152: Legacy of the Lost God'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 9
       quantity: 1
       baseItem: studded-leather-armor
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: '1'
       price:
         value:
           gp: 700
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1057,33 +966,28 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 2
       category: light
       group: leather
-      strength:
-        value: 12
+      acBonus: 2
+      strength: 1
+      dexCap: 5
+      checkPenalty: -1
+      speedPenalty: 0
+      runes:
+        potency: 1
+        resilient: 1
+        property: []
+      subitems: []
       dex:
         value: 3
-      check:
-        value: -1
-      speed:
-        value: 0
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-      potency: {}
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          potency: 1
+          resilient: 1
+          property: []
     type: armor
     flags:
       core:
@@ -1114,37 +1018,36 @@ items:
           it harder to break and destroy.</p>
 
           <p>The shield has Hardness 13, HP 104, and BT 52.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: sturdy-shield-moderate
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 10
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - abjuration
           - magical
         rarity: common
-        otherTags: []
+        integrated: null
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 10
       quantity: 6
-      baseItem: null
+      baseItem: steel-shield
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 52
         value: 104
         max: 104
       hardness: 13
-      weight:
-        value: '1'
-      equippedBulk:
-        value: ''
       price:
         value:
           gp: 1000
@@ -1152,15 +1055,11 @@ items:
         carryType: worn
         invested: null
         handsHeld: 0
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1170,33 +1069,24 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: held-in-one-hand
-      armor:
-        value: 2
-      category: shield
-      group: null
-      strength:
-        value: 0
+      acBonus: 2
+      runes:
+        reinforcing: 0
+        potency: 0
+        resilient: 0
+        property: []
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          reinforcing: 0
+        integrated: null
+      speedPenalty: 0
+      subitems: []
       dex:
         value: 0
-      check:
-        value: 0
-      speed:
-        value: 0
-      potencyRune:
-        value: 0
-      resiliencyRune:
-        value: ''
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-    type: armor
+    type: shield
     flags:
       core:
         sourceId: Compendium.pf2e.equipment-srd.Item.pNQJ9PTOEHxEZCgp
@@ -1278,54 +1168,48 @@ items:
           <li><strong>Undead</strong> negative</li>
 
           </ul>
-      source:
-        value: Pathfinder Advanced Player's Guide
       rules: []
       slug: victory-plate
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 9
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
-          - abjuration
           - bulwark
           - invested
           - magical
         rarity: uncommon
-        otherTags: []
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 9
       quantity: 1
       baseItem: full-plate
+      bulk:
+        value: 4
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '5'
-      equippedBulk:
-        value: '4'
       price:
         value:
           gp: 675
       equipped:
         carryType: worn
         invested: null
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: ''
-      preciousMaterialGrade:
-        value: ''
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1335,33 +1219,28 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 6
       category: heavy
       group: plate
-      strength:
-        value: 18
+      acBonus: 6
+      strength: 4
+      dexCap: 5
+      checkPenalty: -3
+      speedPenalty: -10
+      runes:
+        potency: 1
+        resilient: 1
+        property: []
+      subitems: []
       dex:
         value: 0
-      check:
-        value: -3
-      speed:
-        value: -10
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: ''
-      propertyRune2:
-        value: ''
-      propertyRune3:
-        value: ''
-      propertyRune4:
-        value: ''
-      potency: {}
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          potency: 1
+          resilient: 1
+          property: []
     type: armor
     flags:
       core:
@@ -1382,7 +1261,7 @@ items:
     _id: kaH4R0jLNaeLRbAa
     _key: '!actors.items!EdLrBWJoM8vDoxjO.kaH4R0jLNaeLRbAa'
   - img: systems/pf2e/icons/equipment/adventuring-gear/clothes-explorers.webp
-    name: +1 Resilient Greater Shadow Clothing (Explorer's)
+    name: Explorer's Clothing
     system:
       description:
         gm: ''
@@ -1392,36 +1271,35 @@ items:
           forms, though the most common sorts look like clerical vestments,
           monk's garments, or wizard's robes, as members of all three classes
           are likely to avoid wearing armor.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
-      slug: clothing-explorers
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      slug: explorers-clothing
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - comfort
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 4
       baseItem: explorers-clothing
+      bulk:
+        value: 0.1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '1'
-      equippedBulk:
-        value: L
       price:
         value:
           gp: 1150
@@ -1430,15 +1308,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1448,32 +1322,21 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 0
       category: unarmored
       group: cloth
-      strength:
-        value: 0
+      acBonus: 0
+      strength: null
+      dexCap: 5
+      checkPenalty: 0
+      speedPenalty: 0
+      runes:
+        potency: 1
+        resilient: 1
+        property:
+          - greaterShadow
+      subitems: []
       dex:
         value: 5
-      check:
-        value: 0
-      speed:
-        value: 0
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: greaterShadow
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
     type: armor
     flags:
       core:
@@ -1503,37 +1366,36 @@ items:
           same metal rings as chainmail. However, it is much lighter than
           chainmail and protects only the torso, upper arms, and upper legs of
           its wearer.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: chain-shirt
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value:
           - flexible
           - noisy
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: chain-shirt
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: '1'
       price:
         value:
           gp: 1100
@@ -1542,15 +1404,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1560,33 +1418,21 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 2
       category: light
       group: chain
-      strength:
-        value: 12
+      acBonus: 2
+      strength: 1
+      dexCap: 5
+      checkPenalty: -1
+      speedPenalty: 0
+      runes:
+        potency: 1
+        resilient: 1
+        property:
+          - greaterSlick
+      subitems: []
       dex:
         value: 3
-      check:
-        value: -1
-      speed:
-        value: 0
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: greaterSlick
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
-      potency: {}
     type: armor
     flags:
       core:
@@ -1615,35 +1461,34 @@ items:
           <p>Scale mail consists of many metal scales sewn onto a reinforced
           leather backing, often in the form of a long shirt that protects the
           torso, arms, and legs.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: scale-mail
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 2
       baseItem: scale-mail
+      bulk:
+        value: 2
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '3'
-      equippedBulk:
-        value: '2'
       price:
         value:
           gp: 950
@@ -1652,15 +1497,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1670,33 +1511,21 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 3
       category: medium
       group: composite
-      strength:
-        value: 14
+      acBonus: 3
+      strength: 2
+      dexCap: 5
+      checkPenalty: -2
+      speedPenalty: -5
+      runes:
+        potency: 1
+        resilient: 1
+        property:
+          - greaterSlick
+      subitems: []
       dex:
         value: 2
-      check:
-        value: -2
-      speed:
-        value: -5
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: greaterSlick
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
-      potency: {}
     type: armor
     flags:
       core:
@@ -1724,35 +1553,34 @@ items:
         value: >-
           <p>A mix of flexible and molded boiled leather, a suit of this type of
           armor provides some protection with maximum flexibility.</p>
-      source:
-        value: Pathfinder Core Rulebook
       rules: []
       slug: leather-armor
-      schema:
-        version: 0.842
-        lastMigration:
-          datetime: '2023-06-20T09:31:23.967-07:00'
-          version:
-            schema: 0.842
-            foundry: '11.302'
-            system: 5.0.1
-      level:
-        value: 0
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous:
+          schema: 0.842
+          foundry: '11.315'
+          system: 5.15.0
       traits:
+        otherTags: []
         value: []
         rarity: common
-        otherTags: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
       quantity: 1
       baseItem: leather-armor
+      bulk:
+        value: 1
       hp:
-        brokenThreshold: 0
         value: 0
         max: 0
       hardness: 0
-      weight:
-        value: '2'
-      equippedBulk:
-        value: '1'
       price:
         value:
           gp: 1500
@@ -1761,15 +1589,11 @@ items:
         invested: null
         handsHeld: 0
         inSlot: false
-      stackGroup: null
-      negateBulk:
-        value: '0'
       containerId: null
-      preciousMaterial:
-        value: null
-      preciousMaterialGrade:
-        value: null
       size: med
+      material:
+        type: null
+        grade: null
       identification:
         status: identified
         unidentified:
@@ -1779,33 +1603,21 @@ items:
             description:
               value: ''
         misidentified: {}
-      usage:
-        value: wornarmor
-      armor:
-        value: 1
       category: light
       group: leather
-      strength:
-        value: 10
+      acBonus: 1
+      strength: 0
+      dexCap: 5
+      checkPenalty: -1
+      speedPenalty: 0
+      runes:
+        potency: 1
+        resilient: 1
+        property:
+          - greaterInvisibility
+      subitems: []
       dex:
         value: 4
-      check:
-        value: -1
-      speed:
-        value: 0
-      potencyRune:
-        value: 1
-      resiliencyRune:
-        value: resilient
-      propertyRune1:
-        value: greaterInvisibility
-      propertyRune2:
-        value: null
-      propertyRune3:
-        value: null
-      propertyRune4:
-        value: null
-      potency: {}
     type: armor
     flags:
       core:
@@ -1850,14 +1662,12 @@ system:
       value: 0
   lootSheetType: Merchant
   hiddenWhenEmpty: false
-  schema:
-    version: 0.842
-    lastMigration:
-      datetime: '2023-06-20T09:31:23.967-07:00'
-      version:
-        schema: 0.842
-        foundry: '11.302'
-        system: 5.0.1
+  _migration:
+    version: 0.925
+    previous:
+      schema: 0.842
+      foundry: '11.315'
+      system: 5.15.0
   traits:
     rarity: common
     size:
@@ -1919,7 +1729,7 @@ prototypeToken:
     angle: 360
     enabled: false
     range: 0
-    brightness: 1
+    brightness: 0
     visionMode: basic
     attenuation: 0.1
     saturation: 0
@@ -1929,10 +1739,10 @@ prototypeToken:
   detectionModes: []
 _stats:
   systemId: pf2e
-  systemVersion: 5.0.1
-  coreVersion: '11.302'
+  systemVersion: 5.15.0
+  coreVersion: '11.315'
   createdTime: 1686850696517
-  modifiedTime: 1687278696568
-  lastModifiedBy: eJdAkXPIlso4614X
+  modifiedTime: 1712315294935
+  lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!EdLrBWJoM8vDoxjO'
 
