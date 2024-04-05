@@ -1,0 +1,17 @@
+{
+  "name": "shopping-experience",
+  "version": "1.0.0",
+  "description": "module with some pre-setup shops for PF2e",
+  "main": "module.json",
+  "license": "MIT",
+  "author": "DrentalBot",
+  "dependencies": {},
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4",
+    "prettier": "^2.8.4"
+  },
+  "scripts": {
+    "build": "node ./tools/pullYMLtoLDB.mjs",
+    "extract": "node ./tools/pushLDBtoYML.mjs"
+  }
+}

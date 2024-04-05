@@ -1,0 +1,3195 @@
+_id: u36wpqE3DsONl3Mb
+name: (Level 08 Alchemicals) Woodpecker
+type: loot
+img: systems/pf2e/icons/default-icons/loot.svg
+items:
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/alchemists-fire.webp
+    name: Alchemist's Fire (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Strike</p>
+
+          <p>Alchemist's fire is a combination of volatile liquids that ignite
+          when exposed to air. Alchemist's fire deals 2d8 fire damage, 2
+          persistent fire damage, and 2 fire splash damage. You gain a +1 item
+          bonus to attack rolls.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: alchemists-fire-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 3
+      traits:
+        value:
+          - alchemical
+          - bomb
+          - consumable
+          - fire
+          - splash
+        rarity: common
+        otherTags: []
+      quantity: 6
+      baseItem: alchemical-bomb
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 10
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: bomb
+      bonus:
+        value: 1
+      damage:
+        dice: 2
+        die: d8
+        damageType: fire
+        persistent:
+          faces: null
+          number: 2
+          type: fire
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 2
+      range: 20
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H
+    effects: []
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954703533
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 0HdEuaIu2ChrwPET
+    _key: '!actors.items!u36wpqE3DsONl3Mb.0HdEuaIu2ChrwPET'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/bottled-lightning.webp
+    name: Bottled Lightning (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Strike</p>
+
+          <p>Bottled lightning is packed with volatile reagents that create a
+          blast of electricity when they are exposed to air. Bottled lightning
+          deals 2d6 electricity damage and 2 electricity splash damage. On a
+          hit, the target becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Flat-Footed}
+          until the start of your next turn. You gain a +1 item bonus to attack
+          rolls.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: Note
+          selector: '{item|_id}-damage'
+          text: PF2E.BombNotes.BottledLightning.Moderate.success
+      slug: bottled-lightning-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 3
+      traits:
+        value:
+          - alchemical
+          - bomb
+          - consumable
+          - electricity
+          - splash
+        rarity: common
+        otherTags: []
+      quantity: 14
+      baseItem: alchemical-bomb
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 10
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Alchemical Bomb
+          img: systems/pf2e/icons/unidentified_item_icons/alchemical_bomb.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: bomb
+      bonus:
+        value: 1
+      damage:
+        dice: 2
+        die: d6
+        damageType: electricity
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 2
+      range: 20
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc
+    effects: []
+    folder: null
+    sort: 200000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954709180
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: ttksmtDD5AmvZMLC
+    _key: '!actors.items!u36wpqE3DsONl3Mb.ttksmtDD5AmvZMLC'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/crystal-shards.webp
+    name: Crystal Shards (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Usage</strong> held in 1 hand</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Strike</p>
+
+          <hr />
+
+          <p>This flask holds a pressurized red-brown gas flecked with bits of
+          sublimated crystal. You gain a +1 item bonus to attack rolls. When the
+          bomb explodes, it deals [[/r 2d4[piercing]]] damage and [[/r
+          (4[splash])[piercing]]]{4 piercing splash damage} as the mixture
+          suddenly turns into solid crystals flying at high speeds.</p>
+
+          <p>Surfaces in the splash area grow brittle, gleaming red crystals
+          that crumble to dust after 1 minute. The crystals on level surfaces
+          are
+          @UUID[Compendium.pf2e.equipment-srd.Item.7fSnvJ2xoSfa6JXD]{Caltrops}.
+          The crystals on vertical surfaces can be used briefly as handholds,
+          granting the listed item bonus to the next Athletics check to
+          @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} each
+          space. The crystals in each space crumble after the creature leaves,
+          whether Climbing or moving through the caltrops.</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules:
+        - key: Note
+          selector: '{item|_id}-damage'
+          text: PF2E.BombNotes.CrystalShards.Moderate.success
+      slug: crystal-shards-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 4
+      traits:
+        value:
+          - alchemical
+          - bomb
+          - consumable
+          - earth
+          - splash
+        rarity: common
+        otherTags: []
+      quantity: 20
+      baseItem: alchemical-bomb
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 16
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Alchemical Bomb
+          img: systems/pf2e/icons/unidentified_item_icons/alchemical_bomb.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: bomb
+      bonus:
+        value: 1
+      damage:
+        dice: 2
+        die: d4
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 4
+      range: 20
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.V4wgOWYmHlbSZsVG
+    effects: []
+    folder: null
+    sort: 300000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954714771
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: kpCHqXoAUQjxNjzR
+    _key: '!actors.items!u36wpqE3DsONl3Mb.kpCHqXoAUQjxNjzR'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/tanglefoot-bag.webp
+    name: Tanglefoot Bag (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A tanglefoot bag is filled with sticky substances. When you hit a
+          creature with a tanglefoot bag, that creature takes a -15-foot status
+          penalty to its Speeds for 1 minute. You gain a +1 item bonus to attack
+          rolls, and the Escape DC is 19.</p>
+
+          <p>On a critical hit, a creature in contact with a solid surface
+          becomes stuck to the surface and
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}
+          for 1 round, and a creature flying via wings has its wings tangled,
+          causing it to fall safely to the ground and become unable to Fly again
+          for 1 round. Tanglefoot bags are not effective when used on a creature
+          that is in water.</p>
+
+          <p>The target can end any effects by Escaping or spending a total of 3
+          actions to carefully remove the sticky substances. These Interact
+          actions don't have to be consecutive, and other creatures can provide
+          the actions as well.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: Note
+          outcome:
+            - success
+          selector: '{item|_id}-attack'
+          text: PF2E.BombNotes.TanglefootBag.Moderate.success
+          title: ITEM.TypeEffect
+        - key: Note
+          outcome:
+            - criticalSuccess
+          selector: '{item|_id}-attack'
+          text: PF2E.BombNotes.TanglefootBag.Moderate.criticalSuccess
+          title: ITEM.TypeEffect
+      slug: tanglefoot-bag-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 3
+      traits:
+        value:
+          - alchemical
+          - bomb
+          - consumable
+        rarity: common
+        otherTags: []
+      quantity: 6
+      baseItem: alchemical-bomb
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 10
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Alchemical Bomb
+          img: systems/pf2e/icons/unidentified_item_icons/alchemical_bomb.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: bomb
+      bonus:
+        value: 1
+      damage:
+        dice: 0
+        die: ''
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: 20
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn
+    effects: []
+    folder: null
+    sort: 400000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954720002
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: PD2EF0ATOWbg4BiC
+    _key: '!actors.items!u36wpqE3DsONl3Mb.PD2EF0ATOWbg4BiC'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/thunderstone.webp
+    name: Thunderstone (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>When this stone hits a creature or a hard surface, it explodes with
+          a deafening bang. A thunderstone deals the listed sonic damage and
+          sonic splash damage, and each creature within 10 feet of the space in
+          which the stone exploded must succeed at a
+          @Check[type:fortitude|dc:20|name:Moderate Thunderstone|showDC:all]
+          saving throw with the listed DC or be
+          @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}
+          until the end of its next turn. Many types of thunderstone grant an
+          item bonus to attack rolls.</p>
+
+          <p>You gain a +1 item bonus to attack rolls. The bomb deals 2d4 sonic
+          damage and 2 sonic splash damage, and the DC is 20.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: Note
+          selector: '{item|_id}-damage'
+          text: PF2E.BombNotes.Thunderstone.Moderate.success
+      slug: thunderstone-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 3
+      traits:
+        value:
+          - alchemical
+          - bomb
+          - consumable
+          - sonic
+          - splash
+        rarity: common
+        otherTags: []
+      quantity: 12
+      baseItem: alchemical-bomb
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 10
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Alchemical Bomb
+          img: systems/pf2e/icons/unidentified_item_icons/alchemical_bomb.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: bomb
+      bonus:
+        value: 1
+      damage:
+        dice: 2
+        die: d4
+        damageType: sonic
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 2
+      range: 20
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.JOaELkzLWTywhn5Z
+    effects: []
+    folder: null
+    sort: 500000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954727011
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: sloDvAdvqdZPM5Px
+    _key: '!actors.items!u36wpqE3DsONl3Mb.sloDvAdvqdZPM5Px'
+  - img: >-
+      systems/pf2e/icons/equipment/weapons/specific-magic-weapons/gluttonous-spear.webp
+    name: Gluttonous Spear
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The head of this +1 striking
+          @UUID[Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U]{Returning}
+          spear is wrapped in greasy hide, and its head resembles a thick,
+          clawed finger.</p>
+
+          <p>On a critical hit, the target is
+          @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
+          1} for 1 minute, and you gain [[/r 1d8]] temporary Hit Points that
+          last for 1 minute.</p>
+      source:
+        value: 'Pathfinder Adventure: The Slithering'
+      rules:
+        - key: Note
+          outcome:
+            - criticalSuccess
+          selector: '{item|_id}-damage'
+          text: '{item|system.description.value}'
+          title: '{item|name}'
+      slug: gluttonous-spear
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 6
+      traits:
+        value:
+          - magical
+          - necromancy
+          - thrown-20
+        rarity: uncommon
+        otherTags: []
+      quantity: 1
+      baseItem: spear
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 250
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: spear
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: striking
+      specific:
+        value: true
+        material: null
+        runes:
+          potency: 1
+          striking: striking
+      propertyRune1:
+        value: returning
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.2z4GSaKaVX22kzPU
+    effects: []
+    folder: null
+    sort: 600000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954734685
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 1j49auUeaYxMsHOk
+    _key: '!actors.items!u36wpqE3DsONl3Mb.1j49auUeaYxMsHOk'
+  - img: systems/pf2e/icons/equipment/weapons/dagger.webp
+    name: Dagger
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This small, bladed weapon is held in one hand and used to stab a
+          creature in close combat. It can also be thrown.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: dagger
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - agile
+          - finesse
+          - thrown-10
+          - versatile-s
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: dagger
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 2
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: cold-iron
+      preciousMaterialGrade:
+        value: low
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Dagger
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: knife
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: striking
+      specific:
+        value: false
+      propertyRune1:
+        value: wounding
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.rQWaJhI5Bko5x14Z
+    effects: []
+    folder: null
+    sort: 700000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954740138
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: zQRSt3oVFgak9XCe
+    _key: '!actors.items!u36wpqE3DsONl3Mb.zQRSt3oVFgak9XCe'
+  - img: systems/pf2e/icons/equipment/armor/hide.webp
+    name: +1 Invisibility Hide Armor
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A mix of furs, sturdy hide, and sometimes molded boiled leather,
+          this armor provides protection due to its layers of leather, though
+          its bulkiness slows the wearer down and decreases mobility.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: hide-armor
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: hide-armor
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '3'
+      equippedBulk:
+        value: '2'
+      price:
+        value:
+          gp: 560
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Hide Armor
+          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 3
+      category: medium
+      group: leather
+      strength:
+        value: 14
+      dex:
+        value: 2
+      check:
+        value: -2
+      speed:
+        value: -5
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: null
+      propertyRune1:
+        value: invisibility
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.AnwzlOs0njF9Jqnr
+    effects: []
+    folder: null
+    sort: 800000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954744081
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: JGCYSaqRj398Rq1l
+    _key: '!actors.items!u36wpqE3DsONl3Mb.JGCYSaqRj398Rq1l'
+  - img: systems/pf2e/icons/equipment/armor/leather-armor.webp
+    name: +1 Resilient Leather Armor
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A mix of flexible and molded boiled leather, a suit of this type of
+          armor provides some protection with maximum flexibility.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: leather-armor
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: leather-armor
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '2'
+      equippedBulk:
+        value: '1'
+      price:
+        value:
+          gp: 500
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Leather Armor
+          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 1
+      category: light
+      group: leather
+      strength:
+        value: 10
+      dex:
+        value: 4
+      check:
+        value: -1
+      speed:
+        value: 0
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.4tIVTg9wj56RrveA
+    effects: []
+    folder: null
+    sort: 900000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954748194
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: eGz86GXhNhj2KDEb
+    _key: '!actors.items!u36wpqE3DsONl3Mb.eGz86GXhNhj2KDEb'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/backfire-mantle.webp
+    name: Backfire Mantle (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This vivid red cloak of sturdy fabric is favored by aggressive
+          battle alchemists and mages, as well as those cautious warriors who
+          need to advance into the fray ahead of the blast-happy back line. The
+          mantle interposes to protect you from your own and allies' magic,
+          granting you a +2 circumstance bonus to Reflex saves against your own
+          spells, as well as those of your allies. You also gain resistance 10
+          to splash damage from your own alchemical items and those of your
+          allies.</p>
+      source:
+        value: Pathfinder Secrets of Magic
+      rules:
+        - key: FlatModifier
+          predicate:
+            - or:
+                - target:self
+                - target:ally
+          selector: reflex
+          type: circumstance
+          value: 2
+      slug: backfire-mantle-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 8
+      traits:
+        value:
+          - abjuration
+          - invested
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 430
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worncloak
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.LD2cFdr3IntL71oP
+    effects: []
+    folder: null
+    sort: 1000000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954752676
+      modifiedTime: 1686955040867
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: dyB7KcKaVbQxLy6b
+    _key: '!actors.items!u36wpqE3DsONl3Mb.dyB7KcKaVbQxLy6b'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/hat-of-disguise.webp
+    name: Hat of Disguise (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This ordinary-looking hat allows you to cloak yourself in
+          illusions.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">D</span>
+          Interact</p>
+
+          <p><strong>Frequency</strong> any number of times per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The hat casts a 2nd-level
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory
+          Disguise}</em> spell on you. While setting up the disguise, you can
+          magically alter the hat to appear as a comb, ribbon, helm, or other
+          piece of headwear.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: hat-of-disguise-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 7
+      traits:
+        value:
+          - illusion
+          - invested
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 340
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornheadwear
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.WPSp5MLb0VOfmUqH
+    effects: []
+    folder: null
+    sort: 1100000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954761062
+      modifiedTime: 1686955046258
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: nUBpIPAzhwGqTPHZ
+    _key: '!actors.items!u36wpqE3DsONl3Mb.nUBpIPAzhwGqTPHZ'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/unmemorable-mantle.webp
+    name: Unmemorable Mantle
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This long, shoddy cloak bears a hood and a simple brass clasp.
+          While wearing the cloak, you gain a +1 item bonus to Deception checks
+          to Impersonate an individual and to Lie while in character as that
+          individual.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> 1 minute (envision, Interact)</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <p><strong>Requirements</strong> You are Impersonating someone
+          else</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> While conversing or otherwise casually
+          interacting with other creatures, you can adjust the mantle's clasp to
+          modify those creatures' recollections of the last 5 minutes of their
+          interaction with you. Each creature must attempt a
+          @Check[type:will|dc:25] save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature recalls the
+          interaction clearly and realizes you were trying to alter their
+          memory.</p>
+
+          <p><strong>Success</strong> The creature recalls the interaction
+          clearly.</p>
+
+          <p><strong>Failure</strong> You decide whether or not the creature
+          recalls the interaction. You can also alter minor details the creature
+          recalls about the interaction, such as the time, place, and whether
+          the interaction was favorable, as determined by the GM.</p>
+
+          <p><strong>Critical Failure</strong> You decide whether or not the
+          creature recalls the interaction. You can also alter major details the
+          creature recalls about the interaction, such as believing you to be
+          another individual or that the creature agreed to a favor, as
+          determined by the GM.</p>
+      source:
+        value: 'Pathfinder Lost Omens: Character Guide'
+      rules:
+        - key: FlatModifier
+          label: Unmemorable Mantle (Impersonate & Lie in character)
+          predicate:
+            - or:
+                - action:impersonate
+                - action:lie
+          selector: deception
+          type: item
+          value: 1
+      slug: unmemorable-mantle
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 7
+      traits:
+        value:
+          - illusion
+          - invested
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 300
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worncloak
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Oudcra1CGDmUq0BH
+    effects: []
+    folder: null
+    sort: 1300000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954765601
+      modifiedTime: 1686955045763
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 6TtEd4RtonRVHSYb
+    _key: '!actors.items!u36wpqE3DsONl3Mb.6TtEd4RtonRVHSYb'
+  - img: systems/pf2e/icons/equipment/snares/bomb-snare.webp
+    name: Bomb Snare
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You create a snare that catalyzes three 3rd-level moderate
+          alchemical bombs of the same type to explode when a creature enters
+          the snare's square. The target and all creatures in adjacent squares
+          must attempt a @Check[type:reflex|dc:26|basic:true|showDC:all], as the
+          snare deals damage equal to three times the direct hit damage from one
+          of the component bombs (for example, [[/r 6d6[electricity]]] damage
+          from bottled lightning) with no splash damage or other effects.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half damage and no
+          other effects.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage. It also
+          takes all other effects of a direct hit from one of the component
+          bombs (such as flat-footed from bottled lightning or persistent damage
+          from an acid flask).</p>
+
+          <p><strong>Critical Failure</strong> The creature takes double damage,
+          plus all other effects of a direct hit (as failure).</p>
+
+          <hr />
+
+          <p><strong>Craft Requirements</strong> Supply three of the same
+          damaging 3rd-level moderate alchemical bomb.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: bomb-snare
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 8
+      traits:
+        value:
+          - consumable
+          - mechanical
+          - snare
+          - trap
+        rarity: common
+        otherTags: []
+      quantity: 3
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 75
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: snare
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: 6d6
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.axU0I9xIm4xm2VPH
+    effects: []
+    folder: null
+    sort: 1400000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954769589
+      modifiedTime: 1686955049716
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: UhBgzirxrCWOvS0K
+    _key: '!actors.items!u36wpqE3DsONl3Mb.UhBgzirxrCWOvS0K'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/cheetahs-elixir.webp
+    name: Cheetah's Elixir (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>Enzymatic compounds in this elixir strengthen and excite the
+          muscles in your legs. You gain a +10 foot status bonus to your Speed
+          for 1 hour.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.PeuUz7JaabCgl6Yh]{Effect:
+          Cheetah's Elixir (Greater)}</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: cheetahs-elixir-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 110
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.t4X6GDybqLmt7UkN
+    effects: []
+    folder: null
+    sort: 1500000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954774834
+      modifiedTime: 1686955050750
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: jl5cgzsNsQ6GrvUQ
+    _key: '!actors.items!u36wpqE3DsONl3Mb.jl5cgzsNsQ6GrvUQ'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-tools/cold-iron-blanch.webp
+    name: Cold Iron Blanch (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <hr />
+
+          <p>You can pour a vial of this dark liquid onto one melee weapon, one
+          thrown weapon, or 10 pieces of ammunition. When used on a melee or
+          thrown weapon, rather than ammunition, the blanch lasts for the listed
+          duration or 10 successful Strikes, whichever comes first. When you use
+          it on ammunition, the blanch is expended on a given piece of
+          ammunition after firing it, whether it hits or not. A cold iron blanch
+          contains small amounts of alchemist's fire, so it must be used all at
+          once; an opened vial ignites to melt the cold iron onto the weapon and
+          is quickly consumed. The weapon or ammunition counts as cold iron
+          instead of its normal precious material (such as silver) for any
+          physical damage it deals, if applicable.</p>
+
+          <hr />
+
+          <p>The blanch provides standard-grade cold iron, so you can use it on
+          a magic weapon up to 15th level, or ammunition for such a weapon. It
+          lasts for 10 minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.uK2vXk4WnleihqYI]{Effect:
+          Cold Iron Blanch (Moderate)}</p>
+      source:
+        value: 'Pathfinder Lost Omens: Pathfinder Society Guide'
+      rules: []
+      slug: cold-iron-blanch-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - precious
+        rarity: uncommon
+        otherTags: []
+      quantity: 4
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 140
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: '1'
+        max: '1'
+      consume:
+        value: null
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.jnCP2zYJamUeZsJC
+    effects: []
+    folder: null
+    sort: 1600000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954780722
+      modifiedTime: 1686955051474
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: mdA84dXVFzw2iytz
+    _key: '!actors.items!u36wpqE3DsONl3Mb.mdA84dXVFzw2iytz'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/elixir-of-life.webp
+    name: Elixir of Life (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>Elixirs of life accelerate a living creature's natural healing
+          processes and immune system. Upon drinking this elixir, you regain
+          [[/r (5d6+12)[healing]]]{5d6+12 Hit Points} and gain +2 item bonus to
+          saving throws against diseases and poisons for 10 minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.Yxssrnh9UZJAM0V7]{Effect:
+          Elixir of Life (Moderate)}</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: elixir-of-life-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+          - healing
+        rarity: common
+        otherTags: []
+      quantity: 5
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 150
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: 5d6+12
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl
+    effects: []
+    folder: null
+    sort: 1700000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954788177
+      modifiedTime: 1686955052908
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: i5eoClz6r1OSkUYT
+    _key: '!actors.items!u36wpqE3DsONl3Mb.i5eoClz6r1OSkUYT'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/mistform-elixir.webp
+    name: Mistform Elixir (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>A faint mist emanates from your skin, making you
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          for 1 minute.</p>
+
+          <p>As usual being concealed when your position is still obvious, you
+          can't use this concealment to
+          @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or
+          @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: mistform-elixir-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 6
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+          - illusion
+          - visual
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 56
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Ax8XcBd0rRd1Z7hN
+    effects: []
+    folder: null
+    sort: 1800000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954793685
+      modifiedTime: 1686955053978
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 7jnt4AHKMIXBZy83
+    _key: '!actors.items!u36wpqE3DsONl3Mb.7jnt4AHKMIXBZy83'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/skeptics-elixir.webp
+    name: Skeptic's Elixir (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Duration</strong> 10 minute</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <hr />
+
+          <p>This elixir sharpens your mind and allows you to see through lies,
+          falsehoods, and magical trickery. You gain a +2 item bonus to
+          Perception checks and Perception DCs to notice falsehoods, whether
+          they're spoken lies or written deceit. You gain this same item bonus
+          to Will saves.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.mG6S6zm6hxaF7Tla]{Effect:
+          Skeptic's Elixir (Moderate)}</p>
+      source:
+        value: 'Pathfinder #163: Ruins of Gauntlight'
+      rules: []
+      slug: skeptics-elixir-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 6
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+        rarity: uncommon
+        otherTags: []
+      quantity: 4
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 50
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.xGmX6Vuuhivyal8v
+    effects: []
+    folder: null
+    sort: 1900000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954798469
+      modifiedTime: 1686955054910
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: XKHkoREMjZ3rRQdk
+    _key: '!actors.items!u36wpqE3DsONl3Mb.XKHkoREMjZ3rRQdk'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-tools/smokestick.webp
+    name: Smokestick (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>With a sharp twist of this item, you instantly create a screen of
+          thick, opaque smoke in a burst centered on one corner of your space.
+          All creatures within that area are concealed, and all other creatures
+          are concealed to them. The smoke lasts for 1 minute or until dispersed
+          by a strong wind.</p>
+
+          <p>The radius of the burst is 20 feet.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: smokestick-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 7
+      traits:
+        value:
+          - alchemical
+          - consumable
+        rarity: common
+        otherTags: []
+      quantity: 10
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 53
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: other
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.ehss8yPTXxiUdVlJ
+    effects: []
+    folder: null
+    sort: 2000000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954804279
+      modifiedTime: 1686955057191
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: fbyONgHibiEBpfdh
+    _key: '!actors.items!u36wpqE3DsONl3Mb.fbyONgHibiEBpfdh'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-tools/soverign-glue.webp
+    name: Sovereign Glue
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> 1 minute (Interact)</p>
+
+          <p>This peculiar amber glue bonds two surfaces together almost
+          inseparably. A single flask covers an area up to 1 square foot and
+          must be used all at once to form a single bond between two surfaces.
+          If the activation is interrupted, the bond fails and the glue is
+          wasted. Once two surfaces are joined with sovereign glue, they can be
+          separated only with a successful
+          @Check[type:athletics|dc:50|name:Separate Sovereign
+          Glue|traits:action:force-open] check. The adhered objects tend to
+          break before the glue does unless they're particularly durable, though
+          a creature determined to separate the objects can break off the parts
+          connected by the sovereign glue and later
+          @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} the
+          objects.</p>
+
+          <p>Sovereign glue can affect creatures only if they are willing, and
+          its bond can be harmlessly broken by carefully exfoliating the
+          outermost layer of skin or waiting a short while for the skin to
+          shed.</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: sovereign-glue
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 7
+      traits:
+        value:
+          - alchemical
+          - consumable
+        rarity: common
+        otherTags: []
+      quantity: 5
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 55
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: '1'
+        max: '1'
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.7IrQPyMm76nLVoXx
+    effects: []
+    folder: null
+    sort: 2100000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954808945
+      modifiedTime: 1686955058724
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: XxzFXd30LaXY1oSM
+    _key: '!actors.items!u36wpqE3DsONl3Mb.XxzFXd30LaXY1oSM'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/antidote.webp
+    name: Antidote (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>An antidote protects you against toxins. Upon drinking an antidote,
+          you gain a +3 item bonus to Fortitude saving throws against poisons
+          for 6 hours.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.mi4Md1fB2XThCand]{Effect:
+          Antidote (Moderate)}</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: antidote-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 6
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+          - healing
+        rarity: common
+        otherTags: []
+      quantity: 6
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 35
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.AJ1dC7EtTIfBey0M
+    effects: []
+    folder: null
+    sort: 2200000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954813564
+      modifiedTime: 1686955059834
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: ah1g4jCypjzBCJiw
+    _key: '!actors.items!u36wpqE3DsONl3Mb.ah1g4jCypjzBCJiw'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/antiplague.webp
+    name: Antiplague (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>Antiplague can fortify the body's defenses against diseases. Upon
+          drinking an antiplague, you gain a +3 item bonus to Fortitude saving
+          throws against diseases for 24 hours; this applies to your daily save
+          against a disease's progression.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.HeRHBo2NaKy5IxhU]{Effect:
+          Antiplague (Moderate)}</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: antiplague-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 6
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+          - healing
+        rarity: common
+        otherTags: []
+      quantity: 3
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 35
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.biRbqKo2C97XLfQ0
+    effects: []
+    folder: null
+    sort: 2300000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954817809
+      modifiedTime: 1686955061055
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: rnq1xEmfMTFaCqlo
+    _key: '!actors.items!u36wpqE3DsONl3Mb.rnq1xEmfMTFaCqlo'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/addiction-suppressant.webp
+    name: Addiction Suppressant (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>When you use a dose of addiction suppressant, it suppresses the
+          effects of that addiction for 1 day, as if you had taken an actual
+          dose of the drug but without any of the drug's effects, and it doesn't
+          increase the addiction DC. You also gain a +2 item bonus against the
+          ongoing save against the drug's addiction depending on the type of
+          addiction suppressant.</p>
+
+          <p>For every drug, a specific suppressant must be crafted- no
+          generalized addiction suppressant yet exists. In order to create an
+          addiction suppressant, you must begin with a dose of the drug to be
+          suppressed, then use alchemical reagents to generate an elixir that
+          can be used to fight that drug's addiction. An addiction suppressant
+          must be a higher level than the drug it is meant to suppress in order
+          to work.</p>
+      source:
+        value: 'Pathfinder Lost Omens: Legends'
+      rules: []
+      slug: addiction-suppressant-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 6
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+        rarity: common
+        otherTags: []
+      quantity: 4
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 30
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.cWYa0i1BqhbEruD6
+    effects: []
+    folder: null
+    sort: 2400000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954822612
+      modifiedTime: 1686955063043
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: Kj1yY050SNv5Ltwp
+    _key: '!actors.items!u36wpqE3DsONl3Mb.Kj1yY050SNv5Ltwp'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/darkvision-elixir.webp
+    name: Darkvision Elixir (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong><span class="pf2-icon">1</span>
+          Interact</p>
+
+          <p>After you drink this elixir, your sight becomes sharper in
+          darkness. You gain darkvision for 24 hours.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.7vCenP9j6FuHRv5C]{Effect:
+          Darkvision Elixir (Greater)}</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: darkvision-elixir-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 8
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+        rarity: common
+        otherTags: []
+      quantity: 8
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 90
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.bz8Y8bVUe7QfBk9g
+    effects: []
+    folder: null
+    sort: 2500000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954828456
+      modifiedTime: 1686955064856
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: VH4hj08UHyZmVGdU
+    _key: '!actors.items!u36wpqE3DsONl3Mb.VH4hj08UHyZmVGdU'
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/leapers-elixir.webp
+    name: Leaper's Elixir (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <p>This tingly solution increases the elasticity and contraction of
+          your leg muscles. For 1 minute after drinking this elixir, you can
+          @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} or
+          @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} as
+          a single action instead of 2 actions. If you do, you don't perform the
+          initial Stride (nor do you fail if you don't Stride 10 feet).</p>
+
+          <p>The maximum vertical distance you can jump with a High Jump is the
+          same as you can jump horizontally with a Long Jump.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: leapers-elixir-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 7
+      traits:
+        value:
+          - alchemical
+          - consumable
+          - elixir
+        rarity: common
+        otherTags: []
+      quantity: 4
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 55
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: elixir
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.6eQvHNHf1IC2X5Rx
+    effects: []
+    folder: null
+    sort: 2600000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686954834456
+      modifiedTime: 1686955065766
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: FBfPfGzzhtdKV07n
+    _key: '!actors.items!u36wpqE3DsONl3Mb.FBfPfGzzhtdKV07n'
+  - img: >-
+      systems/pf2e/icons/equipment/runes/fundamental-armor-runes/armor-potency.webp
+    name: Resilient
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>Resilient</em> runes imbue armor with additional protective
+          magic. This grants the wearer a +1 item bonus to saving throws.</p>
+
+          <p>You can upgrade the <em>resilient</em> rune already etched on a
+          suit of armor to a stronger version, increasing the values of the
+          existing rune to those of the new rune. You must have the formula of
+          the stronger rune to do so, and the Price of the upgrade is the
+          difference between the two runes' Prices.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: resilient
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.968-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 8
+      traits:
+        value:
+          - abjuration
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 340
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: ''
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Object
+          img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: etched-onto-armor
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.eSjQgsl3pYkirOwk
+    effects: []
+    folder: null
+    sort: 1200000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955039206
+      modifiedTime: 1686955042233
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: qMntMrqtf1nl7uW8
+    _key: '!actors.items!u36wpqE3DsONl3Mb.qMntMrqtf1nl7uW8'
+effects: []
+folder: null
+sort: 0
+flags:
+  core: {}
+system:
+  attributes: {}
+  details:
+    description: >-
+      <p>The Gnoll Dhampir Woodpecker has risen up in taldan society just to
+      prove she can. She wrote treatises, enticed pen pals to join her business
+      and learned to use any prejudice to her advantage. Lately she has
+      withdrawn to only tend to her business. Her mixing shop is immaculately
+      run and shows great discipline even from a passing glance.</p>
+
+      <p>She enjoys her vampiric heritage and occasionally hunts criminals using
+      her infused reagents and exceptional alchemical skills to get a drink of
+      blood. During the day she appears as a well brought up taldan
+      businesswoman and has harsh, but well spoken words for anyone making
+      comments at her ancestry.</p>
+    level:
+      value: 0
+  lootSheetType: Merchant
+  hiddenWhenEmpty: false
+  schema:
+    version: 0.842
+    lastMigration:
+      datetime: '2023-06-20T09:31:23.968-07:00'
+      version:
+        schema: 0.842
+        foundry: '11.302'
+        system: 5.0.1
+  traits:
+    rarity: common
+    size:
+      value: med
+    value: []
+  customModifiers: {}
+ownership:
+  default: 1
+  sarkMXaT0ELIQ2fE: 3
+prototypeToken:
+  bar1:
+    attribute: attributes.hp
+  displayName: 20
+  displayBars: 40
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  actorLink: true
+  disposition: 0
+  name: Woodpecker
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  bar2:
+    attribute: null
+  randomImg: false
+  light:
+    alpha: 0.25
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+  texture:
+    src: systems/pf2e/icons/default-icons/loot.svg
+    tint: null
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+_stats:
+  systemId: pf2e
+  systemVersion: 5.0.1
+  coreVersion: '11.302'
+  createdTime: 1686850696517
+  modifiedTime: 1687278696568
+  lastModifiedBy: eJdAkXPIlso4614X
+_key: '!actors!u36wpqE3DsONl3Mb'
+

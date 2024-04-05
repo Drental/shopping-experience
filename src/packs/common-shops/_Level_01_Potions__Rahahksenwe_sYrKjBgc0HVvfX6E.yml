@@ -1,0 +1,3425 @@
+_id: sYrKjBgc0HVvfX6E
+name: (Level 01 Potions) Rahahksenwe
+type: loot
+img: systems/pf2e/icons/default-icons/loot.svg
+items:
+  - img: systems/pf2e/icons/equipment/weapons/air-repeater.webp
+    name: Air Repeater
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A thin-barreled firearm that uses a container of pressurized air
+          instead of black powder to propel small metal bullets from an attached
+          cartridge, the air repeater has fallen out of common use in Arcadia
+          due to its poor stopping power, though it's still used occasionally
+          for casual hunting and sport shooting. The air repeater and its
+          longer-ranged, two-handed variant are still valued by some for their
+          ability to allow a shooter to fire multiple rounds without needing to
+          stop to reload or crank to a new chamber. A typical air repeater
+          magazine holds 6 pellets.</p>
+      source:
+        value: Pathfinder Guns & Gears
+      rules: []
+      slug: air-repeater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - agile
+          - repeating
+        rarity: uncommon
+        otherTags: []
+      quantity: 1
+      baseItem: air-repeater
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 5
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: firearm
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: 30
+      reload:
+        value: '0'
+      MAP:
+        value: ''
+      potencyRune:
+        value: 0
+      strikingRune:
+        value: ''
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.SzUynRs4HVtnpnel
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686850949688
+      modifiedTime: 1686850949688
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: fRg4LuFSFHie0Tme
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.fRg4LuFSFHie0Tme'
+  - img: systems/pf2e/icons/equipment/weapons/composite-longbow.webp
+    name: Composite Longbow
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This projectile weapon is made from horn, wood, and sinew laminated
+          together to increase the power of its pull and the force of its
+          projectile. Like all longbows, its great size also increases the bow's
+          range and power. You must use two hands to fire it, and it cannot be
+          used while mounted. Any time an ability is specifically restricted to
+          a longbow, such as Erastil's favored weapon, it also applies to
+          composite longbows unless otherwise stated.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: composite-longbow
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - deadly-d10
+          - propulsive
+          - volley-30
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: composite-longbow
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '2'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 20
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-plus-hands
+      category: martial
+      group: bow
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: 100
+      reload:
+        value: '0'
+      MAP:
+        value: ''
+      potencyRune:
+        value: 0
+      strikingRune:
+        value: ''
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.dUC8Fsa6FZtVikS3
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686850956520
+      modifiedTime: 1686850956520
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 5KcDtuZDqZkHmWyr
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.5KcDtuZDqZkHmWyr'
+  - img: systems/pf2e/icons/equipment/armor/splint-mail.webp
+    name: Splint Mail
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This type of armor is chain mail reinforced with flexible,
+          interlocking metal plates, typically located on the wearer's torso,
+          upper arms, and legs. A suit of this armor comes with an undercoat of
+          padded armor and a pair of gauntlets.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: splint-mail
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: splint-mail
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '4'
+      equippedBulk:
+        value: '3'
+      price:
+        value:
+          gp: 13
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 5
+      category: heavy
+      group: composite
+      strength:
+        value: 16
+      dex:
+        value: 1
+      check:
+        value: -3
+      speed:
+        value: -10
+      potencyRune:
+        value: 0
+      resiliencyRune:
+        value: ''
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.6AhDKX1dwRwFpQsU
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686850963460
+      modifiedTime: 1686850963460
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 60MTPXOuhL8f9lBm
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.60MTPXOuhL8f9lBm'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/writing-set.webp
+    name: Writing Set
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Using a writing set, you can draft correspondence and scribe
+          scrolls. A set includes stationery, including a variety of paper and
+          parchment, as well as ink, a quill or inkpen, sealing wax, and a
+          simple seal. If you've written a large amount, you can refill your kit
+          with extra ink and paper.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: writing-set
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.QJb8S927Yj81EgHH
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686850969224
+      modifiedTime: 1686850969224
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: UYNvCW7j5QOc9N2y
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.UYNvCW7j5QOc9N2y'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/ink-and-paper.webp
+    name: Writing Set (Extra Ink and Paper)
+    system:
+      description:
+        gm: ''
+        value: <p>Extra ink and paper to refill your writing set.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: writing-set-extra-ink-and-paper
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 1
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.3yLu12TCwN8utY0u
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686850974232
+      modifiedTime: 1686850975884
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: kXnCRJG0dWsv0Pkt
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.kXnCRJG0dWsv0Pkt'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/tent.webp
+    name: Tent (Pup)
+    system:
+      description:
+        gm: ''
+        value: ''
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: tent-pup
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 6
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 8
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Wc9og4mTKZDH3xmz
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686850981303
+      modifiedTime: 1686850987456
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: KfC0SvuRkWed1SQE
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.KfC0SvuRkWed1SQE'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/tent.webp
+    name: Tent (Four-Person)
+    system:
+      description:
+        gm: ''
+        value: ''
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: tent-four-person
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.JlClrm1WfJ45oWcS
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686850984775
+      modifiedTime: 1686850984775
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: SkO0TdzspcZsP6qa
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.SkO0TdzspcZsP6qa'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/spyglass.webp
+    name: Spyglass
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A typical spyglass lets you see eight times farther than
+          normal.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: spyglass
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 20
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.UtRH6jt3iNFCgLLG
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686850996234
+      modifiedTime: 1686850996234
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: wXpHsAOWvLVqlStM
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.wXpHsAOWvLVqlStM'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/snowshoes.webp
+    name: Snowshoes
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These specialized pieces of footwear are designed to distribute the
+          wearer's weight over a larger area to prevent them from sinking while
+          walking on snow. They are typically made with a wood frame and rawhide
+          lacings that are tied over the wearer's other footwear.</p>
+
+          <p>While wearing snowshoes, you ignore the effects of non-magical
+          difficult terrain caused by snow (reducing greater difficult terrain
+          from snow to ordinary difficult terrain).</p>
+
+          <p>You take a -10-foot item penalty to your Speed if wearing snowshoes
+          while walking on any surface other than snow.</p>
+      source:
+        value: 'Pathfinder Lost Omens: Pathfinder Society Guide'
+      rules: []
+      slug: snowshoes
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 10
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornshoes
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.AnJiuDSgJ1uBYRaZ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851001912
+      modifiedTime: 1686851003876
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: TWEjpG6ixVNvkUsw
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.TWEjpG6ixVNvkUsw'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/whistle.webp
+    name: Signal Whistle
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>When sounded, a signal whistle can be heard clearly up to half a
+          mile away across open terrain.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: signal-whistle
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          cp: 8
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.USHK6XQRwmq17xKh
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851008910
+      modifiedTime: 1686851008910
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 1eefsKe00tsF021V
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.1eefsKe00tsF021V'
+  - img: systems/pf2e/icons/equipment/held-items/predictable-silver-piece.webp
+    name: Predictable Silver Piece
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This seemingly unremarkable, weathered silver coin bears the bust
+          of an unnamed monarch on the face and a majestic bird on the tail. You
+          can toss the coin without activating it, in which case it follows the
+          normal laws of probability.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You rub your thumb on one side of the coin
+          with the intent of slightly tweaking the strands of fate, then flip
+          the coin into the air in a coin toss. No matter how the toss is
+          resolved- letting the coin fall to the ground, slapping it down on the
+          back of your hand, or catching it on your open palm-it always lands
+          with the side you rubbed face up.</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: predictable-silver-piece
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - divination
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 3
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.ZIQAzOavTXJCcCMD
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851017479
+      modifiedTime: 1686851017479
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: QuqWDr4BcaTW454h
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.QuqWDr4BcaTW454h'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/lantern.webp
+    name: Lantern (Hooded)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A lantern sheds bright light and requires 1 pint of oil to function
+          for 6 hours. A bull's‑eye lantern emits its light in a 60‑foot cone
+          (and dim light in the next 60 feet). A hooded lantern sheds light in a
+          30‑foot radius (and dim light in the next 30 feet) and is equipped
+          with shutters, which you can close to block the light. Closing or
+          opening the shutters takes an Interact action.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: TokenLight
+          value:
+            animation:
+              intensity: 4
+              speed: 1
+              type: torch
+            bright: 30
+            color: '#975335'
+            dim: 60
+            shadows: 0.2
+        - key: TokenEffectIcon
+          value: systems/pf2e/icons/equipment/adventuring-gear/lantern.webp
+      slug: lantern-hooded
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 7
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: ''
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.dIRZ0LL7G31fJNYz
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851022365
+      modifiedTime: 1686851022365
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: JqSXepS6cJN8XEDu
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.JqSXepS6cJN8XEDu'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/fishing-tackle.webp
+    name: Fishing Tackle
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This kit include a collapsible fishing pole, fishhooks, line,
+          lures, and a fishing net.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: fishing-tackle
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 8
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.3tOyV4VZEZhwnAMO
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851027487
+      modifiedTime: 1686851027487
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: QFcVOOjYdNyyB3O9
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.QFcVOOjYdNyyB3O9'
+  - img: systems/pf2e/icons/equipment/held-items/everburning-torch.webp
+    name: Everburning Torch
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>An <em>everburning torch</em> is one of the most common
+          applications of permanent magic. This torch sheds light constantly,
+          requiring no oxygen and generating no heat. The flame can be covered
+          or hidden, but can't be smothered or quenched.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: TokenLight
+          value:
+            animation:
+              intensity: 4
+              speed: 1
+              type: torch
+            bright: 20
+            color: '#9b7337'
+            dim: 40
+            shadows: 0.2
+        - key: TokenEffectIcon
+          value: systems/pf2e/icons/equipment/held-items/everburning-torch.webp
+      slug: everburning-torch
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - evocation
+          - light
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 15
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.mRz8Jmk4Q06SsZpC
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851034662
+      modifiedTime: 1686851034662
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: PwoQKZ41Q4aBhBbV
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.PwoQKZ41Q4aBhBbV'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/clothes-winter.webp
+    name: Clothing (Winter)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Winter clothing allows you to negate the damage from severe
+          environmental cold and reduce the damage from extreme cold to that of
+          severe cold.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: clothing-winter
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 4
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worn
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.SLQgdLk5K9JV4ACF
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851040292
+      modifiedTime: 1686851040292
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: Y57Rh9NPk6FPyKgd
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.Y57Rh9NPk6FPyKgd'
+  - img: systems/pf2e/icons/default-icons/consumable.svg
+    name: Magazine with 6 Pellets
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Firearms require ammunition consisting of a projectile and black
+          powder. A round of ammo can vary in its composition but is typically
+          either a prepackaged paper cartridge, including wadding, bullet, and
+          black powder, or loose shot packed in manually. Some weapons, like
+          hand cannons and blunderbusses, can fire other materials, but their
+          ammunition has the same Price due to the cost of the black powder.
+          Because making rounds of firearm ammunition requires creating black
+          powder, you need the
+          @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical
+          Crafting} skill feat to make them. Firearm rounds are a valid option
+          for magical ammunition, just like arrows or bolts. Crafting magical
+          firearm ammunition requires you to be able to craft both alchemical
+          and magical items.</p>
+      source:
+        value: Pathfinder Guns & Gears
+      rules: []
+      slug: magazine-with-6-pellets
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 6
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: ammo
+      charges:
+        value: 6
+        max: 6
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.NiioDSvyhhY4IWVH
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851047138
+      modifiedTime: 1686851317057
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: ggBjNwn1x4FMuLnC
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.ggBjNwn1x4FMuLnC'
+  - img: systems/pf2e/icons/equipment/weapons/arrows.webp
+    name: Arrows
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These projectiles are the ammunition for bows. The shaft of an
+          arrow is made of wood. It is stabilized in flight by fletching at one
+          end and bears a metal head on the other.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: arrows
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 20
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 1
+        per: 10
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: arrows
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: ammo
+      charges:
+        value: 0
+        max: 0
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851051581
+      modifiedTime: 1686851319761
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: tln4RJWf3LpR60Ng
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.tln4RJWf3LpR60Ng'
+  - img: >-
+      systems/pf2e/icons/equipment/treasure/gems/lesser-semiprecious-stones/tigers-eye.webp
+    name: Thunderbird Tuft (Lesser)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> Cast a Spell (add 1 action)</p>
+
+          <hr />
+
+          <p>This carved chunk of amber contains a single tuft of gray feathers,
+          which spark with electricity to create an odd jittery sensation in
+          anyone holding the amber for long. When used as part of a
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.r3NeUnsgt9mS03Sn]{Shocking
+          Grasp}</em> spell, <em>thunderbird tuft</em> funnels electricity back
+          into the spellcaster in a defensive nimbus. For 1 round, any creature
+          that touches you or that hits you with a melee unarmed attack or
+          non-reach melee weapon attack takes [[/r 1d4[electricity]]] damage, or
+          [[/r 1d6[electricity]]] damage if the creature is using a metal
+          weapon, but the nimbus only lasts 1 round, rather than the full
+          minute.</p>
+      source:
+        value: Pathfinder Secrets of Magic
+      rules: []
+      slug: thunderbird-tuft-lesser
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - catalyst
+          - consumable
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 3
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: catalyst
+      charges:
+        value: 0
+        max: 0
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Led9ciHzpF8uPN6Y
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851064933
+      modifiedTime: 1686851064933
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: VwMeSEkjXPDVOmIb
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.VwMeSEkjXPDVOmIb'
+  - img: systems/pf2e/icons/equipment/consumables/oils/shielding-salve.webp
+    name: Shielding Salve
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <p>This shimmering paste has many properties of a <em>shield
+          </em>spell. When you slather it onto a creature or object, the target
+          gains a +1 circumstance bonus to AC for 1 round.</p>
+
+          <p>The first time a physical attack or a magic missile hits the target
+          during that round, the oil prevents 5 damage from that attack or
+          spell, and then the oil's effect ends.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.16tOZk4qy329s2aK]{Effect:
+          Shielding Salve}</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: shielding-salve
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - abjuration
+          - consumable
+          - magical
+          - oil
+        rarity: common
+        otherTags: []
+      quantity: 3
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-two-hands
+      consumableType:
+        value: oil
+      charges:
+        value: '1'
+        max: '1'
+      consume:
+        value: null
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.EWujUs3YmlBu2jhm
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851071978
+      modifiedTime: 1686851322161
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: JRkswadUJ9JS93Yq
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.JRkswadUJ9JS93Yq'
+  - img: systems/pf2e/icons/equipment/consumables/other-consumables/runestone.webp
+    name: Runestone
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This flat piece of hard stone is specially prepared for etching a
+          magical fundamental rune or property rune. You can etch only one rune
+          upon a stone. Once the stone is etched, it gains the magic school
+          trait of the rune etched upon it. When a rune is transferred from the
+          <em>runestone</em> to another object, the <em>runestone</em> cracks
+          and is destroyed. The Price listed is for an empty stone; a stone
+          holding a rune adds the Price of the rune.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: runestone
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 3
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: other
+      charges:
+        value: '1'
+        max: '1'
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.ev3F9qlMNlNdCOAI
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851078722
+      modifiedTime: 1686851323861
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: Pog2Si1QkHho7ZRz
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.Pog2Si1QkHho7ZRz'
+  - img: systems/pf2e/icons/equipment/consumables/potions/ration-tonic.webp
+    name: Ration Tonic
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <p>This slender vial appears to hold clean, clear water with a faintly
+          fruity scent. Drinking a ration tonic magically nourishes you with the
+          equivalent of a day's worth of food and water. The tonic has a subtle,
+          pleasant taste, its particulars chosen when the potion is crafted.</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: ration-tonic
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - conjuration
+          - consumable
+          - magical
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 7
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 3
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: '1'
+        max: '1'
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.3Wb0N7iqmTn6e2Xc
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851085655
+      modifiedTime: 1686851325914
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: RLTbUrr0OMG32nPB
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.RLTbUrr0OMG32nPB'
+  - img: >-
+      systems/pf2e/icons/equipment/consumables/potions/potion-of-shared-memories.webp
+    name: Potion of Shared Memories
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <hr />
+
+          <p>A potion of shared memories can transfer recollections from one
+          creature to another. To place a memory in the potion, you must hold
+          the vial and focus on a particular memory for 1 minute. This memory
+          must be of a single event, location, person, or otherwise encompass a
+          span of about 1 minute. The clear fluid takes on a shimmering hue
+          reminiscent of the stored memory and gains a slightly sweet taste.</p>
+
+          <p>Upon consuming the potion, the drinker vividly recalls the memory,
+          and thereafter can remember it as easily as a memory they actually
+          experienced. An unwilling drinker can refuse to absorb the memory.</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: potion-of-shared-memories
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - divination
+          - magical
+          - mental
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.jlFx4JIBKJuaINpv
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851092013
+      modifiedTime: 1686851092013
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: fDUkkknyOjzGcrWZ
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.fDUkkknyOjzGcrWZ'
+  - img: >-
+      systems/pf2e/icons/equipment/consumables/potions/potion-of-electricity-retalliation.webp
+    name: Potion of Electricity Retaliation (Minor)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <p>For 1 minute after drinking a potion of electricity retaliation,
+          you glow with a faint aura of electrical energy, and a creature that
+          touches you (such as by making an unarmed attack or using a spell with
+          a range of touch against you) takes electricity damage.</p>
+
+          <p>The aura deals [[/r 1[electricity]]] damage.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: potion-of-electricity-retaliation-minor
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - evocation
+          - magical
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.w0S1SIRsHgGdRh1d
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851106169
+      modifiedTime: 1686851106169
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: u3MT1A9lo66GdO7T
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.u3MT1A9lo66GdO7T'
+  - img: >-
+      systems/pf2e/icons/equipment/consumables/potions/potion-of-acid-retalliation.webp
+    name: Potion of Acid Retaliation (Minor)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <p>For 1 minute after drinking a potion of acid retaliation, you glow
+          with a faint aura of acid energy, and a creature that touches you
+          (such as by making an unarmed attack or using a spell with a range of
+          touch against you) takes acid damage.</p>
+
+          <p>The aura deals [[/r 1[acid]]] damage.</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: potion-of-acid-retaliation-minor
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - evocation
+          - magical
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.apGQcVMSRprFEeKt
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851115660
+      modifiedTime: 1686851115660
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: wNZ7BuPADZDnUOQy
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.wNZ7BuPADZDnUOQy'
+  - img: systems/pf2e/icons/equipment/consumables/oils/oil-of-potency.webp
+    name: Oil of Potency
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>When you apply this thick, viscous oil to a weapon or suit of
+          armor, that item immediately becomes magically potent. If the item is
+          a weapon, it temporarily becomes a <em>+1 striking weapon</em>, or, if
+          it's armor, it temporarily becomes <em>+1 resilient armor</em>. This
+          lasts for 1 minute.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: oil-of-potency
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 2
+      traits:
+        value:
+          - consumable
+          - magical
+          - oil
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 7
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-two-hands
+      consumableType:
+        value: oil
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.j2CHumvbjmlLQX2i
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851122168
+      modifiedTime: 1686851122168
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: UWrgJ7nYKKsoaAkd
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.UWrgJ7nYKKsoaAkd'
+  - img: systems/pf2e/icons/equipment/consumables/other-consumables/holy-water.webp
+    name: Holy Water
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Strike</p>
+
+          <hr />
+
+          <p>This vial contains water blessed by a good deity. You activate a
+          vial of <em>holy water</em> by throwing it as a Strike. It's a simple
+          thrown weapon with a range increment of 20 feet. Unlike an alchemical
+          bomb, it doesn't add the manipulate trait to the attack made with
+          it.</p>
+
+          <p><em>Holy water</em> deals 1d6 good damage and 1 good splash damage.
+          It damages only fiends, undead, and creatures that have a weakness to
+          good damage.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: Note
+          selector: '{item|_id}-damage'
+          text: >-
+            <p>Damages only fiends, undead, and creatures that have a weakness
+            to good damage</p>
+
+            <p>[[/r (1[splash])[good]]]{1 good splash damage}<p/>
+          title: '{item|name}'
+      slug: holy-water
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - divine
+          - good
+          - necromancy
+          - splash
+          - thrown
+        rarity: common
+        otherTags: []
+      quantity: 4
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 3
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: null
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: good
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 1
+      range: 20
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.z9T4c1hXwOotsMCp
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851127490
+      modifiedTime: 1686851314438
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 7xTZDS76Rrt6SV8R
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.7xTZDS76Rrt6SV8R'
+  - img: systems/pf2e/icons/equipment/consumables/potions/healing-potion.webp
+    name: Healing Potion (Minor)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A healing potion is a vial of a ruby-red liquid that imparts a
+          tingling sensation as the drinker's wounds heal rapidly. When you
+          drink a healing potion, you regain [[/r 1d8[healing]]]{1d8 Hit
+          Points}.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: healing-potion-minor
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - healing
+          - magical
+          - necromancy
+          - positive
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 5
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: 1d8
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851136765
+      modifiedTime: 1686851332978
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: YeN0gkLB0zfHqHsO
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.YeN0gkLB0zfHqHsO'
+  - img: systems/pf2e/icons/equipment/consumables/oils/oil-of-revelation.webp
+    name: Formulated Sunlight
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A leshy can derive nourishment from specially formulated bottles of
+          sunlight instead of natural sunlight.</p>
+      source:
+        value: 'Pathfinder Lost Omens: Character Guide'
+      rules: []
+      slug: formulated-sunlight
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - consumable
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 40
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: other
+      charges:
+        value: 7
+        max: 7
+      consume:
+        value: null
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.AqslI71DReZOzgAW
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851141943
+      modifiedTime: 1686851141943
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 2ai5MLxRPnIC2VzO
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.2ai5MLxRPnIC2VzO'
+  - img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/feather-token.webp
+    name: Feather Token (Holly Bush)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Each feather token appears to be a simple feather from some exotic
+          bird. The feather's shaft, dipped in gold, bears a single arcane rune.
+          Activating a feather token causes it to transform into another object,
+          which then can be used as normal for that object. Each feather can be
+          activated only once, with most of them permanently becoming the item
+          in their description.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p>When this feather is activated, it immediately transforms into a
+          living holly bush, filling a single square. This bush can provide
+          standard cover. In addition, the bush has 2d4 bright-red berries.
+          While holly berries are usually poisonous, these berries are infused
+          with beneficial magic. You can pick and eat a berry as an Interact
+          action to recover 1 Hit Point. Once plucked from the bush, a berry
+          becomes non-magical after a few seconds, so it doesn't heal you if you
+          don't eat it within the span of your Interact action.</p>
+
+          <p>If activated on soil, the plant continues to grow and thrive
+          (although it doesn't produce any more healing berries). If activated
+          elsewhere, it withers and dies within [[/r 1d4 #days]]{1d4 days}.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: feather-token-holly-bush
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 2
+      traits:
+        value:
+          - conjuration
+          - consumable
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 6
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: other
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.cwurQLvQaqjK70UI
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851151695
+      modifiedTime: 1686851151695
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: VxhV82IjJ3SE0ilN
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.VxhV82IjJ3SE0ilN'
+  - img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/cantrip-deck.webp
+    name: Cantrip Deck (Full Pack)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>In an effort to spread the knowledge of magic as widely as
+          possible, worshippers of Nethys discovered a way to bind cantrips into
+          cards accessible even to non-spellcasters. The deck contains thick
+          parchment cards, each roughly half the size of a playing card. In
+          precise, no-nonsense script, each card simply states the name of its
+          cantrip, color-coded based on its school.</p>
+
+          <p>This pack contains 24 cards-one of each cantrip in the Core
+          Rulebook.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span> or more
+          (envision, Interact)</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You envision your desired cantrip, causing
+          its card to rise to the top of the deck, and draw the card. The deck
+          casts that cantrip as a 1st-level spell, with a DC of 15 and a spell
+          attack modifier of +5. The card crumbles into dust as the cantrip
+          takes effect. The activation takes the same number of actions as the
+          cantrip you chose takes to cast.</p>
+
+          <hr />
+
+          <ul>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]{Acid
+          Splash}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{Chill
+          Touch}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.kl2q6JvBZwed4B6v]{Dancing
+          Lights}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{Daze}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect
+          Magic}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]{Disrupt
+          Undead}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.qwZBXN6zBoB9BHXE]{Divine
+          Lance}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf]{Electric
+          Arc}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.RA7VKcen3p56rVyZ]{Forbidding
+          Ward}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{Ghost
+          Sound}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{Guidance}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR]{Know
+          Direction}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{Mage
+          Hand}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{Message}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{Produce
+          Flame}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{Ray of
+          Frost}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.OhD2Z6rIGGD5ocZA]{Read
+          Aura}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Shield}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{Sigil}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]{Stabilize}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]{Tanglefoot}</em></li>
+
+          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Telekinetic
+          Projectile}</em></li>
+
+          </ul>
+      source:
+        value: Pathfinder Secrets of Magic
+      rules: []
+      slug: cantrip-deck-full-pack
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - evocation
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 20
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: other
+      charges:
+        value: 24
+        max: 24
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.xTdrhiLqFYUllrpK
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851162899
+      modifiedTime: 1686851162899
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: lloimgHsun5oJTj3
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.lloimgHsun5oJTj3'
+  - img: >-
+      systems/pf2e/icons/equipment/consumables/potions/silver-dragons-breath-potion.webp
+    name: Antivenom Potion
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This cloudy, white liquid helps protect against poisons. When you
+          drink an antivenom potion, you can immediately attempt a
+          @Check[type:flat|dc:10] to end any persistent poison damage you're
+          taking. In addition, for 1 minute after drinking the potion, you gain
+          a +1 bonus to Fortitude saving throws to avoid taking persistent
+          poison damage.</p>
+      source:
+        value: 'Pathfinder Adventure: Troubles in Otari'
+      rules: []
+      slug: antivenom-potion
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 2
+      traits:
+        value:
+          - consumable
+          - magical
+          - necromancy
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 10
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 6
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: '1'
+        max: '1'
+      consume:
+        value: null
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.N3jcmW5XzEJZQVtJ
+    effects: []
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851175406
+      modifiedTime: 1686851337947
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 87jr0XrofLWTvlWu
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.87jr0XrofLWTvlWu'
+  - _id: wNmNlLgBTLLEGfD0
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/cantrip-deck.webp
+    name: Cantrip Deck of Prestidigitation (5-pack)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}</p>
+
+          <hr />
+
+          <p>In an effort to spread the knowledge of magic as widely as
+          possible, worshippers of Nethys discovered a way to bind cantrips into
+          cards accessible even to non-spellcasters. The deck contains thick
+          parchment cards, each roughly half the size of a playing card. In
+          precise, no-nonsense script, each card simply states the name of its
+          cantrip, color-coded based on its school.</p>
+
+          <p>This pack contains 5 cards of a single common cantrip.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span> or more
+          (envision, Interact)</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You envision your desired cantrip, causing
+          its card to rise to the top of the deck, and draw the card. The deck
+          casts that cantrip as a 1st-level spell, with a DC of 15 and a spell
+          attack modifier of +5. The card crumbles into dust as the cantrip
+          takes effect. The activation takes the same number of actions as the
+          cantrip you chose takes to cast.</p>
+      source:
+        value: Pathfinder Secrets of Magic
+      rules: []
+      slug: cantrip-deck-5-pack
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.979-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - arcane
+          - divine
+          - evocation
+          - magical
+          - occult
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 5
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Object
+          img: systems/pf2e/icons/unidentified_item_icons/other-consumables.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: other
+      charges:
+        value: 5
+        max: 5
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.tLa4bewBhyqzi6Ow
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.301'
+      createdTime: 1686851186018
+      modifiedTime: 1686853159677
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!sYrKjBgc0HVvfX6E.wNmNlLgBTLLEGfD0'
+effects: []
+folder: null
+sort: 0
+flags:
+  core: {}
+system:
+  attributes: {}
+  details:
+    description: >-
+      <p>The Ganzi Fetchling Rahahksenwe is a Caravan vendor originally from
+      Arcadia who got recently relocated by a planar accident and is starting
+      her business for the second time. Her small Bag of holding has a number of
+      useful things she offers for barter in the wild or at the side of the
+      street.</p>
+
+      <p>She has expert knowledge about Magical items and offers Identification
+      services. Her customers describe her as a compassionate woman that has too
+      often given favors and ended up with little means as a consequence.</p>
+    level:
+      value: 0
+  lootSheetType: Merchant
+  hiddenWhenEmpty: false
+  schema:
+    version: 0.842
+    lastMigration:
+      datetime: '2023-06-20T09:31:23.979-07:00'
+      version:
+        schema: 0.842
+        foundry: '11.302'
+        system: 5.0.1
+  traits:
+    rarity: common
+    size:
+      value: med
+    value: []
+  customModifiers: {}
+ownership:
+  default: 1
+  sarkMXaT0ELIQ2fE: 3
+prototypeToken:
+  bar1:
+    attribute: attributes.hp
+  displayName: 20
+  displayBars: 40
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  actorLink: true
+  disposition: 0
+  name: Rahahksenwe the Wandering Peddler
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  bar2:
+    attribute: null
+  randomImg: false
+  light:
+    alpha: 0.25
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+  texture:
+    src: systems/pf2e/icons/default-icons/loot.svg
+    tint: null
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+_stats:
+  systemId: pf2e
+  systemVersion: 5.0.1
+  coreVersion: '11.302'
+  createdTime: 1686850696517
+  modifiedTime: 1687278696568
+  lastModifiedBy: eJdAkXPIlso4614X
+_key: '!actors!sYrKjBgc0HVvfX6E'
+

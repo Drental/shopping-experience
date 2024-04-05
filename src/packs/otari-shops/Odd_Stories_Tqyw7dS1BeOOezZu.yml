@@ -1,0 +1,1247 @@
+_id: Tqyw7dS1BeOOezZu
+name: Odd Stories
+type: loot
+img: systems/pf2e/icons/default-icons/loot.svg
+items:
+  - img: systems/pf2e/icons/equipment/staves/staff-of-fire.webp
+    name: Staff of Fire
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This staff resembles a blackened and burned length of ashen wood.
+          It smells faintly of soot and glows as if lit by embers. You can use
+          an Interact action to touch the tip of this staff to a torch, tinder,
+          or a flammable substance to ignite a flame.</p>
+
+          <p><strong>Activate</strong> Cast a Spell</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You expend a number of charges from the
+          staff to cast a spell from its list.</p>
+
+          <p><strong>Craft Requirements</strong> Supply one casting of all
+          listed levels of all listed spells.</p>
+
+          <ul>
+
+          <li><strong>Cantrip</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{Produce
+          Flame}</em></li>
+
+          <li><strong>1st</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Burning
+          Hands}</em></li>
+
+          </ul>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: staff-of-fire
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 3
+      traits:
+        value:
+          - evocation
+          - magical
+          - staff
+          - two-hand-d8
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: staff
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 60
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: club
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: ''
+      specific:
+        value: false
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.opfpl1JmKgrfds9P
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033970606
+      modifiedTime: 1687033970606
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: Gi9salxyOMVhOpxR
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.Gi9salxyOMVhOpxR'
+  - img: systems/pf2e/icons/equipment/staves/animal-staff.webp
+    name: Animal Staff
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This staff is topped with carved animal and monster heads. While
+          wielding the staff, you gain a +2 circumstance bonus to Nature checks
+          to identify animals.</p>
+
+          <p><strong>Activate</strong> Cast a Spell</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You expend a number of charges from the
+          staff to cast a spell from its list.</p>
+
+          <ul>
+
+          <li><strong>Cantrip</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR]{Know
+          Direction}</em></li>
+
+          <li><strong>1st</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.EE7Q5BHIrfWNCPtT]{Magic
+          Fang}</em>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{Summon
+          Animal}</em></li>
+
+          </ul>
+
+          <p><strong>Craft Requirements</strong> Supply one casting of all
+          listed levels of all listed spells.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          label: Animal Staff (identify animals)
+          predicate:
+            - target:trait:animal
+            - or:
+                - action:recall-knowledge
+                - action:identify
+          selector: nature
+          type: circumstance
+          value: 2
+      slug: animal-staff
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 4
+      traits:
+        value:
+          - divination
+          - magical
+          - staff
+          - two-hand-d8
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: staff
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 90
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: club
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: ''
+      specific:
+        value: false
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.WcuknnE3xYfSdbhm
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033975682
+      modifiedTime: 1687033975682
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: jc6sIZjHIqlWeSD2
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.jc6sIZjHIqlWeSD2'
+  - img: systems/pf2e/icons/equipment/staves/mentalist-staff.webp
+    name: Mentalist's Staff
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This polished wooden staff bears a swirling motif reminiscent of
+          the folds of a brain. While wielding the staff, you gain a +2
+          circumstance bonus to checks to identify mental magic.</p>
+
+          <p><strong>Activate</strong> Cast a Spell</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You expend a number of charges from the
+          staff to cast a spell from its list.</p>
+
+          <ul>
+
+          <li><strong>Cantrip</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{Daze}</em></li>
+
+          <li><strong>1st</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Mindlink}</em>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom
+          Pain}</em></li>
+
+          </ul>
+
+          <p><strong>Craft Requirements</strong> Supply one casting of all
+          listed levels of all listed spells.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          label: Mentalist's Staff (identifying mental magic)
+          predicate:
+            - action:identify-magic
+            - mental
+          selector: skill-check
+          type: circumstance
+          value: 2
+      slug: mentalists-staff
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 4
+      traits:
+        value:
+          - divination
+          - magical
+          - staff
+          - two-hand-d8
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: staff
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 90
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: club
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 0
+      strikingRune:
+        value: ''
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.xwiZBOjispKVZzGA
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033982265
+      modifiedTime: 1687033982265
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 9kMo1IhGVCIEecLW
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.9kMo1IhGVCIEecLW'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/basic-crafters-book.webp
+    name: Basic Crafter's Book
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This book contains the formulas for Crafting the 0-level common
+          items in Chapter 6 of the core rulebook.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: basic-crafters-book
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: ''
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.w4Hd6nunVVqw3GWj
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033987275
+      modifiedTime: 1687033987275
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: TT5s70cOUVJBUU9O
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.TT5s70cOUVJBUU9O'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/formula-book.webp
+    name: Formula Book (Blank)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A formula book holds the formulas necessary to make items other
+          than the common equipment from this chapter; alchemists typically get
+          one for free. Each formula book can hold the formulas for up to 100
+          different items. Formulas can also appear on parchment sheets,
+          tablets, and almost any other medium; there's no need for you to copy
+          them into a specific book as long as you can keep them on hand to
+          reference them.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: formula-book-blank
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: ''
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.qCEOZ6109Yo34tRx
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033991988
+      modifiedTime: 1687033991988
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: DhIMYdTwAkKsFK37
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.DhIMYdTwAkKsFK37'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/spellbook.webp
+    name: Spellbook (Blank)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A spellbook holds the written knowledge necessary to learn and
+          prepare various spells, a necessity for wizards (who typically get one
+          for free) and a useful luxury for other spellcasters looking to learn
+          additional spells. Each spellbook can hold up to 100 spells. The Price
+          listed is for a blank spellbook.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: spellbook-blank
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033995540
+      modifiedTime: 1687033995540
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: i84pKR9cqlPiqX89
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.i84pKR9cqlPiqX89'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/writing-set.webp
+    name: Writing Set
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Using a writing set, you can draft correspondence and scribe
+          scrolls. A set includes stationery, including a variety of paper and
+          parchment, as well as ink, a quill or inkpen, sealing wax, and a
+          simple seal. If you've written a large amount, you can refill your kit
+          with extra ink and paper.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: writing-set
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.QJb8S927Yj81EgHH
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033999882
+      modifiedTime: 1687033999882
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 13QTj8C61ZQ2i8p6
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.13QTj8C61ZQ2i8p6'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/ink-and-paper.webp
+    name: Writing Set (Extra Ink and Paper)
+    system:
+      description:
+        gm: ''
+        value: <p>Extra ink and paper to refill your writing set.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: writing-set-extra-ink-and-paper
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.3yLu12TCwN8utY0u
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687034003370
+      modifiedTime: 1687034003370
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: qLvtTXfvG00zfpTm
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.qLvtTXfvG00zfpTm'
+  - img: systems/pf2e/icons/equipment/staves/poisoners-staff.webp
+    name: Poisoner's Staff
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This gnarled staff is covered with thorns and coated with a
+          glistening lacquer that acts as a minor irritant. While holding the
+          staff, you aren't affected by its coating or thorns, and you reduce
+          the DC of your flat checks to overcome persistent poison damage from
+          15 to 13.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong>
+          @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a
+          Spell}</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You expend a number of charges from the
+          staff to cast a spell from its list.</p>
+
+          <hr />
+
+          <ul>
+
+          <li><strong>Cantrips</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{Guidance}</em></li>
+
+          <li><strong>1st</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.QqxwHeYEVylkYjsO]{Detect
+          Poison}</em>,
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.DYdvMZ8G2LiSLVWw]{Spider
+          Sting}</em></li>
+
+          </ul>
+
+          <hr />
+
+          <p><strong>Craft Requirements</strong> Supply one casting of all
+          listed levels of all listed spells.</p>
+      source:
+        value: 'Pathfinder #160: Assault on Hunting Lodge Seven'
+      rules: []
+      slug: poisoners-staff
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 4
+      traits:
+        value:
+          - conjuration
+          - magical
+          - necromancy
+          - staff
+          - two-hand-d8
+        rarity: uncommon
+        otherTags: []
+      quantity: 1
+      baseItem: staff
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 90
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: club
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 0
+      strikingRune:
+        value: ''
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.SeZfwtBYwmxKrphR
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687034010213
+      modifiedTime: 1687034010213
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: s2SJgM5rUd6ndesK
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.s2SJgM5rUd6ndesK'
+  - img: >-
+      systems/pf2e/icons/equipment/treasure/art-objects/minor-art-object/illustrated-book.webp
+    name: Illustrated book
+    system:
+      description:
+        gm: ''
+        value: ''
+      source:
+        value: Pathfinder Gamemastery Guide
+      rules: []
+      slug: illustrated-book
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.942-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: ''
+    type: treasure
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.G5WuYX1ghrZcJ1J1
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687034015535
+      modifiedTime: 1687034015535
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: xoyMCt7pDyP04NOU
+    _key: '!actors.items!Tqyw7dS1BeOOezZu.xoyMCt7pDyP04NOU'
+effects: []
+folder: null
+sort: 0
+flags:
+  pf2e:
+    editLoot:
+      value: false
+  exportSource:
+    world: abominationvaults
+    system: pf2e
+    coreVersion: 0.8.7
+    systemVersion: 2.4.0.6221
+  core: {}
+system:
+  attributes: {}
+  details:
+    description: ''
+    level:
+      value: 0
+  lootSheetType: Merchant
+  hiddenWhenEmpty: false
+  schema:
+    version: 0.842
+    lastMigration:
+      datetime: '2023-06-20T09:31:23.942-07:00'
+      version:
+        schema: 0.842
+        foundry: '11.302'
+        system: 5.0.1
+  traits:
+    rarity: common
+    size:
+      value: med
+    value: []
+ownership:
+  default: 1
+  sarkMXaT0ELIQ2fE: 3
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  name: Odd Stories
+  displayName: 20
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: true
+  disposition: 0
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+  texture:
+    src: systems/pf2e/icons/default-icons/loot.svg
+    tint: null
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+_stats:
+  systemId: pf2e
+  systemVersion: 5.0.1
+  coreVersion: '11.302'
+  createdTime: 1686850703482
+  modifiedTime: 1687278703021
+  lastModifiedBy: eJdAkXPIlso4614X
+_key: '!actors!Tqyw7dS1BeOOezZu'
+

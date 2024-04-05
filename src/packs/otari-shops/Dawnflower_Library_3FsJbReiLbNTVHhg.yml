@@ -1,0 +1,4601 @@
+_id: 3FsJbReiLbNTVHhg
+name: Dawnflower Library
+type: loot
+img: systems/pf2e/icons/default-icons/loot.svg
+items:
+  - img: systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp
+    name: Gold Pieces
+    system:
+      description:
+        gm: ''
+        value: ''
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: gold-pieces
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 4
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: 0
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: worn
+      stackGroup: coins
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: ''
+    type: treasure
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.B6B7tBWJSqOBz5zz
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033764042
+      modifiedTime: 1687033764042
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: v8kXgz0P9Tb28sP5
+    _key: '!actors.items!3FsJbReiLbNTVHhg.v8kXgz0P9Tb28sP5'
+  - img: systems/pf2e/icons/equipment/weapons/rapier.webp
+    name: Rapier
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The rapier is a long and thin piercing blade with a basket hilt. It
+          is prized among many as a dueling weapon.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: rapier
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - deadly-d8
+          - disarm
+          - finesse
+        rarity: common
+        otherTags: []
+      quantity: 3
+      baseItem: rapier
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Rapier
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: sword
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.tH5GirEy7YB3ZgCk
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033769512
+      modifiedTime: 1687033922991
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: VnhvE3qnMrJT7Lpw
+    _key: '!actors.items!3FsJbReiLbNTVHhg.VnhvE3qnMrJT7Lpw'
+  - img: systems/pf2e/icons/equipment/weapons/longbow.webp
+    name: Longbow
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This 5‑foot‑tall bow, usually made of a single piece of elm,
+          hickory, or yew, has a powerful draw and is excellent at propelling
+          arrows with great force and at an extreme distance. You must use two
+          hands to fire a longbow, and it can't be used while mounted.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: longbow
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - deadly-d10
+          - volley-30
+        rarity: common
+        otherTags: []
+      quantity: 3
+      baseItem: longbow
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '2'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 6
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Longbow
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-plus-hands
+      category: martial
+      group: bow
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: 100
+      reload:
+        value: '0'
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.MVAWttmT0QDa7LsV
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033773036
+      modifiedTime: 1687033926273
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: xSZ2yRnecS7IY44Y
+    _key: '!actors.items!3FsJbReiLbNTVHhg.xSZ2yRnecS7IY44Y'
+  - img: systems/pf2e/icons/equipment/weapons/trident.webp
+    name: Trident
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This three‑pronged, spear‑like weapon typically has a 4‑foot shaft.
+          Like a spear, it can be wielded with one hand or thrown.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: trident
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - thrown-20
+        rarity: common
+        otherTags: []
+      quantity: 3
+      baseItem: trident
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Trident
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: spear
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.FJrsDoaIXksVjld9
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033776405
+      modifiedTime: 1687033929949
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: zLOlGT7CqmDdwdBQ
+    _key: '!actors.items!3FsJbReiLbNTVHhg.zLOlGT7CqmDdwdBQ'
+  - img: systems/pf2e/icons/equipment/weapons/scimitar.webp
+    name: Scimitar
+    system:
+      description:
+        gm: ''
+        value: <p>This one-handed curved blade is sharp on one side.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scimitar
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - forceful
+          - sweep
+        rarity: common
+        otherTags: []
+      quantity: 3
+      baseItem: scimitar
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Scimitar
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: sword
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: slashing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.grmaV4GdoGD7sKbn
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033779839
+      modifiedTime: 1687033933363
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: ceFSYW56AG1UGNsL
+    _key: '!actors.items!3FsJbReiLbNTVHhg.ceFSYW56AG1UGNsL'
+  - img: systems/pf2e/icons/equipment/staves/staff-of-healing.webp
+    name: Staff of Healing
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Made of smooth, white wood, this staff is capped at each end with a
+          golden cross adorned with a multitude of ruby cabochons. A staff of
+          healing grants an item bonus to the Hit Points you restore anytime you
+          cast the heal spell using your own spell slots or using charges from
+          the staff.</p>
+
+          <p><strong>Activate</strong> Cast a Spell</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You expend a number of charges from the
+          staff to cast a spell from its list.</p>
+
+          <p><strong>Craft Requirements</strong> Supply one casting of all
+          listed levels of all listed spells.</p>
+
+          <p>The item bonus granted to <em>heal</em> spells is +1.</p>
+
+          <ul>
+
+          <li><strong>Cantrip</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]{Stabilize}</em></li>
+
+          <li><strong>1st</strong>
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</em></li>
+
+          </ul>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: staff-of-healing
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 4
+      traits:
+        value:
+          - magical
+          - necromancy
+          - staff
+          - two-hand-d8
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: staff
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 90
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: club
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: ''
+      specific:
+        value: false
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.3OkOKxCee9WruGU5
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033783680
+      modifiedTime: 1687033783680
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: uLiqmpdD8x9hKuOL
+    _key: '!actors.items!3FsJbReiLbNTVHhg.uLiqmpdD8x9hKuOL'
+  - img: systems/pf2e/icons/equipment/consumables/potions/healing-potion.webp
+    name: Healing Potion (Minor)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A healing potion is a vial of a ruby-red liquid that imparts a
+          tingling sensation as the drinker's wounds heal rapidly. When you
+          drink a healing potion, you regain [[/r 1d8[healing]]]{1d8 Hit
+          Points}.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: healing-potion-minor
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - healing
+          - magical
+          - necromancy
+          - positive
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 10
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: 1d8
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033788343
+      modifiedTime: 1687033809101
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: aG0vYZvZKzpC4Bm2
+    _key: '!actors.items!3FsJbReiLbNTVHhg.aG0vYZvZKzpC4Bm2'
+  - img: systems/pf2e/icons/equipment/consumables/potions/healing-potion.webp
+    name: Healing Potion (Lesser)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A healing potion is a vial of a ruby-red liquid that imparts a
+          tingling sensation as the drinker's wounds heal rapidly. When you
+          drink a healing potion, you regain [[/r (2d8+5)[healing]]]{2d8+5 Hit
+          Points}.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: healing-potion-lesser
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 3
+      traits:
+        value:
+          - consumable
+          - healing
+          - magical
+          - necromancy
+          - positive
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 8
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 12
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: 2d8+5
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033789931
+      modifiedTime: 1687033811367
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: Lna8GKAnK7QqYBeJ
+    _key: '!actors.items!3FsJbReiLbNTVHhg.Lna8GKAnK7QqYBeJ'
+  - img: systems/pf2e/icons/equipment/consumables/potions/healing-potion.webp
+    name: Healing Potion (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A healing potion is a vial of a ruby-red liquid that imparts a
+          tingling sensation as the drinker's wounds heal rapidly. When you
+          drink a healing potion, you regain [[/r (3d8+10)[healing]]]{3d8+10 Hit
+          Points}.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: healing-potion-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 6
+      traits:
+        value:
+          - consumable
+          - healing
+          - magical
+          - necromancy
+          - positive
+          - potion
+        rarity: common
+        otherTags: []
+      quantity: 5
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 50
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: potion
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: 3d8+10
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.G7haQ5gDt30ftJLC
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033791410
+      modifiedTime: 1687033812328
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: tvvvb2pAtSFmaAMh
+    _key: '!actors.items!3FsJbReiLbNTVHhg.tvvvb2pAtSFmaAMh'
+  - img: systems/pf2e/icons/equipment/consumables/other-consumables/holy-water.webp
+    name: Holy Water
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Strike</p>
+
+          <hr />
+
+          <p>This vial contains water blessed by a good deity. You activate a
+          vial of <em>holy water</em> by throwing it as a Strike. It's a simple
+          thrown weapon with a range increment of 20 feet. Unlike an alchemical
+          bomb, it doesn't add the manipulate trait to the attack made with
+          it.</p>
+
+          <p><em>Holy water</em> deals 1d6 good damage and 1 good splash damage.
+          It damages only fiends, undead, and creatures that have a weakness to
+          good damage.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: Note
+          selector: '{item|_id}-damage'
+          text: >-
+            <p>Damages only fiends, undead, and creatures that have a weakness
+            to good damage</p>
+
+            <p>[[/r (1[splash])[good]]]{1 good splash damage}<p/>
+          title: '{item|name}'
+      slug: holy-water
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - divine
+          - good
+          - necromancy
+          - splash
+          - thrown
+        rarity: common
+        otherTags: []
+      quantity: 10
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 3
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: null
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: good
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 1
+      range: 20
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.z9T4c1hXwOotsMCp
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033796152
+      modifiedTime: 1687033806080
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: NY4g815JpHq1T6H4
+    _key: '!actors.items!3FsJbReiLbNTVHhg.NY4g815JpHq1T6H4'
+  - _id: CEu45SbL9pBKXee2
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Heal (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/heal.webp
+        name: Heal
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You channel positive energy to heal the living or damage the
+              undead. If the target is a willing living creature, you restore
+              1d8 Hit Points. If the target is undead, you deal that amount of
+              positive damage to it, and it gets a basic Fortitude save. The
+              number of actions you spend when Casting this Spell determines its
+              targets, range, area, and other parameters.</p>
+
+              <p><span class="pf2-icon">1</span> <strong>(somatic)</strong> The
+              spell has a range of touch.</p>
+
+              <p><span class="pf2-icon">2</span> <strong>(verbal,
+              somatic)</strong> The spell has a range of 30 feet. If you're
+              healing a living creature, increase the Hit Points restored by
+              8</p>
+
+              <p><span class="pf2-icon">3</span> <strong>(material, somatic,
+              verbal)</strong> You disperse positive energy in a 30-foot
+              emanation. This targets all living and undead creatures in the
+              burst.</p>
+
+              <hr />
+
+              <p><strong>Heightened (+1)</strong> The amount of healing or
+              damage increases by 1d8, and the extra healing for the 2-action
+              version increases by 8.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: heal
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - healing
+              - positive
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: heal
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+              - primal
+            custom: ''
+          school:
+            value: necromancy
+          components:
+            focus: false
+            material: false
+            somatic: false
+            verbal: false
+          materials:
+            value: ''
+          target:
+            value: 1 willing living creature or 1 undead
+          range:
+            value: varies
+          area: null
+          time:
+            value: 1 to 3
+          duration:
+            value: ''
+          damage:
+            value:
+              '0':
+                applyMod: false
+                type:
+                  categories: []
+                  value: positive
+                value: 1d8
+          save:
+            value: fortitude
+            basic: basic
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          heightening:
+            damage:
+              '0': 1d8
+            interval: 1
+            type: interval
+          overlays:
+            37gy7l19tik74o4s:
+              _id: 37gy7l19tik74o4s
+              name: Heal (vs. Living)
+              overlayType: override
+              sort: 2
+              system:
+                components:
+                  somatic: true
+                  verbal: true
+                damage:
+                  value:
+                    '0':
+                      value: 1d8+8
+                heightening:
+                  damage:
+                    '0': 1d8+8
+                range:
+                  value: 30 feet
+                save:
+                  basic: ''
+                  value: ''
+                time:
+                  value: '2'
+            7qdtetowq348s9oc:
+              _id: 7qdtetowq348s9oc
+              overlayType: override
+              sort: 1
+              system:
+                components:
+                  somatic: true
+                range:
+                  value: touch
+                time:
+                  value: '1'
+            7vbvdrv2cl87sqta:
+              _id: 7vbvdrv2cl87sqta
+              overlayType: override
+              sort: 4
+              system:
+                area:
+                  type: emanation
+                  value: 30
+                components:
+                  material: true
+                  somatic: true
+                  verbal: true
+                range:
+                  value: ''
+                target:
+                  value: all living and undead creatures
+                time:
+                  value: '3'
+            lfxcoz2d3f8j2zq1:
+              _id: lfxcoz2d3f8j2zq1
+              name: Heal (vs. Undead)
+              overlayType: override
+              sort: 3
+              system:
+                components:
+                  somatic: true
+                  verbal: true
+                range:
+                  value: 30 feet
+                spellType:
+                  value: save
+                target:
+                  value: 1 undead
+                time:
+                  value: '2'
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033832977
+      modifiedTime: 1687033904261
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.CEu45SbL9pBKXee2'
+  - _id: g5aUb4DKi1FMdpwF
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Mending (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{Mending}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - arcane
+          - divine
+          - occult
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/mending.webp
+        name: Mending
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You repair the target item. You restore 5 Hit Points per spell
+              level to the target, potentially removing the
+              @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken}
+              condition if this repairs it past the item's Broken Threshold. You
+              can't replace lost pieces or repair an object that's been
+              completely destroyed.</p>
+
+              <hr />
+
+              <p><strong>Heightened (2nd)</strong> You can target a non-magical
+              object of 1 Bulk or less.</p>
+
+              <p><strong>Heightened (3rd)</strong> You can target a non-magical
+              object of 2 Bulk or less, or a magical object of 1 Bulk or
+              less.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: mending
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value: []
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - divine
+              - occult
+              - primal
+          school:
+            value: transmutation
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: non-magical object of light Bulk or less
+          range:
+            value: touch
+          area: null
+          time:
+            value: 10 minutes
+          duration:
+            value: ''
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          heightening:
+            levels:
+              '2':
+                target:
+                  value: non-magical object of 1 Bulk or less
+              '3':
+                target:
+                  value: >-
+                    non-magical object of 2 Bulk or less, or a magical object of
+                    1 Bulk or less
+            type: fixed
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033837464
+      modifiedTime: 1687033903967
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.g5aUb4DKi1FMdpwF'
+  - _id: m0kdoHtCIMBwssXe
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Protection (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.gMODOGamz88rgHuf]{Protection}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+          - occult
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/protection.webp
+        name: Protection
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You ward a creature against a specified alignment. Choose
+              chaotic, evil, good, or lawful when you cast this spell. The
+              target gains a +1 status bonus to Armor Class and saving throws
+              against creatures and effects of the chosen alignment. This bonus
+              increases to +3 against effects from such creatures that would
+              directly control the target and against attacks made by summoned
+              creatures of the chosen alignment.</p>
+
+              <p>This spell gains the trait that opposes the alignment you
+              chose-if you choose chaos, this spell gains the lawful trait, and
+              vice versa; if you choose evil, this spell gains the good trait,
+              and vice versa.</p>
+
+              <p>@UUID[Compendium.pf2e.spell-effects.Item.RawLEPwyT5CtCZ4D]{Spell
+              Effect: Protection}</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: protection
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value: []
+            rarity: uncommon
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+              - occult
+          school:
+            value: abjuration
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: 1 creature
+          range:
+            value: touch
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: 1 minute
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.gMODOGamz88rgHuf
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033842257
+      modifiedTime: 1687033903663
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.m0kdoHtCIMBwssXe'
+  - _id: LiRQDfPwEK8jCQbm
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Harm (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/harm.webp
+        name: Harm
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You channel negative energy to harm the living or heal the
+              undead. If the target is a living creature, you deal 1d8 negative
+              damage to it, and it gets a basic Fortitude save. If the target is
+              a willing undead creature, you restore that amount of Hit Points.
+              The number of actions you spend when Casting this Spell determines
+              its targets, range, area, and other parameters.</p>
+
+              <p><span class="pf2-icon">1</span> <strong>(somatic)</strong> The
+              spell has a range of touch.</p>
+
+              <p><span class="pf2-icon">2</span> <strong>(verbal,
+              somatic)</strong> The spell has a range of 30 feet. If you're
+              healing an undead creature, increase the Hit Points restored by
+              8.</p>
+
+              <p><span class="pf2-icon">3</span> <strong>(material, verbal,
+              somatic)</strong> You disperse negative energy in a 30-foot
+              emanation. This targets all living and undead creatures in the
+              area.</p>
+
+              <hr />
+
+              <p><strong>Heightened (+1)</strong> The amount of healing or
+              damage increases by 1d8, and the extra healing for the 2-action
+              version increases by 8.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: harm
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - negative
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: save
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+          school:
+            value: necromancy
+          components:
+            focus: false
+            material: false
+            somatic: false
+            verbal: false
+          materials:
+            value: ''
+          target:
+            value: 1 living creature or 1 willing undead creature
+          range:
+            value: varies
+          area: null
+          time:
+            value: 1 to 3
+          duration:
+            value: ''
+          damage:
+            value:
+              '0':
+                applyMod: false
+                type:
+                  categories: []
+                  value: negative
+                value: 1d8
+          save:
+            value: fortitude
+            basic: basic
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          heightening:
+            damage:
+              '0': 1d8
+            interval: 1
+            type: interval
+          overlays:
+            4gyp3qlsv5ywdyjq:
+              _id: 4gyp3qlsv5ywdyjq
+              name: Harm (vs. Undead)
+              overlayType: override
+              sort: 3
+              system:
+                components:
+                  somatic: true
+                  verbal: true
+                damage:
+                  value:
+                    '0':
+                      value: 1d8+8
+                heightening:
+                  damage:
+                    '0': 1d8+8
+                range:
+                  value: 30 feet
+                save:
+                  basic: ''
+                  value: ''
+                spellType:
+                  value: heal
+                target:
+                  value: 1 willing undead creature
+                time:
+                  value: '2'
+            pq7cxntbz4s8g5ik:
+              _id: pq7cxntbz4s8g5ik
+              overlayType: override
+              sort: 1
+              system:
+                components:
+                  somatic: true
+                range:
+                  value: touch
+                time:
+                  value: '1'
+            rvhoa43rqqqp8izn:
+              _id: rvhoa43rqqqp8izn
+              overlayType: override
+              sort: 4
+              system:
+                area:
+                  type: emanation
+                  value: 30
+                components:
+                  material: true
+                  somatic: true
+                  verbal: true
+                range:
+                  value: ''
+                target:
+                  value: all living and undead creatures
+                time:
+                  value: '3'
+            z04svm1cvfcxtplb:
+              _id: z04svm1cvfcxtplb
+              name: Harm (vs. Living)
+              overlayType: override
+              sort: 2
+              system:
+                components:
+                  somatic: true
+                  verbal: true
+                range:
+                  value: 30 feet
+                target:
+                  value: 1 living creature
+                time:
+                  value: '2'
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033846561
+      modifiedTime: 1687033903362
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.LiRQDfPwEK8jCQbm'
+  - _id: bO8NHQaRn89bsMQy
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Sanctuary (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.8xRzLhwGL7Dgy3EZ]{Sanctuary}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+          - occult
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/sanctuary.webp
+        name: Sanctuary
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You ward a creature with protective energy that deters enemy
+              attacks. Creatures attempting to attack the target must attempt a
+              Will save each time. If the target uses a hostile action, the
+              spell ends.</p>
+
+              <hr /><strong>Critical Success</strong> Sanctuary ends.
+
+              <p><strong>Success</strong> The creature can attempt its attack
+              and any other attacks against the target this turn.</p>
+
+              <p><strong>Failure</strong> The creature can't attack the target
+              and wastes the action. It can't attempt further attacks against
+              the target this turn.</p>
+
+              <p><strong>Critical Failure</strong> The creature wastes the
+              action and can't attempt to attack the target for the rest of
+              sanctuary's duration.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: sanctuary
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value: []
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+              - occult
+          school:
+            value: abjuration
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: 1 creature
+          range:
+            value: touch
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: 1 minute
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.8xRzLhwGL7Dgy3EZ
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033851155
+      modifiedTime: 1687033903060
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.bO8NHQaRn89bsMQy'
+  - _id: LDkS8ygpi6aNF33X
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Command (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - arcane
+          - divine
+          - occult
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/command.webp
+        name: Command
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You shout a command that's hard to ignore. You can command the
+              target to approach you, run away (as if it had the
+              @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}
+              condition), release what it's holding, drop
+              @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone},
+              or stand in place. It can't Delay or take any reactions until it
+              has obeyed your command. The effects depend on the target's Will
+              save.</p>
+
+              <hr /><strong>Success</strong> The creature is unaffected.
+
+              <p><strong>Failure</strong> For the first action on its next turn,
+              the creature must use a single action to do as you command.</p>
+
+              <p><strong>Critical Failure</strong> The target must use all its
+              actions on its next turn to obey your command.</p>
+
+              <hr /><strong>Heightened (5th)</strong> You can target up to 10
+              creatures.
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: command
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - auditory
+              - linguistic
+              - mental
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: save
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - divine
+              - occult
+          school:
+            value: enchantment
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: 1 creature
+          range:
+            value: 30 feet
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: until the end of the target's next turn
+          damage:
+            value: {}
+          save:
+            value: will
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          heightening:
+            levels:
+              '5':
+                target:
+                  value: 10 creatures
+            type: fixed
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033855257
+      modifiedTime: 1687033902740
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.LDkS8ygpi6aNF33X'
+  - _id: Kr0FhsNluTCk24Af
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Bless (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+          - occult
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/bless.webp
+        name: Bless
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>Blessings from beyond help your companions strike true. You and
+              your allies gain a +1 status bonus to attack rolls while within
+              the emanation. Once per turn, starting the turn after you cast
+              bless, you can use a single action, which has the concentrate
+              trait, to increase the emanation's radius by 5 feet.</p>
+
+              <p>Bless can counteract
+              <em>@UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{Bane}</em>.</p>
+
+              <p>@UUID[Compendium.pf2e.spell-effects.Item.Gqy7K6FnbLtwGpud]{Spell
+              Effect: Bless}</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: bless
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - mental
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+              - occult
+          school:
+            value: enchantment
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: you and allies in the area
+          range:
+            value: ''
+          area:
+            type: emanation
+            value: 5
+          time:
+            value: '2'
+          duration:
+            value: 1 minute
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: true
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033859161
+      modifiedTime: 1687033902431
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.Kr0FhsNluTCk24Af'
+  - _id: OkL4ujfJsONkKXq9
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Bane (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{Bane}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+          - occult
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/bane.webp
+        name: Bane
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You fill the minds of your enemies with doubt.</p>
+
+              <p>Enemies in the area must succeed at a Will save or take a -1
+              status penalty to attack rolls as long as they are in the
+              area.</p>
+
+              <p>Once per turn, starting the turn after you cast bane, you can
+              use a single action, which has the concentrate trait, to increase
+              the emanation's radius by 5 feet and force enemies in the area
+              that weren't yet affected to attempt another saving throw.</p>
+
+              <p>Bane can counteract
+              <em>@UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}</em>.</p>
+
+              <p>@UUID[Compendium.pf2e.spell-effects.Item.UTLp7omqsiC36bso]{Spell
+              Effect: Bane}</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: bane
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - mental
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: save
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+              - occult
+          school:
+            value: enchantment
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: enemies in the area
+          range:
+            value: ''
+          area:
+            type: emanation
+            value: 5
+          time:
+            value: '2'
+          duration:
+            value: 1 minute
+          damage:
+            value: {}
+          save:
+            value: will
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: true
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033862116
+      modifiedTime: 1687033902114
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.OkL4ujfJsONkKXq9'
+  - _id: e3dqbdQD3Kb8EEdT
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Alarm (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.4WAib3GichxLjp5p]{Alarm}</em></p><hr
+          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - arcane
+          - divine
+          - occult
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/alarm.webp
+        name: Alarm
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You ward an area to alert you when creatures enter without your
+              permission. When you cast alarm, select a password. Whenever a
+              Small or larger corporeal creature enters the spell's area without
+              speaking the password, alarm sends your choice of a mental alert
+              (in which case the spell gains the mental trait) or an audible
+              alarm with the sound and volume of a hand bell (in which case the
+              spell gains the auditory trait). Either option automatically
+              awakens you, and the bell allows each creature in the area to
+              attempt a DC 15 Perception check to wake up. A creature aware of
+              the alarm must succeed at a Stealth check against the spell's DC
+              or trigger the spell when moving into the area.</p>
+
+              <hr />
+
+              <p><strong>Heightened (3rd)</strong> You can specify criteria for
+              which creatures sound the alarm spell-for instance, orcs or masked
+              people.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: alarm
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value: []
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - divine
+              - occult
+              - primal
+          school:
+            value: abjuration
+          components:
+            focus: false
+            material: true
+            somatic: true
+            verbal: true
+          materials:
+            value: 3 gp silver bell focus
+          target:
+            value: ''
+          range:
+            value: touch
+          area:
+            type: burst
+            value: 20
+          time:
+            value: 10 minutes
+          duration:
+            value: 8 hours
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.4WAib3GichxLjp5p
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033866685
+      modifiedTime: 1687033901781
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.e3dqbdQD3Kb8EEdT'
+  - _id: CAYK3Qu216g0tFoF
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Magic Weapon (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]{Magic
+          Weapon}</em></p><hr /><p>Casting a Spell from a scroll requires
+          holding the scroll in one hand and activating it with a Cast a Spell
+          activity using the normal number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - arcane
+          - divine
+          - occult
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/magic-weapon.webp
+        name: Magic Weapon
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>The weapon glimmers with magic and energy. The target becomes a
+              +1 striking weapon, gaining a +1 item bonus to attack rolls and
+              increasing the number of weapon damage dice to two.</p>
+
+              <p>@UUID[Compendium.pf2e.spell-effects.Item.GnWkI3T3LYRlm3X8]{Spell
+              Effect: Magic Weapon}</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: magic-weapon
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value: []
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - divine
+              - occult
+          school:
+            value: transmutation
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: 1 weapon that is unattended or wielded by you or a willing ally
+          range:
+            value: touch
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: 1 minute
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033872322
+      modifiedTime: 1687033901477
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.CAYK3Qu216g0tFoF'
+  - _id: BYKuogxysjjjCsd2
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Pet Cache (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.F1nlmqOIucch3Cmt]{Pet
+          Cache}</em></p><hr /><p>Casting a Spell from a scroll requires holding
+          the scroll in one hand and activating it with a Cast a Spell activity
+          using the normal number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - arcane
+          - divine
+          - occult
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/pet-cache.webp
+        name: Pet Cache
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You open your cloak or create a gap with your hands, drawing
+              the target into a pocket dimension just large enough for its basic
+              comfort. No other creature can enter this extradimensional space,
+              and the target can bring along objects only if they were designed
+              to be worn by a creature of its kind. The space has enough air,
+              food, and water to sustain the target for the duration.</p>
+
+              <p>You can
+              @UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{Dismiss}
+              the spell. The spell also ends if you die or enter an
+              extradimensional space. When the spell ends, the target reappears
+              in the nearest unoccupied space (outside of any extradimensional
+              space you may have entered).</p>
+          source:
+            value: Pathfinder Advanced Player's Guide
+          rules: []
+          slug: pet-cache
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - extradimensional
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - divine
+              - occult
+              - primal
+          school:
+            value: conjuration
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: false
+          materials:
+            value: ''
+          target:
+            value: 1 willing creature that is your animal companion or familiar
+          range:
+            value: touch
+          area: null
+          time:
+            value: '1'
+          duration:
+            value: 8 hours
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          prepared:
+            value: false
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.F1nlmqOIucch3Cmt
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033877462
+      modifiedTime: 1687033901195
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.BYKuogxysjjjCsd2'
+  - _id: SWU400UarFAyidAD
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Purify Food and Drink (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.qXTB7Ec9yYh5JPPV]{Purify
+          Food and Drink}</em></p><hr /><p>Casting a Spell from a scroll
+          requires holding the scroll in one hand and activating it with a Cast
+          a Spell activity using the normal number of actions for that
+          spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/purify-food-and-drink.webp
+        name: Purify Food and Drink
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You remove toxins and contaminations from food and drink,
+              making them safe to consume. This spell doesn't prevent future
+              contamination, natural decay, or spoilage. One cubic foot of
+              liquid is roughly 8 gallons.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: purify-food-and-drink
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value: []
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+              - primal
+          school:
+            value: necromancy
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: 1 cubic foot of contaminated food or water
+          range:
+            value: touch
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: ''
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.qXTB7Ec9yYh5JPPV
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033882222
+      modifiedTime: 1687033900896
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.SWU400UarFAyidAD'
+  - _id: IezxsJL3yk8tDk9j
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Spirit Link (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.yHujiDQPdtXW797e]{Spirit
+          Link}</em></p><hr /><p>Casting a Spell from a scroll requires holding
+          the scroll in one hand and activating it with a Cast a Spell activity
+          using the normal number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+          - occult
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/spirit-link.webp
+        name: Spirit Link
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You form a spiritual link with another creature, taking in its
+              pain. When you Cast this Spell and at the start of each of your
+              turns, if the target is below maximum Hit Points, it regains 2 Hit
+              Points (or the difference between its current and maximum Hit
+              Points, if that's lower). You lose as many Hit Points as the
+              target regained.</p>
+
+              <p>This is a spiritual transfer, so no effects apply that would
+              increase the Hit Points the target regains or decrease the Hit
+              Points you lose. This transfer also ignores any temporary Hit
+              Points you or the target have. Since this effect doesn't involve
+              positive or negative energy, spirit link works even if you or the
+              target is undead. While the duration persists, you gain no benefit
+              from regeneration or fast healing. You can Dismiss this spell, and
+              if you're ever at 0 Hit Points, spirit link ends
+              automatically.</p>
+
+              <hr />
+
+              <p><strong>Heightened (+1)</strong> The number of Hit Points
+              transferred each time increases by 2.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: spirit-link
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - healing
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: heal
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+              - occult
+          school:
+            value: necromancy
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: 1 willing creature
+          range:
+            value: 30 feet
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: 10 minutes
+          damage:
+            value:
+              9k8ayqgvgultdghx:
+                applyMod: false
+                type:
+                  categories: []
+                  subtype: ''
+                  value: healing
+                value: '2'
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          heightening:
+            damage:
+              9k8ayqgvgultdghx: '2'
+            interval: 1
+            type: interval
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.yHujiDQPdtXW797e
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033889381
+      modifiedTime: 1687033900595
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.IezxsJL3yk8tDk9j'
+  - _id: LDOwLpElKCdrlwND
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Thoughtful Gift (Level 1)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.qTr2oCgIXl703Whb]{Thoughtful
+          Gift}</em></p><hr /><p>Casting a Spell from a scroll requires holding
+          the scroll in one hand and activating it with a Cast a Spell activity
+          using the normal number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-1st-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.947-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 1
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - arcane
+          - divine
+          - occult
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/thoughtful-gift.webp
+        name: Thoughtful Gift
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You teleport one object of light or negligible Bulk held in
+              your hand to the target. The object appears instantly in the
+              target's hand, if they have a free hand, or at their feet if they
+              don't. The target knows what object you are attempting to send
+              them. If the target is
+              @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}
+              or refuses to accept your gift, or if the spell would teleport a
+              creature (even if the creature is inside an extradimensional
+              container), the spell fails.</p>
+
+              <hr />
+
+              <p><strong>Heightened (3rd)</strong> The spell's range increases
+              to 500 feet.</p>
+
+              <p><strong>Heightened (5th)</strong> As 3rd level, and the
+              object's maximum Bulk increases to 1. You can
+              @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast the
+              Spell} with 3 actions instead of 1; doing so increases the range
+              to 1 mile and you don't need line of sight to the target, but you
+              must be extremely familiar with the target.</p>
+          source:
+            value: Pathfinder Advanced Player's Guide
+          rules: []
+          slug: thoughtful-gift
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - teleportation
+            rarity: common
+          level:
+            value: 1
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - divine
+              - occult
+          school:
+            value: conjuration
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: false
+          materials:
+            value: ''
+          target:
+            value: 1 willing creature
+          range:
+            value: 120 feet
+          area: null
+          time:
+            value: 1 (up to 3 if heightened)
+          duration:
+            value: ''
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 1
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          heightening:
+            levels:
+              '3':
+                range:
+                  value: 500 feet
+            type: fixed
+          prepared:
+            value: false
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.qTr2oCgIXl703Whb
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RjuupS9xyXDLgyIr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.1
+      coreVersion: '11.302'
+      createdTime: 1687033895573
+      modifiedTime: 1687033900333
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!3FsJbReiLbNTVHhg.LDOwLpElKCdrlwND'
+effects: []
+folder: null
+sort: 0
+flags:
+  pf2e:
+    editLoot:
+      value: false
+  exportSource:
+    world: abominationvaults
+    system: pf2e
+    coreVersion: 0.8.7
+    systemVersion: 2.4.0.6221
+  core: {}
+system:
+  attributes: {}
+  details:
+    description: ''
+    level:
+      value: 0
+  lootSheetType: Merchant
+  hiddenWhenEmpty: false
+  schema:
+    version: 0.842
+    lastMigration:
+      datetime: '2023-06-20T09:31:23.947-07:00'
+      version:
+        schema: 0.842
+        foundry: '11.302'
+        system: 5.0.1
+  traits:
+    rarity: common
+    size:
+      value: med
+    value: []
+  customModifiers: {}
+ownership:
+  default: 1
+  sarkMXaT0ELIQ2fE: 3
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  name: Dawnflower Library
+  displayName: 20
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: true
+  disposition: 0
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+  texture:
+    src: systems/pf2e/icons/default-icons/loot.svg
+    tint: null
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+_stats:
+  systemId: pf2e
+  systemVersion: 5.0.1
+  coreVersion: '11.302'
+  createdTime: 1686850703482
+  modifiedTime: 1687278703021
+  lastModifiedBy: eJdAkXPIlso4614X
+_key: '!actors!3FsJbReiLbNTVHhg'
+

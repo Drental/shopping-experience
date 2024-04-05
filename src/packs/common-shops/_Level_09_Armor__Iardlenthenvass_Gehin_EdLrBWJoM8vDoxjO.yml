@@ -1,0 +1,1938 @@
+_id: EdLrBWJoM8vDoxjO
+name: (Level 09 Armor) Iardlenthenvass Gehin
+type: loot
+img: systems/pf2e/icons/default-icons/loot.svg
+items:
+  - img: >-
+      systems/pf2e/icons/equipment/weapons/specific-magic-weapons/sonic-tuning-mace.webp
+    name: Sonic Tuning Mace
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This <em>+1 striking thundering light mace</em> has twin tips,
+          perfectly spaced to resonate when striking foes.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">2</span> command,
+          Interact</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You tap the tuning mace against a nearby
+          surface to cast 4th-level
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]{Sound
+          Burst}</em> with a DC of 25.</p>
+      source:
+        value: Pathfinder Secrets of Magic
+      rules: []
+      slug: sonic-tuning-mace
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - agile
+          - evocation
+          - finesse
+          - magical
+          - shove
+          - sonic
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: light-mace
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 700
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: club
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: striking
+      specific:
+        value: true
+        material: null
+        runes:
+          potency: 1
+          striking: striking
+      propertyRune1:
+        value: thundering
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.B0R1MtLnQvBwnOne
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955451906
+      modifiedTime: 1686955451906
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: yAi1M0NNUnHnkiil
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.yAi1M0NNUnHnkiil'
+  - img: systems/pf2e/icons/equipment/weapons/kama.webp
+    name: Kusarigama
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This impressive weapon consists of a weight attached to a kama via
+          a length of chain, which aids with disarming an opponent or attacking
+          from a distance.</p>
+      source:
+        value: 'Pathfinder #166: Despair on Danger Island'
+      rules: []
+      slug: kusarigama
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - disarm
+          - monk
+          - reach
+          - trip
+          - versatile-b
+        rarity: uncommon
+        otherTags: []
+      quantity: 1
+      baseItem: kusarigama
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Kusarigama
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-two-hands
+      category: martial
+      group: knife
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: slashing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: striking
+      specific:
+        value: false
+      propertyRune1:
+        value: grievous
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.D6E4VaKVG05G26Rm
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955457812
+      modifiedTime: 1686955537392
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: APKMEwP8vIELhMmn
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.APKMEwP8vIELhMmn'
+  - img: systems/pf2e/icons/equipment/weapons/warhammer.webp
+    name: Warhammer
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This weapon has a wooden shaft ending in a large, heavy metal head.
+          The head of the hammer might be single‑sided or double‑sided, but it's
+          always capable of delivering powerful bludgeoning blows.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: warhammer
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - shove
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: warhammer
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Warhammer
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: hammer
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: striking
+      specific:
+        value: false
+      propertyRune1:
+        value: corrosive
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.rXt4629QSg7KDTgJ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955462182
+      modifiedTime: 1686955547976
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: bfTlY8VcWf2Kycjy
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.bfTlY8VcWf2Kycjy'
+  - img: systems/pf2e/icons/equipment/weapons/scythe.webp
+    name: Scythe
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Derived from a farming tool used to mow down long grains and
+          cereals, this weapon has a long wooden shaft with protruding handles,
+          capped with a curved blade set at a right angle.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scythe
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - deadly-d10
+          - trip
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: scythe
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '2'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: cold-iron
+      preciousMaterialGrade:
+        value: low
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Scythe
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-two-hands
+      category: martial
+      group: polearm
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d10
+        damageType: slashing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 1
+      strikingRune:
+        value: striking
+      specific:
+        value: false
+      propertyRune1:
+        value: thundering
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.H74vYwHJ8XT4qOPI
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955467431
+      modifiedTime: 1686955560066
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 4kDqDucsPjReLw6R
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.4kDqDucsPjReLw6R'
+  - img: >-
+      systems/pf2e/icons/equipment/armor/specific-magic-armor/breastplate-of-command.webp
+    name: Breastplate of Command
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This <em>+1 resilient breastplate</em> is made from shining bronze
+          overlaid with reinforcing golden panels in the shape of lion's heads.
+          Wearing this breastplate grants you a commanding aura. You gain a +2
+          item bonus to Diplomacy checks, but you take a -2 item penalty to
+          Stealth checks to
+          @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} and
+          @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} and
+          Deception checks to
+          @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate}.</p>
+
+          <p><strong>Activate</strong><span class="pf2-icon">A</span>Command</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You grant allies within 100 feet a +2
+          status bonus to saves against fear effects for 1 minute. When you
+          activate this ability, each affected ally who's frightened reduces
+          their frightened value by 1.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.G0lG7IIZnCZtYi6v]{Effect:
+          Breastplate of Command}</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          selector: diplomacy
+          type: item
+          value: 2
+        - key: FlatModifier
+          label: Breastplate of Command (Hide, Sneak)
+          predicate:
+            - or:
+                - action:hide
+                - action:sneak
+          selector: stealth
+          type: item
+          value: -2
+        - key: FlatModifier
+          label: Breastplate of Command (Impersonate)
+          predicate:
+            - action:impersonate
+          selector: deception
+          type: item
+          value: -2
+      slug: breastplate-of-command
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 10
+      traits:
+        value:
+          - enchantment
+          - invested
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 4
+      baseItem: breastplate
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '3'
+      equippedBulk:
+        value: '2'
+      price:
+        value:
+          gp: 1000
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 4
+      category: medium
+      group: plate
+      strength:
+        value: 16
+      dex:
+        value: 1
+      check:
+        value: -2
+      speed:
+        value: -5
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.RUEAV5LMUGFHcXcW
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955471825
+      modifiedTime: 1686955789881
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: D3ECLzUo3mthz7v8
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.D3ECLzUo3mthz7v8'
+  - img: >-
+      systems/pf2e/icons/equipment/armor/specific-magic-armor/numerian-steel-breastplate.webp
+    name: Numerian Steel Breastplate
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This +1 resilient breastplate is constructed from the salvaged
+          armor plating of one of Numeria's large robots. It protects the wearer
+          from harsh elements and common laser fire, granting the wearer fire
+          resistance 5.</p>
+
+          <p><strong>Activate</strong><span class="pf2-icon">1</span>command</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You activate the remnants of mysterious
+          technology within the breastplate to encase yourself in an electric
+          field. For 1 minute, adjacent creatures that hit you with a melee
+          Strike, as well as creatures that touch you or hit you with an unarmed
+          attack, take [[/r 1d10]] electricity damage per hit.</p>
+      source:
+        value: 'Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall'
+      rules: []
+      slug: numerian-steel-breastplate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 10
+      traits:
+        value: []
+        rarity: rare
+        otherTags: []
+      quantity: 2
+      baseItem: breastplate
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '3'
+      equippedBulk:
+        value: '2'
+      price:
+        value:
+          gp: 900
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 4
+      category: medium
+      group: plate
+      strength:
+        value: 16
+      dex:
+        value: 1
+      check:
+        value: -2
+      speed:
+        value: -5
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.GDSclGF1yk0sw86V
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955480411
+      modifiedTime: 1686955789105
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: M6m3Lt8JRL9PFKKA
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.M6m3Lt8JRL9PFKKA'
+  - img: systems/pf2e/icons/equipment/armor/specific-magic-armor/rhino-hide.webp
+    name: Rhino Hide
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This <em>+1 resilient </em>hide armor is made from rhinoceros hide.
+          It has an armor check penalty of -1 instead of -3.</p>
+
+          <p>When you use the Sudden Charge class feat while wearing this armor,
+          your Strike deals an additional 1d8 damage.</p>
+
+          <p><strong>Craft Requirements</strong> The initial raw materials must
+          include 320 gp of rhinoceros hide (a common material).</p>
+
+          <hr />
+
+          <p>Automaticlly applied effects:</p>
+
+          <ul>
+
+          <li>+1d8 damage to your Strike when using Sudden Charge</li>
+
+          </ul>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - domain: damage-roll
+          key: RollOption
+          label: Sudden Charge
+          option: action:sudden-charge
+          predicate:
+            - sudden-charge
+          toggleable: true
+        - diceNumber: 1
+          dieSize: d8
+          key: DamageDice
+          predicate:
+            - action:sudden-charge
+          selector: strike-damage
+      slug: rhino-hide
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - invested
+          - magical
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 3
+      baseItem: hide-armor
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '3'
+      equippedBulk:
+        value: '2'
+      price:
+        value:
+          gp: 700
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 3
+      category: medium
+      group: leather
+      strength:
+        value: 14
+      dex:
+        value: 2
+      check:
+        value: -1
+      speed:
+        value: 0
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.C4XKMcHZoGzrAZBl
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955487789
+      modifiedTime: 1686955788099
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 3EjkD5Nef5JZ6sT6
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.3EjkD5Nef5JZ6sT6'
+  - img: >-
+      systems/pf2e/icons/equipment/armor/specific-magic-armor/spangled-riders-suit.webp
+    name: Spangled Rider's Suit
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This <em>+1 resilient </em>studded leather is adorned with colorful
+          sequins that sparkle in even the faintest light.</p>
+
+          <p>While wearing the spangled rider's suit, you gain a +2 item bonus
+          to Command an Animal you are riding.</p>
+
+          <p>Any animal you ride automatically knows the Drop Prone and Step
+          basic actions, in addition to any other basic actions it knows
+          (normally only Leap, Seek, Stand, Stride, and Strike).</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">R</span>
+          (move)</p>
+
+          <p><strong>Trigger</strong> You take damage while mounted or your
+          mount Drops Prone</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You dismount, moving off your mount into a
+          space adjacent to it.</p>
+      source:
+        value: 'Pathfinder #152: Legacy of the Lost God'
+      rules:
+        - key: FlatModifier
+          label: Spangled Rider's Suit (command your mount)
+          predicate:
+            - action:command-an-animal
+            - target:mount
+          selector: nature
+          type: item
+          value: 2
+      slug: spangled-riders-suit
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - divination
+          - invested
+          - magical
+        rarity: uncommon
+        otherTags: []
+      quantity: 1
+      baseItem: studded-leather-armor
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '2'
+      equippedBulk:
+        value: '1'
+      price:
+        value:
+          gp: 700
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 2
+      category: light
+      group: leather
+      strength:
+        value: 12
+      dex:
+        value: 3
+      check:
+        value: -1
+      speed:
+        value: 0
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Blp9Ha1YeIJOeFls
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955492216
+      modifiedTime: 1686955492216
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: psBoJ8X2HPZbgEfr
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.psBoJ8X2HPZbgEfr'
+  - img: systems/pf2e/icons/equipment/shields/specific-shields/sturdy-shield.webp
+    name: Sturdy Shield (Moderate)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>With a superior design and excellent craftsmanship, this steel
+          shield has higher Hardness than its non-magical counterparts, making
+          it harder to break and destroy.</p>
+
+          <p>The shield has Hardness 13, HP 104, and BT 52.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: sturdy-shield-moderate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 10
+      traits:
+        value:
+          - abjuration
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 6
+      baseItem: null
+      hp:
+        brokenThreshold: 52
+        value: 104
+        max: 104
+      hardness: 13
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1000
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      armor:
+        value: 2
+      category: shield
+      group: null
+      strength:
+        value: 0
+      dex:
+        value: 0
+      check:
+        value: 0
+      speed:
+        value: 0
+      potencyRune:
+        value: 0
+      resiliencyRune:
+        value: ''
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.pNQJ9PTOEHxEZCgp
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955497863
+      modifiedTime: 1686955786170
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: do9RmaKokjb9rC2B
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.do9RmaKokjb9rC2B'
+  - img: systems/pf2e/icons/equipment/armor/specific-magic-armor/victory-plate.webp
+    name: Victory Plate
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The metal plates of this <em>+1 resilient full plate</em> are
+          covered by a bright tabard featuring a distinctive coat of arms
+          divided into four fields. This insignia magically records your recent
+          victories, displaying one triumph in each field of the coat of arms,
+          allowing you to call upon those victories for aid in future
+          battles.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">R</span>
+          envision</p>
+
+          <p><strong>Trigger</strong> You kill or destroy a creature of a level
+          equal to or greater than your <em>victory plate </em>(adjusted as
+          usual if you add fundamental runes to victory plate). This creature
+          must have one of the traits listed in the second activation</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You direct the armor to commemorate your
+          victory. The coat of arms on the armor's tabard shifts to incorporate
+          heraldry related to the slain creature, and the victory is recorded
+          within the tabard. If you have already recorded four victories, choose
+          one to replace with the new victory.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">2</span> envision,
+          Interact</p>
+
+          <p><strong>Frequency</strong> once per hour</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You touch one of the tabard's four fields
+          representing one of your victories and recall your triumph over that
+          creature. That creature vanishes from the tabard, and for 1 minute,
+          you gain resistance 5 to a damage type based on the creature's trait
+          (you gain resistance to only one type, even if the creature has more
+          than one trait that could apply):</p>
+
+          <ul>
+
+          <li><strong>Aberration</strong> or <strong>Fey</strong> mental</li>
+
+          <li><strong>Celestial</strong> good</li>
+
+          <li><strong>Construct</strong> poison</li>
+
+          <li><strong>Dragon</strong> or Elemental: one energy type that matches
+          one of the dragon's or elemental's traits</li>
+
+          <li><strong>Fiend</strong> evil</li>
+
+          <li><strong>Ooze</strong> precision, and the resistance is 10</li>
+
+          <li><strong>Undead</strong> negative</li>
+
+          </ul>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: victory-plate
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - abjuration
+          - bulwark
+          - invested
+          - magical
+        rarity: uncommon
+        otherTags: []
+      quantity: 1
+      baseItem: full-plate
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '5'
+      equippedBulk:
+        value: '4'
+      price:
+        value:
+          gp: 675
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 6
+      category: heavy
+      group: plate
+      strength:
+        value: 18
+      dex:
+        value: 0
+      check:
+        value: -3
+      speed:
+        value: -10
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.nVlKU2et4EeReayr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955502921
+      modifiedTime: 1686955502921
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: kaH4R0jLNaeLRbAa
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.kaH4R0jLNaeLRbAa'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/clothes-explorers.webp
+    name: +1 Resilient Greater Shadow Clothing (Explorer's)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Explorer's clothing is sturdy enough that it can be reinforced to
+          protect you, even though it isn't a suit of armor. It comes in many
+          forms, though the most common sorts look like clerical vestments,
+          monk's garments, or wizard's robes, as members of all three classes
+          are likely to avoid wearing armor.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: clothing-explorers
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - comfort
+        rarity: common
+        otherTags: []
+      quantity: 4
+      baseItem: explorers-clothing
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: L
+      price:
+        value:
+          gp: 1150
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Explorer's Clothing
+          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 0
+      category: unarmored
+      group: cloth
+      strength:
+        value: 0
+      dex:
+        value: 5
+      check:
+        value: 0
+      speed:
+        value: 0
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: greaterShadow
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.dDIPA1WE9ESF67EB
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955508981
+      modifiedTime: 1686955782661
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: pjvePSR4z6tHrhhG
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.pjvePSR4z6tHrhhG'
+  - img: systems/pf2e/icons/equipment/armor/chainshirt.webp
+    name: +1 Resilient Greater Stanching Chain Shirt
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Sometimes called a hauberk, this is a long shirt constructed of the
+          same metal rings as chainmail. However, it is much lighter than
+          chainmail and protects only the torso, upper arms, and upper legs of
+          its wearer.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: chain-shirt
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - flexible
+          - noisy
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: chain-shirt
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '2'
+      equippedBulk:
+        value: '1'
+      price:
+        value:
+          gp: 1100
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Chain Shirt
+          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 2
+      category: light
+      group: chain
+      strength:
+        value: 12
+      dex:
+        value: 3
+      check:
+        value: -1
+      speed:
+        value: 0
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: greaterSlick
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955512599
+      modifiedTime: 1686955763678
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: XmygdNwZfdSzmONI
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.XmygdNwZfdSzmONI'
+  - img: systems/pf2e/icons/equipment/armor/scale-mail.webp
+    name: +1 Resilient Greater Slick Scale Mail
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Scale mail consists of many metal scales sewn onto a reinforced
+          leather backing, often in the form of a long shirt that protects the
+          torso, arms, and legs.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scale-mail
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 2
+      baseItem: scale-mail
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '3'
+      equippedBulk:
+        value: '2'
+      price:
+        value:
+          gp: 950
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Scale Mail
+          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 3
+      category: medium
+      group: composite
+      strength:
+        value: 14
+      dex:
+        value: 2
+      check:
+        value: -2
+      speed:
+        value: -5
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: greaterSlick
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.YMQr577asquZIP65
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955517266
+      modifiedTime: 1686955781537
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: jGbfx0XXGnxJHhWm
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.jGbfx0XXGnxJHhWm'
+  - img: systems/pf2e/icons/equipment/armor/leather-armor.webp
+    name: +1 Resilient Greater Invisibility Leather Armor
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A mix of flexible and molded boiled leather, a suit of this type of
+          armor provides some protection with maximum flexibility.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: leather-armor
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.967-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value: []
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: leather-armor
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '2'
+      equippedBulk:
+        value: '1'
+      price:
+        value:
+          gp: 1500
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Leather Armor
+          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 1
+      category: light
+      group: leather
+      strength:
+        value: 10
+      dex:
+        value: 4
+      check:
+        value: -1
+      speed:
+        value: 0
+      potencyRune:
+        value: 1
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: greaterInvisibility
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.4tIVTg9wj56RrveA
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686955521777
+      modifiedTime: 1686955735242
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: RMEYTX8pXDqgMmav
+    _key: '!actors.items!EdLrBWJoM8vDoxjO.RMEYTX8pXDqgMmav'
+effects: []
+folder: null
+sort: 0
+flags:
+  core: {}
+system:
+  attributes: {}
+  details:
+    description: >-
+      <p>The blue skinned-blue haired Elf Iardlenthenvass Gehin has been
+      returned as a Duskwalker and embraced a righteous rage to destroy anything
+      that is violating the natural flow of souls. Coming from the Mana Wastes
+      he's seen and had his fair share of destroying the unnatural and has a
+      huge collection of scars and a prosthetic arm showing exactly why he
+      treasures good armor so much. The spacious dome of the store has an always
+      flowing hourglass pinned to the wall with a dagger and other memorabilia
+      of death.</p>
+
+      <p>Iardlenthenvass's monocolored eyes betray a lifetime of pain and glint
+      dangerously when talking about all the times he wished he had used more
+      armor. He regales his customers with fatherly advice.</p>
+    level:
+      value: 0
+  lootSheetType: Merchant
+  hiddenWhenEmpty: false
+  schema:
+    version: 0.842
+    lastMigration:
+      datetime: '2023-06-20T09:31:23.967-07:00'
+      version:
+        schema: 0.842
+        foundry: '11.302'
+        system: 5.0.1
+  traits:
+    rarity: common
+    size:
+      value: med
+    value: []
+  customModifiers: {}
+ownership:
+  default: 1
+  sarkMXaT0ELIQ2fE: 3
+prototypeToken:
+  bar1:
+    attribute: attributes.hp
+  displayName: 20
+  displayBars: 40
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  actorLink: true
+  disposition: 0
+  name: Iardlenthenvass Gehin
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  bar2:
+    attribute: null
+  randomImg: false
+  light:
+    alpha: 0.25
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+  texture:
+    src: systems/pf2e/icons/default-icons/loot.svg
+    tint: null
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+_stats:
+  systemId: pf2e
+  systemVersion: 5.0.1
+  coreVersion: '11.302'
+  createdTime: 1686850696517
+  modifiedTime: 1687278696568
+  lastModifiedBy: eJdAkXPIlso4614X
+_key: '!actors!EdLrBWJoM8vDoxjO'
+

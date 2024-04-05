@@ -1,0 +1,4136 @@
+_id: h31z89PMlYNd2ktw
+name: (Level 11 Apparell) Yakami Tahoko
+type: loot
+img: systems/pf2e/icons/default-icons/loot.svg
+items:
+  - img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/alchemists-fire.webp
+    name: Alchemist's Fire (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Strike</p>
+
+          <p>Alchemist's fire is a combination of volatile liquids that ignite
+          when exposed to air. Alchemist's fire deals 3d8 fire damage, 3
+          persistent fire damage, and 3 fire splash damage. You gain a +2 item
+          bonus to attack rolls.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: alchemists-fire-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - alchemical
+          - bomb
+          - consumable
+          - fire
+          - splash
+        rarity: common
+        otherTags: []
+      quantity: 5
+      baseItem: alchemical-bomb
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 250
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: bomb
+      bonus:
+        value: 2
+      damage:
+        dice: 3
+        die: d8
+        damageType: fire
+        persistent:
+          faces: null
+          number: 3
+          type: fire
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 3
+      range: 20
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: null
+      strikingRune:
+        value: null
+      specific:
+        value: false
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.n5yTlTs63o53n3k6
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956265504
+      modifiedTime: 1686956455426
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 7RjLq5bdmLmbiJB5
+    _key: '!actors.items!h31z89PMlYNd2ktw.7RjLq5bdmLmbiJB5'
+  - img: >-
+      systems/pf2e/icons/equipment/weapons/specific-magic-weapons/gloaming-shard.webp
+    name: Gloaming Shard
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The blade of this <em>+2 striking returning dagger</em> shines the
+          color of twilight, with a triangular lattice design on the hilt. A
+          thin string of darkness connects your shadow to that of the blade,
+          even once it leaves your hand.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">2</span> Interact
+          (shadow, teleportation)</p>
+
+          <p><strong>Frequency</strong> once per hour</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You make a thrown Strike with the gloaming
+          shard at a target within 60 feet. Whether you hit or miss, rather than
+          returning to you, the blade pulls you down into your own shadow and
+          along the connecting thread. You instantly teleport to a space
+          adjacent to the target of your Strike, as
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Dimension
+          Door}</em>, and then catch the dagger in your hand.</p>
+      source:
+        value: Pathfinder Secrets of Magic
+      rules: []
+      slug: gloaming-shard
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - agile
+          - conjuration
+          - finesse
+          - magical
+          - shadow
+          - thrown-10
+          - versatile-s
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: dagger
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1400
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: 'null'
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: knife
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d4
+        damageType: piercing
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: '-'
+      MAP:
+        value: ''
+      potencyRune:
+        value: 2
+      strikingRune:
+        value: striking
+      specific:
+        value: true
+        material: null
+        runes:
+          potency: 2
+          striking: striking
+      propertyRune1:
+        value: returning
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.HWVORFebjWAPQ2NI
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956269744
+      modifiedTime: 1686956269744
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 5qnvfB8QAkzm7lCg
+    _key: '!actors.items!h31z89PMlYNd2ktw.5qnvfB8QAkzm7lCg'
+  - img: systems/pf2e/icons/equipment/weapons/monkeys-fist.webp
+    name: Monkey's Fist
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Also called a "slungshot", the monkey's fist is a short length of
+          rope ending in a thick knot wrapped around a metal weight. You can tie
+          the loose end of a monkey's fist to your wrist; if you are
+          @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarmed},
+          the weapon remains secured to your wrist rather than falling to the
+          ground, though you must use an Interact action to grip it before using
+          it again. A monkey's fist is a martial melee weapon.</p>
+      source:
+        value: 'Pathfinder #157: Devil at the Dreaming Palace'
+      rules: []
+      slug: monkeys-fist
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - finesse
+          - monk
+          - nonlethal
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: monkeys-fist
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          sp: 1
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Monkey's Fist
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: flail
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: bludgeoning
+        persistent: null
+      bonusDamage:
+        value: 0
+      splashDamage:
+        value: 0
+      range: null
+      reload:
+        value: ''
+      MAP:
+        value: ''
+      potencyRune:
+        value: 2
+      strikingRune:
+        value: striking
+      specific:
+        value: false
+      propertyRune1:
+        value: disrupting
+      propertyRune2:
+        value: flaming
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.cKbiv1dUMViikKOS
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956274871
+      modifiedTime: 1686956472516
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: wlFgzifJH3baZtrd
+    _key: '!actors.items!h31z89PMlYNd2ktw.wlFgzifJH3baZtrd'
+  - img: >-
+      systems/pf2e/icons/equipment/shields/specific-shields/arrow-catching-shield.webp
+    name: Arrow-Catching Shield
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This wooden shield (Hardness 10, HP 40, BT 20) is carved with
+          images of overlapping fletched arrows.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">R</span>
+          Interact</p>
+
+          <p><strong>Trigger</strong> A ranged weapon Strike targets a creature
+          within 15 feet of you when you have this shield raised, and the
+          attacker has not yet rolled their attack</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The triggering Strike targets you instead
+          of its normal target. If it hits, you gain the effects of the
+          @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}
+          reaction.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: arrow-catching-shield
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - abjuration
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 12
+        value: 24
+        max: 24
+      hardness: 6
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1350
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      armor:
+        value: 2
+      category: shield
+      group: null
+      strength:
+        value: 0
+      dex:
+        value: 0
+      check:
+        value: 0
+      speed:
+        value: 0
+      potencyRune:
+        value: 0
+      resiliencyRune:
+        value: ''
+      propertyRune1:
+        value: ''
+      propertyRune2:
+        value: ''
+      propertyRune3:
+        value: ''
+      propertyRune4:
+        value: ''
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.9ZGkQo739t9utj37
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956282661
+      modifiedTime: 1686956282661
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: pxgyXnFGTshKsfmi
+    _key: '!actors.items!h31z89PMlYNd2ktw.pxgyXnFGTshKsfmi'
+  - img: systems/pf2e/icons/equipment/armor/padded-armor.webp
+    name: +2 Resilient Padded Armor
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This armor is simply a layer of heavy, quilted cloth, but it is
+          sometimes used because it's so inexpensive. Padded armor is easier to
+          damage and destroy than other types of armor. Heavy armor comes with a
+          padded armor undercoat included in its Price, though it loses the
+          comfort trait when worn under heavy armor. You can wear just that
+          padded armor or undercoat to sleep in, if your heavy armor is
+          destroyed, or when otherwise not wearing the full heavy armor. This
+          allows you to keep the armor invested and benefit from the power of
+          any runes on the associated heavy armor, but no one else can wear your
+          heavy armor without the padded undercoat.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: padded-armor
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 0
+      traits:
+        value:
+          - comfort
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: padded-armor
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: L
+      price:
+        value:
+          gp: 1400
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: false
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: null
+      preciousMaterialGrade:
+        value: null
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Padded Armor
+          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornarmor
+      armor:
+        value: 1
+      category: light
+      group: null
+      strength:
+        value: 10
+      dex:
+        value: 3
+      check:
+        value: 0
+      speed:
+        value: 0
+      potencyRune:
+        value: 2
+      resiliencyRune:
+        value: resilient
+      propertyRune1:
+        value: null
+      propertyRune2:
+        value: null
+      propertyRune3:
+        value: null
+      propertyRune4:
+        value: null
+      potency: {}
+    type: armor
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956286547
+      modifiedTime: 1686956508284
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: iFceYJgkSPY77boV
+    _key: '!actors.items!h31z89PMlYNd2ktw.iFceYJgkSPY77boV'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/alchemist-goggles.webp
+    name: Alchemist Goggles (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These brass goggles are engraved with flame patterns and have
+          thick, heavy lenses.</p>
+
+          <p>While worn, they give you a +2 item bonus to Crafting checks to
+          @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{Craft}
+          alchemical items and a +2 item bonus to attack rolls with alchemical
+          bombs.</p>
+
+          <p>You can also ignore lesser cover when making Strikes with
+          alchemical bombs.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          predicate:
+            - alchemical
+            - action:craft
+          selector: crafting
+          type: item
+          value: 2
+        - key: FlatModifier
+          predicate:
+            - alchemical
+            - bomb
+          selector: attack
+          type: item
+          value: 2
+      slug: alchemist-goggles-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - invested
+          - magical
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1400
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: ''
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worneyepiece
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.8XZqdeZStFAM4XnH
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956295553
+      modifiedTime: 1686956295553
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: KbsdGoK1PrdGPvPs
+    _key: '!actors.items!h31z89PMlYNd2ktw.KbsdGoK1PrdGPvPs'
+  - img: systems/pf2e/icons/equipment/held-items/broom-of-flying.webp
+    name: Broom of Flying
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This broom has a tenuous connection to gravity, and it tends to
+          drift even while stowed. You can ride on the broom using one hand to
+          guide it, and the broom can carry up to one passenger in addition to
+          you.</p>
+
+          <p>The broom moves at a fly Speed of 20 feet. The broom can carry only
+          so much, taking a -10-foot penalty to its Speed if laden with more
+          than 20 Bulk, and crashing to the ground if it carries more than 30
+          Bulk.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Command,
+          Interact</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You name a destination on the same plane,
+          and the broom speeds toward it at a fly Speed of 40 feet. You must
+          either clutch the broom with two hands in order to ride it, or you
+          need to release the broom to send it off with no rider. If you don't
+          have a good idea of the location, layout, and general direction of the
+          destination, or if your named destination is on another plane, the
+          broom wanders aimlessly, circling back to its starting location after
+          30 minutes.</p>
+
+          <p>If the broom carries a rider, this activation lasts until 4 hours
+          pass (typically 16 miles of travel), the broom reaches its
+          destination, or you Dismiss the activation. If the broom doesn't have
+          a rider, the activation lasts until the broom reaches its destination.
+          When the activation ends, the broom floats to the ground and can't be
+          activated again for 1 hour.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: broom-of-flying
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 12
+      traits:
+        value:
+          - magical
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1900
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.1erd18HS57aCyC6r
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956301161
+      modifiedTime: 1686956301161
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: XcT7FWeM8BXLJ2ww
+    _key: '!actors.items!h31z89PMlYNd2ktw.XcT7FWeM8BXLJ2ww'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/crafters-eyepiece.webp
+    name: Crafter's Eyepiece (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This rugged metal eyepiece etched with square patterns is designed
+          to be worn over a single eye. Twisting the lens reveals a faint
+          three-dimensional outline of an item you plan to build or repair, with
+          helpful labels on the component parts.</p>
+
+          <p>While worn, this eyepiece gives you a +2 item bonus to Crafting
+          checks. When you Repair an item, increase the Hit Points restored by
+          15 per proficiency rank instead of 10.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> 1 minute (Interact)</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You calibrate the eyepiece to have it cast
+          a 5th-level
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]{Creation}</em>
+          spell over the course of 1 minute to construct a temporary item.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          selector: crafting
+          type: item
+          value: 2
+      slug: crafters-eyepiece-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - invested
+          - magical
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1200
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worneyepiece
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.JSYtBZ7XblyAEFoV
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956306326
+      modifiedTime: 1686956306326
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 9vWzsCgoerOdFtJG
+    _key: '!actors.items!h31z89PMlYNd2ktw.9vWzsCgoerOdFtJG'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/dancing-scarf.webp
+    name: Dancing Scarf (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This long and billowing scarf is typically woven of silk or sheer
+          fabric and adorned with bells or other jangling bits of shiny metal.
+          It grants a +2 item bonus to Performance checks to dance.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p><strong>Requirements</strong> On your most recent action, you
+          succeeded at a Performance check to dance</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You become concealed until the beginning of
+          your next turn. You can also Stride up to half your Speed or Step.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          predicate:
+            - dance
+          selector: performance
+          type: item
+          value: 2
+      slug: dancing-scarf-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - illusion
+          - invested
+          - magical
+          - visual
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 650
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornbelt
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.QJ1PhbtbLzwhRlY0
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956311251
+      modifiedTime: 1686956311251
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 323BZRzhfAfudoYz
+    _key: '!actors.items!h31z89PMlYNd2ktw.323BZRzhfAfudoYz'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/envisioning-mask.webp
+    name: Envisioning Mask
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These strange masks consist of a thin stone hood and a shimmering
+          purple veil reminiscent of the <em>pleroma aeon</em> who first gifted
+          them to mortals in the hope that sharing the means of aeon
+          communication would reduce the misunderstandings and conflicts among
+          mortal civilizations. An envisioning mask covers your entire face,
+          though it doesn't hinder your vision or other senses.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          Interact</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You lose the ability to produce language
+          and instead communicate wordlessly through a series of psychic
+          projections. This acts as <em>telepathy </em>with a range of 100 feet,
+          but it is understandable to all creatures regardless of whether they
+          have a language. When communicating with non-aeons, however, your
+          meaning is often vague and mysterious. This effect lasts for 10
+          minutes.</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: envisioning-mask
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - divination
+          - invested
+          - magical
+          - mental
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1200
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornmask
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.SGbEZzm5MLSv1DDX
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956315908
+      modifiedTime: 1686956315908
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: h31mJLPgY8S0KnXT
+    _key: '!actors.items!h31z89PMlYNd2ktw.h31mJLPgY8S0KnXT'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/eyes-of-the-eagle.webp
+    name: Eyes of the Eagle
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These lenses of amber crystal fit over your eyes. They grant you
+          low-light vision and a +2 item bonus to Perception checks that involve
+          sight.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          label: Eyes of the Eagle (sight)
+          predicate:
+            - sight
+          selector: perception
+          type: item
+          value: 2
+      slug: eyes-of-the-eagle
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - invested
+          - magical
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 700
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worneyepiece
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.dLTN4FU3qBoDZ5CJ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956321142
+      modifiedTime: 1686956321142
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: taJ7kcgpWMejnAGK
+    _key: '!actors.items!h31z89PMlYNd2ktw.taJ7kcgpWMejnAGK'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/goggles-of-night.webp
+    name: Goggles of Night (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The opaque crystal lenses of these sleek goggles do not obscure
+          vision, but rather enhance it. While wearing the goggles, you gain a
+          +2 item bonus to Perception checks involving sight.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> Rotating the lenses 90 degrees, you gain
+          darkvision until you rotate the lenses back or the item is no longer
+          invested by you, whichever comes first.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          label: Goggles of Night (sight)
+          predicate:
+            - sight
+          selector: perception
+          type: item
+          value: 2
+      slug: goggles-of-night-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - invested
+          - magical
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1250
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worneyepiece
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Tej30MsQo8Ek9aA6
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956326779
+      modifiedTime: 1686956326779
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: 0wr75RAFVE8MUpJe
+    _key: '!actors.items!h31z89PMlYNd2ktw.0wr75RAFVE8MUpJe'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/gorget-of-the-primal-roar.webp
+    name: Gorget of the Primal Roar
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This engraved darkwood gorget seems to vibrate with ferocity,
+          granting you a +2 item bonus to Intimidation checks.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          command</p>
+
+          <p><strong>Frequency</strong> once during the duration of each
+          polymorph effect</p>
+
+          <p><strong>Requirements</strong> You're in a non-humanoid form via a
+          polymorph effect</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You unleash a bestial roar, attempting a
+          single @Check[type:intimidation] check compared to the Will DCs of all
+          enemies within 30 feet to impose the effects below. Though this
+          activation has the command component, you can issue this command
+          without the need for language.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p>
+
+          <p><strong>Success</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}.</p>
+
+          <p><strong>Failure</strong> The creature is unaffected.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          selector: intimidation
+          type: item
+          value: 2
+      slug: gorget-of-the-primal-roar
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - enchantment
+          - invested
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1250
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worncollar
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.WYg2dZ8UK1N3rpgs
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956330935
+      modifiedTime: 1686956330935
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: GLuE2qPhS5pVQNmh
+    _key: '!actors.items!h31z89PMlYNd2ktw.GLuE2qPhS5pVQNmh'
+  - img: systems/pf2e/icons/equipment/held-items/horn-of-blasting.webp
+    name: Horn of Blasting
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A <em>horn of blasting</em> is a bright brass trumpet. It can be
+          played as an instrument, granting a +2 item bonus to your Performance
+          check.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p><strong>Frequency</strong> once per round</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> When you activate the horn by blowing into
+          it with destructive intent, you create a blast note targeting one
+          creature or object within 30 feet. The blast deals [[/r 3d6[sonic]]]
+          damage. (@Check[type:fortitude|dc:28|basic:true] save).</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">D</span>
+          Interact</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You can blow even louder to create an
+          intense blast wave in a @Template[type:cone|distance:30] that deals
+          [[/r 8d6[sonic]]] damage. Each creature attempts a
+          @Check[type:fortitude|dc:28] save with the following effects.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature takes no damage.</p>
+
+          <p><strong>Success</strong> The creature takes half damage.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage and is
+          deafened for [[/br 2d6 #rounds]]{2d6 rounds}.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          selector: performance
+          type: item
+          value: 2
+      slug: horn-of-blasting
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - evocation
+          - sonic
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 700
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.WAMDYE9tt3W8obzr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956336426
+      modifiedTime: 1686956336426
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: u2AvEx9t2IXUPjUw
+    _key: '!actors.items!h31z89PMlYNd2ktw.u2AvEx9t2IXUPjUw'
+  - img: systems/pf2e/icons/equipment/held-items/immovable-rod.webp
+    name: Immovable Rod
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This flat iron bar is almost completely nondescript, except for one
+          small button appearing on its surface.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You push the button to anchor the rod in
+          place. It doesn't move, defying gravity if need be. If the button is
+          pushed again, the rod deactivates, ending the anchoring magic. While
+          anchored, the rod can be moved only if 8,000 pounds of pressure are
+          applied to it or if a creature uses Athletics to Force Open the rod
+          with a DC of 40 (though most intelligent creatures can just push the
+          button to release the rod).</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: immovable-rod
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - magical
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '1'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 600
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.14LrP7bx8Q1jimHO
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956341150
+      modifiedTime: 1686956341150
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: nkLDr7iCYBipjWxN
+    _key: '!actors.items!h31z89PMlYNd2ktw.nkLDr7iCYBipjWxN'
+  - img: systems/pf2e/icons/equipment/worn-items/other-worn-items/persona-mask.webp
+    name: Persona Mask (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Despite covering the entire face, this alabaster mask does not
+          hinder vision or other senses. Wearing the mask grants a +2 item bonus
+          to Performance checks while acting, orating, performing comedy, or
+          singing.</p>
+
+          <p>The mask can be activated.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">R</span> envision
+          (fortune)</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <p><strong>Trigger</strong> You fail a Performance check that benefits
+          from the mask's bonus</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You change the mask's character and reroll
+          the Performance check, using the second result.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          label: Persona Mask (acting, orating, comedy, singing)
+          predicate:
+            - or:
+                - acting
+                - orating
+                - performing-comedy
+                - singing
+          selector: performance
+          type: item
+          value: 2
+      slug: persona-mask-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - fortune
+          - illusion
+          - invested
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 650
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornmask
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.0PPQl3TEr1yNhhN6
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956346259
+      modifiedTime: 1686956346259
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: LwwNj5pWcYlbJHIH
+    _key: '!actors.items!h31z89PMlYNd2ktw.LwwNj5pWcYlbJHIH'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/ring-of-maniacal-devices.webp
+    name: Ring of Maniacal Devices
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This ring seems like simple tarnished brass, but it enhances your
+          curiosity about traps and devices of all kinds.</p>
+
+          <p>You can use an Interact action to pull a set of thieves' tools from
+          the ring. These tools appear in your hand and fold back into the ring
+          if they would leave your possession.</p>
+
+          <p>They grant you a +2 item bonus to Thievery checks to
+          @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable a
+          Device} and to
+          @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick a Lock},
+          and the ring's insights grant you the same bonus to Crafting checks to
+          @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{Craft} and
+          @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair}
+          snares and traps.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> 10 minutes (Interact)</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You create a 4th-level
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.o0l57UfBm9ScEUMW]{Glyph of
+          Warding}</em> containing
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</em>.</p>
+
+          <p>You can have only one <em>glyph of warding</em> from a <em>ring of
+          maniacal devices</em> active at a time, even if you have multiple
+          rings, and the spell ends if you lose your investiture in the
+          ring.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules:
+        - key: FlatModifier
+          label: Ring of Maniacal Devices (Disable Devices and Pick a Lock)
+          predicate:
+            - or:
+                - action:disable-a-device
+                - action:pick-a-lock
+          selector: thievery
+          type: item
+          value: 2
+        - key: FlatModifier
+          label: Ring of Maniacal Devices (Craft snares and traps)
+          predicate:
+            - action:craft
+            - or:
+                - snare
+                - trap
+          selector: crafting
+          type: item
+          value: 2
+        - key: FlatModifier
+          label: Ring of Maniacal Devices (Repair snares and traps)
+          predicate:
+            - action:repair
+            - or:
+                - snare
+                - trap
+          selector: crafting
+          type: item
+          value: 2
+      slug: ring-of-maniacal-devices
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - divination
+          - invested
+          - magical
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1175
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: ''
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worn
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.nLvP7U50hLqz26Uy
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956351771
+      modifiedTime: 1686956351771
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: XGQF1qtIvnORTcfk
+    _key: '!actors.items!h31z89PMlYNd2ktw.XGQF1qtIvnORTcfk'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/spectacles-of-understanding.webp
+    name: Spectacles of Understanding (Greater)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These folding, wood-framed spectacles hold flat discs of cut
+          crystal as lenses and are held in place with thin cords that wrap
+          around each ear, with another strap holding them around the neck while
+          not in use. While you are wearing the spectacles, you gain a +2 item
+          bonus to checks to Decipher Writing.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> Unfolding the spectacles onto the bridge of
+          the nose, you gain the effects of 2nd-level
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]{Comprehend
+          Language}</em> until you fold up the spectacles or the item is no
+          longer invested by you, whichever comes first, except that it applies
+          to all languages you see rather than a single language, and it does
+          not apply to language you hear.</p>
+      source:
+        value: 'Pathfinder Lost Omens: Pathfinder Society Guide'
+      rules:
+        - key: FlatModifier
+          label: Greater Spectacles of Understanding (Decipher Writing)
+          predicate:
+            - action:decipher-writing
+          selector: skill-check
+          type: item
+          value: 2
+      slug: spectacles-of-understanding-greater
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - divination
+          - invested
+          - magical
+        rarity: uncommon
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 1200
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: worneyepiece
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.ZKFmyG9fIoQWIrql
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956362343
+      modifiedTime: 1686956362343
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: N6Qya5D4m5uU7kqA
+    _key: '!actors.items!h31z89PMlYNd2ktw.N6Qya5D4m5uU7kqA'
+  - img: systems/pf2e/icons/equipment/held-items/urn-of-ashes.webp
+    name: Urn of Ashes
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This sealed pewter urn contains the ashes of a benevolent ancestor,
+          with a sliver of lingering spirit that strives to protect you.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">R</span>
+          envision</p>
+
+          <p><strong>Trigger</strong> You would become doomed or your doomed
+          value would increase</p>
+
+          <p><strong>Requirements</strong> The ashes aren't doomed</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The ashes in the urn intervene, taking the
+          doomed condition in your place, and you don't gain or increase the
+          value of your own doomed condition. Each night when you get a full
+          night's rest, you can reduce your own doomed condition or that of the
+          urn, but not both.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">1</span>envision,
+          interact (attack)</p>
+
+          <p><strong>Frequency</strong> once per round</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The urn shoots a bolt of negative energy at
+          a foe within 30 feet.</p>
+
+          <p>Attempt a spell attack roll against the target's AC, using a
+          modifier of [[/r 1d20+15]] or your own spell attack roll modifier,
+          whichever is higher. On a success, the bolt deals [[/r 4d4]] negative
+          damage (doubled on a critical success).</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: urn-of-ashes
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - magical
+          - necromancy
+          - negative
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 700
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.3G2No6QaU1wSPTh6
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956367750
+      modifiedTime: 1686956367750
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: AvP7mQjRAnGxB0IE
+    _key: '!actors.items!h31z89PMlYNd2ktw.AvP7mQjRAnGxB0IE'
+  - img: systems/pf2e/icons/equipment/worn-items/other-worn-items/winged-boots.webp
+    name: Winged Boots
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Made from soft leather, with delicate white wings attached to the
+          heel, these boots are ensorcelled with powerful air magic.</p>
+
+          <p>Whenever you fall while wearing these boots, the boots
+          automatically cast
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]{Feather
+          Fall}</em> on you. This benefit can't trigger again for 10
+          minutes.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="pf2-icon">D</span> command,
+          Interact</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You speak a command word and click the
+          boots' heels together to cause the wings to animate and flap rapidly,
+          granting you a fly Speed of 30 feet for 10 minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.1S51uIRb9bnZtpFU]{Effect:
+          Winged Boots}</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: winged-boots
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 10
+      traits:
+        value:
+          - invested
+          - magical
+          - transmutation
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 850
+      equipped:
+        carryType: worn
+        invested: null
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: wornshoes
+    type: equipment
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.aKoMqPDmVzPI7Q20
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956371782
+      modifiedTime: 1686956371782
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: u51ehLGRcIgrOwJC
+    _key: '!actors.items!h31z89PMlYNd2ktw.u51ehLGRcIgrOwJC'
+  - img: systems/pf2e/icons/equipment/consumables/talismans/basilisk-eye.webp
+    name: Basilisk Eye
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Usage</strong> affixed to a shield</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
+          Envision</p>
+
+          <p><strong>Trigger</strong> You
+          @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} a
+          melee attack with the affixed shield.</p>
+
+          <p>This slimy green stone glows with a strong light whenever the
+          shield it adorns blocks a melee attack. When the eye is activated, the
+          attacker must succeed at a @Check[type:fortitude|dc:25] save or become
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          for 1 minute as its body slowly stiffens in partial petrification.</p>
+      source:
+        value: Pathfinder Advanced Player's Guide
+      rules: []
+      slug: basilisk-eye
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - consumable
+          - magical
+          - talisman
+          - transmutation
+          - visual
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 150
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: affixed-to-a-shield
+      consumableType:
+        value: talisman
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.vL6AtFbcxbipGvtf
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956401131
+      modifiedTime: 1686956401131
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: imFnL865WbUoqnFt
+    _key: '!actors.items!h31z89PMlYNd2ktw.imFnL865WbUoqnFt'
+  - img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/dust-of-disappearance.webp
+    name: Dust of Disappearance
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This powder shimmers like a thousand tiny motes of light.
+          Activating the dust by sprinkling it on yourself or a creature within
+          reach casts a 4th-level
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility}</em>
+          spell with a duration of 1 minute on that creature. This invisibility
+          can't be negated or seen through by any spell of 3rd level or lower or
+          any item of 5th level or lower.</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Interact</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: dust-of-disappearance
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - consumable
+          - illusion
+          - magical
+        rarity: uncommon
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 135
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: other
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.9XSOAzq3xp9g6qkF
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956407369
+      modifiedTime: 1686956407369
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: h7SiRsz5bhJcLrkq
+    _key: '!actors.items!h31z89PMlYNd2ktw.h7SiRsz5bhJcLrkq'
+  - img: systems/pf2e/icons/equipment/consumables/talismans/vanishing-coin.webp
+    name: Vanishing Coin
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Usage</strong> affixed to armor</p>
+
+          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
+          Envision</p>
+
+          <p><strong>Trigger</strong> You attempt a Stealth check for
+          initiative, but you haven't rolled yet</p>
+
+          <p><strong>Requirements</strong> You are a master in Stealth</p>
+
+          <p>This copper coin dangles from a leather strip strung through a hole
+          drilled in the center. Until activated, the coin becomes invisible for
+          a few seconds at random intervals every few minutes.</p>
+
+          <p>When you activate the coin, it casts a 2nd-level
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility}</em>
+          spell on you, lasting until the end of your next turn.</p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: vanishing-coin
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 10
+      traits:
+        value:
+          - consumable
+          - illusion
+          - magical
+          - talisman
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: '-'
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 160
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: affixed-to-armor
+      consumableType:
+        value: talisman
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.dBevXop3G2P3PGjp
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956412279
+      modifiedTime: 1686956412279
+      lastModifiedBy: eJdAkXPIlso4614X
+    _id: mBz1cLInkdHfS4y9
+    _key: '!actors.items!h31z89PMlYNd2ktw.mBz1cLInkdHfS4y9'
+  - _id: y8HcOeQVB31u1f2L
+    img: systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp
+    name: Wand of Aerial Form (Level 4)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{Aerial
+          Form}</em></p><hr /><p>This baton is about a foot long and contains a
+          single spell. The appearance typically relates to the spell
+          within.</p>
+
+          <p><strong>Activate</strong> Cast a Spell</p>
+
+          <p><strong>Frequency</strong> once per day, plus overcharge</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You Cast the Spell at the indicated
+          level.</p>
+
+          <p><strong>Craft Requirements</strong> Supply a listed-level casting
+          of the spell.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: magic-wand-4th-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - magical
+          - wand
+          - arcane
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 700
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: wand
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: false
+      spell:
+        img: systems/pf2e/icons/spells/aerial-form.webp
+        name: Aerial Form
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You harness your mastery of primal forces to reshape your body
+              into a Medium flying animal battle form. When you cast this spell,
+              choose bat, bird, pterosaur, or wasp. You can decide the specific
+              type of animal (such as an owl or eagle for bird), but this has no
+              effect on the form's Size or statistics. While in this form, you
+              gain the animal trait. You can Dismiss the spell.</p>
+
+              <p>You gain the following statistics and abilities regardless of
+              which battle form you choose:</p>
+
+              <ul>
+
+              <li>AC = 18 + your level. Ignore your armor's check penalty and
+              Speed reduction.</li>
+
+              <li>5 temporary Hit Points.</li>
+
+              <li>Low-light vision.</li>
+
+              <li>One or more unarmed melee attacks specific to the battle form
+              you choose, which are the only attacks you can Strike with. You're
+              trained with them. Your attack modifier is +16, and your damage
+              bonus is +5. These attacks are Dexterity based (for the purpose of
+              the
+              @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}
+              condition, for example). If your attack modifier for
+              Dexterity-based unarmed attacks is higher, you can use it
+              instead.</li>
+
+              <li>Acrobatics modifier of +16, unless your own modifier is
+              higher.</li>
+
+              </ul>
+
+              <p>You also gain specific abilities based on the form you
+              choose:</p>
+
+              <ul>
+
+              <li><strong>@UUID[Compendium.pf2e.spell-effects.Item.jvwKRHtOiPAm4uAP]{Bat}</strong>
+
+              <ul>
+
+              <li>Speed 20 feet, fly Speed 30 feet; precise echolocation 40
+              feet;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">a</span> fangs,
+              <strong>Damage</strong> 2d8 piercing;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">a</span> wing
+              (agile), <strong>Damage</strong> 2d6 bludgeoning.</li>
+
+              </ul>
+
+              </li>
+
+              <li><strong>@UUID[Compendium.pf2e.spell-effects.Item.0QVufU5o3xIxiHmP]{Bird}</strong>
+
+              <ul>
+
+              <li>Speed 10 feet, fly Speed 50 feet;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">a</span> beak,
+              <strong>Damage</strong> 2d8 piercing;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">a</span> talon
+              (agile), <strong>Damage</strong> 1d10 slashing.</li>
+
+              </ul>
+
+              </li>
+
+              <li><strong>@UUID[Compendium.pf2e.spell-effects.Item.UjoNm3lrhlg4ctAQ]{Pterosaur}</strong>
+
+              <ul>
+
+              <li>Speed 10 feet, fly Speed 40 feet; imprecise scent 30
+              feet;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">a</span> beak,
+              <strong>Damage</strong> 3d6 piercing.</li>
+
+              </ul>
+
+              </li>
+
+              <li><strong>@UUID[Compendium.pf2e.spell-effects.Item.xgZxYqjDPNtsQ3Qp]{Wasp}</strong>
+
+              <ul>
+
+              <li>Speed 20 feet, fly Speed 40 feet;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">a</span>
+              stinger, <strong>Damage</strong> 1d8 piercing plus 1d6 persistent
+              poison.</li>
+
+              </ul>
+
+              </li>
+
+              </ul>
+
+              <hr />
+
+              <p><strong>Heightened (5th)</strong> Your battle form is Large and
+              your fly Speed gains a +10-foot status bonus. You must have enough
+              space to expand into or the spell is lost. You instead gain 10
+              temporary HP, attack modifier +18, damage bonus +8, and Acrobatics
+              +20.</p>
+
+              <p><strong>Heightened (6th)</strong> Your battle form is Huge,
+              your fly Speed gains a +15-foot status bonus, and your attacks
+              have 10-foot reach. You must have enough space to expand into or
+              the spell is lost. You instead gain AC = 21 + your level, 15
+              temporary HP, attack modifier +21, damage bonus +4 and double
+              damage dice (including persistent damage), and Acrobatics +23.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: aerial-form
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - polymorph
+            rarity: common
+          level:
+            value: 4
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - primal
+          school:
+            value: transmutation
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: ''
+          range:
+            value: ''
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: 1 minute
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 4
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Sn7v9SsbEDMUIwrO
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956425075
+      modifiedTime: 1686956425075
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!h31z89PMlYNd2ktw.y8HcOeQVB31u1f2L'
+  - _id: 9miJ5yMbr4bmRlGI
+    img: systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp
+    name: Wand of Fey Form (Level 4)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.Qu4IThrk1wpONwjT]{Fey
+          Form}</em></p><hr /><p>This baton is about a foot long and contains a
+          single spell. The appearance typically relates to the spell
+          within.</p>
+
+          <p><strong>Activate</strong> Cast a Spell</p>
+
+          <p><strong>Frequency</strong> once per day, plus overcharge</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You Cast the Spell at the indicated
+          level.</p>
+
+          <p><strong>Craft Requirements</strong> Supply a listed-level casting
+          of the spell.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: magic-wand-4th-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - magical
+          - wand
+          - occult
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 700
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: wand
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: false
+      spell:
+        img: systems/pf2e/icons/spells/fey-form.webp
+        name: Fey Form
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>Channeling the mischievous fey, you transform into a fey battle
+              form, which is Medium unless stated otherwise. When you cast this
+              spell, choose dryad, elananx, naiad, redcap, or unicorn. If you
+              choose unicorn, the battle form is Large and you must have space
+              to expand or the spell is lost. While in this form, you gain the
+              fey trait. Unless you choose elananx or unicorn, you have hands in
+              this battle form and can use manipulate actions. You can Dismiss
+              the spell.</p>
+
+              <p>You gain the following statistics and abilities regardless of
+              the form that you choose:</p>
+
+              <ul>
+
+              <li>AC = 19 + your level. Ignore your armor's check penalty and
+              Speed reduction.</li>
+
+              <li>15 temporary Hit Points and weakness 5 to cold iron.</li>
+
+              <li>Low-light vision.</li>
+
+              <li>One or more unarmed melee attacks specific to the battle form
+              you choose, which are the only attacks you can use. You're trained
+              with them. Your attack modifier is +16, and you use the listed
+              damage. These attacks are Dexterity based. If your attack modifier
+              is higher for the given unarmed attack or weapon, you can use it
+              instead.</li>
+
+              <li>Acrobatics modifiers of +16, unless your own modifier is
+              higher.</li>
+
+              </ul>
+
+              <p>You also gain specific abilities based on the type of fey:</p>
+
+              <ul>
+
+              <li><strong>Dryad</strong>
+              @UUID[Compendium.pf2e.spell-effects.Item.c4cIfS2974nUJDPt]{Spell
+              Effect: Fey Form (Dryad)}
+
+              <ul>
+
+              <li>The temporary HP gained increases to 30;</li>
+
+              <li>Speed 25 feet; weakness 5 to fire;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">1</span> branch,
+              <strong>Damage</strong> 1d12+8 bludgeoning.</li>
+
+              </ul>
+
+              </li>
+
+              <li><strong>Elananx</strong>
+              @UUID[Compendium.pf2e.spell-effects.Item.S75DOLjKaSJGMc0D]{Spell
+              Effect: Fey Form (Elananx)}
+
+              <ul>
+
+              <li>Speed 30 feet;</li>
+
+              <li>resistance 5 to fire;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">1</span> jaws,
+              <strong>Damage</strong> 1d6+8 piercing plus 1d6 fire;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">1</span> claw
+              (agile), <strong>Damage</strong> 1d6 slashing.</li>
+
+              </ul>
+
+              </li>
+
+              <li><strong>Naiad</strong>
+              @UUID[Compendium.pf2e.spell-effects.Item.KcBqo33ekJHxZLHo]{Spell
+              Effect: Fey Form (Naiad)}
+
+              <ul>
+
+              <li>Speed 25 feet, swim 25 feet;</li>
+
+              <li>resistance 5 to fire;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">1</span> aqueous
+              fist (water),</li>
+
+              <li><strong>Damage</strong> 1d8+8 bludgeoning.</li>
+
+              </ul>
+
+              </li>
+
+              <li><strong>Redcap</strong>
+              @UUID[Compendium.pf2e.spell-effects.Item.heAj9paC8ZRh7QEj]{Spell
+              Effect: Fey Form (Redcap)}
+
+              <ul>
+
+              <li>Speed 40 feet;</li>
+
+              <li><strong>Size</strong> Small;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">1</span> scythe
+              (deadly d10, trip), <strong>Damage</strong> 1d10+8 slashing;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">1</span> boot
+              (agile, versatile B), <strong>Damage</strong> 1d6 piercing.</li>
+
+              </ul>
+
+              </li>
+
+              <li><strong>Unicorn</strong>
+              @UUID[Compendium.pf2e.spell-effects.Item.DwM5qcFp4JgKhXrY]{Spell
+              Effect: Fey Form (Unicorn)}
+
+              <ul>
+
+              <li>gain the beast trait in addition to fey;</li>
+
+              <li>Speed 40 feet;</li>
+
+              <li>resistance 5 to poison;</li>
+
+              <li><strong>Size</strong> Large;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">1</span> horn,
+              <strong>Damage</strong> 1d10+8 piercing plus 1 good;</li>
+
+              <li><strong>Melee</strong> <span class="pf2-icon">1</span> hoof
+              (agile), <strong>Damage</strong> 1d8 bludgeoning; all Strikes have
+              the effects of a
+              <em>@UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost
+              Touch}</em> property rune.</li>
+
+              </ul>
+
+              </li>
+
+              </ul>
+          source:
+            value: Pathfinder Secrets of Magic
+          rules: []
+          slug: fey-form
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - polymorph
+            rarity: common
+          level:
+            value: 4
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - occult
+              - primal
+            custom: ''
+          school:
+            value: transmutation
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: ''
+          range:
+            value: ''
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: 1 minute
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 4
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.Qu4IThrk1wpONwjT
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Sn7v9SsbEDMUIwrO
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956431110
+      modifiedTime: 1686956431110
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!h31z89PMlYNd2ktw.9miJ5yMbr4bmRlGI'
+  - _id: YlNQZOq3jfnJgipy
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Field of Life (Level 6)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.x5rGOmhDRDVQPrnW]{Field
+          of Life}</em></p><hr /><p>Casting a Spell from a scroll requires
+          holding the scroll in one hand and activating it with a Cast a Spell
+          activity using the normal number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-6th-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - divine
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 300
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/field-of-life.webp
+        name: Field of Life
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>A field of positive energy fills the area, exuding warmth and
+              rejuvenating those within. Each living creature that starts its
+              turn in the area regains 1d8 Hit Points, and any undead creature
+              that starts its turn in the area takes 1d8 positive damage.</p>
+
+              <hr />
+
+              <p><strong>Heightened (8th)</strong> The healing and damage
+              increase to 1d10.</p>
+
+              <p><strong>Heightened (9th)</strong> The healing and damage
+              increase to 1d12.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: field-of-life
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - healing
+              - positive
+            rarity: common
+          level:
+            value: 6
+          spellType:
+            value: heal
+          category:
+            value: spell
+          traditions:
+            value:
+              - divine
+              - primal
+          school:
+            value: necromancy
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: ''
+          range:
+            value: 30 feet
+          area:
+            type: burst
+            value: 20
+          time:
+            value: '2'
+          duration:
+            value: sustained up to 1 minute
+          damage:
+            value:
+              '0':
+                applyMod: false
+                type:
+                  categories: []
+                  subtype: ''
+                  value: healing
+                value: 1d8
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 6
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          heightening:
+            levels:
+              '8':
+                damage:
+                  value:
+                    '0':
+                      applyMod: false
+                      type:
+                        categories: []
+                        subtype: ''
+                        value: healing
+                      value: 1d10
+              '9':
+                damage:
+                  value:
+                    '0':
+                      applyMod: false
+                      type:
+                        categories: []
+                        subtype: ''
+                        value: healing
+                      value: 1d12
+            type: fixed
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.x5rGOmhDRDVQPrnW
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.4sGIy77COooxhQuC
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956439288
+      modifiedTime: 1686956439288
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!h31z89PMlYNd2ktw.YlNQZOq3jfnJgipy'
+  - _id: Tt4g1KfEeZaYwvEv
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of True Seeing (Level 6)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{True
+          Seeing}</em></p><hr /><p>Casting a Spell from a scroll requires
+          holding the scroll in one hand and activating it with a Cast a Spell
+          activity using the normal number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-6th-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 11
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - arcane
+          - divine
+          - occult
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 300
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/true-seeing.webp
+        name: True Seeing
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You see things within 60 feet as they actually are. The GM
+              rolls a secret counteract check against any illusion or
+              transmutation in the area, but only for the purpose of determining
+              whether you see through it (for instance, if the check succeeds
+              against a polymorph spell, you can see the creature's true form,
+              but you don't end the polymorph spell).</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: true-seeing
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - revelation
+            rarity: common
+          level:
+            value: 6
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - divine
+              - occult
+              - primal
+          school:
+            value: divination
+          components:
+            focus: false
+            material: false
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: ''
+          range:
+            value: ''
+          area: null
+          time:
+            value: '2'
+          duration:
+            value: 10 minutes
+          damage:
+            value: {}
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 6
+          hasCounteractCheck:
+            value: true
+          ability:
+            value: ''
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.4sGIy77COooxhQuC
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956444142
+      modifiedTime: 1686956444142
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!h31z89PMlYNd2ktw.Tt4g1KfEeZaYwvEv'
+  - _id: sUiYi5qPLk40UE3U
+    img: >-
+      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
+    name: Scroll of Wall of Ice (Level 5)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.R5FHRv7VqyRnxg2t]{Wall of
+          Ice}</em></p><hr /><p>Casting a Spell from a scroll requires holding
+          the scroll in one hand and activating it with a Cast a Spell activity
+          using the normal number of actions for that spell.</p>
+
+          <p>To Cast a Spell from a scroll, the spell must appear on your spell
+          list. Because you're the one Casting the Spell, use your spell attack
+          roll and spell DC. The spell also gains the appropriate trait for your
+          tradition (arcane, divine, occult, or primal).</p>
+
+          <p>Any physical material components and costs are provided when a
+          scroll is created, so you don't need to provide them when Casting a
+          Spell from a scroll. You must replace any required material component
+          for that spell with a somatic component. If the spell requires a
+          focus, you must have that focus to Cast the Spell from a scroll.</p>
+
+          <hr />
+
+          <p><em>Note: To create a scroll or wand of a specific spell, drag the
+          spell from the compendium or compendium browser into the inventory of
+          a PC, NPC, or loot actor.</em></p>
+      source:
+        value: Pathfinder Core Rulebook
+      rules: []
+      slug: scroll-of-5th-level-spell
+      schema:
+        version: 0.842
+        lastMigration:
+          datetime: '2023-06-20T09:31:23.965-07:00'
+          version:
+            schema: 0.842
+            foundry: '11.302'
+            system: 5.0.1
+      level:
+        value: 9
+      traits:
+        value:
+          - consumable
+          - magical
+          - scroll
+          - arcane
+          - primal
+        rarity: common
+        otherTags: []
+      quantity: 1
+      baseItem: null
+      hp:
+        brokenThreshold: 0
+        value: 0
+        max: 0
+      hardness: 0
+      weight:
+        value: L
+      equippedBulk:
+        value: ''
+      price:
+        value:
+          gp: 150
+      equipped:
+        carryType: worn
+      stackGroup: null
+      negateBulk:
+        value: '0'
+      containerId: null
+      preciousMaterial:
+        value: ''
+      preciousMaterialGrade:
+        value: ''
+      size: med
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      consumableType:
+        value: scroll
+      charges:
+        value: 1
+        max: 1
+      consume:
+        value: ''
+      autoDestroy:
+        value: true
+      spell:
+        img: systems/pf2e/icons/spells/wall-of-ice.webp
+        name: Wall of Ice
+        system:
+          description:
+            gm: ''
+            value: >-
+              <p>You sculpt an ice barrier that blocks sight and, once
+              shattered, freezes foes. You create either a 1-foot-thick wall of
+              ice in a straight line up to 60 feet long and 10 feet high (the
+              wall doesn't have to be vertical, but it must be anchored on both
+              sides to a solid surface) or a 1-foot-thick, 10-foot radius
+              hemisphere of ice. The ice that makes up the wall is opaque. If
+              you wish, the wall can be of a smaller length, height, or
+              radius.</p>
+
+              <p>You must create the wall in an unbroken open space so its edges
+              don't pass through any creatures or objects, or the spell is lost.
+              Each 10-foot-by-10-foot section of the wall has AC 10, Hardness
+              10, and 40 Hit Points, and it's immune to critical hits, cold
+              damage, and precision damage. A section also has weakness to fire
+              15; a section of the wall destroyed by fire melts, evaporating
+              into water and steam. A section destroyed by means other than fire
+              leaves behind a chilling mass of ice that is difficult terrain and
+              deals 2d6 cold damage to any creature passing through it.</p>
+
+              <hr />
+
+              <p><strong>Heightened (+2)</strong> The Hit Points of each section
+              of the wall increase by 10, and the cold damage dealt to creatures
+              crossing a destroyed section increases by 1d6.</p>
+          source:
+            value: Pathfinder Core Rulebook
+          rules: []
+          slug: wall-of-ice
+          schema:
+            version: 0.842
+            lastMigration: null
+          traits:
+            value:
+              - cold
+              - water
+            rarity: common
+          level:
+            value: 5
+          spellType:
+            value: utility
+          category:
+            value: spell
+          traditions:
+            value:
+              - arcane
+              - primal
+          school:
+            value: evocation
+          components:
+            focus: false
+            material: true
+            somatic: true
+            verbal: true
+          materials:
+            value: ''
+          target:
+            value: ''
+          range:
+            value: 120 feet
+          area: null
+          time:
+            value: '3'
+          duration:
+            value: 1 minute
+          damage:
+            value:
+              '0':
+                type:
+                  categories: []
+                  value: cold
+                value: 2d6
+          save:
+            value: ''
+            basic: ''
+          sustained:
+            value: false
+          cost:
+            value: ''
+          location:
+            value: null
+            heightenedLevel: 5
+          hasCounteractCheck:
+            value: false
+          ability:
+            value: ''
+          heightening:
+            damage:
+              '0': 1d6
+            interval: 1
+            type: interval
+          prepared:
+            value: ''
+          primarycheck:
+            value: ''
+          secondarycasters:
+            value: ''
+          secondarycheck:
+            value: ''
+        type: spell
+        flags:
+          core:
+            sourceId: Compendium.pf2e.spells-srd.Item.R5FHRv7VqyRnxg2t
+        effects: []
+        folder: null
+        sort: 0
+        ownership:
+          default: 0
+        _stats:
+          systemId: null
+          systemVersion: null
+          coreVersion: null
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: null
+    type: consumable
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.tjLvRWklAylFhBHQ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eJdAkXPIlso4614X: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.0.0-beta2
+      coreVersion: '11.302'
+      createdTime: 1686956449734
+      modifiedTime: 1686956449734
+      lastModifiedBy: eJdAkXPIlso4614X
+    _key: '!actors.items!h31z89PMlYNd2ktw.sUiYi5qPLk40UE3U'
+effects: []
+folder: null
+sort: 0
+flags:
+  core: {}
+system:
+  attributes: {}
+  details:
+    description: >-
+      <p>The elderly dwarf Yakami Tohako from Xian Tia has seen it all. In her
+      young years an adventurer, later a mother, and after the children grew up
+      a political leader. As old age is weakening her slowly she turned down
+      official responsibilities and started a passion project - her own shop.
+      The Shop sells high quality wares in a very old fashined and rustic
+      environment.</p>
+
+      <p>Her varied past gives her access to a plethora of contacts that supply
+      her with wares, stories, and information from all over Golarion. She
+      treats her customers as children, staffing them with a collection of
+      wonders and well meant advice.</p>
+    level:
+      value: 0
+  lootSheetType: Merchant
+  hiddenWhenEmpty: false
+  schema:
+    version: 0.842
+    lastMigration:
+      datetime: '2023-06-20T09:31:23.965-07:00'
+      version:
+        schema: 0.842
+        foundry: '11.302'
+        system: 5.0.1
+  traits:
+    rarity: common
+    size:
+      value: med
+    value: []
+  customModifiers: {}
+ownership:
+  default: 1
+  sarkMXaT0ELIQ2fE: 3
+prototypeToken:
+  bar1:
+    attribute: attributes.hp
+  displayName: 20
+  displayBars: 40
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  actorLink: true
+  disposition: 0
+  name: Yakami Tahoko
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  bar2:
+    attribute: null
+  randomImg: false
+  light:
+    alpha: 0.25
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+  texture:
+    src: systems/pf2e/icons/default-icons/loot.svg
+    tint: null
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+_stats:
+  systemId: pf2e
+  systemVersion: 5.0.1
+  coreVersion: '11.302'
+  createdTime: 1686850696517
+  modifiedTime: 1687278696568
+  lastModifiedBy: eJdAkXPIlso4614X
+_key: '!actors!h31z89PMlYNd2ktw'
+
