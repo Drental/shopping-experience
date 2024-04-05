@@ -3,7 +3,7 @@ name: Otari Garrison
 type: loot
 img: systems/pf2e/icons/default-icons/loot.svg
 items:
-  - img: systems/pf2e/icons/equipment/weapons/dagger.webp
+  - img: icons/weapons/daggers/dagger-straight-blue.webp
     name: Dagger
     system:
       description:
@@ -16,10 +16,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -29,10 +26,10 @@ items:
           - versatile-s
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 10
@@ -66,6 +63,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: simple
       group: knife
       bonus:
@@ -109,14 +107,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034115417
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997061
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: NDII3Ad7ec0kXLbE
     _key: '!actors.items!TYWL1qLMoxCG7DaO.NDII3Ad7ec0kXLbE'
-  - img: systems/pf2e/icons/equipment/weapons/gauntlet.webp
+  - img: icons/equipment/hand/gauntlet-tooled-steel.webp
     name: Gauntlet
     system:
       description:
@@ -131,10 +129,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -142,10 +137,10 @@ items:
           - free-hand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -222,14 +217,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034119374
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997088
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Wh0H1y4pPc7KZvwx
     _key: '!actors.items!TYWL1qLMoxCG7DaO.Wh0H1y4pPc7KZvwx'
-  - img: systems/pf2e/icons/equipment/weapons/light-mace.webp
+  - img: icons/weapons/maces/mace-round-steel.webp
     name: Light Mace
     system:
       description:
@@ -244,10 +239,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -256,10 +248,10 @@ items:
           - shove
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -336,14 +328,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034123888
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997170
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: ue3YrWbLjDcgJNwL
     _key: '!actors.items!TYWL1qLMoxCG7DaO.ue3YrWbLjDcgJNwL'
-  - img: systems/pf2e/icons/equipment/weapons/longspear.webp
+  - img: icons/weapons/polearms/spear-simple-engraved.webp
     name: Longspear
     system:
       description:
@@ -358,20 +350,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - reach
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -448,14 +437,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034128162
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997196
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: FhfQiUTpDIIJTLsU
     _key: '!actors.items!TYWL1qLMoxCG7DaO.FhfQiUTpDIIJTLsU'
-  - img: systems/pf2e/icons/equipment/weapons/mace.webp
+  - img: icons/weapons/maces/mace-flanged-steel.webp
     name: Mace
     system:
       description:
@@ -468,20 +457,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - shove
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -558,11 +544,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034131903
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997278
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 2ZJjeMP5bBUgRRPx
     _key: '!actors.items!TYWL1qLMoxCG7DaO.2ZJjeMP5bBUgRRPx'
   - img: systems/pf2e/icons/equipment/weapons/morningstar.webp
@@ -578,20 +564,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - versatile-p
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -668,20 +651,20 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034135661
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997368
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: GoHt2ad6n9m4bYNd
     _key: '!actors.items!TYWL1qLMoxCG7DaO.GoHt2ad6n9m4bYNd'
-  - img: systems/pf2e/icons/equipment/weapons/sickle.webp
+  - img: icons/tools/hand/sickle-steel-grey.webp
     name: Sickle
     system:
       description:
         gm: ''
         value: >-
-          <p>Originally a farming tool used for reaping grain, this one‑handed
+          <p>Originally a farming tool used for reaping grain, this one-handed
           weapon has a short wooden handle ending in a curved blade, sometimes
           sharpened on both sides.</p>
       rules: []
@@ -689,10 +672,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -701,10 +681,10 @@ items:
           - trip
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -781,40 +761,38 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034139511
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997450
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: hPp6TTQRKtWs1odf
     _key: '!actors.items!TYWL1qLMoxCG7DaO.hPp6TTQRKtWs1odf'
-  - img: systems/pf2e/icons/equipment/weapons/spear.webp
+  - img: icons/weapons/polearms/spear-flared-steel.webp
     name: Spear
     system:
       description:
         gm: ''
         value: >-
           <p>A long metal shaft ending with a metal spike, a spear can be used
-          one‑handed as a melee weapon and can be thrown.</p>
+          one-handed as a melee weapon and can be thrown.</p>
       rules: []
       slug: spear
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
+          - monk
           - thrown-20
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -848,6 +826,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: simple
       group: spear
       bonus:
@@ -891,11 +870,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034143275
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997477
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: QHFXxrelcjGflkaf
     _key: '!actors.items!TYWL1qLMoxCG7DaO.QHFXxrelcjGflkaf'
   - img: systems/pf2e/icons/equipment/weapons/spiked-gauntlet.webp
@@ -905,17 +884,13 @@ items:
         gm: ''
         value: >-
           <p>Providing the same defensive function as a standard gauntlet, this
-          version has a group of spikes protruding from the knuckles to deliver
-          piercing damage with a punch.</p>
+          version has a group of spikes protruding from the knuckles.</p>
       rules: []
       slug: spiked-gauntlet
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -923,10 +898,10 @@ items:
           - free-hand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1003,14 +978,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034147078
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997559
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: PmWpChjh4Mp1CKiL
     _key: '!actors.items!TYWL1qLMoxCG7DaO.PmWpChjh4Mp1CKiL'
-  - img: systems/pf2e/icons/equipment/weapons/staff.webp
+  - img: icons/weapons/staves/staff-simple.webp
     name: Staff
     system:
       description:
@@ -1023,20 +998,18 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
+          - monk
           - two-hand-d8
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1112,11 +1085,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034157086
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997586
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: bfitpbxJRecfMHD0
     _key: '!actors.items!TYWL1qLMoxCG7DaO.bfitpbxJRecfMHD0'
   - img: systems/pf2e/icons/equipment/weapons/clan-dagger.webp
@@ -1133,10 +1106,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1146,10 +1116,10 @@ items:
           - versatile-b
         rarity: uncommon
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1195,7 +1165,7 @@ items:
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: null
       reload:
         value: ''
@@ -1226,31 +1196,28 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034162863
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997669
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: EMm0LYDg3u8qeuLR
     _key: '!actors.items!TYWL1qLMoxCG7DaO.EMm0LYDg3u8qeuLR'
-  - img: systems/pf2e/icons/equipment/weapons/katar.webp
+  - img: icons/weapons/fist/fist-katar-gold.webp
     name: Katar
     system:
       description:
         gm: ''
         value: >-
           <p>Also known as punching daggers, katars are characterized by their
-          H‑shaped hand grip that allows the blade to jut out from the
+          H-shaped hand grip that allows the blade to jut out from the
           knuckles.</p>
       rules: []
       slug: katar
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1259,10 +1226,10 @@ items:
           - monk
         rarity: uncommon
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1308,7 +1275,7 @@ items:
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: null
       reload:
         value: ''
@@ -1339,14 +1306,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034166942
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997753
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: ewsUC0e3pQJQ8Cqp
     _key: '!actors.items!TYWL1qLMoxCG7DaO.ewsUC0e3pQJQ8Cqp'
-  - img: systems/pf2e/icons/equipment/weapons/bastard-sword.webp
+  - img: icons/weapons/swords/sword-guard.webp
     name: Bastard Sword
     system:
       description:
@@ -1354,26 +1321,23 @@ items:
         value: >-
           <p>This broad-bladed sword, sometimes called the hand-and-a-half
           sword, has a longer grip so it can be held in one hand or used with
-          two hands to provide extra piercing or slashing power.</p>
+          two hands to provide extra slashing power.</p>
       rules: []
       slug: bastard-sword
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - two-hand-d12
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1450,14 +1414,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034171440
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997835
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: V0fcceRqEi4Ps0MR
     _key: '!actors.items!TYWL1qLMoxCG7DaO.V0fcceRqEi4Ps0MR'
-  - img: systems/pf2e/icons/equipment/weapons/battle-axe.webp
+  - img: icons/weapons/axes/axe-battle-black.webp
     name: Battle Axe
     system:
       description:
@@ -1472,20 +1436,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - sweep
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1562,14 +1523,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034176512
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997862
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: KBB06omAGqY9nQJa
     _key: '!actors.items!TYWL1qLMoxCG7DaO.KBB06omAGqY9nQJa'
-  - img: systems/pf2e/icons/equipment/weapons/bo-staff.webp
+  - img: icons/weapons/staves/staff-simple-gold.webp
     name: Bo Staff
     system:
       description:
@@ -1582,10 +1543,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1595,10 +1553,10 @@ items:
           - trip
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1675,20 +1633,20 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034181874
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315997945
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: UcvjW7THUMumrjug
     _key: '!actors.items!TYWL1qLMoxCG7DaO.UcvjW7THUMumrjug'
-  - img: systems/pf2e/icons/equipment/weapons/falchion.webp
+  - img: icons/weapons/swords/scimitar-guard-wood.webp
     name: Falchion
     system:
       description:
         gm: ''
         value: >-
-          <p>This weapon is a heavier, two‑handed version of the curved‑bladed
+          <p>This weapon is a heavier, two-handed version of the curved-bladed
           scimitar. It is weighted toward the blade's end, making it a powerful
           slashing weapon.</p>
       rules: []
@@ -1696,10 +1654,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1707,10 +1662,10 @@ items:
           - sweep
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1787,14 +1742,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034188163
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998031
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: ycTaeLvGSPWPV30f
     _key: '!actors.items!TYWL1qLMoxCG7DaO.ycTaeLvGSPWPV30f'
-  - img: systems/pf2e/icons/equipment/weapons/flail.webp
+  - img: icons/weapons/maces/flail-ball-grey.webp
     name: Flail
     system:
       description:
@@ -1807,10 +1762,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1819,10 +1771,10 @@ items:
           - trip
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -1835,7 +1787,7 @@ items:
       hardness: 0
       price:
         value:
-          gp: 1
+          sp: 8
       equipped:
         carryType: worn
         invested: null
@@ -1899,31 +1851,28 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034192566
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998115
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: YX7Yzb3LipRxjkrG
     _key: '!actors.items!TYWL1qLMoxCG7DaO.YX7Yzb3LipRxjkrG'
-  - img: systems/pf2e/icons/equipment/weapons/glaive.webp
+  - img: icons/weapons/polearms/glaive-simple.webp
     name: Glaive
     system:
       description:
         gm: ''
         value: >-
-          <p>This polearm consists of a long, single‑edged blade on the end of a
-          7‑foot pole. It is extremely effective at delivering lethal cuts at a
+          <p>This polearm consists of a long, single-edged blade on the end of a
+          7-foot pole. It is extremely effective at delivering lethal cuts at a
           distance.</p>
       rules: []
       slug: glaive
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1932,10 +1881,10 @@ items:
           - reach
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2012,21 +1961,21 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034197913
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998144
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: ZM6VZS12ndQWbWoG
     _key: '!actors.items!TYWL1qLMoxCG7DaO.ZM6VZS12ndQWbWoG'
-  - img: systems/pf2e/icons/equipment/weapons/greataxe.webp
+  - img: icons/weapons/axes/axe-double-engraved.webp
     name: Greataxe
     system:
       description:
         gm: ''
         value: >-
           <p>This large battle axe is too heavy to wield with only one hand.
-          Many greataxes incorporate two blades, and they are often "bearded",
+          Many greataxes incorporate two blades, and they are often "bearded,"
           having a hook at the bottom to increase the strength of their chopping
           power.</p>
       rules: []
@@ -2034,20 +1983,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - sweep
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2124,11 +2070,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034203102
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998232
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: LhL35OSTLcnGC8Ew
     _key: '!actors.items!TYWL1qLMoxCG7DaO.LhL35OSTLcnGC8Ew'
   - img: systems/pf2e/icons/equipment/weapons/greatpick.webp
@@ -2144,20 +2090,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - fatal-d12
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2234,41 +2177,38 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034209614
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998313
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: fibzsFAzQ93OcmMw
     _key: '!actors.items!TYWL1qLMoxCG7DaO.fibzsFAzQ93OcmMw'
-  - img: systems/pf2e/icons/equipment/weapons/greatsword.webp
+  - img: icons/weapons/swords/greatsword-crossguard-silver.webp
     name: Greatsword
     system:
       description:
         gm: ''
         value: >-
-          <p>This immense two‑handed sword is nearly as tall as its wielder. Its
+          <p>This immense two-handed sword is nearly as tall as its wielder. Its
           lower blade is often somewhat dulled to allow it to be gripped for
-          extra leverage in close‑quarter fights.</p>
+          extra leverage in close-quarter fights.</p>
       rules: []
       slug: greatsword
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - versatile-p
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2345,11 +2285,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034210934
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998395
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 1Eb8BvQ19NCN61S2
     _key: '!actors.items!TYWL1qLMoxCG7DaO.1Eb8BvQ19NCN61S2'
   - img: systems/pf2e/icons/equipment/weapons/guisarme.webp
@@ -2358,7 +2298,7 @@ items:
       description:
         gm: ''
         value: >-
-          <p>This polearm bears a long, often one‑sided, curved blade with a
+          <p>This polearm bears a long, often one-sided, curved blade with a
           hook protruding from the blunt side of the blade, which can allow its
           wielder to trip opponents at a distance. Its shaft is usually 8 feet
           long.</p>
@@ -2367,10 +2307,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2378,10 +2315,10 @@ items:
           - trip
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2458,11 +2395,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034216987
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998479
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: JptNLGL0RElR3SQA
     _key: '!actors.items!TYWL1qLMoxCG7DaO.JptNLGL0RElR3SQA'
   - img: systems/pf2e/icons/equipment/weapons/halberd.webp
@@ -2471,17 +2408,14 @@ items:
       description:
         gm: ''
         value: >-
-          <p>This polearm has a relatively short, 5‑foot shaft. The business end
+          <p>This polearm has a relatively short, 5-foot shaft. The business end
           is a long spike with an axe blade attached.</p>
       rules: []
       slug: halberd
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2489,10 +2423,10 @@ items:
           - versatile-s
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2569,14 +2503,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034222150
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998564
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Dw57NCBn4kvYidcr
     _key: '!actors.items!TYWL1qLMoxCG7DaO.Dw57NCBn4kvYidcr'
-  - img: systems/pf2e/icons/equipment/weapons/hatchet.webp
+  - img: icons/weapons/axes/axe-broad-black.webp
     name: Hatchet
     system:
       description:
@@ -2587,10 +2521,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2599,10 +2530,10 @@ items:
           - thrown-10
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2636,6 +2567,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: axe
       bonus:
@@ -2679,14 +2611,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034226165
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998647
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: S55kGjMBqusLEM96
     _key: '!actors.items!TYWL1qLMoxCG7DaO.S55kGjMBqusLEM96'
-  - img: systems/pf2e/icons/equipment/weapons/light-hammer.webp
+  - img: icons/weapons/hammers/shorthammer-embossed-white.webp
     name: Light Hammer
     system:
       description:
@@ -2700,10 +2632,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2711,10 +2640,10 @@ items:
           - thrown-20
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2748,6 +2677,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: hammer
       bonus:
@@ -2791,11 +2721,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034230565
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998732
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 2k8tz9e4PhZFQo6k
     _key: '!actors.items!TYWL1qLMoxCG7DaO.2k8tz9e4PhZFQo6k'
   - img: systems/pf2e/icons/equipment/weapons/light-pick.webp
@@ -2812,10 +2742,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2823,10 +2750,10 @@ items:
           - fatal-d8
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -2903,40 +2830,38 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034236024
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998758
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: E2x6hck2LUJdO9OZ
     _key: '!actors.items!TYWL1qLMoxCG7DaO.E2x6hck2LUJdO9OZ'
-  - img: systems/pf2e/icons/equipment/weapons/longsword.webp
+  - img: icons/weapons/swords/sword-guard-blue.webp
     name: Longsword
     system:
       description:
         gm: ''
         value: >-
-          <p>Longswords can be one‑edged or two‑edged swords. Their blades are
-          heavy and they're between 3 and 4 feet in length.</p>
+          <p>Longswords, also known as arming swords, can be one-edged or
+          two-edged swords. Their blades are heavy and they're between 3 and 4
+          feet in length.</p>
       rules: []
       slug: longsword
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - versatile-p
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 4
@@ -3013,11 +2938,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034240594
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998840
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: zW61LeMfgN2cf7Hk
     _key: '!actors.items!TYWL1qLMoxCG7DaO.zW61LeMfgN2cf7Hk'
   - img: systems/pf2e/icons/equipment/weapons/main-gauche.webp
@@ -3033,10 +2958,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3047,10 +2969,10 @@ items:
           - versatile-s
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -3127,14 +3049,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034260881
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315998928
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Ut0T3G6g6D0EYpuo
     _key: '!actors.items!TYWL1qLMoxCG7DaO.Ut0T3G6g6D0EYpuo'
-  - img: systems/pf2e/icons/equipment/weapons/maul.webp
+  - img: icons/weapons/hammers/hammer-double-steel-embossed.webp
     name: Maul
     system:
       description:
@@ -3145,20 +3067,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - shove
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -3235,14 +3154,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034264723
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999014
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: bC3L2KoGAHMj0haG
     _key: '!actors.items!TYWL1qLMoxCG7DaO.bC3L2KoGAHMj0haG'
-  - img: systems/pf2e/icons/equipment/weapons/pick.webp
+  - img: icons/weapons/axes/pickaxe-iron-green.webp
     name: Pick
     system:
       description:
@@ -3255,20 +3174,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - fatal-d10
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -3345,14 +3261,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034269111
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999112
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Ph2rc7fTfk82Gj7Q
     _key: '!actors.items!TYWL1qLMoxCG7DaO.Ph2rc7fTfk82Gj7Q'
-  - img: systems/pf2e/icons/equipment/weapons/ranseur.webp
+  - img: icons/weapons/polearms/trident-curved-steel.webp
     name: Ranseur
     system:
       description:
@@ -3365,10 +3281,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3376,10 +3289,10 @@ items:
           - reach
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -3456,11 +3369,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034273193
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999195
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 2VJTtkBMaNuQvhdh
     _key: '!actors.items!TYWL1qLMoxCG7DaO.2VJTtkBMaNuQvhdh'
   - img: systems/pf2e/icons/equipment/weapons/rapier.webp
@@ -3476,10 +3389,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3488,10 +3398,10 @@ items:
           - finesse
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -3568,14 +3478,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034277204
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999221
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: R45jjJEabiOpPCFY
     _key: '!actors.items!TYWL1qLMoxCG7DaO.R45jjJEabiOpPCFY'
-  - img: systems/pf2e/icons/equipment/weapons/scimitar.webp
+  - img: icons/weapons/swords/scimitar-worn-blue.webp
     name: Scimitar
     system:
       description:
@@ -3586,10 +3496,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3597,10 +3504,10 @@ items:
           - sweep
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -3677,11 +3584,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034281124
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999246
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: hruNJSD3UkdzkBqi
     _key: '!actors.items!TYWL1qLMoxCG7DaO.hruNJSD3UkdzkBqi'
   - img: systems/pf2e/icons/equipment/weapons/scythe.webp
@@ -3698,10 +3605,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3709,10 +3613,10 @@ items:
           - trip
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -3789,11 +3693,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034285341
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999273
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: xPAy7nmypXRD5x0p
     _key: '!actors.items!TYWL1qLMoxCG7DaO.xPAy7nmypXRD5x0p'
   - img: systems/pf2e/icons/equipment/weapons/shield-boss.webp
@@ -3810,20 +3714,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - attached-to-shield
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -3860,7 +3761,7 @@ items:
       category: martial
       group: shield
       bonus:
-        value: '0'
+        value: 0
       damage:
         dice: 1
         die: d6
@@ -3900,11 +3801,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034291488
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999355
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: WsW01bOaCAHmzePl
     _key: '!actors.items!TYWL1qLMoxCG7DaO.WsW01bOaCAHmzePl'
   - img: systems/pf2e/icons/equipment/weapons/shield-spikes.webp
@@ -3920,20 +3821,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - attached-to-shield
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -3970,7 +3868,7 @@ items:
       category: martial
       group: shield
       bonus:
-        value: '0'
+        value: 0
       damage:
         dice: 1
         die: d6
@@ -4010,14 +3908,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034297622
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999438
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: M9y1b3wLChOfCSAa
     _key: '!actors.items!TYWL1qLMoxCG7DaO.M9y1b3wLChOfCSAa'
-  - img: systems/pf2e/icons/equipment/weapons/shortsword.webp
+  - img: icons/weapons/swords/sword-guard-purple.webp
     name: Shortsword
     system:
       description:
@@ -4030,10 +3928,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -4042,10 +3937,10 @@ items:
           - versatile-s
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -4122,11 +4017,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034301720
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999522
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: aHUnWvP5KXafGOBr
     _key: '!actors.items!TYWL1qLMoxCG7DaO.aHUnWvP5KXafGOBr'
   - img: systems/pf2e/icons/equipment/weapons/starknife.webp
@@ -4144,10 +4039,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -4158,10 +4050,10 @@ items:
           - versatile-s
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -4195,6 +4087,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: knife
       bonus:
@@ -4207,7 +4100,7 @@ items:
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: null
       reload:
         value: '-'
@@ -4238,11 +4131,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034306670
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999604
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: nNLRLzWk53fdSAzn
     _key: '!actors.items!TYWL1qLMoxCG7DaO.nNLRLzWk53fdSAzn'
   - img: systems/pf2e/icons/equipment/weapons/trident.webp
@@ -4251,27 +4144,24 @@ items:
       description:
         gm: ''
         value: >-
-          <p>This three‑pronged, spear‑like weapon typically has a 4‑foot shaft.
+          <p>This three-pronged, spear-like weapon typically has a 4-foot shaft.
           Like a spear, it can be wielded with one hand or thrown.</p>
       rules: []
       slug: trident
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - thrown-20
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -4305,6 +4195,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: spear
       bonus:
@@ -4348,14 +4239,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034311280
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999631
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Pi8RDWsORWnFToGH
     _key: '!actors.items!TYWL1qLMoxCG7DaO.Pi8RDWsORWnFToGH'
-  - img: systems/pf2e/icons/equipment/weapons/war-flail.webp
+  - img: icons/weapons/maces/flail-studded-grey.webp
     name: War Flail
     system:
       description:
@@ -4368,10 +4259,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -4380,10 +4268,10 @@ items:
           - trip
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -4460,41 +4348,38 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034320962
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999657
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: x0K6QCTRb1gIS67v
     _key: '!actors.items!TYWL1qLMoxCG7DaO.x0K6QCTRb1gIS67v'
-  - img: systems/pf2e/icons/equipment/weapons/warhammer.webp
+  - img: icons/weapons/hammers/hammer-war-rounding.webp
     name: Warhammer
     system:
       description:
         gm: ''
         value: >-
           <p>This weapon has a wooden shaft ending in a large, heavy metal head.
-          The head of the hammer might be single‑sided or double‑sided, but it's
+          The head of the hammer might be single-sided or double-sided, but it's
           always capable of delivering powerful bludgeoning blows.</p>
       rules: []
       slug: warhammer
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - shove
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -4571,11 +4456,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034326925
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999683
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: PQtPmlKr3Drnpz4E
     _key: '!actors.items!TYWL1qLMoxCG7DaO.PQtPmlKr3Drnpz4E'
   - img: systems/pf2e/icons/equipment/weapons/whip.webp
@@ -4592,10 +4477,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -4606,10 +4488,10 @@ items:
           - trip
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -4655,7 +4537,7 @@ items:
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: null
       reload:
         value: ''
@@ -4686,14 +4568,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034331257
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999765
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Mw4cDmDmrSW4qmiM
     _key: '!actors.items!TYWL1qLMoxCG7DaO.Mw4cDmDmrSW4qmiM'
-  - img: systems/pf2e/icons/equipment/weapons/crossbow.webp
+  - img: icons/weapons/crossbows/crossbow-simple-brown.webp
     name: Crossbow
     system:
       description:
@@ -4708,19 +4590,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -4797,11 +4676,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034338853
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999848
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 0OUvNfZWdf0tQ0A0
     _key: '!actors.items!TYWL1qLMoxCG7DaO.0OUvNfZWdf0tQ0A0'
   - img: systems/pf2e/icons/equipment/weapons/hand-crossbow.webp
@@ -4819,19 +4698,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -4908,14 +4784,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034340292
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315999935
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: wGAeEaj7Do0a2lKq
     _key: '!actors.items!TYWL1qLMoxCG7DaO.wGAeEaj7Do0a2lKq'
-  - img: systems/pf2e/icons/equipment/weapons/heavy-crossbow.webp
+  - img: icons/weapons/crossbows/crossbow-simple-black.webp
     name: Heavy Crossbow
     system:
       description:
@@ -4928,19 +4804,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -5017,11 +4890,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034341748
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000020
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: kSJ7HeFG2Gzzvh1F
     _key: '!actors.items!TYWL1qLMoxCG7DaO.kSJ7HeFG2Gzzvh1F'
   - img: systems/pf2e/icons/equipment/weapons/javelin.webp
@@ -5037,20 +4910,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - thrown
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -5084,6 +4954,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: simple
       group: dart
       bonus:
@@ -5127,11 +4998,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034346608
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000106
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: xpDYMBCcXQNAFPd4
     _key: '!actors.items!TYWL1qLMoxCG7DaO.xpDYMBCcXQNAFPd4'
   - img: systems/pf2e/icons/equipment/weapons/dart.webp
@@ -5148,10 +5019,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -5159,10 +5027,10 @@ items:
           - thrown
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -5196,6 +5064,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: true
       category: simple
       group: dart
       bonus:
@@ -5239,11 +5108,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034351877
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000198
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: JNDTML9nhyVWCZuy
     _key: '!actors.items!TYWL1qLMoxCG7DaO.JNDTML9nhyVWCZuy'
   - img: systems/pf2e/icons/equipment/weapons/sling.webp
@@ -5260,20 +5129,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - propulsive
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -5349,11 +5215,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034356972
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000279
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: YBIoKB1WDwtFYXVq
     _key: '!actors.items!TYWL1qLMoxCG7DaO.YBIoKB1WDwtFYXVq'
   - img: systems/pf2e/icons/equipment/weapons/shuriken.webp
@@ -5369,10 +5235,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -5381,10 +5244,10 @@ items:
           - thrown
         rarity: uncommon
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -5418,6 +5281,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: dart
       bonus:
@@ -5430,10 +5294,10 @@ items:
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: 20
       reload:
-        value: '-'
+        value: '0'
       runes:
         potency: 0
         striking: 0
@@ -5461,14 +5325,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034361997
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000362
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: plXhdZ8DOhnT8uTo
     _key: '!actors.items!TYWL1qLMoxCG7DaO.plXhdZ8DOhnT8uTo'
-  - img: systems/pf2e/icons/equipment/weapons/club.webp
+  - img: icons/weapons/clubs/club-banded-brown.webp
     name: Club
     system:
       description:
@@ -5482,20 +5346,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - thrown-10
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -5528,6 +5389,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: simple
       group: club
       bonus:
@@ -5571,11 +5433,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034366070
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000388
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: t1rD0qsQZWFl6ijV
     _key: '!actors.items!TYWL1qLMoxCG7DaO.t1rD0qsQZWFl6ijV'
   - img: systems/pf2e/icons/equipment/weapons/greatclub.webp
@@ -5592,10 +5454,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -5603,10 +5462,10 @@ items:
           - shove
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -5683,11 +5542,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034371203
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000415
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: mpnm36QW7MDkn5e2
     _key: '!actors.items!TYWL1qLMoxCG7DaO.mpnm36QW7MDkn5e2'
   - img: systems/pf2e/icons/equipment/weapons/sap.webp
@@ -5705,10 +5564,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -5716,10 +5572,10 @@ items:
           - nonlethal
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -5796,20 +5652,20 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034376594
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000498
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 6mL98Kj3ILMu2JX7
     _key: '!actors.items!TYWL1qLMoxCG7DaO.6mL98Kj3ILMu2JX7'
-  - img: systems/pf2e/icons/equipment/weapons/longbow.webp
+  - img: icons/weapons/bows/longbow-recurve-leather-brown.webp
     name: Longbow
     system:
       description:
         gm: ''
         value: >-
-          <p>This 5‑foot‑tall bow, usually made of a single piece of elm,
+          <p>This 5-foot-tall bow, usually made of a single piece of elm,
           hickory, or yew, has a powerful draw and is excellent at propelling
           arrows with great force and at an extreme distance. You must use two
           hands to fire a longbow, and it can't be used while mounted.</p>
@@ -5818,10 +5674,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -5829,10 +5682,10 @@ items:
           - volley-30
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -5909,14 +5762,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034381216
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000526
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 0YMGgx3V9cdZZRmW
     _key: '!actors.items!TYWL1qLMoxCG7DaO.0YMGgx3V9cdZZRmW'
-  - img: systems/pf2e/icons/equipment/weapons/shortbow.webp
+  - img: icons/weapons/bows/shortbow-leather.webp
     name: Shortbow
     system:
       description:
@@ -5929,20 +5782,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - deadly-d10
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 2
@@ -6019,11 +5869,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034385548
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000609
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: x0bGjVHWbHiCwzeC
     _key: '!actors.items!TYWL1qLMoxCG7DaO.x0bGjVHWbHiCwzeC'
   - img: systems/pf2e/icons/equipment/weapons/blowgun.webp
@@ -6039,10 +5889,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -6050,10 +5897,10 @@ items:
           - nonlethal
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 3
@@ -6090,10 +5937,10 @@ items:
       category: simple
       group: dart
       bonus:
-        value: '0'
+        value: 0
       damage:
         dice: 1
-        die: ''
+        die: null
         damageType: piercing
         persistent: null
       bonusDamage:
@@ -6130,14 +5977,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034390300
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000694
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: wVpfvJtwvRwltPPo
     _key: '!actors.items!TYWL1qLMoxCG7DaO.wVpfvJtwvRwltPPo'
-  - img: systems/pf2e/icons/equipment/armor/studded-leather-armor.webp
+  - img: icons/equipment/chest/breastplate-layered-leather-studded-brown.webp
     name: Studded Leather Armor
     system:
       description:
@@ -6151,19 +5998,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -6180,6 +6024,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -6198,7 +6044,7 @@ items:
       group: leather
       acBonus: 2
       strength: 1
-      dexCap: 5
+      dexCap: 3
       checkPenalty: -1
       speedPenalty: 0
       runes:
@@ -6206,8 +6052,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 3
     type: armor
     flags:
       core:
@@ -6220,11 +6064,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034467504
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000777
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 3ki0XNGvIDnrmrBV
     _key: '!actors.items!TYWL1qLMoxCG7DaO.3ki0XNGvIDnrmrBV'
   - img: systems/pf2e/icons/equipment/armor/chainshirt.webp
@@ -6242,10 +6086,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -6253,10 +6094,10 @@ items:
           - noisy
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -6273,6 +6114,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -6291,7 +6134,7 @@ items:
       group: chain
       acBonus: 2
       strength: 1
-      dexCap: 5
+      dexCap: 3
       checkPenalty: -1
       speedPenalty: 0
       runes:
@@ -6299,8 +6142,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 3
     type: armor
     flags:
       core:
@@ -6313,14 +6154,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034471854
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000804
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: CtBtEpVvavgbsYJC
     _key: '!actors.items!TYWL1qLMoxCG7DaO.CtBtEpVvavgbsYJC'
-  - img: systems/pf2e/icons/equipment/armor/scale-mail.webp
+  - img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
     name: Scale Mail
     system:
       description:
@@ -6334,19 +6175,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -6363,6 +6201,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -6381,7 +6221,7 @@ items:
       group: composite
       acBonus: 3
       strength: 2
-      dexCap: 5
+      dexCap: 2
       checkPenalty: -2
       speedPenalty: -5
       runes:
@@ -6389,8 +6229,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 2
     type: armor
     flags:
       core:
@@ -6403,11 +6241,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034477793
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000830
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: xSGOC3sdCav2smps
     _key: '!actors.items!TYWL1qLMoxCG7DaO.xSGOC3sdCav2smps'
   - img: systems/pf2e/icons/equipment/armor/chainmail.webp
@@ -6425,10 +6263,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -6436,10 +6271,10 @@ items:
           - noisy
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -6456,6 +6291,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -6474,7 +6311,7 @@ items:
       group: chain
       acBonus: 4
       strength: 3
-      dexCap: 5
+      dexCap: 1
       checkPenalty: -2
       speedPenalty: -5
       runes:
@@ -6482,8 +6319,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 1
     type: armor
     flags:
       core:
@@ -6496,42 +6331,40 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034479375
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000913
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 9xDcdO7rNQI0wLld
     _key: '!actors.items!TYWL1qLMoxCG7DaO.9xDcdO7rNQI0wLld'
-  - img: systems/pf2e/icons/equipment/armor/breastplate.webp
+  - img: icons/equipment/chest/breastplate-collared-steel.webp
     name: Breastplate
     system:
       description:
         gm: ''
         value: >-
           <p>Though referred to as a breastplate, this type of armor consists of
-          several pieces of plate or half‑plate armor that protect the torso,
-          chest, neck, and sometimes the hips and lower legs. It strategically
-          grants some of the protection of plate while allowing greater
-          flexibility and speed.</p>
+          several pieces of plate or
+          @UUID[Compendium.pf2e.equipment-srd.Item.pRoikbRo5HFW6YUB]{Half Plate}
+          armor that protect the torso, chest, neck, and sometimes the hips and
+          lower legs. It strategically grants some of the protection of plate
+          while allowing greater flexibility and speed.</p>
       rules: []
       slug: breastplate
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -6548,6 +6381,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -6566,7 +6401,7 @@ items:
       group: plate
       acBonus: 4
       strength: 3
-      dexCap: 5
+      dexCap: 1
       checkPenalty: -2
       speedPenalty: -5
       runes:
@@ -6574,8 +6409,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 1
     type: armor
     flags:
       core:
@@ -6588,14 +6421,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034483752
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316000997
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: aGnAGXLPOQP4FZ8n
     _key: '!actors.items!TYWL1qLMoxCG7DaO.aGnAGXLPOQP4FZ8n'
-  - img: systems/pf2e/icons/equipment/armor/splint-mail.webp
+  - img: icons/equipment/chest/breastplate-layered-leather-studded-black.webp
     name: Splint Mail
     system:
       description:
@@ -6604,25 +6437,24 @@ items:
           <p>This type of armor is chain mail reinforced with flexible,
           interlocking metal plates, typically located on the wearer's torso,
           upper arms, and legs. A suit of this armor comes with an undercoat of
-          padded armor and a pair of gauntlets.</p>
+          @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]{padded
+          armor} and a pair of
+          @UUID[Compendium.pf2e.equipment-srd.Item.Ix2vicchE79d6Cl3]{gauntlets}.</p>
       rules: []
       slug: splint-mail
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 1
       quantity: 1
@@ -6639,6 +6471,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -6657,7 +6491,7 @@ items:
       group: composite
       acBonus: 5
       strength: 3
-      dexCap: 5
+      dexCap: 1
       checkPenalty: -3
       speedPenalty: -10
       runes:
@@ -6665,8 +6499,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 1
     type: armor
     flags:
       core:
@@ -6679,14 +6511,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034487943
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001024
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: sWpza6jTWrZGB5kb
     _key: '!actors.items!TYWL1qLMoxCG7DaO.sWpza6jTWrZGB5kb'
-  - img: systems/pf2e/icons/equipment/armor/halfplate.webp
+  - img: icons/equipment/chest/breastplate-gorget-steel-white.webp
     name: Half Plate
     system:
       description:
@@ -6696,25 +6528,24 @@ items:
           plate, with lighter or sparser steel plate protection for the arms and
           legs. This provides some of the protection of full plate with greater
           flexibility and speed. A suit of this armor comes with an undercoat of
-          padded armor and a pair of gauntlets.</p>
+          @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]{padded
+          armor} and a pair of
+          @UUID[Compendium.pf2e.equipment-srd.Item.Ix2vicchE79d6Cl3]{gauntlets}.</p>
       rules: []
       slug: half-plate
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 1
       quantity: 1
@@ -6731,6 +6562,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -6749,7 +6582,7 @@ items:
       group: plate
       acBonus: 5
       strength: 3
-      dexCap: 5
+      dexCap: 1
       checkPenalty: -3
       speedPenalty: -10
       runes:
@@ -6757,8 +6590,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 1
     type: armor
     flags:
       core:
@@ -6771,14 +6602,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034498191
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001051
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: ZVCKAzHeoVTC4Tui
     _key: '!actors.items!TYWL1qLMoxCG7DaO.ZVCKAzHeoVTC4Tui'
-  - img: systems/pf2e/icons/equipment//armor/fullplate.webp
+  - img: icons/equipment/chest/breastplate-layered-steel-green.webp
     name: Full Plate
     system:
       description:
@@ -6788,26 +6619,26 @@ items:
           entire body in a carapace of steel. It is costly and heavy, and the
           wearer often requires help to don it correctly, but it provides some
           of the best defense armor can supply. A suit of this armor comes with
-          an undercoat of padded armor and a pair of gauntlets.</p>
+          an undercoat of
+          @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]{padded
+          armor} and a pair of
+          @UUID[Compendium.pf2e.equipment-srd.Item.Ix2vicchE79d6Cl3]{gauntlets}.</p>
       rules: []
       slug: full-plate
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - bulwark
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 2
       quantity: 1
@@ -6824,6 +6655,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -6842,7 +6675,7 @@ items:
       group: plate
       acBonus: 6
       strength: 4
-      dexCap: 5
+      dexCap: 0
       checkPenalty: -3
       speedPenalty: -10
       runes:
@@ -6850,8 +6683,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 0
     type: armor
     flags:
       core:
@@ -6864,14 +6695,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034500028
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001076
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: abcZgJ8uc2FCExgg
     _key: '!actors.items!TYWL1qLMoxCG7DaO.abcZgJ8uc2FCExgg'
-  - img: systems/pf2e/icons/equipment/shields/buckler.webp
+  - img: icons/equipment/shield/buckler-wooden-boss-brown.webp
     name: Buckler
     system:
       description:
@@ -6879,11 +6710,12 @@ items:
         value: >-
           <p>This very small shield is a favorite of duelists and quick, lightly
           armored warriors. It's typically made of steel and strapped to your
-          forearm. You can Raise a Shield with your buckler as long as you have
-          that hand free or are holding a light object that's not a weapon in
-          that hand.</p>
+          forearm. You can
+          @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a
+          Shield} with your buckler as long as you have that hand free or are
+          holding a light object that's not a weapon in that hand.</p>
 
-          <table class="pf2-table">
+          <table class="pf2e">
 
           <thead>
 
@@ -6919,20 +6751,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
         integrated: null
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -6949,6 +6778,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -6972,8 +6802,6 @@ items:
       specific: null
       speedPenalty: 0
       subitems: []
-      dex:
-        value: 0
     type: shield
     flags:
       core:
@@ -6986,11 +6814,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034504375
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001166
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: lmVpYvURRhQW1SVu
     _key: '!actors.items!TYWL1qLMoxCG7DaO.lmVpYvURRhQW1SVu'
   - img: systems/pf2e/icons/equipment/shields/steel-shield.webp
@@ -7003,7 +6831,7 @@ items:
           sizes. Though more expensive than wooden shields, they are much more
           durable.</p>
 
-          <table class="pf2-table">
+          <table class="pf2e">
 
           <thead>
 
@@ -7039,20 +6867,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
         integrated: null
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -7069,6 +6894,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -7092,8 +6918,6 @@ items:
       specific: null
       speedPenalty: 0
       subitems: []
-      dex:
-        value: 0
     type: shield
     flags:
       core:
@@ -7106,14 +6930,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034508152
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001249
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 5caKPodibbaBl5dp
     _key: '!actors.items!TYWL1qLMoxCG7DaO.5caKPodibbaBl5dp'
-  - img: systems/pf2e/icons/equipment/shields/tower-shield.webp
+  - img: icons/equipment/shield/wardoor-wooden-boss-brown.webp
     name: Tower Shield
     system:
       description:
@@ -7121,10 +6945,11 @@ items:
         value: >-
           <p>These massive shields can be used to provide cover to nearly the
           entire body. Due to their size, they are typically made of wood
-          reinforced with metal. AC increases to +4 if you are using the Take
-          Cover action.</p>
+          reinforced with metal. AC increases to +4 if you are using the
+          @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover}
+          action.</p>
 
-          <table class="pf2-table">
+          <table class="pf2e">
 
           <thead>
 
@@ -7160,20 +6985,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
         integrated: null
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -7190,6 +7012,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -7213,8 +7036,6 @@ items:
       specific: null
       speedPenalty: -5
       subitems: []
-      dex:
-        value: 0
     type: shield
     flags:
       core:
@@ -7227,11 +7048,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034512101
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001334
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: fQ6F9wkY0xy9pILj
     _key: '!actors.items!TYWL1qLMoxCG7DaO.fQ6F9wkY0xy9pILj'
   - img: >-
@@ -7245,10 +7066,8 @@ items:
           by 1. The armor can be etched with one property rune.</p>
 
           <p>You can upgrade the <em>armor potency</em> rune already etched on a
-          suit of armor to a stronger version, increasing the values of the
-          existing rune to those of the new rune. You must have the formula of
-          the stronger rune to do so, and the Price of the upgrade is the
-          difference between the two runes' Prices.</p>
+          suit of armor using the normal process for upgrading items and
+          runes.</p>
 
           <p><strong>Craft Requirements</strong> You are an expert in
           Crafting.</p>
@@ -7257,20 +7076,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 2
@@ -7317,11 +7133,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034519994
-      modifiedTime: 1687034580852
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001416
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: X0aOcGixODppD7Lh
     _key: '!actors.items!TYWL1qLMoxCG7DaO.X0aOcGixODppD7Lh'
   - img: >-
@@ -7348,20 +7164,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 2
       quantity: 2
@@ -7408,11 +7221,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034522015
-      modifiedTime: 1687034577034
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001440
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: WqKrKxaA50qa8QHr
     _key: '!actors.items!TYWL1qLMoxCG7DaO.WqKrKxaA50qa8QHr'
   - img: systems/pf2e/icons/equipment/runes/fundamental-weapon-runes/striking.webp
@@ -7436,20 +7249,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 4
       quantity: 2
@@ -7496,11 +7306,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034528837
-      modifiedTime: 1687034593099
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001524
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: DMpiHKwXdFani7xv
     _key: '!actors.items!TYWL1qLMoxCG7DaO.DMpiHKwXdFani7xv'
   - img: systems/pf2e/icons/equipment/weapons/sling-bullets.webp
@@ -7516,19 +7326,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 10
@@ -7545,6 +7352,7 @@ items:
         per: 10
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -7569,6 +7377,7 @@ items:
         value: held-in-one-hand
       stackGroup: slingBullets
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -7581,11 +7390,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034534128
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001609
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: bROqVW5B24omPpO6
     _key: '!actors.items!TYWL1qLMoxCG7DaO.bROqVW5B24omPpO6'
   - img: systems/pf2e/icons/equipment/weapons/bolts.webp
@@ -7601,19 +7410,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 10
@@ -7630,6 +7436,7 @@ items:
         per: 10
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -7654,6 +7461,7 @@ items:
         value: held-in-one-hand
       stackGroup: bolts
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -7666,14 +7474,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034537925
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001636
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: r588qZ5DQXev098W
     _key: '!actors.items!TYWL1qLMoxCG7DaO.r588qZ5DQXev098W'
-  - img: systems/pf2e/icons/equipment/weapons/blowgun-dart.webp
+  - img: systems/pf2e/icons/equipment/consumables/ammunition/blowgun-darts.webp
     name: Blowgun Darts
     system:
       description:
@@ -7687,19 +7495,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 10
@@ -7716,6 +7521,7 @@ items:
         per: 10
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -7740,6 +7546,7 @@ items:
         value: held-in-one-hand
       stackGroup: blowgunDarts
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -7752,11 +7559,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034541920
-      modifiedTime: 1687034572007
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001718
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: SqGSfZ68UqolRnO5
     _key: '!actors.items!TYWL1qLMoxCG7DaO.SqGSfZ68UqolRnO5'
   - img: systems/pf2e/icons/equipment/consumables/talismans/potency-crystal.webp
@@ -7765,19 +7572,19 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Usage</strong> affixed to a weapon</p>
-
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          Envision</p>
+          <p><strong>Activate</strong> <span class="action-glyph">F</span>
+          (concentrate)</p>
 
           <p><strong>Trigger</strong> You make an attack with the affixed
           weapon, but you haven't rolled yet</p>
 
+          <hr />
+
           <p>This fluorite crystal glows with a strange phosphorescence. When
           you activate the crystal, the weapon becomes a <em>+1 striking
-          weapon</em> for the rest of the turn, gaining a +1 item bonus to the
-          attack roll and increasing the damage on a hit to two weapon damage
-          dice.</p>
+          weapon</em> on the Strike and until the end of this turn, gaining a +1
+          item bonus to the attack roll and increasing the damage to two weapon
+          damage dice.</p>
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.R5ugeFK3MPwkbv0s]{Effect:
           Potency Crystal}</p>
@@ -7786,10 +7593,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -7798,10 +7602,10 @@ items:
           - talisman
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 1
       quantity: 10
@@ -7842,6 +7646,7 @@ items:
         value: affixed-to-weapon
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -7854,11 +7659,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034546557
-      modifiedTime: 1687034619463
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001744
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 7jTqr25tGUZX1uQ8
     _key: '!actors.items!TYWL1qLMoxCG7DaO.7jTqr25tGUZX1uQ8'
   - img: systems/pf2e/icons/equipment/consumables/talismans/emergency-disguise.webp
@@ -7869,7 +7674,7 @@ items:
         value: >-
           <p><strong>Usage</strong> affixed to armor</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           Envision</p>
 
           <p><strong>Requirements</strong> You're trained in Deception</p>
@@ -7898,10 +7703,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -7954,6 +7756,7 @@ items:
         value: affixed-to-armor
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -7966,39 +7769,36 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034551048
-      modifiedTime: 1687034620297
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001826
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: IA8nRdNRmK7SlLU7
     _key: '!actors.items!TYWL1qLMoxCG7DaO.IA8nRdNRmK7SlLU7'
-  - img: systems/pf2e/icons/equipment/consumables/talismans/owlbear-claw.webp
-    name: Owlbear Claw
+  - img: icons/commodities/claws/claw-bear-brown.webp
+    name: Predator's Claw
     system:
       description:
         gm: ''
         value: >-
-          <p><strong>Usage</strong> affixed to a weapon</p>
-
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          Envision</p>
+          <p><strong>Activate</strong> <span class="action-glyph">F</span>
+          (concentrate)</p>
 
           <p><strong>Trigger</strong> You critically succeed at an attack roll
           with the affixed weapon</p>
 
-          <p>This claw set in an iron clasp and chain isn't always the claw of
-          an owlbear. When you activate the claw, the triggering attack gains
-          the weapon's critical specialization effect.</p>
+          <hr />
+
+          <p>This claw set in an iron clasp and chain is usually that of a large
+          predator. When you activate the claw, the triggering attack gains the
+          weapon's critical specialization effect.</p>
       rules: []
-      slug: owlbear-claw
+      slug: predators-claw
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -8007,10 +7807,10 @@ items:
           - talisman
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 1
       quantity: 5
@@ -8051,6 +7851,7 @@ items:
         value: affixed-to-weapon
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -8063,11 +7864,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034556053
-      modifiedTime: 1687034620917
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001910
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: HraYnqHrfNT9RSko
     _key: '!actors.items!TYWL1qLMoxCG7DaO.HraYnqHrfNT9RSko'
   - img: systems/pf2e/icons/equipment/consumables/talismans/wolf-fang.webp
@@ -8076,31 +7877,27 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Usage</strong> affixed to armor</p>
+          <p><strong>Activate</strong> <span class="action-glyph">F</span>
+          (concentrate)</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          Envision</p>
+          <p><strong>Trigger</strong> You successfully
+          @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} a
+          foe</p>
 
-          <p><strong>Trigger</strong> You successfully Trip a foe</p>
-
-          <p><strong>Requirements</strong> You are trained in Athletics</p>
+          <hr />
 
           <p>This wolf canine is bound in a strip of leather and tied to a
           buckle or strap of a suit of armor.</p>
 
-          <p>When you activate the fang, you deal bludgeoning damage equal to
-          your Strength modifier to the target of your Trip. If your Trip would
-          already deal physical damage that doesn't include an ability modifier,
-          add your Strength modifier to that damage.</p>
+          <p>When you activate the fang, you deal
+          @Damage[(@actor.abilities.str.mod)[bludgeoning]]{bludgeoning} damage
+          equal to your Strength modifier to the target of your Trip.</p>
       rules: []
       slug: wolf-fang
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -8109,10 +7906,10 @@ items:
           - talisman
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 1
       quantity: 5
@@ -8153,6 +7950,7 @@ items:
         value: affixed-to-armor
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -8165,11 +7963,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034560278
-      modifiedTime: 1687034621709
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316001993
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Xpn6nmNqtqUth7IF
     _key: '!actors.items!TYWL1qLMoxCG7DaO.Xpn6nmNqtqUth7IF'
   - img: >-
@@ -8180,17 +7978,14 @@ items:
         gm: ''
         value: >-
           <p>Magical enhancements make this weapon strike true. Attack rolls
-          with this weapon gain a +1 item bonus, and the weapon can be etched
-          with one property rune.</p>
+          with this weapon gain a +2 item bonus, and the weapon can be etched
+          with two property rune.</p>
 
           <p>You can upgrade the <em>weapon potency</em> rune already etched on
           a weapon to a stronger version, increasing the values of the existing
           rune to those of the new rune. You must have the formula of the
           stronger rune to do so, and the Price of the upgrade is the difference
           between the two runes' Prices.</p>
-
-          <p>The item bonus to attack rolls is +2, and the weapon can be etched
-          with two property runes.</p>
 
           <p><strong>Craft Requirements</strong> You are a master in
           Crafting.</p>
@@ -8199,20 +7994,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 10
       quantity: 2
@@ -8259,11 +8051,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687034603064
-      modifiedTime: 1687034610441
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316002018
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: CLp4vtWw0f0FfxxM
     _key: '!actors.items!TYWL1qLMoxCG7DaO.CLp4vtWw0f0FfxxM'
 effects: []
@@ -8394,7 +8186,7 @@ _stats:
   systemVersion: 5.15.0
   coreVersion: '11.315'
   createdTime: 1686850703482
-  modifiedTime: 1712315301754
+  modifiedTime: 1712316002018
   lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!TYWL1qLMoxCG7DaO'
 

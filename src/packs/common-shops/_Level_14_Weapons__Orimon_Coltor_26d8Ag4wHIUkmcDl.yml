@@ -18,7 +18,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">f</span>
+          <p><strong>Activate</strong> <span class="action-glyph">f</span>
           Interact</p>
 
           <p><strong>Frequency</strong> once per round</p>
@@ -43,8 +43,8 @@ items:
 
           </ol>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">2</span> command,
-          envision</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          command, envision</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
@@ -54,22 +54,22 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You call upon the energy stored in the
-          blade to explode outward. The blade of four energies casts a 5th-level
+          blade to explode outward. The blade of four energies casts a 5th-rank
           spell that depends on the active rune:</p>
 
           <ol>
 
-          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{Acid
-          Arrow}</em> for corrosive,</li>
+          <li>@UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{Acid
+          Arrow} for corrosive,</li>
 
-          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</em>
+          <li>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}
           for flaming,</li>
 
-          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.3puDanGfpEt6jK5k]{Cone
-          of Cold}</em> for frost, or</li>
+          <li>@UUID[Compendium.pf2e.spells-srd.Item.3puDanGfpEt6jK5k]{Cone of
+          Cold} for frost, or</li>
 
-          <li><em>@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning
-          Bolt}</em> for shock.</li>
+          <li>@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning
+          Bolt} for shock.</li>
 
           </ol>
       rules: []
@@ -77,10 +77,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -150,13 +147,13 @@ items:
           - shifting
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 2
-          striking: 2
           property:
             - shifting
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -179,11 +176,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957389440
-      modifiedTime: 1686957389440
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315958636
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: l7q8IDzrqLUMIkEQ
     _key: '!actors.items!26d8Ag4wHIUkmcDl.l7q8IDzrqLUMIkEQ'
   - img: >-
@@ -202,8 +199,8 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">2</span> command,
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          command, Interact</p>
 
           <p><strong>Frequency</strong> once per hour</p>
 
@@ -220,10 +217,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -290,12 +284,12 @@ items:
         property: []
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 2
-          striking: 2
           property: []
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -318,11 +312,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957394743
-      modifiedTime: 1686957394743
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315958704
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: bj8FPfClOMwnMjeZ
     _key: '!actors.items!26d8Ag4wHIUkmcDl.bj8FPfClOMwnMjeZ'
   - img: >-
@@ -341,7 +335,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Interact</p>
 
           <p><strong>Frequency</strong> once per round</p>
@@ -355,7 +349,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
           Interact</p>
 
           <p><strong>Frequency</strong> once per day</p>
@@ -382,10 +376,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -455,13 +446,13 @@ items:
           - holy
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 2
-          striking: 2
           property:
             - holy
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -484,14 +475,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957399351
-      modifiedTime: 1686957399351
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315958772
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: yLqO1tyZXcGq5MBq
     _key: '!actors.items!26d8Ag4wHIUkmcDl.yLqO1tyZXcGq5MBq'
-  - img: systems/pf2e/icons/equipment/weapons/greatsword.webp
+  - img: icons/weapons/swords/greatsword-crossguard-silver.webp
     name: Skyrider Sword
     system:
       description:
@@ -504,7 +495,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           command</p>
 
           <p><strong>Frequency</strong> once per day</p>
@@ -526,7 +517,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">2</span>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
           Interact</p>
 
           <p><strong>Requirements</strong> You are riding on your weapon</p>
@@ -541,10 +532,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -613,13 +601,13 @@ items:
           - shock
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 2
-          striking: 2
           property:
             - shock
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -642,11 +630,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957405325
-      modifiedTime: 1686957405325
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315958841
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: D0J0srhcqYKiFaCE
     _key: '!actors.items!26d8Ag4wHIUkmcDl.D0J0srhcqYKiFaCE'
   - img: >-
@@ -656,28 +644,28 @@ items:
       description:
         gm: ''
         value: >-
-          <p>This +2 greater striking shock rapier has a golden blade, and
-          miniature electric arcs flash across its guard while it's wielded.
+          <p>This <em>+2 greater striking shock rapier</em> has a golden blade,
+          and miniature electric arcs flash across its guard while it's wielded.
           When out of its sheath under an open sky, the blade causes storm
           clouds to gather slowly above.</p>
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> command,
-          envision</p>
+          <p><strong>Activate—Lightning Stab</strong> <span
+          class="action-glyph">2</span> (concentrate, manipulate)</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
           <hr />
 
-          <p><strong>Effect</strong> You cast a 6th-level
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning
-          Bolt}</em> (DC 33).</p>
+          <p><strong>Effect</strong> You cast a 6th-rank
+          @UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning
+          Bolt} (DC 33).</p>
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">R</span>
-          command</p>
+          <p><strong>Activate—Divert Lightning</strong> <span
+          class="action-glyph">R</span> (concentrate)</p>
 
           <p><strong>Frequency</strong> once per 10 minutes</p>
 
@@ -697,10 +685,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -711,10 +696,10 @@ items:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 14
       quantity: 1
@@ -771,13 +756,13 @@ items:
           - shock
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 2
-          striking: 2
           property:
             - shock
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -800,11 +785,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957410450
-      modifiedTime: 1686957410450
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315958913
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 0nIgpgWOvfBLVW60
     _key: '!actors.items!26d8Ag4wHIUkmcDl.0nIgpgWOvfBLVW60'
   - img: systems/pf2e/icons/equipment/armor/specific-magic-armor/mail-of-luck.webp
@@ -816,7 +801,7 @@ items:
           <p>This suit of +2 resilient splint mail has a large, green gemstone
           inset in a prominent location.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
+          <p><strong>Activate</strong> <span class="action-glyph">F</span>
           Envision</p>
 
           <p><strong>Frequency</strong> once per day</p>
@@ -844,10 +829,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -875,6 +857,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -893,7 +877,7 @@ items:
       group: composite
       acBonus: 5
       strength: 3
-      dexCap: 5
+      dexCap: 1
       checkPenalty: -3
       speedPenalty: -10
       runes:
@@ -901,16 +885,14 @@ items:
         resilient: 1
         property: []
       subitems: []
-      dex:
-        value: 1
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 2
-          resilient: 1
           property: []
+          resilient: 1
     type: armor
     flags:
       core:
@@ -923,11 +905,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957415163
-      modifiedTime: 1686957415163
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315958987
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: UU7TGolProW0CADa
     _key: '!actors.items!26d8Ag4wHIUkmcDl.UU7TGolProW0CADa'
   - img: systems/pf2e/icons/equipment/shields/specific-shields/sturdy-shield.webp
@@ -946,10 +928,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -957,10 +936,10 @@ items:
         rarity: common
         integrated: null
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -977,6 +956,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -998,16 +978,14 @@ items:
         resilient: 0
         property: []
       specific:
+        integrated: null
         material:
-          type: null
           grade: null
+          type: null
         runes:
           reinforcing: 0
-        integrated: null
       speedPenalty: 0
       subitems: []
-      dex:
-        value: 0
     type: shield
     flags:
       core:
@@ -1020,15 +998,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957420699
-      modifiedTime: 1686957420699
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959053
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 2YNYDwaPClS7OeVp
     _key: '!actors.items!26d8Ag4wHIUkmcDl.2YNYDwaPClS7OeVp'
-  - img: >-
-      systems/pf2e/icons/equipment/worn-items/other-worn-items/boots-of-bounding.webp
+  - img: icons/equipment/feet/boots-leather-engraved-brown.webp
     name: Boots of Bounding (Greater)
     system:
       description:
@@ -1042,16 +1019,6 @@ items:
           <p>In addition, when you use the Leap action, you can move 5 feet
           further if jumping horizontally or 3 feet higher if jumping
           vertically.</p>
-
-          <hr /><p>Automatically applied effects:</p>
-
-          <ul>
-
-          <li>+10-foot item bonus to Speed</li>
-
-          <li>+3 item bonus to Athletics checks to High Jump and Long Jump</li>
-
-          </ul>
       rules:
         - key: FlatModifier
           selector: land-speed
@@ -1069,10 +1036,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1080,10 +1044,10 @@ items:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 14
       quantity: 1
@@ -1100,6 +1064,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1129,24 +1095,36 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957424827
-      modifiedTime: 1686957424827
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959120
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: yLRe5pXg5VeV8dyx
     _key: '!actors.items!26d8Ag4wHIUkmcDl.yLRe5pXg5VeV8dyx'
   - img: >-
       systems/pf2e/icons/equipment/worn-items/other-worn-items/bracers-of-armor.webp
-    name: Bracers of Armor II
+    name: Bands of Force (Greater)
     system:
       description:
         gm: ''
         value: >-
-          <p>These stiff leather armguards grant you a +2 item bonus to AC and
-          saving throws, and a maximum Dexterity modifier of +5. You can affix
-          talismans to <em>bracers of armor</em> as though they were light
-          armor.</p>
+          <p>Decorated with clear gemstones, these thick metal bands spread an
+          inflexible layer of force over your body. The force grants you a +2
+          item bonus to AC and saving throws, and a maximum Dexterity modifier
+          of +5 as armor. You can affix talismans to the bands as though they
+          were light armor.</p>
+
+          <p><strong>Activate—Return Force</strong> <span
+          class="action-glyph">R</span> (force, manipulate)</p>
+
+          <p><strong>Trigger</strong> A creature critically misses you with a
+          melee Strike</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You Shove the creature using the bands'
+          Athletics modifier of [[/r d20+21]]{+21}.</p>
       rules:
         - key: FlatModifier
           selector:
@@ -1157,25 +1135,23 @@ items:
           value: 2
         - key: DexterityModifierCap
           value: 5
-      slug: bracers-of-armor-ii
+      slug: bands-of-force-greater
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
+          - force
           - invested
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 14
       quantity: 1
@@ -1188,10 +1164,12 @@ items:
       hardness: 0
       price:
         value:
-          gp: 4000
+          gp: 4500
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1221,28 +1199,29 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957431642
-      modifiedTime: 1686957431642
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959187
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: kvOhlBNtUgX2PZM7
     _key: '!actors.items!26d8Ag4wHIUkmcDl.kvOhlBNtUgX2PZM7'
   - img: >-
       systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp
-    name: Dancing
+    name: Animated
     system:
       description:
         gm: ''
         value: >-
-          <p>A dancing weapon flies autonomously and strikes your foes.</p>
+          <p>An <em>animated</em> weapon flies autonomously and strikes your
+          foes.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> command,
-          Interact</p>
+          <p><strong>Activate—Set Free <span
+          class="action-glyph">2</span></strong> (concentrate, manipulate)</p>
 
           <hr />
 
-          <p><strong>Effect</strong> You Release the weapon and it dances
+          <p><strong>Effect</strong> You Release the weapon and it flutters
           through the air, fighting on its own against the last enemy you
           attacked, or the nearest enemy to it if your target has been defeated.
           At the end of your turn each round, the weapon can Fly up to its fly
@@ -1255,36 +1234,32 @@ items:
           The weapon can't use reactions, and its Fly actions don't trigger
           reactions.</p>
 
-          <p>While it's activated, a <em>dancing</em> weapon makes Strikes with
-          an attack modifier of [[/r 1d20+24]] plus its item bonus to attack
-          rolls. It uses the weapon's normal damage but has a +0 Strength
+          <p>While it's activated, an <em>animated</em> weapon makes Strikes
+          with an attack modifier of [[/r 1d20+24]] plus its item bonus to
+          attack rolls. It uses the weapon's normal damage but has a +0 Strength
           modifier. The weapon's abilities that automatically trigger on a hit
           or critical hit still function, but the weapon can't be activated or
-          benefit from any of your abilities while dancing.</p>
+          benefit from any of your abilities while animated.</p>
 
-          <p>Each round, when the weapon is finished using its actions, attempt
-          a @Check[type:flat|dc:6]. On a failure, the activation ends and the
-          weapon falls to the ground. You can't activate the item again for 10
-          minutes.</p>
+          <p>Each round, when the weapon finishes using its actions, attempt a
+          @Check[type:flat|dc:6]. On a failure, the activation ends. The weapon
+          falls to the ground and can't be Set Free again for 10 minutes.</p>
       rules: []
-      slug: dancing
+      slug: animated
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: uncommon
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -1301,6 +1276,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1330,14 +1306,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957435892
-      modifiedTime: 1686957435892
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959256
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: fbpUQb722Lhybl5E
     _key: '!actors.items!26d8Ag4wHIUkmcDl.fbpUQb722Lhybl5E'
-  - img: systems/pf2e/icons/equipment/cursed-items/necklace-of-strangulation.webp
+  - img: icons/equipment/neck/collar-rounded-red.webp
     name: Necklace of Fireballs V
     system:
       description:
@@ -1348,12 +1324,13 @@ items:
           appears in its true form: a golden chain with golden spheres attached
           by fine threads.</p>
 
-          <p>This necklace has one [[/r 14d6[fire]]] damage, two [[/r
-          12d6[fire]]] damage and four [[/r 10d6[fire]]] damage beads with a
+          <p>This necklace has one @Damage[14d6[fire]|traits:area-damage]
+          damage, two @Damage[12d6[fire]|traits:area-damage] damage and four
+          @Damage[10d6[fire]|traits:area-damage] damage beads with a
           @Check[type:reflex|dc:32|basic:true|showDC:all] save. When all the
           beads are gone, the necklace becomes a non-magical hemp string.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Interact</p>
 
           <hr />
@@ -1362,7 +1339,7 @@ items:
           causing it to glow with orange light. After you activate a sphere, if
           you or anyone else hurls it (an Interact action with the ranged
           trait), it detonates as a
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</em>
+          @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}
           where it lands. Your toss can place the center of the fireball
           anywhere within 70 feet, though at the GM's discretion you might need
           to make an attack roll if the throw is unusually challenging. If no
@@ -1373,10 +1350,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1404,6 +1378,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1433,11 +1408,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957444680
-      modifiedTime: 1686957444680
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959325
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: MgWxjBGJJC0GrzvI
     _key: '!actors.items!26d8Ag4wHIUkmcDl.MgWxjBGJJC0GrzvI'
   - img: >-
@@ -1451,9 +1426,9 @@ items:
           esoteric arcane symbols. It does nothing unless you have a
           spellcasting class feature with the arcane tradition. While wearing
           the ring of wizardry, you gain a +2 item bonus to Arcana checks and
-          have two additional 4th-level and one additional 3rd-level arcane
-          spell slot each day. You prepare spells in these slots or cast from
-          them spontaneously, just as you normally cast your spells.</p>
+          have two additional 4th-rank and one additional 3rd-rank arcane spell
+          slot each day. You prepare spells in these slots or cast from them
+          spontaneously, just as you normally cast your spells.</p>
 
           <p>If you take off the ring for any reason, you lose the additional
           spell slots. You can't gain spell slots from more than one ring of
@@ -1476,10 +1451,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1507,6 +1479,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1536,71 +1509,70 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957453905
-      modifiedTime: 1686957453905
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959392
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: wpHa4FIR7LhKhBA1
     _key: '!actors.items!26d8Ag4wHIUkmcDl.wpHa4FIR7LhKhBA1'
   - img: >-
       systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp
-    name: Spell-Storing
+    name: Spell Reservoir
     system:
       description:
         gm: ''
         value: >-
-          <p>A <em>spell-storing</em> rune creates a reservoir of eldritch
-          energy within the etched weapon. A spellcaster can spend 1 minute to
-          cast a spell of 3rd level or lower into the weapon. The spell must
-          have a casting of 2 actions or fewer and must be able to target a
-          creature other than the caster. The spell has no immediate effect-it
-          is instead stored for later. When you wield a <em>spell-storing</em>
-          weapon, you immediately know the name and level of the stored spell. A
-          <em>spell-storing</em> weapon found as treasure has a 50% chance of
-          having a spell of the GM's choice stored in it.</p>
+          <p>A <em>spell reservoir</em> rune creates a pool of eldritch energy
+          within the etched weapon. A spellcaster can spend 1 minute to cast a
+          spell of 3rd rank or lower into the weapon. The spell must require 2
+          actions or fewer to cast and must be able to target a creature other
+          than the caster. The spell has no immediate effect—it is instead
+          stored for later.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          command</p>
+          <p>When you wield a <em>spell reservoir</em> weapon, you immediately
+          know the name and rank of the stored spell. A <em>spell reservoir</em>
+          weapon found as treasure has a 50% chance of having a spell of the
+          GM's choice stored in it.</p>
 
-          <p><strong>Requirements</strong> On your previous action this turn,
-          you hit and damaged a creature with this weapon</p>
+          <p><strong>Activate—Channeled Release</strong> <span
+          class="action-glyph">A</span> (concentrate)</p>
+
+          <p><strong>Requirements</strong> A spell is stored in the weapon</p>
 
           <hr />
 
-          <p><strong>Effect</strong> You unleash the stored spell, which uses
-          the target of the triggering attack as the target of the spell. This
-          empties the spell from the weapon and allows a spell to be cast into
-          it again. If the spell requires a spell attack roll, the result of
-          your attack roll with the weapon determines the degree of success of
-          the spell, and if the spell requires a saving throw, the DC is 30.</p>
+          <p><strong>Effect</strong> Make a Strike with the weapon. You expend
+          the stored spell as part of this Strike; this empties the spell from
+          the weapon and allows a spell to be cast into it again. If the Strike
+          hits, the spell targets the target of the attack. If the spell
+          requires a spell attack roll, the result of your attack roll with the
+          weapon determines the degree of success of the spell, and if the spell
+          requires a saving throw, the DC is 30.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          command</p>
+          <p><strong>Activate—Safe Release</strong> <span
+          class="action-glyph">A</span> (concentrate)</p>
 
           <hr />
 
           <p><strong>Effect</strong> Harmlessly expend the stored spell. This
           frees the weapon to have a new spell cast into it.</p>
       rules: []
-      slug: spell-storing
+      slug: spell-reservoir
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: uncommon
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -1617,6 +1589,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1646,16 +1619,16 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957459748
-      modifiedTime: 1686957459748
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959460
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: zLHfGDcVQqHt02P3
     _key: '!actors.items!26d8Ag4wHIUkmcDl.zLHfGDcVQqHt02P3'
   - img: >-
       systems/pf2e/icons/equipment/wands/specialty-wands/wand-of-manifold-missiles.webp
-    name: Wand of Manifold Missiles (5th-Level Spell)
+    name: Wand of Shardstorm (5th-Rank Spell)
     system:
       description:
         gm: ''
@@ -1670,26 +1643,23 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You cast
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Magic
-          Missile}</em> at 5th level.</p>
+          @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}
+          at 5th rank.</p>
 
-          <p>After you cast the spell, an additional missile or missiles are
+          <p>After you cast the spell, an additional shard or shards are
           released from the wand at the start of each of your turns, as though
-          you cast the 1-action version of <em>magic missile</em>. Choose
+          you cast the 1-action version of <em>force barrage</em>. Choose
           targets each time. This lasts for 1 minute, until you're no longer
           wielding the wand, or until you try to activate the wand again.</p>
 
-          <p><strong>Craft Requirements</strong> Supply a casting of <em>magic
-          missile</em> of the appropriate level.</p>
+          <p><strong>Craft Requirements</strong> Supply a casting of <em>force
+          barrage</em> of the appropriate rank.</p>
       rules: []
-      slug: wand-of-manifold-missiles-5th-level-spell
+      slug: wand-of-shardstorm-5th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1698,10 +1668,10 @@ items:
           - wand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -1718,6 +1688,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1747,11 +1718,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957469527
-      modifiedTime: 1686957469527
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959528
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: ao7bQMFNMEF1D5C8
     _key: '!actors.items!26d8Ag4wHIUkmcDl.ao7bQMFNMEF1D5C8'
   - img: >-
@@ -1761,15 +1732,15 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Usage</strong> affixed to armor</p>
-
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          Envision</p>
+          <p><strong>Activate</strong> <span class="action-glyph">F</span>
+          (concentrate)</p>
 
           <p><strong>Trigger</strong> You are about to roll Perception for
           initiative but haven't rolled yet</p>
 
           <p><strong>Requirements</strong> You are a master in Perception</p>
+
+          <hr />
 
           <p>This round piece of cymophane's silky inclusion makes it look like
           a cat's eye. While affixed, it makes you jittery.</p>
@@ -1781,10 +1752,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1793,10 +1761,10 @@ items:
           - talisman
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 12
       quantity: 1
@@ -1812,6 +1780,7 @@ items:
           gp: 400
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1836,6 +1805,7 @@ items:
         value: affixed-to-armor
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1848,11 +1818,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957474296
-      modifiedTime: 1686957474296
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959597
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: L9DoU4PPnJzS6UcW
     _key: '!actors.items!26d8Ag4wHIUkmcDl.L9DoU4PPnJzS6UcW'
   - img: systems/pf2e/icons/equipment/consumables/talismans/grinning-pugwampi.webp
@@ -1863,7 +1833,7 @@ items:
         value: >-
           <p><strong>Usage</strong> affixed to a weapon</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
+          <p><strong>Activate</strong> <span class="action-glyph">F</span>
           envision</p>
 
           <p><strong>Trigger</strong> You damage an off-guard creature with the
@@ -1892,10 +1862,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1924,6 +1891,7 @@ items:
           gp: 700
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1948,6 +1916,7 @@ items:
         value: affixed-to-weapon
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1960,11 +1929,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957478448
-      modifiedTime: 1686957478448
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959683
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: zfNHxKg8Vzi6Mh6F
     _key: '!actors.items!26d8Ag4wHIUkmcDl.zfNHxKg8Vzi6Mh6F'
   - img: >-
@@ -1974,7 +1943,7 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           Interact</p>
 
           <p>For 1 minute after drinking a potion of cold retaliation, you glow
@@ -1983,16 +1952,13 @@ items:
           touch against you) or is adjacent to you and hits you with a melee
           weapon strike takes cold damage.</p>
 
-          <p>The aura deals [[/r 3d6[cold]]] damage.</p>
+          <p>The aura deals @Damage[3d6[cold]] damage.</p>
       rules: []
       slug: potion-of-cold-retaliation-greater
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2020,6 +1986,7 @@ items:
           gp: 400
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2044,6 +2011,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2056,11 +2024,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957484497
-      modifiedTime: 1686957484497
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959749
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: T5Oh1m5ejcyjs9pO
     _key: '!actors.items!26d8Ag4wHIUkmcDl.T5Oh1m5ejcyjs9pO'
   - img: >-
@@ -2076,10 +2044,10 @@ items:
           age of the dragon whose blood was used to make the potion.</p>
 
           <p>Exhaling dragon breath uses a single action. You create a
-          @Template[type:cone|distance:15] of fire which deals [[/r 6d6[fire]]]
-          damage. All creatures in the area must attempt a
-          @Check[type:reflex|dc:29|basic:true|name:Adult Red Dragon's Breath
-          Potion] save.</p>
+          @Template[type:cone|distance:15] of fire which deals
+          @Damage[6d6[fire]|traits:area-damage] damage. All creatures in the
+          area must attempt a @Check[type:reflex|dc:29|basic:true|name:Adult Red
+          Dragon's Breath Potion] save.</p>
 
           <p>After you use the breath weapon, you can't do so again for [[/r 1d4
           #rounds]]{1d4 rounds}.</p>
@@ -2088,10 +2056,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2120,6 +2085,7 @@ items:
           gp: 400
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2147,6 +2113,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2159,24 +2126,22 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957489831
-      modifiedTime: 1686957489831
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959816
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: PAleMbUro8sFcatl
     _key: '!actors.items!26d8Ag4wHIUkmcDl.PAleMbUro8sFcatl'
   - _id: 0c864HpnthIlnEAA
     img: systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp
-    name: Wand of Cast into Time (Level 6)
+    name: Wand of Cast into Time (Rank 6)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.OdqM06M0wDUqZWiR]{Cast
-          into Time}</em></p><hr /><p>This baton is about a foot long and
-          contains a single spell. The appearance typically relates to the spell
-          within.</p>
+          <p>This baton is about a foot long and contains a single spell. The
+          appearance typically relates to the spell within.</p>
 
           <p><strong>Activate</strong> Cast a Spell</p>
 
@@ -2185,10 +2150,10 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You Cast the Spell at the indicated
-          level.</p>
+          rank.</p>
 
-          <p><strong>Craft Requirements</strong> Supply a listed-level casting
-          of the spell.</p>
+          <p><strong>Craft Requirements</strong> Supply a casting of the spell
+          at the listed rank.</p>
 
           <hr />
 
@@ -2196,27 +2161,22 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: magic-wand-6th-level-spell
+      slug: magic-wand-6th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - magical
-          - occult
           - wand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -2232,6 +2192,7 @@ items:
           gp: 3000
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2256,7 +2217,8 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
-        img: systems/pf2e/icons/spells/cast-into-time.webp
+        _id: AXU1Fb9aYbGWIcZ0
+        img: icons/magic/time/hourglass-brown-orange.webp
         name: Cast into Time
         system:
           description:
@@ -2298,7 +2260,12 @@ items:
               increase by 2d6.</p>
           rules: []
           slug: cast-into-time
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - manipulate
@@ -2306,8 +2273,14 @@ items:
             traditions:
               - arcane
               - occult
+          publication:
+            title: Pathfinder Secrets of Magic
+            authors: ''
+            license: OGL
+            remaster: false
           level:
             value: 6
+          requirements: ''
           target:
             value: ''
           range:
@@ -2323,46 +2296,34 @@ items:
           damage:
             '0':
               applyMod: false
-              formula: 5d8
-              type: mental
               category: null
-              materials: []
+              formula: 5d8
               kinds:
                 - damage
+              type: mental
             '1':
               applyMod: false
-              formula: 5d6
-              type: bludgeoning
               category: null
-              materials: []
+              formula: 5d6
               kinds:
                 - damage
+              type: bludgeoning
+          defense:
+            save:
+              basic: false
+              statistic: fortitude
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 6
+          counteraction: false
           heightening:
             damage:
               '0': ''
               '1': 2d6
             interval: 1
             type: interval
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Secrets of Magic
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
-          counteraction: false
-          defense:
-            passive: null
-            save:
-              statistic: fortitude
-              basic: false
         type: spell
         flags:
           core:
@@ -2379,7 +2340,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: Cn6lPcSoSfmFSXIP
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2392,23 +2353,21 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957542950
-      modifiedTime: 1686957542950
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959904
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!26d8Ag4wHIUkmcDl.0c864HpnthIlnEAA'
   - _id: 4BJ6D9RXrLL4qmvR
     img: systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp
-    name: Wand of Collective Transposition (Level 6)
+    name: Wand of Collective Transposition (Rank 6)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.c3XygMbzrZMgV1y3]{Collective
-          Transposition}</em></p><hr /><p>This baton is about a foot long and
-          contains a single spell. The appearance typically relates to the spell
-          within.</p>
+          <p>This baton is about a foot long and contains a single spell. The
+          appearance typically relates to the spell within.</p>
 
           <p><strong>Activate</strong> Cast a Spell</p>
 
@@ -2417,10 +2376,10 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You Cast the Spell at the indicated
-          level.</p>
+          rank.</p>
 
-          <p><strong>Craft Requirements</strong> Supply a listed-level casting
-          of the spell.</p>
+          <p><strong>Craft Requirements</strong> Supply a casting of the spell
+          at the listed rank.</p>
 
           <hr />
 
@@ -2428,27 +2387,22 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: magic-wand-6th-level-spell
+      slug: magic-wand-6th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - magical
-          - occult
           - wand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -2464,6 +2418,7 @@ items:
           gp: 3000
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2488,6 +2443,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: 1SPqAlRbLJ8kz3nS
         img: systems/pf2e/icons/spells/collective-transposition.webp
         name: Collective Transposition
         system:
@@ -2516,7 +2472,12 @@ items:
               increases by 1.</p>
           rules: []
           slug: collective-transposition
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - manipulate
@@ -2525,8 +2486,14 @@ items:
             traditions:
               - arcane
               - occult
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
           level:
             value: 6
+          requirements: ''
           target:
             value: up to 2 creatures
           range:
@@ -2540,26 +2507,16 @@ items:
             value: ''
             sustained: false
           damage: {}
+          defense:
+            save:
+              basic: false
+              statistic: will
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 6
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Core Rulebook
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
           counteraction: false
-          defense:
-            passive: null
-            save:
-              statistic: will
-              basic: false
         type: spell
         flags:
           core:
@@ -2576,7 +2533,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: gcTFIhRmfytJGuZC
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2589,35 +2546,32 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957548745
-      modifiedTime: 1686957548745
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315959933
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!26d8Ag4wHIUkmcDl.4BJ6D9RXrLL4qmvR'
   - _id: Hn6PnISnWCWTqB0G
-    img: >-
-      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
-    name: Scroll of Divine Vessel (Level 7)
+    img: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
+    name: Scroll of Divine Vessel (Rank 7)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.hiVL8qsnTJtpouw0]{Divine
-          Vessel}</em></p><hr /><p>Casting a Spell from a scroll requires
-          holding the scroll in one hand and activating it with a Cast a Spell
-          activity using the normal number of actions for that spell.</p>
+          <p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
 
-          <p>To Cast a Spell from a scroll, the spell must appear on your spell
-          list. Because you're the one Casting the Spell, use your spell attack
-          roll and spell DC. The spell also gains the appropriate trait for your
-          tradition (arcane, divine, occult, or primal).</p>
+          <p>The spell must appear on your spell list. Because you're the one
+          Casting the Spell, use your spell attack modifier and spell DC. The
+          spell also gains the appropriate trait for your tradition (arcane,
+          divine, occult, or primal).</p>
 
-          <p>Any physical material components and costs are provided when a
-          scroll is created, so you don't need to provide them when Casting a
-          Spell from a scroll. You must replace any required material component
-          for that spell with a somatic component. If the spell requires a
-          focus, you must have that focus to Cast the Spell from a scroll.</p>
+          <p>Any physical costs are provided when a scroll is created, so you
+          don't need to provide them when casting from a scroll. If the spell
+          requires a locus, you must have that locus to Cast the Spell from a
+          scroll.</p>
 
           <hr />
 
@@ -2625,27 +2579,23 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: scroll-of-7th-level-spell
+      slug: scroll-of-7th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - consumable
-          - divine
           - magical
           - scroll
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -2661,6 +2611,7 @@ items:
           gp: 600
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2685,6 +2636,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: MPcwdiNxutwNNHZl
         img: systems/pf2e/icons/spells/divine-vessel.webp
         name: Divine Vessel
         system:
@@ -2700,7 +2652,7 @@ items:
 
               <p>If you were Medium or smaller, you become Large, as the effects
               of
-              <em>@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge}</em>.
+              @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge}.
               You must have space to expand into, or the spell is lost. You also
               gain the following benefits.</p>
 
@@ -2740,7 +2692,12 @@ items:
               Effect: Divine Vessel (9th level)}</p>
           rules: []
           slug: divine-vessel
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - manipulate
@@ -2748,8 +2705,14 @@ items:
             rarity: common
             traditions:
               - divine
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
           level:
             value: 7
+          requirements: ''
           target:
             value: ''
           range:
@@ -2761,22 +2724,13 @@ items:
             value: 1 minute
             sustained: false
           damage: {}
+          defense: null
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 7
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Core Rulebook
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
           counteraction: false
-          defense: null
         type: spell
         flags:
           core:
@@ -2793,7 +2747,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: OyX3DTneaNOWAch2
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2806,35 +2760,32 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957556558
-      modifiedTime: 1686957556558
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315960019
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!26d8Ag4wHIUkmcDl.Hn6PnISnWCWTqB0G'
   - _id: sJ0hZ5U7mdU4iWRp
-    img: >-
-      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
-    name: Scroll of Force Cage (Level 7)
+    img: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
+    name: Scroll of Force Cage (Rank 7)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.HES5jvGiNZZnJycK]{Force
-          Cage}</em></p><hr /><p>Casting a Spell from a scroll requires holding
-          the scroll in one hand and activating it with a Cast a Spell activity
-          using the normal number of actions for that spell.</p>
+          <p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
 
-          <p>To Cast a Spell from a scroll, the spell must appear on your spell
-          list. Because you're the one Casting the Spell, use your spell attack
-          roll and spell DC. The spell also gains the appropriate trait for your
-          tradition (arcane, divine, occult, or primal).</p>
+          <p>The spell must appear on your spell list. Because you're the one
+          Casting the Spell, use your spell attack modifier and spell DC. The
+          spell also gains the appropriate trait for your tradition (arcane,
+          divine, occult, or primal).</p>
 
-          <p>Any physical material components and costs are provided when a
-          scroll is created, so you don't need to provide them when Casting a
-          Spell from a scroll. You must replace any required material component
-          for that spell with a somatic component. If the spell requires a
-          focus, you must have that focus to Cast the Spell from a scroll.</p>
+          <p>Any physical costs are provided when a scroll is created, so you
+          don't need to provide them when casting from a scroll. If the spell
+          requires a locus, you must have that locus to Cast the Spell from a
+          scroll.</p>
 
           <hr />
 
@@ -2842,28 +2793,23 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: scroll-of-7th-level-spell
+      slug: scroll-of-7th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - consumable
           - magical
-          - occult
           - scroll
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -2879,6 +2825,7 @@ items:
           gp: 600
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2903,6 +2850,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: 8e2mrE0c7WHzXbNk
         img: systems/pf2e/icons/spells/force-cage.webp
         name: Force Cage
         system:
@@ -2930,15 +2878,20 @@ items:
 
               <p><em>Force cage</em> is immune to counteracting effects of its
               level or lower, but it is automatically destroyed by a
-              <em>@UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}</em>
-              spell of any level, or by contact with a
+              @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}
+              spell of any rank, or by contact with a
               @UUID[Compendium.pf2e.equipment-srd.Item.HuGZspUvJqR09Y8u]{Rod of
               Cancellation} or
               @UUID[Compendium.pf2e.equipment-srd.Item.B4DnQNcGl6nFVKHl]{Sphere
               of Annihilation}.</p>
           rules: []
           slug: force-cage
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - force
@@ -2947,14 +2900,20 @@ items:
             traditions:
               - arcane
               - occult
+          publication:
+            title: Pathfinder Advanced Player's Guide
+            authors: ''
+            license: OGL
+            remaster: false
           level:
             value: 7
+          requirements: ''
           target:
             value: ''
           range:
             value: 30 feet; 1 cube 20 feet on each side
           area:
-            type: emanation
+            type: cube
             value: 20
           time:
             value: '3'
@@ -2962,26 +2921,16 @@ items:
             value: 1 minute
             sustained: true
           damage: {}
+          defense:
+            save:
+              basic: false
+              statistic: reflex
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 7
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Advanced Player's Guide
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
           counteraction: false
-          defense:
-            passive: null
-            save:
-              statistic: reflex
-              basic: false
         type: spell
         flags:
           core:
@@ -2998,7 +2947,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: yWLArkQoQ4WV7H7G
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3011,35 +2960,32 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957563845
-      modifiedTime: 1686957563845
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315960048
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!26d8Ag4wHIUkmcDl.sJ0hZ5U7mdU4iWRp'
   - _id: 9YPr3Jwhq9kn6icR
-    img: >-
-      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
-    name: Scroll of Power Word Blind (Level 7)
+    img: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
+    name: Scroll of Power Word Blind (Rank 7)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.Yk3t4ekEiFIoEz9c]{Power
-          Word Blind}</em></p><hr /><p>Casting a Spell from a scroll requires
-          holding the scroll in one hand and activating it with a Cast a Spell
-          activity using the normal number of actions for that spell.</p>
+          <p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
 
-          <p>To Cast a Spell from a scroll, the spell must appear on your spell
-          list. Because you're the one Casting the Spell, use your spell attack
-          roll and spell DC. The spell also gains the appropriate trait for your
-          tradition (arcane, divine, occult, or primal).</p>
+          <p>The spell must appear on your spell list. Because you're the one
+          Casting the Spell, use your spell attack modifier and spell DC. The
+          spell also gains the appropriate trait for your tradition (arcane,
+          divine, occult, or primal).</p>
 
-          <p>Any physical material components and costs are provided when a
-          scroll is created, so you don't need to provide them when Casting a
-          Spell from a scroll. You must replace any required material component
-          for that spell with a somatic component. If the spell requires a
-          focus, you must have that focus to Cast the Spell from a scroll.</p>
+          <p>Any physical costs are provided when a scroll is created, so you
+          don't need to provide them when casting from a scroll. If the spell
+          requires a locus, you must have that locus to Cast the Spell from a
+          scroll.</p>
 
           <hr />
 
@@ -3047,27 +2993,23 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: scroll-of-7th-level-spell
+      slug: scroll-of-7th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - consumable
           - magical
           - scroll
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -3083,6 +3025,7 @@ items:
           gp: 600
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -3107,6 +3050,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: LCdfmpwB7qrB7wcf
         img: systems/pf2e/icons/spells/power-word-blind.webp
         name: Power Word Blind
         system:
@@ -3137,7 +3081,12 @@ items:
               outcome applies increase by 2.</p>
           rules: []
           slug: power-word-blind
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - auditory
               - concentrate
@@ -3145,8 +3094,14 @@ items:
             rarity: uncommon
             traditions:
               - arcane
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
           level:
             value: 7
+          requirements: ''
           target:
             value: 1 creature
           range:
@@ -3158,22 +3113,13 @@ items:
             value: varies
             sustained: false
           damage: {}
+          defense: null
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 7
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Core Rulebook
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
           counteraction: false
-          defense: null
         type: spell
         flags:
           core:
@@ -3190,7 +3136,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: oWc3uGpSnwKfniLj
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3203,21 +3149,20 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957570696
-      modifiedTime: 1686957570696
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315960078
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!26d8Ag4wHIUkmcDl.9YPr3Jwhq9kn6icR'
   - _id: ewC6d2zXob9Hhy7n
     img: systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp
-    name: Wand of Spellwrack (Level 6)
+    name: Wand of Spellwrack (Rank 6)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.8Umt1AzYfFbC4fui]{Spellwrack}</em></p><hr
-          /><p>This baton is about a foot long and contains a single spell. The
+          <p>This baton is about a foot long and contains a single spell. The
           appearance typically relates to the spell within.</p>
 
           <p><strong>Activate</strong> Cast a Spell</p>
@@ -3227,10 +3172,10 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You Cast the Spell at the indicated
-          level.</p>
+          rank.</p>
 
-          <p><strong>Craft Requirements</strong> Supply a listed-level casting
-          of the spell.</p>
+          <p><strong>Craft Requirements</strong> Supply a casting of the spell
+          at the listed rank.</p>
 
           <hr />
 
@@ -3238,28 +3183,22 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: magic-wand-6th-level-spell
+      slug: magic-wand-6th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
-          - divine
           - magical
-          - occult
           - wand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -3275,6 +3214,7 @@ items:
           gp: 3000
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -3299,6 +3239,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: TfHKK9roHAidLYom
         img: systems/pf2e/icons/spells/spellwrack.webp
         name: Spellwrack
         system:
@@ -3313,24 +3254,27 @@ items:
               <p><strong>Critical Success</strong> The target is unaffected.</p>
 
               <p><strong>Success</strong> Whenever the target becomes affected
-              by a spell with a duration, the target takes [[/r
-              2d12[persistent,force]]] damage. Each time it takes persistent
-              force damage from spellwrack, it reduces the remaining duration of
-              spells affecting it by 1 round. Only a successful Arcana check
-              against your spell DC can help the target recover from the
-              @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent
-              Damage}; the curse and the Persistent Damage end after 1
-              minute.</p>
+              by a spell with a duration, the target takes
+              @Damage[2d12[persistent,force]] damage. Each time it takes
+              persistent force damage from <em>spellwrack</em>, it reduces the
+              remaining duration of spells affecting it by 1 round. Only a
+              successful @Check[type:arcana] check against your spell DC can
+              help the target recover from the persistent damage; the curse and
+              the persistent damage end after 1 minute.</p>
 
               <p><strong>Failure</strong> As success, but the curse and
-              Persistent Damage do not end on their own.</p>
+              persistent damage do not end on their own.</p>
 
               <p><strong>Critical Failure</strong> As failure, but the
-              persistent force damage is [[/r 4d12[persistent,force]]]
-              damage.</p>
+              persistent force damage is @Damage[4d12[persistent,force]].</p>
           rules: []
           slug: spellwrack
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - curse
@@ -3341,8 +3285,14 @@ items:
               - arcane
               - divine
               - occult
+          publication:
+            title: Pathfinder Player Core
+            authors: ''
+            license: ORC
+            remaster: true
           level:
             value: 6
+          requirements: ''
           target:
             value: 1 creature
           range:
@@ -3354,26 +3304,16 @@ items:
             value: ''
             sustained: false
           damage: {}
+          defense:
+            save:
+              basic: false
+              statistic: will
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 6
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Core Rulebook
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
           counteraction: false
-          defense:
-            passive: null
-            save:
-              statistic: will
-              basic: false
         type: spell
         flags:
           core:
@@ -3390,7 +3330,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: ANPKtOoba0qTboyH
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3403,35 +3343,32 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957577560
-      modifiedTime: 1686957577560
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315960108
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!26d8Ag4wHIUkmcDl.ewC6d2zXob9Hhy7n'
   - _id: f8GMmHAxhlWxlRGJ
-    img: >-
-      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
-    name: Scroll of True Seeing (Level 6)
+    img: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
+    name: Scroll of Truesight (Rank 6)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{True
-          Seeing}</em></p><hr /><p>Casting a Spell from a scroll requires
-          holding the scroll in one hand and activating it with a Cast a Spell
-          activity using the normal number of actions for that spell.</p>
+          <p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
 
-          <p>To Cast a Spell from a scroll, the spell must appear on your spell
-          list. Because you're the one Casting the Spell, use your spell attack
-          roll and spell DC. The spell also gains the appropriate trait for your
-          tradition (arcane, divine, occult, or primal).</p>
+          <p>The spell must appear on your spell list. Because you're the one
+          Casting the Spell, use your spell attack modifier and spell DC. The
+          spell also gains the appropriate trait for your tradition (arcane,
+          divine, occult, or primal).</p>
 
-          <p>Any physical material components and costs are provided when a
-          scroll is created, so you don't need to provide them when Casting a
-          Spell from a scroll. You must replace any required material component
-          for that spell with a somatic component. If the spell requires a
-          focus, you must have that focus to Cast the Spell from a scroll.</p>
+          <p>Any physical costs are provided when a scroll is created, so you
+          don't need to provide them when casting from a scroll. If the spell
+          requires a locus, you must have that locus to Cast the Spell from a
+          scroll.</p>
 
           <hr />
 
@@ -3439,30 +3376,23 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: scroll-of-6th-level-spell
+      slug: scroll-of-6th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - consumable
-          - divine
           - magical
-          - occult
-          - primal
           - scroll
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 11
       quantity: 1
@@ -3478,6 +3408,7 @@ items:
           gp: 300
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -3502,21 +3433,27 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: uz1Iy13bh0aIopNm
         img: systems/pf2e/icons/spells/true-seeing.webp
-        name: True Seeing
+        name: Truesight
         system:
           description:
             gm: ''
             value: >-
               <p>You see things within 60 feet as they actually are. The GM
-              rolls a secret counteract check against any illusion or
-              transmutation in the area, but only for the purpose of determining
-              whether you see through it (for instance, if the check succeeds
-              against a polymorph spell, you can see the creature's true form,
-              but you don't end the polymorph spell).</p>
+              rolls a secret counteract check against any illusion, morph or
+              polymorph effect in the area, but only for the purpose of
+              determining whether you see through it (for instance, if the check
+              succeeds against a polymorph spell, you can see the creature's
+              true form, but you don't end the polymorph spell).</p>
           rules: []
-          slug: true-seeing
+          slug: truesight
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - manipulate
@@ -3527,8 +3464,14 @@ items:
               - divine
               - occult
               - primal
+          publication:
+            title: Pathfinder Player Core
+            authors: ''
+            license: ORC
+            remaster: true
           level:
             value: 6
+          requirements: ''
           target:
             value: ''
           range:
@@ -3540,22 +3483,13 @@ items:
             value: 10 minutes
             sustained: false
           damage: {}
+          defense: null
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 6
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Core Rulebook
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
           counteraction: true
-          defense: null
         type: spell
         flags:
           core:
@@ -3572,7 +3506,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: lpLXsKDgAm0Vvdr6
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3585,11 +3519,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686957584920
-      modifiedTime: 1686957584920
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315960198
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!26d8Ag4wHIUkmcDl.f8GMmHAxhlWxlRGJ'
 effects: []
 folder: null
@@ -3695,7 +3629,7 @@ _stats:
   systemVersion: 5.15.0
   coreVersion: '11.315'
   createdTime: 1686850696517
-  modifiedTime: 1712315294935
+  modifiedTime: 1712315960198
   lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!26d8Ag4wHIUkmcDl'
 

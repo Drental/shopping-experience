@@ -12,14 +12,14 @@ items:
         value: >-
           <p><strong>Usage</strong> held in 1 hand</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Strike</p>
 
           <hr />
 
           <p>This flask holds a pressurized red-brown gas flecked with bits of
           sublimated crystal. You gain a +2 item bonus to attack rolls. When the
-          bomb explodes, it deals [[/r 3d4[piercing]]] damage and [[/r
+          bomb explodes, it deals @Damage[3d4[piercing]] damage and [[/r
           (5[splash])[piercing]]]{5 piercing splash damage} as the mixture
           suddenly turns into solid crystals flying at high speeds.</p>
 
@@ -40,10 +40,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -134,11 +131,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956568171
-      modifiedTime: 1686956568171
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315988590
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: dT88OnK5xKyZwk4K
     _key: '!actors.items!vul7bXFDkHo4uCHI.dT88OnK5xKyZwk4K'
   - img: systems/pf2e/icons/equipment/staves/mentalist-staff.webp
@@ -151,44 +148,44 @@ items:
           the folds of a brain. While wielding the staff, you gain a +2
           circumstance bonus to checks to identify mental magic.</p>
 
-          <p><strong>Activate</strong> Cast a Spell</p>
+          <p><strong>Activate</strong> Cast a Spell; <strong>Effect</strong> You
+          expend a number of charges from the staff to cast a spell from its
+          list.</p>
 
           <hr />
-
-          <p><strong>Effect</strong> You expend a number of charges from the
-          staff to cast a spell from its list.</p>
 
           <ul>
 
           <li><strong>Cantrip</strong>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{Daze}</em></li>
+          @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{Daze}</li>
 
           <li><strong>1st</strong>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Mindlink}</em>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom
-          Pain}</em></li>
+          @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Mindlink}
+          @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom
+          Pain}</li>
 
           <li><strong>2nd</strong>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.Mkbq9xlAUxHUHyR2]{Paranoia}</em></li>
+          @UUID[Compendium.pf2e.spells-srd.Item.Mkbq9xlAUxHUHyR2]{Paranoia}</li>
 
           <li><strong>3rd</strong>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0]{Hypercognition}</em>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom
-          Pain}</em></li>
+          @UUID[Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0]{Hypercognition}
+          @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom
+          Pain}</li>
 
           <li><strong>4th</strong>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{Modify
-          Memory}</em>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.HqTI6wRrck1YXp3F]{Telepathy}</em></li>
+          @UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{Rewrite
+          Memory}
+          @UUID[Compendium.pf2e.spells-srd.Item.HqTI6wRrck1YXp3F]{Telepathy}</li>
 
           <li><strong>5th</strong>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom
-          Pain}</em>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.BilnTGuXrof9Dt9D]{Synaptic
-          Pulse}</em>
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.OAt2ZEns1gIOCgrn]{Synesthesia}</em></li>
+          @UUID[Compendium.pf2e.spells-srd.Item.U58aQWJ47VrI36yP]{Hallucination}
+          @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain}
+          @UUID[Compendium.pf2e.spells-srd.Item.BilnTGuXrof9Dt9D]{Synaptic
+          Pulse}</li>
 
           </ul>
+
+          <hr />
 
           <p><strong>Craft Requirements</strong> Supply one casting of all
           listed levels of all listed spells.</p>
@@ -205,10 +202,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -217,10 +211,10 @@ items:
           - two-hand-d8
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 12
       quantity: 1
@@ -297,11 +291,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956572320
-      modifiedTime: 1686956572320
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315988658
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: iJ6n1vDvh7myROBy
     _key: '!actors.items!vul7bXFDkHo4uCHI.iJ6n1vDvh7myROBy'
   - img: systems/pf2e/icons/equipment/weapons/specific-magic-weapons/oathbow.webp
@@ -316,7 +310,7 @@ items:
           its whistling in flight sounds like a voice whispering in Elven,
           wishing for the swift defeat of your enemies.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           command</p>
 
           <hr />
@@ -360,10 +354,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -432,12 +423,12 @@ items:
         property: []
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 2
-          striking: 1
           property: []
+          striking: 1
       subitems: []
       property1:
         value: ''
@@ -460,58 +451,64 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956576201
-      modifiedTime: 1686956576201
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315988731
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: u7slADfQnpYC4A7R
     _key: '!actors.items!vul7bXFDkHo4uCHI.u7slADfQnpYC4A7R'
-  - img: >-
-      systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/tanglefoot-bag.webp
-    name: Tanglefoot Bag (Greater)
+  - img: icons/containers/bags/sack-simple-leather-tan.webp
+    name: Glue Bomb (Greater)
     system:
       description:
         gm: ''
         value: >-
-          <p>A tanglefoot bag is filled with sticky substances. When you hit a
-          creature with a tanglefoot bag, that creature takes a -15-foot status
-          penalty to its Speeds for 1 minute. You gain a +2 item bonus to attack
-          rolls, and the Escape DC is 28.</p>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
+          Strike</p>
+
+          <hr />
+
+          <p>A glue bomb is a harmless explosive mechanism bursting with sticky
+          substances. When you hit a creature with a glue bomb, that creature
+          takes a –15-foot status penalty to its Speeds for 1 minute. You gain a
+          +2 item bonus to attack rolls, and the
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC is
+          28.</p>
 
           <p>On a critical hit, a creature in contact with a solid surface
           becomes stuck to the surface and
           @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}
           for 1 round, and a creature flying via wings has its wings tangled,
           causing it to fall safely to the ground and become unable to Fly again
-          for 1 round. Tanglefoot bags are not effective when used on a creature
-          that is in water.</p>
+          for 1 round. Glue bombs are not effective when used on a creature that
+          is in water.</p>
 
           <p>The target can end any effects by Escaping or spending a total of 3
-          actions to carefully remove the sticky substances. These Interact
-          actions don't have to be consecutive, and other creatures can provide
-          the actions as well.</p>
+          Interact actions to carefully remove the sticky substances. These
+          Interact actions don't have to be consecutive, and other creatures can
+          provide the actions as well.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]{Effect:
+          Glue Bomb (Greater)}</p>
       rules:
         - key: Note
           outcome:
             - success
           selector: '{item|_id}-attack'
           text: PF2E.BombNotes.TanglefootBag.Greater.success
-          title: ITEM.TypeEffect
+          title: '{item|name}'
         - key: Note
           outcome:
             - criticalSuccess
           selector: '{item|_id}-attack'
           text: PF2E.BombNotes.TanglefootBag.Greater.criticalSuccess
-          title: ITEM.TypeEffect
-      slug: tanglefoot-bag-greater
+          title: '{item|name}'
+      slug: glue-bomb-greater
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -520,10 +517,10 @@ items:
           - consumable
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 11
       quantity: 1
@@ -557,19 +554,20 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: bomb
       bonus:
         value: 2
       damage:
         dice: 0
-        die: ''
+        die: null
         damageType: bludgeoning
         persistent: null
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: 20
       reload:
         value: '-'
@@ -600,11 +598,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956581761
-      modifiedTime: 1686956581761
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315988800
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: efgka6qoDFTBu8mO
     _key: '!actors.items!vul7bXFDkHo4uCHI.efgka6qoDFTBu8mO'
   - img: >-
@@ -624,7 +622,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">R</span>
+          <p><strong>Activate</strong> <span class="action-glyph">R</span>
           Interact</p>
 
           <p><strong>Trigger</strong> A creature attacks you with a jaws or
@@ -641,7 +639,7 @@ items:
           <p><strong>Success</strong> The target is unaffected.</p>
 
           <p><strong>Failure</strong> You wound the target's mouth. It takes
-          [[/r 1d6[bleed]]] and takes a -2 status penalty to attack and damage
+          @Damage[1d6[bleed]] and takes a -2 status penalty to attack and damage
           rolls with jaws, fangs, or similar Strikes for 24 hours.</p>
 
           <p><strong>Critical Failure</strong> You break the target's jaw. As
@@ -653,10 +651,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -684,6 +679,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -705,16 +701,14 @@ items:
         resilient: 0
         property: []
       specific:
+        integrated: null
         material:
-          type: null
           grade: null
+          type: null
         runes:
           reinforcing: 0
-        integrated: null
       speedPenalty: 0
       subitems: []
-      dex:
-        value: 0
     type: shield
     flags:
       core:
@@ -727,11 +721,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956587047
-      modifiedTime: 1686956587047
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315988868
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: UNdo48U6sSLSkazT
     _key: '!actors.items!vul7bXFDkHo4uCHI.UNdo48U6sSLSkazT'
   - img: >-
@@ -750,13 +744,11 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
-        value: []
+        value:
+          - magical
         rarity: uncommon
         integrated: null
       publication:
@@ -780,6 +772,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: 'null'
       size: med
       material:
@@ -801,16 +794,14 @@ items:
         resilient: 0
         property: []
       specific:
+        integrated: null
         material:
-          type: null
           grade: null
+          type: null
         runes:
           reinforcing: 0
-        integrated: null
       speedPenalty: 0
       subitems: []
-      dex:
-        value: 0
     type: shield
     flags:
       core:
@@ -823,11 +814,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956593287
-      modifiedTime: 1686956593287
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315988937
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: DUvh8vzFgVCQ0Ieu
     _key: '!actors.items!vul7bXFDkHo4uCHI.DUvh8vzFgVCQ0Ieu'
   - img: >-
@@ -862,10 +853,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -893,6 +881,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: 'null'
       size: med
       material:
@@ -922,15 +912,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956598174
-      modifiedTime: 1686956598174
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989013
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: CpEmAopAkaNHrxTA
     _key: '!actors.items!vul7bXFDkHo4uCHI.CpEmAopAkaNHrxTA'
-  - img: >-
-      systems/pf2e/icons/equipment/worn-items/other-worn-items/cloak-of-elvenkind.webp
+  - img: icons/equipment/back/cloak-collared-feathers-green.webp
     name: Cloak of Elvenkind (Greater)
     system:
       description:
@@ -939,8 +928,8 @@ items:
           <p>This cloak is deep green with a voluminous hood, embroidered with
           gold trim and symbols significant in elven culture. The cloak allows
           you to cast the
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{Ghost
-          Sound}</em> cantrip as an arcane innate spell.</p>
+          @UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{Ghost Sound}
+          cantrip as an arcane innate spell.</p>
 
           <p>When you adjust the cloak's clasp (an Interact action), the cloak
           transforms to match the environment around you and muffles your
@@ -951,7 +940,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
           Interact</p>
 
           <p><strong>Frequency</strong> once per day</p>
@@ -959,8 +948,8 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You draw the hood up and gain the effects
-          of a 4th-level
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility}</em>,
+          of a 4th-rank
+          @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility},
           with the spell's normal duration or until you pull the hood back down,
           whichever comes first.</p>
 
@@ -974,10 +963,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1006,6 +992,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1035,26 +1023,27 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956609588
-      modifiedTime: 1686956609588
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989082
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: OpMbrPNKQEVa2rmE
     _key: '!actors.items!vul7bXFDkHo4uCHI.OpMbrPNKQEVa2rmE'
   - img: >-
       systems/pf2e/icons/equipment/worn-items/other-worn-items/druids-vestments.webp
-    name: Druid's Vestments
+    name: Living Mantle
     system:
       description:
         gm: ''
         value: >-
-          <p>This brown-and-green tunic is embroidered with patterns that
-          resemble interlocking elk antlers. You gain a +2 item bonus to Nature
-          checks.</p>
+          <p>The base of this cloak is a thick layer of moss, but it slowly
+          picks up native plants from each area it spends time in. You gain a +2
+          item bonus to Nature checks. You also suffer no effects from severe
+          cold and severe heat.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          envision</p>
+          <p><strong>Activate—Druidic Secrets</strong> <span
+          class="action-glyph">F</span> (concentrate)</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
@@ -1064,32 +1053,32 @@ items:
           only to cast an order spell. If you don't spend this Focus Point by
           the end of this turn, it is lost.</p>
 
+          <hr />
+
           <p><strong>Craft Requirements</strong> You are a druid.</p>
       rules:
         - key: FlatModifier
           selector: nature
           type: item
           value: 2
-      slug: druids-vestments
+      slug: living-mantle
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - focused
           - invested
+          - plant
           - primal
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 10
       quantity: 1
@@ -1106,6 +1095,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1121,7 +1112,7 @@ items:
               value: ''
         misidentified: {}
       usage:
-        value: worngarment
+        value: worncloak
       subitems: []
     type: equipment
     flags:
@@ -1135,11 +1126,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956614076
-      modifiedTime: 1686956614076
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989149
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: kA0lFMgZHFWrwVzI
     _key: '!actors.items!vul7bXFDkHo4uCHI.kA0lFMgZHFWrwVzI'
   - img: systems/pf2e/icons/equipment/structures/explorers-yurt.webp
@@ -1153,7 +1144,7 @@ items:
           creatures. Despite attempts to clean it, the tent is perpetually
           smudged with dirt in various places.</p>
 
-          <p><strong>Activate</strong> (10 minutes) Interact</p>
+          <p><strong>Activate—Unroll</strong> (10 minutes) (manipulate)</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
@@ -1177,10 +1168,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1188,10 +1176,10 @@ items:
           - structure
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 10
       quantity: 1
@@ -1208,6 +1196,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1237,11 +1226,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956618927
-      modifiedTime: 1686956618927
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989159
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Czxdk9swLX9Kfq5i
     _key: '!actors.items!vul7bXFDkHo4uCHI.Czxdk9swLX9Kfq5i'
   - img: >-
@@ -1251,8 +1240,13 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span> envision
-          (fortune)</p>
+          <p>Adherents of Erastil, god of the hunt, create these magical eye
+          patches. An <em>eye of fortune</em> has a jeweled eye symbol on its
+          front, allowing you to magically see through the eye patch as though
+          it were transparent.</p>
+
+          <p><strong>Activate—Luck Beyond Sight</strong> <span
+          class="action-glyph">F</span> (concentrate, fortune)</p>
 
           <p><strong>Trigger</strong> You attack a concealed or hidden creature
           and haven't attempted the flat check yet</p>
@@ -1261,21 +1255,12 @@ items:
 
           <p><strong>Effect</strong> You can roll the flat check for the
           concealed or hidden condition twice and use the higher result.</p>
-
-          <p>Adherents of
-          @UUID[Compendium.pf2e.deities.Item.mm1j6UbHqFCI8fwB]{Erastil}, god of
-          the hunt, create these magical eye patches. An eye of fortune has a
-          jeweled eye symbol on its front, allowing you to magically see through
-          the eye patch as though it were transparent.</p>
       rules: []
       slug: eye-of-fortune
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1283,10 +1268,10 @@ items:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -1303,6 +1288,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1332,11 +1319,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956622819
-      modifiedTime: 1686956622819
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989224
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: teYrUVr0MJaPEzkL
     _key: '!actors.items!vul7bXFDkHo4uCHI.teYrUVr0MJaPEzkL'
   - img: systems/pf2e/icons/equipment/held-items/marvelous-medicines.webp
@@ -1345,26 +1332,20 @@ items:
       description:
         gm: ''
         value: >-
-          <p>This set of healer's tools contains a seemingly endless supply of
+          <p>This healer's toolkit contains a seemingly endless supply of
           bandages, herbs, and healing items of impeccable quality, granting you
           a +2 item bonus to Medicine checks.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span> Treat
-          Poison or 8 hours (Treat Disease)</p>
+          <p>If you use the <em>marvelous medicines</em> when you
+          @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{Treat Poison}
+          or @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{Treat
+          Disease}, before you roll your check, the medicines attempt to
+          counteract the poison or disease you're treating, with a counteract
+          rank of 5 and a counteract modifier of [[/r 1d20+21
+          #Counteract]]{+21}. This is a healing effect.</p>
 
-          <hr />
-
-          <p><strong>Effect</strong> You can activate the tools when you use
-          them to Treat Poison in order to produce the effects of
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Neutralize
-          Poison}</em>, or when you Treat Disease in order to produce the
-          effects of
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse
-          Affliction}</em>.</p>
-
-          <p>Once these medicines have been used to treat a patient's poison or
-          disease, they can't be used again to treat the same affliction for
-          that patient.</p>
+          <p>The medicines can't be used to treat the same affliction for that
+          patient again</p>
       rules:
         - key: FlatModifier
           selector: medicine
@@ -1374,20 +1355,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 12
       quantity: 1
@@ -1404,6 +1382,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1433,11 +1412,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956627433
-      modifiedTime: 1686956627433
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989291
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 5kPgTalyMY4PNrMW
     _key: '!actors.items!vul7bXFDkHo4uCHI.5kPgTalyMY4PNrMW'
   - img: systems/pf2e/icons/equipment/held-items/slates-of-distant-letters.webp
@@ -1452,8 +1431,8 @@ items:
           broken, the other shatters into non-magical shards. The listed price
           is for a pair of slates.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">2</span>
-          Interact</p>
+          <p><strong>Activate—Send a Message</strong> <span
+          class="action-glyph">2</span> (manipulate)</p>
 
           <p><strong>Frequency</strong> once per hour</p>
 
@@ -1469,20 +1448,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Advanced Player's Guide
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 13
       quantity: 1
@@ -1499,6 +1475,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1528,11 +1505,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956631852
-      modifiedTime: 1686956631852
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989357
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 91nzicE5pZvdfEcr
     _key: '!actors.items!vul7bXFDkHo4uCHI.91nzicE5pZvdfEcr'
   - img: >-
@@ -1551,7 +1528,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">f</span>
+          <p><strong>Activate</strong> <span class="action-glyph">f</span>
           envision</p>
 
           <p><strong>Frequency</strong> once per day</p>
@@ -1581,10 +1558,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1614,6 +1588,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: 'null'
       size: med
       material:
@@ -1643,11 +1618,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956637972
-      modifiedTime: 1686956637972
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989425
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: XSPZSZYfNNmtOo3w
     _key: '!actors.items!vul7bXFDkHo4uCHI.XSPZSZYfNNmtOo3w'
   - img: systems/pf2e/icons/equipment/held-items/thurible-of-revelation.webp
@@ -1657,11 +1632,11 @@ items:
         gm: ''
         value: >-
           <p>This brass censer dangles on a length of chain. Most <em>thuribles
-          of revelation</em> are adorned with swirling Celestial text, though
-          some are iron and feature Infernal or Abyssal text.</p>
+          of revelation</em> are adorned with swirling Empyrean text, though
+          some are iron and feature Diabolic or Chthonian text.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span>
-          Interact</p>
+          <p><strong>Activate—Burn Incense</strong> <span
+          class="action-glyph">2</span> (manipulate)</p>
 
           <p><strong>Cost</strong> incense worth at least 5 gp</p>
 
@@ -1676,8 +1651,8 @@ items:
           <p>Once per day, when you activate the thurible, you can increase its
           revelations. During that activation, you can hold the thurible up to
           your eyes with an Interact action to gain the effects of
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See
-          Invisibility}</em> for 1 round by peering through the smoke.</p>
+          @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See the
+          Unseen} for 1 round by peering through the smoke.</p>
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.UlalLihKzDxcOdXL]{Effect:
           Thurible of Revelation (Moderate)}</p>
@@ -1686,20 +1661,17 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - divine
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 10
       quantity: 1
@@ -1716,6 +1688,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1745,16 +1718,16 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956646001
-      modifiedTime: 1686956646001
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989498
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: SjqlZKLDsXjXCJNu
     _key: '!actors.items!vul7bXFDkHo4uCHI.SjqlZKLDsXjXCJNu'
   - img: >-
       systems/pf2e/icons/equipment/worn-items/other-worn-items/cape-of-the-mountebank.webp
-    name: Cape of the Mountebank
+    name: Charlatan's Cape
     system:
       description:
         gm: ''
@@ -1763,32 +1736,31 @@ items:
           threads and serves as a distraction. While wearing the cape, you gain
           a +2 item bonus to Deception checks.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span>
-          Interact</p>
+          <p><strong>Activate—Puff of Smoke</strong> <span
+          class="action-glyph">2</span> (manipulate)</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
           <hr />
 
           <p><strong>Effect</strong> You cast
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Dimension
-          Door}</em>. The space you leave and the one you appear in are filled
-          with puffs of smoke that make anyone within concealed until they leave
-          the smoke or the end of your next turn, at which point the smoke
-          dissipates. Strong winds immediately disperse the smoke.</p>
+          @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}.
+          The space you leave and the one you appear in are filled with puffs of
+          smoke that make anyone within
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          until they leave the smoke or the end of your next turn, at which
+          point the smoke dissipates. Strong winds immediately disperse the
+          smoke.</p>
       rules:
         - key: FlatModifier
           selector: deception
           type: item
           value: 2
-      slug: cape-of-the-mountebank
+      slug: charlatans-cape
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1796,10 +1768,10 @@ items:
           - magical
         rarity: uncommon
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 10
       quantity: 1
@@ -1816,6 +1788,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1845,11 +1819,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956650691
-      modifiedTime: 1686956650691
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989567
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: d1yRDokcqxpuZNGu
     _key: '!actors.items!vul7bXFDkHo4uCHI.d1yRDokcqxpuZNGu'
   - img: >-
@@ -1863,9 +1837,9 @@ items:
           esoteric arcane symbols. It does nothing unless you have a
           spellcasting class feature with the arcane tradition. While wearing
           the ring of wizardry, you gain a +2 item bonus to Arcana checks and
-          have two additional 2nd-level and one additional 1st-level arcane
-          spell slot each day. You prepare spells in these slots or cast from
-          them spontaneously, just as you normally cast your spells.</p>
+          have two additional 2nd-rank and one additional 1st-rank arcane spell
+          slot each day. You prepare spells in these slots or cast from them
+          spontaneously, just as you normally cast your spells.</p>
 
           <p>If you take off the ring for any reason, you lose the additional
           spell slots. You can't gain spell slots from more than one ring of
@@ -1888,10 +1862,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1919,6 +1890,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1948,11 +1920,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956655957
-      modifiedTime: 1686956655957
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989636
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: GhLVKNgq2BNFLAhM
     _key: '!actors.items!vul7bXFDkHo4uCHI.GhLVKNgq2BNFLAhM'
   - img: >-
@@ -1966,10 +1938,8 @@ items:
           the Shadow Plane, allowing them to strike directly at a target's
           body.</p>
 
-          <hr />
-
-          <p><strong>Activate</strong> <span class="pf2-icon">f</span> command
-          (metamagic)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">f</span>
+          (concentrate, spellshape)</p>
 
           <hr />
 
@@ -1978,15 +1948,40 @@ items:
           or Reflex DC. You make your spell attack roll against that defense
           instead of AC. If the spell has multiple targets, the choice of DC
           applies to all of them.</p>
-      rules: []
+      rules:
+        - key: RollOption
+          option: shadow-signet
+          placement: spellcasting
+          suboptions:
+            - label: PF2E.Check.DC.Specific.fortitude
+              value: fortitude-dc
+            - label: PF2E.Check.DC.Specific.reflex
+              value: reflex-dc
+          toggleable: true
+        - itemType: spell
+          key: ItemAlteration
+          mode: override
+          predicate:
+            - shadow-signet
+            - item:trait:attack
+            - item:defense:ac
+          property: defense-passive
+          value: '{item|flags.pf2e.rulesSelections.shadowSignet}'
+        - key: Note
+          predicate:
+            - shadow-signet
+            - item:trait:attack
+            - or:
+                - item:defense:fortitude-dc
+                - item:defense:reflex-dc
+          selector: spell-attack-roll
+          text: PF2E.SpecificRule.ShadowSignet.Note
+          title: '{item|name}'
       slug: shadow-signet
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1994,10 +1989,10 @@ items:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Secrets of Magic
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 10
       quantity: 1
@@ -2014,6 +2009,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: 'null'
       size: med
       material:
@@ -2043,24 +2039,22 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956661523
-      modifiedTime: 1686956661523
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989705
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: GNhn1wpIZZiFPh57
     _key: '!actors.items!vul7bXFDkHo4uCHI.GNhn1wpIZZiFPh57'
   - _id: RChSjV0wMOuM8x4m
     img: systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp
-    name: Wand of Blink Charge (Level 5)
+    name: Wand of Blink Charge (Rank 5)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.TDaMnCtZ72uyYrz8]{Blink
-          Charge}</em></p><hr /><p>This baton is about a foot long and contains
-          a single spell. The appearance typically relates to the spell
-          within.</p>
+          <p>This baton is about a foot long and contains a single spell. The
+          appearance typically relates to the spell within.</p>
 
           <p><strong>Activate</strong> Cast a Spell</p>
 
@@ -2069,10 +2063,10 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You Cast the Spell at the indicated
-          level.</p>
+          rank.</p>
 
-          <p><strong>Craft Requirements</strong> Supply a listed-level casting
-          of the spell.</p>
+          <p><strong>Craft Requirements</strong> Supply a casting of the spell
+          at the listed rank.</p>
 
           <hr />
 
@@ -2080,28 +2074,22 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: magic-wand-5th-level-spell
+      slug: magic-wand-5th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
-          - divine
           - magical
-          - occult
           - wand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 11
       quantity: 1
@@ -2117,6 +2105,7 @@ items:
           gp: 1500
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2141,7 +2130,8 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
-        img: systems/pf2e/icons/spells/blink-charge.webp
+        _id: 4Zrj9q0iPLqYM4FV
+        img: icons/magic/sonic/projectile-shock-wave-blue.webp
         name: Blink Charge
         system:
           description:
@@ -2165,7 +2155,7 @@ items:
               <p><strong>Success</strong> The Strike deals full damage.</p>
 
               <p><strong>Failure</strong> The Strike deals no damage, but the
-              target takes [[/r 1d8[force]]] damage.</p>
+              target takes @Damage[1d8[force]] damage.</p>
 
               <p><strong>Critical Failure</strong> The Strike deals no damage,
               and you take 1d8 force damage.</p>
@@ -2173,11 +2163,16 @@ items:
               <hr />
 
               <p><strong>Heightened (+2)</strong> The spell's range increases by
-              60 feet, and any force damage the spell deals is increased by [[/r
-              1d8[force]]].</p>
+              60 feet, and any force damage the spell deals is increased by
+              @Damage[1d8[force]].</p>
           rules: []
           slug: blink-charge
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - force
@@ -2188,8 +2183,14 @@ items:
               - arcane
               - divine
               - occult
+          publication:
+            title: Pathfinder Secrets of Magic
+            authors: ''
+            license: OGL
+            remaster: false
           level:
             value: 5
+          requirements: ''
           target:
             value: 1 creature
           range:
@@ -2203,33 +2204,24 @@ items:
           damage:
             '0':
               applyMod: false
-              formula: 2d8
-              type: force
               category: null
-              materials: []
+              formula: 2d8
               kinds:
                 - damage
+              materials: []
+              type: force
+          defense: null
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 5
+          counteraction: false
           heightening:
             damage:
               '0': 1d8
             interval: 2
             type: interval
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Secrets of Magic
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
-          counteraction: false
-          defense: null
         type: spell
         flags:
           core:
@@ -2246,7 +2238,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: YK8yaZEJpTmXT2hc
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2259,35 +2251,32 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956672366
-      modifiedTime: 1686956672366
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989804
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!vul7bXFDkHo4uCHI.RChSjV0wMOuM8x4m'
   - _id: Dik6Xg7ZFlsGw2yc
-    img: >-
-      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
-    name: Scroll of Disintegrate (Level 6)
+    img: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
+    name: Scroll of Disintegrate (Rank 6)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}</em></p><hr
-          /><p>Casting a Spell from a scroll requires holding the scroll in one
+          <p>Casting a Spell from a scroll requires holding the scroll in one
           hand and activating it with a Cast a Spell activity using the normal
           number of actions for that spell.</p>
 
-          <p>To Cast a Spell from a scroll, the spell must appear on your spell
-          list. Because you're the one Casting the Spell, use your spell attack
-          roll and spell DC. The spell also gains the appropriate trait for your
-          tradition (arcane, divine, occult, or primal).</p>
+          <p>The spell must appear on your spell list. Because you're the one
+          Casting the Spell, use your spell attack modifier and spell DC. The
+          spell also gains the appropriate trait for your tradition (arcane,
+          divine, occult, or primal).</p>
 
-          <p>Any physical material components and costs are provided when a
-          scroll is created, so you don't need to provide them when Casting a
-          Spell from a scroll. You must replace any required material component
-          for that spell with a somatic component. If the spell requires a
-          focus, you must have that focus to Cast the Spell from a scroll.</p>
+          <p>Any physical costs are provided when a scroll is created, so you
+          don't need to provide them when casting from a scroll. If the spell
+          requires a locus, you must have that locus to Cast the Spell from a
+          scroll.</p>
 
           <hr />
 
@@ -2295,27 +2284,23 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: scroll-of-6th-level-spell
+      slug: scroll-of-6th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - consumable
           - magical
           - scroll
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 11
       quantity: 1
@@ -2331,6 +2316,7 @@ items:
           gp: 300
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2355,21 +2341,23 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: iJNo6vqkMBWqQGJh
         img: systems/pf2e/icons/spells/disintegrate.webp
         name: Disintegrate
         system:
           description:
             gm: ''
             value: >-
-              <p>You fire a green ray at your target. Make a spell attack. On a
-              hit, you deal 12d10 damage, and the target must attempt a basic
-              Fortitude save. On a critical hit, treat the save result as one
-              degree worse. A creature reduced to 0 HP is reduced to fine
-              powder; its gear remains. An object you hit is destroyed (no
-              save), regardless of Hardness, unless it's an artifact or
-              similarly hard to destroy. A single casting can destroy no more
-              than a 10-foot cube of matter. This automatically destroys any
-              force construct, such as a wall of force.</p>
+              <p>A black tracer bolt flies toward your target, and upon making
+              contact intensifies into a powerful destructive beam. Make a spell
+              attack against the target. If you hit an object or force construct
+              (such as a wall of force), it's destroyed with no save unless it's
+              an artifact or similarly powerful. A single casting can destroy no
+              more than a 10-foot cube of matter. If you hit a creature, it
+              takes 12d10 damage (no damage type) with a basic Fortitude save.
+              If you critically hit, the target gets a result one degree of
+              success worse than the outcome of its Fortitude save. A creature
+              reduced to 0 HP is blasted to fine powder; its gear remains.</p>
 
               <hr />
 
@@ -2377,7 +2365,12 @@ items:
               2d10.</p>
           rules: []
           slug: disintegrate
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - attack
               - concentrate
@@ -2385,10 +2378,16 @@ items:
             rarity: common
             traditions:
               - arcane
+          publication:
+            title: Pathfinder Player Core
+            authors: ''
+            license: ORC
+            remaster: true
           level:
             value: 6
+          requirements: ''
           target:
-            value: 1 creature or unattended object
+            value: 1 creature, unattended object, or force construct
           range:
             value: 120 feet
           area: null
@@ -2400,37 +2399,27 @@ items:
           damage:
             '0':
               applyMod: false
-              formula: 12d10
-              type: untyped
               category: null
-              materials: []
+              formula: 12d10
               kinds:
                 - damage
+              materials: []
+              type: untyped
+          defense:
+            save:
+              basic: true
+              statistic: fortitude
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 6
+          counteraction: false
           heightening:
             damage:
               '0': 2d10
             interval: 1
             type: interval
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Core Rulebook
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
-          counteraction: false
-          defense:
-            passive: null
-            save:
-              statistic: fortitude
-              basic: true
         type: spell
         flags:
           core:
@@ -2447,7 +2436,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: 5QMLOP2BkG5X25ai
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2460,23 +2449,21 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956678266
-      modifiedTime: 1686956678266
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989834
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!vul7bXFDkHo4uCHI.Dik6Xg7ZFlsGw2yc'
   - _id: AIrOiPCSm87m8nqH
     img: systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp
-    name: Wand of Telepathic Bond (Level 5)
+    name: Wand of Telepathic Bond (Rank 5)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.gfVXAW95YWRz0pJC]{Telepathic
-          Bond}</em></p><hr /><p>This baton is about a foot long and contains a
-          single spell. The appearance typically relates to the spell
-          within.</p>
+          <p>This baton is about a foot long and contains a single spell. The
+          appearance typically relates to the spell within.</p>
 
           <p><strong>Activate</strong> Cast a Spell</p>
 
@@ -2485,10 +2472,10 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You Cast the Spell at the indicated
-          level.</p>
+          rank.</p>
 
-          <p><strong>Craft Requirements</strong> Supply a listed-level casting
-          of the spell.</p>
+          <p><strong>Craft Requirements</strong> Supply a casting of the spell
+          at the listed rank.</p>
 
           <hr />
 
@@ -2496,27 +2483,22 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: magic-wand-5th-level-spell
+      slug: magic-wand-5th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - magical
-          - occult
           - wand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 11
       quantity: 1
@@ -2532,6 +2514,7 @@ items:
           gp: 1500
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2556,6 +2539,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: YqnG3aGDFGjMa0Pv
         img: systems/pf2e/icons/spells/telepathic-bond.webp
         name: Telepathic Bond
         system:
@@ -2566,7 +2550,12 @@ items:
               the other targets from any point on the same planet.</p>
           rules: []
           slug: telepathic-bond
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - manipulate
@@ -2575,8 +2564,14 @@ items:
             traditions:
               - arcane
               - occult
+          publication:
+            title: Pathfinder Core Rulebook
+            authors: ''
+            license: OGL
+            remaster: false
           level:
             value: 5
+          requirements: ''
           target:
             value: you and up to 4 willing creatures touched
           range:
@@ -2588,22 +2583,13 @@ items:
             value: 8 hours
             sustained: false
           damage: {}
+          defense: null
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 5
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Core Rulebook
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
           counteraction: false
-          defense: null
         type: spell
         flags:
           core:
@@ -2620,7 +2606,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: 8wcMeG7VBZrmSaaF
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2633,35 +2619,32 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956684943
-      modifiedTime: 1686956684943
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989863
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!vul7bXFDkHo4uCHI.AIrOiPCSm87m8nqH'
   - _id: KxTRiPc06T89LiBn
-    img: >-
-      systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp
-    name: Scroll of Zero Gravity (Level 6)
+    img: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
+    name: Scroll of Zero Gravity (Rank 6)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.P1iqzEIidRagUs7W]{Zero
-          Gravity}</em></p><hr /><p>Casting a Spell from a scroll requires
-          holding the scroll in one hand and activating it with a Cast a Spell
-          activity using the normal number of actions for that spell.</p>
+          <p>Casting a Spell from a scroll requires holding the scroll in one
+          hand and activating it with a Cast a Spell activity using the normal
+          number of actions for that spell.</p>
 
-          <p>To Cast a Spell from a scroll, the spell must appear on your spell
-          list. Because you're the one Casting the Spell, use your spell attack
-          roll and spell DC. The spell also gains the appropriate trait for your
-          tradition (arcane, divine, occult, or primal).</p>
+          <p>The spell must appear on your spell list. Because you're the one
+          Casting the Spell, use your spell attack modifier and spell DC. The
+          spell also gains the appropriate trait for your tradition (arcane,
+          divine, occult, or primal).</p>
 
-          <p>Any physical material components and costs are provided when a
-          scroll is created, so you don't need to provide them when Casting a
-          Spell from a scroll. You must replace any required material component
-          for that spell with a somatic component. If the spell requires a
-          focus, you must have that focus to Cast the Spell from a scroll.</p>
+          <p>Any physical costs are provided when a scroll is created, so you
+          don't need to provide them when casting from a scroll. If the spell
+          requires a locus, you must have that locus to Cast the Spell from a
+          scroll.</p>
 
           <hr />
 
@@ -2669,28 +2652,23 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: scroll-of-6th-level-spell
+      slug: scroll-of-6th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - consumable
           - magical
-          - occult
           - scroll
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 11
       quantity: 1
@@ -2706,6 +2684,7 @@ items:
           gp: 300
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2730,6 +2709,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: 3Of3ip3JhypDDG2V
         img: systems/pf2e/icons/spells/zero-gravity.webp
         name: Zero Gravity
         system:
@@ -2758,7 +2738,12 @@ items:
               creatures and objects in the area fall back down.</p>
           rules: []
           slug: zero-gravity
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - manipulate
@@ -2766,8 +2751,14 @@ items:
             traditions:
               - arcane
               - occult
+          publication:
+            title: Pathfinder Secrets of Magic
+            authors: ''
+            license: OGL
+            remaster: false
           level:
             value: 6
+          requirements: ''
           target:
             value: ''
           range:
@@ -2781,22 +2772,13 @@ items:
             value: 1 minute
             sustained: true
           damage: {}
+          defense: null
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 6
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Secrets of Magic
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
           counteraction: false
-          defense: null
         type: spell
         flags:
           core:
@@ -2813,7 +2795,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: bNgZZ6jtjjXsGQu3
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2826,11 +2808,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956691048
-      modifiedTime: 1686956691048
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989891
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!vul7bXFDkHo4uCHI.KxTRiPc06T89LiBn'
   - img: systems/pf2e/icons/equipment/consumables/talismans/balisse-feather.webp
     name: Balisse Feather
@@ -2840,7 +2822,7 @@ items:
         value: >-
           <p><strong>Usage</strong> affixed to a weapon</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
+          <p><strong>Activate</strong> <span class="action-glyph">F</span>
           Envision</p>
 
           <p><strong>Trigger</strong> You deal damage using the affixed weapon
@@ -2857,10 +2839,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2914,6 +2893,7 @@ items:
         value: affixed-to-weapon
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2926,42 +2906,42 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956697633
-      modifiedTime: 1686956732684
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315989960
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 7i7MFpLcuGEIMIsQ
     _key: '!actors.items!vul7bXFDkHo4uCHI.7i7MFpLcuGEIMIsQ'
   - img: >-
-      systems/pf2e/icons/equipment/consumables/potions/copper-dragons-breath-potion.webp
-    name: Copper Dragon's Breath Potion (Adult)
+      systems/pf2e/icons/equipment/consumables/potions/green-dragons-breath-potion.webp
+    name: Energy Breath Potion (Acid, Moderate)
     system:
       description:
         gm: ''
         value: >-
-          <p>This liquid contains blood from a copper dragon. For 1 hour after
-          you imbibe the concoction, you can unleash a copper dragon's breath
-          weapon. The potency of the breath depends on the potion's type, based
-          on the age of the dragon whose blood was used to make the potion.</p>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
+          (manipulate)</p>
 
-          <p>Exhaling dragon breath uses a single action. You create a
-          @Template[type:line|distance:30] of acid which deals [[/r 6d6[acid]]]
-          damage. All creatures in the area must attempt a
-          @Check[type:reflex|dc:29|basic:true|name:Adult Copper Dragon's Breath
-          Potion] save.</p>
+          <hr />
 
-          <p>After you use the breath weapon, you can't do so again for [[/r 1d4
-          #rounds]]{1d4 rounds}.</p>
+          <p>Distilled from the energy of dangerous spells, an energy breath
+          potion grants you the Energy Breath action for 1 hour after you imbibe
+          the concoction.</p>
+
+          <p><strong>Energy Breath <span class="action-glyph">1</span></strong>
+          You create a @Template[type:line|distance:30] of acid which deals
+          @Damage[6d6[acid]|traits:area-damage] damage. All creatures in the
+          area must attempt a @Check[type:reflex|dc:29|basic:true] save.</p>
+
+          <p>After you use Energy Breath, you can't do so again for [[/br 1d4
+          #Recharge Energy Breath]]{1d4 rounds}.</p>
       rules: []
-      slug: copper-dragons-breath-potion-adult
+      slug: energy-breath-potion-acid-moderate
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2971,10 +2951,10 @@ items:
           - potion
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 12
       quantity: 5
@@ -3010,14 +2990,12 @@ items:
         value: 1
         max: 1
         autoDestroy: true
-      damage:
-        formula: 6d6
-        kind: damage
-        type: acid
+      damage: null
       usage:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3030,11 +3008,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956703779
-      modifiedTime: 1686956733601
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315990027
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 4sNLaOp4ezrUF0fq
     _key: '!actors.items!vul7bXFDkHo4uCHI.4sNLaOp4ezrUF0fq'
   - img: >-
@@ -3044,15 +3022,15 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Usage</strong> affixed to armor</p>
-
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          Envision</p>
+          <p><strong>Activate</strong> <span class="action-glyph">F</span>
+          (concentrate)</p>
 
           <p><strong>Trigger</strong> You are about to roll Perception for
           initiative but haven't rolled yet</p>
 
           <p><strong>Requirements</strong> You are a master in Perception</p>
+
+          <hr />
 
           <p>This round piece of cymophane's silky inclusion makes it look like
           a cat's eye. While affixed, it makes you jittery.</p>
@@ -3064,10 +3042,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3076,10 +3051,10 @@ items:
           - talisman
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 12
       quantity: 2
@@ -3120,6 +3095,7 @@ items:
         value: affixed-to-armor
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3132,11 +3108,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956707860
-      modifiedTime: 1686956734507
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315990038
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: OXPoW0IULqQ9gRYL
     _key: '!actors.items!vul7bXFDkHo4uCHI.OXPoW0IULqQ9gRYL'
   - img: systems/pf2e/icons/equipment/consumables/talismans/mummified-bat.webp
@@ -3145,19 +3121,25 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Usage</strong> affixed to a weapon</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (concentrate)</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Command</p>
-
-          <p><strong>Requirements</strong> You are a master in Perception</p>
+          <hr />
 
           <p>This talisman is the magically treated corpse of a tiny bat bound
-          in papyrus. When you activate the bat, the affixed weapon detects
-          vibrations around you and guides your perception. You gain the
-          benefits of the fighter
-          @UUID[Compendium.pf2e.feats-srd.Item.y2XeMe1F18lIyo59]{Blind-Fight}
-          class feat for 1 minute.</p>
+          in papyrus. When activated, the affixed weapon detects vibrations
+          around you and guides your perception. For 1 minute, you don't need to
+          succeed at a flat check to target
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          creatures. You're not
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+          to creatures that are
+          @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}
+          from you (unless you're off-guard to them for reasons other than the
+          hidden condition), and you need only a successful
+          @Check[type:flat|dc:5] to target a hidden creature. While you're
+          adjacent to an undetected creature of your level or lower, it's
+          instead only hidden from you.</p>
 
           <p>If you have the Blind-Fight feat, you gain imprecise echolocation
           with a range of 30 feet for 1 minute. This makes creatures that would
@@ -3167,10 +3149,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3179,10 +3158,10 @@ items:
           - talisman
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 10
       quantity: 3
@@ -3223,6 +3202,7 @@ items:
         value: affixed-to-weapon
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3235,11 +3215,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956711725
-      modifiedTime: 1686956735077
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315990105
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: dtB6Gc29foAENYJB
     _key: '!actors.items!vul7bXFDkHo4uCHI.dtB6Gc29foAENYJB'
   - img: >-
@@ -3274,10 +3254,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3329,6 +3306,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3341,11 +3319,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956715673
-      modifiedTime: 1686956736339
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315990115
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: hFDCq5vbqV0mzTs6
     _key: '!actors.items!vul7bXFDkHo4uCHI.hFDCq5vbqV0mzTs6'
   - img: >-
@@ -3355,7 +3333,7 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           Interact</p>
 
           <p>Originally formulated as a means of dissolving
@@ -3372,10 +3350,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3402,6 +3377,7 @@ items:
           gp: 325
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -3426,6 +3402,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3438,11 +3415,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686956720487
-      modifiedTime: 1686956720487
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315990186
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: K6Qo7wq11Nj83Xcv
     _key: '!actors.items!vul7bXFDkHo4uCHI.K6Qo7wq11Nj83Xcv'
 effects: []
@@ -3547,7 +3524,7 @@ _stats:
   systemVersion: 5.15.0
   coreVersion: '11.315'
   createdTime: 1686850696517
-  modifiedTime: 1712315294935
+  modifiedTime: 1712315990186
   lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!vul7bXFDkHo4uCHI'
 

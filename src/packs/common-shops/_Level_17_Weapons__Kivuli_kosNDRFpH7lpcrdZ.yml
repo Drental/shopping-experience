@@ -34,8 +34,8 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span> Interact
-          (evocation, magical)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
+          Interact (evocation, magical)</p>
 
           <p><strong>Frequency</strong> once per minute</p>
 
@@ -61,14 +61,12 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - concussive
+          - scatter-10
         rarity: uncommon
       publication:
         title: Pathfinder Guns & Gears
@@ -100,8 +98,8 @@ items:
       identification:
         status: identified
         unidentified:
-          name: Unusual Blunderbuss
-          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          name: ''
+          img: ''
           data:
             description:
               value: ''
@@ -130,12 +128,12 @@ items:
         property: []
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 3
-          striking: 3
           property: []
+          striking: 3
       subitems: []
       property1:
         value: ''
@@ -146,10 +144,6 @@ items:
         critDie: ''
         critDamage: ''
         critDamageType: ''
-        strikeConditionType: ''
-        strikeConditionValue: null
-        criticalConditionType: ''
-        criticalConditionValue: null
     type: weapon
     flags:
       core:
@@ -162,16 +156,16 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958580441
-      modifiedTime: 1686958580441
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315982968
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: FUkBQPuNvXI3WPIF
     _key: '!actors.items!kosNDRFpH7lpcrdZ.FUkBQPuNvXI3WPIF'
   - img: >-
       systems/pf2e/icons/equipment/weapons/specific-magic-weapons/flame-tongue.webp
-    name: Flame Tongue (Greater)
+    name: Searing Blade (Greater)
     system:
       description:
         gm: ''
@@ -185,33 +179,33 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> command,
-          Interact</p>
+          <p><strong>Activate—Shoot Fire</strong> <span
+          class="action-glyph">2</span> (concentrate, manipulate)</p>
 
           <hr />
 
           <p><strong>Effect</strong> You cast the
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{Produce
-          Flame}</em> cantrip from the sword as a 9th-level arcane spell, using
-          your melee attack modifier with <em>flametongue</em> as your spell
-          attack modifier.</p>
+          @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition}
+          cantrip from the sword as a 9th-rank arcane spell, using your melee
+          attack modifier with <em>searing blade</em> as your spell attack
+          modifier.</p>
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          command</p>
+          <p><strong>Activate—Radiate Flames</strong> <span
+          class="action-glyph">A</span> (aura, concentrate, fire)</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
           <hr />
 
           <p><strong>Effect</strong> A @Template[type:emanation|distance:10] of
-          flame radiates from the <em>greater flame tongue</em> for 1 minute.
+          flame radiates from the <em>greater searing blade</em> for 1 minute.
           All weapon and unarmed attacks by you and your allies within the area
           gain the effect of the <em>flaming</em> property rune.</p>
 
           <p>@UUID[Compendium.pf2e.equipment-effects.Item.4XO5mkjnh5riwZPM]{Aura:
-          Flame Tongue (Greater)}</p>
+          Searing Blade (Greater)}</p>
       rules:
         - key: TokenLight
           value:
@@ -225,14 +219,11 @@ items:
         - key: TokenEffectIcon
           value: >-
             systems/pf2e/icons/equipment/weapons/specific-magic-weapons/flame-tongue.webp
-      slug: flame-tongue-greater
+      slug: searing-blade-greater
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -241,10 +232,10 @@ items:
           - versatile-p
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 17
       quantity: 1
@@ -301,13 +292,13 @@ items:
           - greaterFlaming
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 3
-          striking: 2
           property:
             - greaterFlaming
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -330,34 +321,34 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958587427
-      modifiedTime: 1686958587427
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983035
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 45ycaAKsxy1KXT9m
     _key: '!actors.items!kosNDRFpH7lpcrdZ.45ycaAKsxy1KXT9m'
-  - img: >-
-      systems/pf2e/icons/equipment/weapons/specific-magic-weapons/luck-blade.webp
+  - img: icons/weapons/swords/sword-guard-engraved.webp
     name: Luck Blade
     system:
       description:
         gm: ''
         value: >-
-          <p>Luck and good fortune bless the wielder of this +3 greater striking
-          shortsword. Luck blades are crafted in a variety of styles, but their
-          hilts or blades always incorporate symbols of luck, such as clovers,
-          horseshoes, fish, ladybugs, or other symbols.</p>
+          <p>Luck and good fortune bless the wielder of this <em>+3 greater
+          striking shortsword</em>. <em>Luck blades</em> are crafted in a
+          variety of styles, but their hilts or blades always incorporate
+          symbols of luck, such as clovers, horseshoes, fish, ladybugs, or other
+          symbols.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">R</span>
+          <hr />
+
+          <p><strong>Activate</strong> <span class="action-glyph">R</span>
           envision</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
-          <p><strong>Trigger</strong> You miss on a Strike with the luck
-          blade</p>
-
-          <hr />
+          <p><strong>Trigger</strong> You miss on a Strike with the <em>luck
+          blade</em></p>
 
           <p><strong>Effect</strong> Reroll the triggering attack roll and use
           the new result. This is a fortune effect.</p>
@@ -366,10 +357,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -430,7 +418,7 @@ items:
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: null
       reload:
         value: ''
@@ -440,12 +428,12 @@ items:
         property: []
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 3
-          striking: 2
           property: []
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -468,11 +456,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958592777
-      modifiedTime: 1686958592777
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983104
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 3ljzpjUeyhqKb2mv
     _key: '!actors.items!kosNDRFpH7lpcrdZ.3ljzpjUeyhqKb2mv'
   - img: systems/pf2e/icons/equipment/weapons/adze.webp
@@ -491,10 +479,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -532,8 +517,8 @@ items:
       identification:
         status: identified
         unidentified:
-          name: Unusual Adze
-          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          name: ''
+          img: ''
           data:
             description:
               value: ''
@@ -574,10 +559,6 @@ items:
         critDie: ''
         critDamage: ''
         critDamageType: ''
-        strikeConditionType: ''
-        strikeConditionValue: null
-        criticalConditionType: ''
-        criticalConditionValue: null
     type: weapon
     flags:
       core:
@@ -590,11 +571,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958597669
-      modifiedTime: 1686958880279
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983175
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Aezc9WpUP51eb0hz
     _key: '!actors.items!kosNDRFpH7lpcrdZ.Aezc9WpUP51eb0hz'
   - img: systems/pf2e/icons/equipment/weapons/rungu.webp
@@ -613,10 +594,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -654,8 +632,8 @@ items:
       identification:
         status: identified
         unidentified:
-          name: Unusual Rungu
-          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          name: ''
+          img: ''
           data:
             description:
               value: ''
@@ -696,10 +674,6 @@ items:
         critDie: ''
         critDamage: ''
         critDamageType: ''
-        strikeConditionType: ''
-        strikeConditionValue: null
-        criticalConditionType: ''
-        criticalConditionValue: null
     type: weapon
     flags:
       core:
@@ -712,45 +686,46 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958602932
-      modifiedTime: 1686958908622
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983241
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: SXK9kI5khIR8bIs3
     _key: '!actors.items!kosNDRFpH7lpcrdZ.SXK9kI5khIR8bIs3'
   - img: >-
       systems/pf2e/icons/equipment/weapons/specific-magic-weapons/frost-brand.webp
-    name: Large Frost Brand
+    name: Frost Brand
     system:
       description:
         gm: ''
         value: >-
-          <p>The blade of this +2 greater striking
+          <p>The blade of this <em>+2 greater striking
           @UUID[Compendium.pf2e.equipment-srd.Item.Sexud7FdxIrg50vU]{Frost
-          (Greater)} greatsword appears to be nothing but icy shards. The frost
-          brand automatically extinguishes non-magical fires in a
+          (Greater)} greatsword</em> appears to be nothing but icy shards. The
+          <em>frost brand</em> automatically extinguishes non-magical fires in a
           @Template[type:emanation|distance:20]. While wielding it, you gain
           fire resistance 5.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> command,
-          Interact</p>
-
           <hr />
+
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          command, Interact</p>
 
           <p><strong>Effect</strong> You swing the <em>frost brand</em> into the
           area of an ongoing magical fire, and the blade attempts to counteract
-          the fire with a counteract modifier of +27. If it fails, it can't
-          attempt to counteract the same fire again.</p>
-      rules: []
+          the fire with a counteract modifier of [[/r 1d20+27
+          #Counteract]]{+27}. If it fails, it can't attempt to counteract the
+          same fire again.</p>
+      rules:
+        - key: Resistance
+          type: fire
+          value: 5
       slug: frost-brand
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -788,8 +763,8 @@ items:
       identification:
         status: identified
         unidentified:
-          name: Unusual Greatsword
-          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          name: ''
+          img: ''
           data:
             description:
               value: ''
@@ -819,13 +794,13 @@ items:
           - greaterFrost
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 2
-          striking: 2
           property:
             - greaterFrost
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -836,10 +811,6 @@ items:
         critDie: ''
         critDamage: ''
         critDamageType: ''
-        strikeConditionType: ''
-        strikeConditionValue: null
-        criticalConditionType: ''
-        criticalConditionValue: null
     type: weapon
     flags:
       core:
@@ -852,11 +823,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958612176
-      modifiedTime: 1686958681602
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983251
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: LZ7jFBx6Rsog4YLB
     _key: '!actors.items!kosNDRFpH7lpcrdZ.LZ7jFBx6Rsog4YLB'
   - img: >-
@@ -893,10 +864,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -969,14 +937,14 @@ items:
           - greaterFlaming
       specific:
         material:
-          type: silver
           grade: high
+          type: silver
         runes:
           potency: 3
-          striking: 2
           property:
             - holy
             - greaterFlaming
+          striking: 2
       subitems: []
       property1:
         value: ''
@@ -999,14 +967,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958731546
-      modifiedTime: 1686958731546
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983317
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: h7GEPfxzg9e9iZjq
     _key: '!actors.items!kosNDRFpH7lpcrdZ.h7GEPfxzg9e9iZjq'
-  - img: systems/pf2e/icons/equipment/weapons/blunderbuss.webp
+  - img: icons/weapons/guns/gun-blunderbuss-worn-brown.webp
     name: Blunderbuss
     system:
       description:
@@ -1021,10 +989,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1061,8 +1026,8 @@ items:
       identification:
         status: identified
         unidentified:
-          name: Unusual Blunderbuss
-          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          name: ''
+          img: ''
           data:
             description:
               value: ''
@@ -1103,10 +1068,6 @@ items:
         critDie: ''
         critDamage: ''
         critDamageType: ''
-        strikeConditionType: ''
-        strikeConditionValue: null
-        criticalConditionType: ''
-        criticalConditionValue: null
     type: weapon
     flags:
       core:
@@ -1119,11 +1080,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958737415
-      modifiedTime: 1686958928353
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983383
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: ZvxX1CGurCpdzWce
     _key: '!actors.items!kosNDRFpH7lpcrdZ.ZvxX1CGurCpdzWce'
   - img: >-
@@ -1133,8 +1094,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Strike</p>
+
+          <hr />
 
           <p>Alchemist's fire is a combination of volatile liquids that ignite
           when exposed to air. Alchemist's fire deals 4d8 fire damage, 4
@@ -1145,10 +1108,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1159,10 +1119,10 @@ items:
           - splash
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 17
       quantity: 5
@@ -1196,6 +1156,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: bomb
       bonus:
@@ -1242,11 +1203,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958746709
-      modifiedTime: 1686958946734
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983454
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: odi7lIQYDQMJr6nW
     _key: '!actors.items!kosNDRFpH7lpcrdZ.odi7lIQYDQMJr6nW'
   - img: >-
@@ -1256,16 +1217,14 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Usage</strong> held in 1 hand</p>
-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Strike</p>
 
           <hr />
 
           <p>This flask is filled with a murky purple gas that briefly
-          interferes with normal brain activity. A dread ampoule deals the
-          listed mental damage and mental splash damage.</p>
+          interferes with normal brain activity. A dread ampoule deals 4d6
+          mental damage and 4 mental splash damage.</p>
 
           <p>On a hit, the target becomes
           @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
@@ -1274,8 +1233,7 @@ items:
           2} on a critical hit. Many types also grant an item bonus to attack
           rolls.</p>
 
-          <p>You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental
-          damage and 4 mental splash damage.</p>
+          <p>You gain a +3 item bonus to attack rolls.</p>
       rules:
         - key: Note
           selector: '{item|_id}-damage'
@@ -1284,10 +1242,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1301,10 +1256,10 @@ items:
           - splash
         rarity: common
       publication:
-        title: Pathfinder Advanced Player's Guide
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 17
       quantity: 10
@@ -1338,6 +1293,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: bomb
       bonus:
@@ -1348,7 +1304,7 @@ items:
         damageType: mental
         persistent: null
       bonusDamage:
-        value: null
+        value: 0
       splashDamage:
         value: 4
       range: 20
@@ -1381,204 +1337,13 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958752391
-      modifiedTime: 1686958948537
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983468
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: LcQTrTKUkm7OxqBI
     _key: '!actors.items!kosNDRFpH7lpcrdZ.LcQTrTKUkm7OxqBI'
-  - img: >-
-      systems/pf2e/icons/equipment/shields/precious-material-shields/cold-Iron-shield.webp
-    name: Cold Iron Shield (High-Grade)
-    system:
-      description:
-        gm: ''
-        value: >-
-          <p>Cold iron shields don't typically have an additional effect, though
-          when used for a shield bash, they are cold iron weapons.</p>
-
-          <p>The shield has Hardness 10, HP 40, and BT 20.</p>
-
-          <hr />
-
-          <p><strong>Craft Requirements</strong> cold iron worth at least 2,750
-          gp</p>
-      rules: []
-      slug: cold-iron-shield-high-grade
-      _migration:
-        version: 0.925
-        lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
-      traits:
-        otherTags: []
-        value: []
-        rarity: common
-        integrated: null
-      publication:
-        title: Pathfinder Core Rulebook
-        authors: ''
-        license: OGL
-        remaster: false
-      level:
-        value: 15
-      quantity: 1
-      baseItem: null
-      bulk:
-        value: 1
-      hp:
-        value: 40
-        max: 40
-      hardness: 10
-      price:
-        value:
-          gp: 5500
-      equipped:
-        carryType: worn
-        invested: null
-      containerId: null
-      size: med
-      material:
-        type: cold-iron
-        grade: high
-      identification:
-        status: identified
-        unidentified:
-          name: ''
-          img: ''
-          data:
-            description:
-              value: ''
-        misidentified: {}
-      acBonus: 2
-      runes:
-        reinforcing: 0
-        potency: 0
-        resilient: 0
-        property: []
-      specific: null
-      speedPenalty: 0
-      subitems: []
-      dex:
-        value: 0
-    type: shield
-    flags:
-      core:
-        sourceId: Compendium.pf2e.equipment-srd.Item.nRmGErgTLZYf6WMD
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      eJdAkXPIlso4614X: 3
-    _stats:
-      systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
-      createdTime: 1686958758429
-      modifiedTime: 1686958758429
-      lastModifiedBy: eJdAkXPIlso4614X
-    _id: M6ud1y5g6JYy4Z46
-    _key: '!actors.items!kosNDRFpH7lpcrdZ.M6ud1y5g6JYy4Z46'
-  - img: >-
-      systems/pf2e/icons/equipment/shields/precious-material-shields/silver-shield.webp
-    name: Silver Shield (High-Grade)
-    system:
-      description:
-        gm: ''
-        value: >-
-          <p>Silver shields don't typically have an additional effect, though
-          when used for a shield bash, they are silver weapons.</p>
-
-          <hr />
-
-          <p>The shield has Hardness 8 HP 32, and BT 16.</p>
-
-          <p><strong>Craft Requirements</strong> silver worth at least 2,750
-          gp</p>
-      rules: []
-      slug: silver-shield-high-grade
-      _migration:
-        version: 0.925
-        lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
-      traits:
-        otherTags: []
-        value: []
-        rarity: common
-        integrated: null
-      publication:
-        title: Pathfinder Core Rulebook
-        authors: ''
-        license: OGL
-        remaster: false
-      level:
-        value: 15
-      quantity: 2
-      baseItem: null
-      bulk:
-        value: 1
-      hp:
-        value: 32
-        max: 32
-      hardness: 8
-      price:
-        value:
-          gp: 5500
-      equipped:
-        carryType: worn
-        invested: null
-        handsHeld: 0
-      containerId: null
-      size: med
-      material:
-        type: silver
-        grade: high
-      identification:
-        status: identified
-        unidentified:
-          name: ''
-          img: ''
-          data:
-            description:
-              value: ''
-        misidentified: {}
-      acBonus: 2
-      runes:
-        reinforcing: 0
-        potency: 0
-        resilient: 0
-        property: []
-      specific: null
-      speedPenalty: 0
-      subitems: []
-      dex:
-        value: 0
-    type: shield
-    flags:
-      core:
-        sourceId: Compendium.pf2e.equipment-srd.Item.pRzafUKQviDSMRJp
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      eJdAkXPIlso4614X: 3
-    _stats:
-      systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
-      createdTime: 1686958765919
-      modifiedTime: 1686958949684
-      lastModifiedBy: eJdAkXPIlso4614X
-    _id: llPY1OsLO08hMp1I
-    _key: '!actors.items!kosNDRFpH7lpcrdZ.llPY1OsLO08hMp1I'
   - img: systems/pf2e/icons/equipment/shields/specific-shields/sturdy-shield.webp
     name: Sturdy Shield (Major)
     system:
@@ -1595,10 +1360,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1606,10 +1368,10 @@ items:
         rarity: common
         integrated: null
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 16
       quantity: 3
@@ -1648,16 +1410,14 @@ items:
         resilient: 0
         property: []
       specific:
+        integrated: null
         material:
-          type: null
           grade: null
+          type: null
         runes:
           reinforcing: 0
-        integrated: null
       speedPenalty: 0
       subitems: []
-      dex:
-        value: 0
     type: shield
     flags:
       core:
@@ -1670,11 +1430,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958772097
-      modifiedTime: 1686958951012
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983590
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: q0CJwufX2MeZhCbv
     _key: '!actors.items!kosNDRFpH7lpcrdZ.q0CJwufX2MeZhCbv'
   - img: >-
@@ -1713,10 +1473,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1744,6 +1501,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1773,11 +1532,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958781092
-      modifiedTime: 1686958781092
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983656
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 2TDp5kiFhlueoMii
     _key: '!actors.items!kosNDRFpH7lpcrdZ.2TDp5kiFhlueoMii'
   - img: >-
@@ -1802,14 +1561,22 @@ items:
           selector: athletics
           type: item
           value: 3
+        - key: Note
+          outcome:
+            - success
+            - criticalSuccess
+          predicate:
+            - or:
+                - action:climb
+                - action:swim
+          selector: athletics
+          text: PF2E.SpecificRule.Equipment.ArmbandsOfAthleticism.GreaterNote
+          title: '{item|name}'
       slug: armbands-of-athleticism-greater
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1817,10 +1584,10 @@ items:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 17
       quantity: 3
@@ -1868,11 +1635,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958789255
-      modifiedTime: 1686958952934
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983722
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: jR7uYAgrAtqxbk5X
     _key: '!actors.items!kosNDRFpH7lpcrdZ.jR7uYAgrAtqxbk5X'
   - img: >-
@@ -1887,14 +1654,15 @@ items:
           through the blindfold, but only using darkvision.</p>
 
           <p>The first time a particular creature sees you in a day, it must
-          succeed at a @Check[type:will|dc:37] save or be frightened 1. This is
-          an emotion, fear, and mental effect, and your allies become immune to
-          it after about a week.</p>
+          succeed at a @Check[type:will|dc:37] save or be
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}. This is an emotion, fear, and mental effect, and your allies
+          become immune to it after about a week.</p>
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          command</p>
+          <p><strong>Activate—Visions of Terror</strong> <span
+          class="action-glyph">F</span> (concentrate)</p>
 
           <p><strong>Frequency</strong> once per minute</p>
 
@@ -1903,10 +1671,8 @@ items:
           <hr />
 
           <p><strong>Effect</strong> Your target is gripped by intense fear.
-          This has the effect of a DC 37
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{Phantasmal
-          Killer}</em> spell, but it is an enchantment instead of an illusion.
-          The creature is then temporarily immune for 24 hours.</p>
+          This has the effect of a DC 37 <em>vision of death</em> spell. The
+          creature is then temporarily immune for 24 hours.</p>
       rules:
         - key: FlatModifier
           selector: intimidation
@@ -1918,10 +1684,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1932,10 +1695,10 @@ items:
           - mental
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 17
       quantity: 1
@@ -1952,6 +1715,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1981,65 +1746,61 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958794336
-      modifiedTime: 1686958794336
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983788
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: NosM0yszuypPc16a
     _key: '!actors.items!kosNDRFpH7lpcrdZ.NosM0yszuypPc16a'
   - img: >-
       systems/pf2e/icons/equipment/worn-items/apex-items/headband-of-inspired-wisdom.webp
-    name: Headband of Inspired Wisdom
+    name: Headwrap of Wisdom
     system:
       description:
         gm: ''
         value: >-
-          <p>This simple cloth headband remains pristine and clean at all times,
-          no matter the circumstances. When you invest the headband, you either
-          increase your Wisdom score by 2 or increase it to 18, whichever would
-          give you a higher score.</p>
+          <p>This simple scarf is designed for wrapping around the head and
+          comes with a gemmed pin for decoration. When you invest the headwrap,
+          you either increase your Wisdom modifier by 1 or increase it to +4,
+          whichever would give you a higher value.</p>
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          envision</p>
+          <p><strong>Activate—Consider the Consequences <span
+          class="action-glyph">1</span></strong>(concentrate)</p>
 
           <p><strong>Frequency</strong> once per day</p>
-
-          <hr />
 
           <p><strong>Effect</strong> When you are considering a course of
           action, you get a gut feeling about whether it's a good idea. You gain
           the effects of an
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury}</em>
-          spell, except that you receive the result from your own instincts
-          rather than an external source.</p>
+          @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury} spell,
+          except that you receive the result from your own instincts rather than
+          an external source.</p>
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">R</span> envision
-          (fortune)</p>
+          <p><strong>Activate—Reclaim Your Mind <span
+          class="action-glyph">R</span></strong>(concentrate, fortune)</p>
 
           <p><strong>Frequency</strong> once per hour</p>
 
           <p><strong>Trigger</strong> You fail a saving throw against an effect
-          that makes you confused, fascinated, or stupefied</p>
+          that makes you
+          @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused},
+          @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated},
+          or
+          @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}</p>
 
-          <hr />
-
-          <p><strong>Effect</strong> The <em>headband of inspired wisdom</em>
-          clears your mind. You can reroll the saving throw and use the better
-          result.</p>
+          <p><strong>Effect</strong> The <em>headwrap of wisdom</em> clears your
+          mind. You can reroll the saving throw and use the better result.</p>
       rules: []
-      slug: headband-of-inspired-wisdom
+      slug: headwrap-of-wisdom
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2048,10 +1809,10 @@ items:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 17
       quantity: 2
@@ -2101,42 +1862,42 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958798716
-      modifiedTime: 1686958953892
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983854
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: VumHxYvXQfPZ5Et8
     _key: '!actors.items!kosNDRFpH7lpcrdZ.VumHxYvXQfPZ5Et8'
   - img: >-
-      systems/pf2e/icons/equipment/consumables/potions/copper-dragons-breath-potion.webp
-    name: Copper Dragon's Breath Potion (Wyrm)
+      systems/pf2e/icons/equipment/consumables/potions/green-dragons-breath-potion.webp
+    name: Energy Breath Potion (Acid, Greater)
     system:
       description:
         gm: ''
         value: >-
-          <p>This liquid contains blood from a copper dragon. For 1 hour after
-          you imbibe the concoction, you can unleash a copper dragon's breath
-          weapon. The potency of the breath depends on the potion's type, based
-          on the age of the dragon whose blood was used to make the potion.</p>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
+          (manipulate)</p>
 
-          <p>Exhaling dragon breath uses a single action. You create a
-          @Template[type:line|distance:30] of acid which deals [[/r 10d6[acid]]]
-          damage. All creatures in the area must attempt a
-          @Check[type:reflex|dc:37|basic:true|name:Wyrm Copper Dragon's Breath
-          Potion] save.</p>
+          <hr />
 
-          <p>After you use the breath weapon, you can't do so again for [[/r 1d4
-          #rounds]]{1d4 rounds}.</p>
+          <p>Distilled from the energy of dangerous spells, an energy breath
+          potion grants you the Energy Breath action for 1 hour after you imbibe
+          the concoction.</p>
+
+          <p><strong>Energy Breath <span class="action-glyph">1</span></strong>
+          You create a @Template[type:line|distance:30] of acid which deals
+          @Damage[10d6[acid]|traits:area-damage] damage. All creatures in the
+          area must attempt a @Check[type:reflex|dc:37|basic:true] save.</p>
+
+          <p>After you use Energy Breath, you can't do so again for [[/br 1d4
+          #Recharge Energy Breath]]{1d4 rounds}.</p>
       rules: []
-      slug: copper-dragons-breath-potion-wyrm
+      slug: energy-breath-potion-acid-greater
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2146,10 +1907,10 @@ items:
           - potion
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 17
       quantity: 8
@@ -2185,14 +1946,12 @@ items:
         value: 1
         max: 1
         autoDestroy: true
-      damage:
-        formula: 10d6
-        kind: damage
-        type: acid
+      damage: null
       usage:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2205,11 +1964,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958804033
-      modifiedTime: 1686958956060
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983923
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: gPT9T6Iy14V42SBf
     _key: '!actors.items!kosNDRFpH7lpcrdZ.gPT9T6Iy14V42SBf'
   - img: systems/pf2e/icons/equipment/consumables/talismans/ghost-dust.webp
@@ -2218,29 +1977,24 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Usage</strong> affixed to armor</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (concentrate)</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          Envision</p>
+          <p><strong>Requirements</strong> You are trained in Stealth</p>
 
-          <p><strong>Trigger</strong> You use an action with the move trait</p>
-
-          <p><strong>Requirements</strong> You are legendary in Stealth</p>
+          <hr />
 
           <p>This small vial is filled with a grayish-green dust rendered from
-          dried ectoplasm. When you activate the dust, it casts a 4th-level
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility}</em>
-          spell on you. This comes into effect before you move during the
-          triggering action.</p>
+          dried ectoplasm. When you activate the dust, it casts a 4th-rank
+          @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility}
+          spell on you. You may then Stride or Step. You can instead Burrow,
+          Climb, Fly, or Swim if you have the corresponding Speed.</p>
       rules: []
       slug: ghost-dust
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2250,10 +2004,10 @@ items:
           - talisman
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 16
       quantity: 3
@@ -2294,6 +2048,7 @@ items:
         value: affixed-to-armor
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2306,11 +2061,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958833118
-      modifiedTime: 1686958957188
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315983990
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: PQZXAhiUFae6HXo4
     _key: '!actors.items!kosNDRFpH7lpcrdZ.PQZXAhiUFae6HXo4'
   - img: systems/pf2e/icons/equipment/consumables/potions/truesight-potion.webp
@@ -2319,20 +2074,21 @@ items:
       description:
         gm: ''
         value: >-
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
+
           <p>Upon drinking this clear, refreshing potion, you can see things as
-          they actually are. You gain the benefits of a 7th level
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{True
-          Seeing}</em> spell that has a counteract modifier of [[/r
-          1d20+25]].</p>
+          they actually are. You gain the benefits of a 7th-rank
+          @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{Truesight}
+          spell that has a counteract modifier of [[/r 1d20+25]].</p>
       rules: []
       slug: truesight-potion
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2341,10 +2097,10 @@ items:
           - potion
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 16
       quantity: 2
@@ -2385,6 +2141,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2397,22 +2154,21 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958838137
-      modifiedTime: 1686958957618
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315984058
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: NfHlsfTMIfIxM4hg
     _key: '!actors.items!kosNDRFpH7lpcrdZ.NfHlsfTMIfIxM4hg'
   - _id: AU0zeEVTsMNBrj4l
     img: systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp
-    name: Wand of Enlarge (Level 8)
+    name: Wand of Enlarge (Rank 8)
     system:
       description:
         gm: ''
         value: >-
-          <p><em>@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge}</em></p><hr
-          /><p>This baton is about a foot long and contains a single spell. The
+          <p>This baton is about a foot long and contains a single spell. The
           appearance typically relates to the spell within.</p>
 
           <p><strong>Activate</strong> Cast a Spell</p>
@@ -2422,10 +2178,10 @@ items:
           <hr />
 
           <p><strong>Effect</strong> You Cast the Spell at the indicated
-          level.</p>
+          rank.</p>
 
-          <p><strong>Craft Requirements</strong> Supply a listed-level casting
-          of the spell.</p>
+          <p><strong>Craft Requirements</strong> Supply a casting of the spell
+          at the listed rank.</p>
 
           <hr />
 
@@ -2433,27 +2189,22 @@ items:
           spell from the compendium or compendium browser into the inventory of
           a PC, NPC, or loot actor.</em></p>
       rules: []
-      slug: magic-wand-8th-level-spell
+      slug: magic-wand-8th-rank-spell
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
-          - arcane
           - magical
-          - primal
           - wand
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 17
       quantity: 2
@@ -2494,6 +2245,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell:
+        _id: 55vkb8OdPCyK8LJE
         img: systems/pf2e/icons/spells/enlarge.webp
         name: Enlarge
         system:
@@ -2517,16 +2269,19 @@ items:
               size Huge. The status bonus to melee damage is +4 and the
               creature's reach increases by 10 feet (or 15 feet if the creature
               started out Tiny). The spell has no effect on a Huge or larger
-              creature.
-              @UUID[Compendium.pf2e.spell-effects.Item.41WThj17MZBXTO2X]{Spell
-              Effect: Enlarge (Heightened 4th)}</p>
+              creature.</p>
 
-              <p><strong>Heightened (6th)</strong> Choose either the 2nd-level
-              or 4th-level version of this spell and apply its effects to 10
+              <p><strong>Heightened (6th)</strong> Choose either the 2nd-rank or
+              4th-rank version of this spell and apply its effects to up to 10
               willing creatures.</p>
           rules: []
           slug: enlarge
+          _migration:
+            version: 0.925
+            lastMigration: null
+            previous: null
           traits:
+            otherTags: []
             value:
               - concentrate
               - manipulate
@@ -2535,8 +2290,14 @@ items:
             traditions:
               - arcane
               - primal
+          publication:
+            title: Pathfinder Player Core
+            authors: ''
+            license: ORC
+            remaster: true
           level:
             value: 2
+          requirements: ''
           target:
             value: 1 willing creature
           range:
@@ -2548,28 +2309,19 @@ items:
             value: 5 minutes
             sustained: false
           damage: {}
+          defense: null
           cost:
             value: ''
           location:
             value: null
             heightenedLevel: 8
+          counteraction: false
           heightening:
             levels:
               '6':
                 target:
                   value: 10 willing creatures
             type: fixed
-          _migration:
-            version: 0.842
-            previous: null
-          publication:
-            title: Pathfinder Core Rulebook
-            authors: ''
-            license: OGL
-            remaster: false
-          requirements: ''
-          counteraction: false
-          defense: null
         type: spell
         flags:
           core:
@@ -2586,7 +2338,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
-        _id: E4MCcG3u9yVX9NkU
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2599,12 +2351,234 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686958849110
-      modifiedTime: 1686958957875
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315984089
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _key: '!actors.items!kosNDRFpH7lpcrdZ.AU0zeEVTsMNBrj4l'
+  - img: systems/pf2e/icons/equipment/shields/steel-shield.webp
+    name: Steel Shield
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Like wooden shields, steel shields come in a variety of shapes and
+          sizes. Though more expensive than wooden shields, they are much more
+          durable.</p>
+
+          <table class="pf2e">
+
+          <thead>
+
+          <tr>
+
+          <th>Hardness</th>
+
+          <th>HP</th>
+
+          <th>BT</th>
+
+          </tr>
+
+          </thead>
+
+          <tbody>
+
+          <tr>
+
+          <td>5</td>
+
+          <td>20</td>
+
+          <td>10</td>
+
+          </tr>
+
+          </tbody>
+
+          </table>
+      rules: []
+      slug: steel-shield
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+        integrated: null
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: steel-shield
+      bulk:
+        value: 1
+      hp:
+        value: 40
+        max: 20
+      hardness: 5
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: worn
+      containerId: null
+      size: med
+      material:
+        type: cold-iron
+        grade: high
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Steel Shield
+          img: systems/pf2e/icons/unidentified_item_icons/shields.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      acBonus: 2
+      runes:
+        reinforcing: 0
+      specific: null
+      speedPenalty: 0
+      subitems: []
+    type: shield
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      bPBBb4WESqtrNJTN: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
+      createdTime: 1712317345443
+      modifiedTime: 1712317353862
+      lastModifiedBy: bPBBb4WESqtrNJTN
+    _id: dbtMLIEdGF3a0MDS
+    _key: '!actors.items!kosNDRFpH7lpcrdZ.dbtMLIEdGF3a0MDS'
+  - img: systems/pf2e/icons/equipment/shields/steel-shield.webp
+    name: Steel Shield
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Like wooden shields, steel shields come in a variety of shapes and
+          sizes. Though more expensive than wooden shields, they are much more
+          durable.</p>
+
+          <table class="pf2e">
+
+          <thead>
+
+          <tr>
+
+          <th>Hardness</th>
+
+          <th>HP</th>
+
+          <th>BT</th>
+
+          </tr>
+
+          </thead>
+
+          <tbody>
+
+          <tr>
+
+          <td>5</td>
+
+          <td>20</td>
+
+          <td>10</td>
+
+          </tr>
+
+          </tbody>
+
+          </table>
+      rules: []
+      slug: steel-shield
+      _migration:
+        version: 0.925
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+        integrated: null
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: steel-shield
+      bulk:
+        value: 1
+      hp:
+        value: 32
+        max: 20
+      hardness: 5
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: worn
+      containerId: null
+      size: med
+      material:
+        type: silver
+        grade: high
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Steel Shield
+          img: systems/pf2e/icons/unidentified_item_icons/shields.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      acBonus: 2
+      runes:
+        reinforcing: 0
+      specific: null
+      speedPenalty: 0
+      subitems: []
+    type: shield
+    flags:
+      core:
+        sourceId: Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      bPBBb4WESqtrNJTN: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
+      createdTime: 1712317608930
+      modifiedTime: 1712317615050
+      lastModifiedBy: bPBBb4WESqtrNJTN
+    _id: ocky5NkVFO455tps
+    _key: '!actors.items!kosNDRFpH7lpcrdZ.ocky5NkVFO455tps'
 effects: []
 folder: null
 sort: 0
@@ -2708,7 +2682,7 @@ _stats:
   systemVersion: 5.15.0
   coreVersion: '11.315'
   createdTime: 1686850696517
-  modifiedTime: 1712315294935
+  modifiedTime: 1712317623326
   lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!kosNDRFpH7lpcrdZ'
 

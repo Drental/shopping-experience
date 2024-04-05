@@ -10,8 +10,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Strike</p>
+
+          <hr />
 
           <p>This flask filled with corrosive acid deals 1 acid damage, 2d6
           persistent acid damage, and 2 acid splash damage. You gain a +1 item
@@ -21,10 +23,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -35,10 +34,10 @@ items:
           - splash
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 3
       quantity: 7
@@ -72,13 +71,14 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: bomb
       bonus:
         value: 1
       damage:
         dice: 1
-        die: ''
+        die: null
         damageType: acid
         persistent:
           faces: 6
@@ -118,11 +118,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868024651
-      modifiedTime: 1686868302686
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973251
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: BQAxLL096ub0Vsxi
     _key: '!actors.items!UbJYpTXUy6ry4658.BQAxLL096ub0Vsxi'
   - img: >-
@@ -132,8 +132,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Strike</p>
+
+          <hr />
 
           <p>Alchemist's fire is a combination of volatile liquids that ignite
           when exposed to air. Alchemist's fire deals 2d8 fire damage, 2
@@ -144,10 +146,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -158,10 +157,10 @@ items:
           - splash
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 3
       quantity: 14
@@ -195,6 +194,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: martial
       group: bomb
       bonus:
@@ -241,26 +241,26 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868032606
-      modifiedTime: 1686868301000
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973321
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: nn3e5Kk2tzDCcrd9
     _key: '!actors.items!UbJYpTXUy6ry4658.nn3e5Kk2tzDCcrd9'
   - img: >-
       systems/pf2e/icons/equipment/weapons/specific-magic-weapons/dagger-of-venom.webp
-    name: Dagger of Venom
+    name: Serpent Dagger
     system:
       description:
         gm: ''
         value: >-
-          <p>The serrated blade of this <em>+1 striking</em> dagger has a
+          <p>The serrated blade of this <em>+1 striking dagger</em> has a
           greenish tinge, and the hilt is sculpted to look like the head of a
           serpent about to strike.</p>
 
-          <p>When you critically succeed at an attack roll with the dagger of
-          venom, the target becomes
+          <p>When you critically succeed at an attack roll with the <em>serpent
+          dagger</em>, the target becomes
           @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
           1} unless it succeeds at a @Check[type:fortitude|dc:19] save. This is
           a poison effect.</p>
@@ -268,37 +268,42 @@ items:
           <p>In addition, you can activate the dagger to poison a creature with
           a more potent poison.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          Interact</p>
+          <hr />
+
+          <p><strong>Activate—Drip Poison</strong> <span
+          class="action-glyph">F</span> (manipulate)</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
-          <p><strong>Trigger</strong> You damage a creature with the <em>dagger
-          of venom</em></p>
-
-          <hr />
+          <p><strong>Trigger</strong> You damage a creature with the <em>serpent
+          dagger</em></p>
 
           <p><strong>Effect</strong> You poison the creature you hit with dagger
           venom.</p>
+
+          <hr />
 
           <p><strong>Dagger Venom</strong> (poison)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:21]</p>
 
-          <p><strong>Maximum Duration</strong> 4 rounds.</p>
+          <p><strong>Maximum Duration</strong> 4 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d8[poison]]] damage and
+          <p><strong>Stage 1</strong> @Damage[1d8[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
-          1}.</p>
-      rules: []
-      slug: dagger-of-venom
+          1}</p>
+      rules:
+        - key: Note
+          outcome:
+            - criticalSuccess
+          selector: '{item|id}-attack'
+          text: PF2E.SpecificRule.Equipment.SerpentDagger.Note
+          title: '{item|name}'
+      slug: serpent-dagger
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -310,10 +315,10 @@ items:
           - versatile-s
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 1
@@ -347,6 +352,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: simple
       group: knife
       bonus:
@@ -359,7 +365,7 @@ items:
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: null
       reload:
         value: '-'
@@ -369,12 +375,12 @@ items:
         property: []
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 1
-          striking: 1
           property: []
+          striking: 1
       subitems: []
       property1:
         value: ''
@@ -397,11 +403,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868038485
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973394
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: skxov9lzuqWhvNLx
     _key: '!actors.items!UbJYpTXUy6ry4658.skxov9lzuqWhvNLx'
   - img: >-
@@ -411,6 +417,11 @@ items:
       description:
         gm: ''
         value: >-
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
+          Strike</p>
+
+          <hr />
+
           <p>The liquid reagents in this vial rapidly absorb heat when exposed
           to air. A frost vial deals the listed cold damage and cold splash
           damage. On a hit, the target takes a status penalty to its Speeds
@@ -431,10 +442,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -525,11 +533,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868043638
-      modifiedTime: 1686868297526
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973465
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: jaPvvLCpgWnEn9a1
     _key: '!actors.items!UbJYpTXUy6ry4658.jaPvvLCpgWnEn9a1'
   - img: >-
@@ -539,16 +547,16 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           Strike</p>
 
           <hr />
 
-          <p>A thick, sulfurous, irritating gas fills this golden‑yellow flask.
-          You gain a +1 item bonus to attack rolls. The bomb deals [[/r
-          2d4[acid]]] damage and [[/r (2[splash])[acid]]]{2 acid splash damage}.
-          On a hit, the target takes a -1 status penalty to Perception checks
-          and attack rolls until the end of its next turn, or becomes
+          <p>A thick, sulfurous, irritating gas fills this golden-yellow flask.
+          You gain a +1 item bonus to attack rolls. The bomb deals
+          @Damage[2d4[acid]] damage and [[/r (2[splash])[acid]]]{2 acid splash
+          damage}. On a hit, the target takes a -1 status penalty to Perception
+          checks and attack rolls until the end of its next turn, or becomes
           @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
           1} on a critical hit. Creatures hit with this bomb are temporarily
           immune to the effects of the bomb for 1 minute.</p>
@@ -570,10 +578,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -665,11 +670,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868048483
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973535
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: UFcbkUB38d6iRLM5
     _key: '!actors.items!UbJYpTXUy6ry4658.UFcbkUB38d6iRLM5'
   - img: >-
@@ -679,6 +684,11 @@ items:
       description:
         gm: ''
         value: >-
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
+          Strike</p>
+
+          <hr />
+
           <p>When this stone hits a creature or a hard surface, it explodes with
           a deafening bang. A thunderstone deals the listed sonic damage and
           sonic splash damage, and each creature within 10 feet of the space in
@@ -699,10 +709,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -793,11 +800,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868053103
-      modifiedTime: 1686868294792
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973611
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: QIp4ByP45OwT6GKp
     _key: '!actors.items!UbJYpTXUy6ry4658.QIp4ByP45OwT6GKp'
   - img: systems/pf2e/icons/equipment/shields/specific-shields/sturdy-shield.webp
@@ -816,10 +823,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -827,10 +831,10 @@ items:
         rarity: common
         integrated: null
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 4
       quantity: 1
@@ -847,6 +851,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -868,16 +873,14 @@ items:
         resilient: 0
         property: []
       specific:
+        integrated: null
         material:
-          type: null
           grade: null
+          type: null
         runes:
           reinforcing: 0
-        integrated: null
       speedPenalty: 0
       subitems: []
-      dex:
-        value: 0
     type: shield
     flags:
       core:
@@ -890,15 +893,15 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868058327
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973628
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 5LO8Abg1EOZGPnLy
     _key: '!actors.items!UbJYpTXUy6ry4658.5LO8Abg1EOZGPnLy'
-  - img: systems/pf2e/icons/equipment/armor/hide.webp
-    name: +1 Hide Armor
+  - img: icons/equipment/chest/vest-leather-tattered-white.webp
+    name: Hide Armor
     system:
       description:
         gm: ''
@@ -911,19 +914,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -936,7 +936,7 @@ items:
       hardness: 0
       price:
         value:
-          gp: 160
+          gp: 2
       equipped:
         carryType: worn
         invested: null
@@ -950,8 +950,8 @@ items:
       identification:
         status: identified
         unidentified:
-          name: Unusual Hide Armor
-          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          name: ''
+          img: ''
           data:
             description:
               value: ''
@@ -960,7 +960,7 @@ items:
       group: leather
       acBonus: 3
       strength: 2
-      dexCap: 5
+      dexCap: 2
       checkPenalty: -2
       speedPenalty: -5
       runes:
@@ -968,8 +968,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 2
     type: armor
     flags:
       core:
@@ -982,15 +980,15 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868062436
-      modifiedTime: 1686868268859
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973638
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: wE0Ru7ZztEc1bCFr
     _key: '!actors.items!UbJYpTXUy6ry4658.wE0Ru7ZztEc1bCFr'
-  - img: systems/pf2e/icons/equipment/armor/leather-armor.webp
-    name: +1 Leather Armor
+  - img: icons/equipment/chest/breastplate-banded-simple-leather-brown.webp
+    name: Leather Armor
     system:
       description:
         gm: ''
@@ -1002,19 +1000,16 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -1027,7 +1022,7 @@ items:
       hardness: 0
       price:
         value:
-          gp: 160
+          gp: 2
       equipped:
         carryType: worn
         invested: null
@@ -1041,8 +1036,8 @@ items:
       identification:
         status: identified
         unidentified:
-          name: Unusual Leather Armor
-          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          name: ''
+          img: ''
           data:
             description:
               value: ''
@@ -1051,7 +1046,7 @@ items:
       group: leather
       acBonus: 1
       strength: 0
-      dexCap: 5
+      dexCap: 4
       checkPenalty: -1
       speedPenalty: 0
       runes:
@@ -1059,8 +1054,6 @@ items:
         resilient: 0
         property: []
       subitems: []
-      dex:
-        value: 4
     type: armor
     flags:
       core:
@@ -1073,11 +1066,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868068009
-      modifiedTime: 1686868284694
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973648
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: nRnYXuclqrqw4CVy
     _key: '!actors.items!UbJYpTXUy6ry4658.nRnYXuclqrqw4CVy'
   - img: >-
@@ -1116,10 +1109,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1147,6 +1137,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1176,42 +1168,41 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868073674
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973716
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: DjfTlXAqboqar6wr
     _key: '!actors.items!UbJYpTXUy6ry4658.DjfTlXAqboqar6wr'
   - img: >-
       systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp
-    name: Disrupting
+    name: Vitalizing
     system:
       description:
         gm: ''
         value: >-
-          <p>A <em>disrupting</em> weapon pulses with positive energy, dealing
-          an extra 1d6 positive damage to undead. On a critical hit, the undead
-          is also enfeebled 1 until the end of your next turn.</p>
+          <p>A <em>vitalizing</em> weapon pulses with vital energy, dealing an
+          extra 1d6 persistent vitality damage to undead. On a critical hit, the
+          undead is also
+          @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
+          1} until the end of your next turn.</p>
       rules: []
-      slug: disrupting
+      slug: vitalizing
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 2
@@ -1244,7 +1235,7 @@ items:
               value: ''
         misidentified: {}
       usage:
-        value: etched-onto-melee-weapon
+        value: etched-onto-a-weapon
       subitems: []
     type: equipment
     flags:
@@ -1258,11 +1249,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868078411
-      modifiedTime: 1686868241315
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973785
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: R38lUcYRfFVNriC6
     _key: '!actors.items!UbJYpTXUy6ry4658.R38lUcYRfFVNriC6'
   - img: >-
@@ -1272,30 +1263,29 @@ items:
       description:
         gm: ''
         value: >-
-          <p>The weapon can harm creatures without physical form. A <em>ghost
-          touch</em> weapon is particularly effective against incorporeal
-          creatures, which almost always have a specific weakness to <em>ghost
-          touch</em> weapons. Incorporeal creatures can touch, hold, and wield
-          <em>ghost touch</em> weapons (unlike most physical objects).</p>
+          <p>A weapon etched with this rune can harm creatures without physical
+          form. A <em>ghost touch</em> weapon is particularly effective against
+          incorporeal creatures, which almost always have a specific
+          vulnerability to <em>ghost touch</em> weapons.</p>
+
+          <p>Incorporeal creatures can touch, hold, and wield <em>ghost
+          touch</em> weapons (unlike most physical objects).</p>
       rules: []
       slug: ghost-touch
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 4
       quantity: 3
@@ -1328,7 +1318,7 @@ items:
               value: ''
         misidentified: {}
       usage:
-        value: etched-onto-melee-weapon
+        value: etched-onto-a-weapon
       subitems: []
     type: equipment
     flags:
@@ -1342,49 +1332,48 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868082588
-      modifiedTime: 1686868240740
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973854
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Cz4d3M959VN0LZ5i
     _key: '!actors.items!UbJYpTXUy6ry4658.Cz4d3M959VN0LZ5i'
   - img: >-
       systems/pf2e/icons/equipment/worn-items/other-worn-items/goggles-of-night.webp
-    name: Goggles of Night
+    name: Obsidian Goggles
     system:
       description:
         gm: ''
         value: >-
-          <p>The opaque crystal lenses of these sleek goggles do not obscure
-          vision, but rather enhance it. While wearing the goggles, you gain a
-          +1 item bonus to Perception checks involving sight.</p>
-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
-
-          <p><strong>Frequency</strong> once per day</p>
+          <p>The sleek, black lenses of these goggles somehow make everything
+          seem more brightly lit. While wearing the goggles, you gain a +1 item
+          bonus to Perception checks involving sight.</p>
 
           <hr />
 
-          <p><strong>Effect</strong> Rotating the lenses 90 degrees, you gain
-          darkvision for 1 hour.</p>
+          <p><strong>Activate—Darkvision</strong> <span
+          class="action-glyph">1</span> (manipulate)</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <p><strong>Effect</strong> Adjusting your goggles, you gain darkvision
+          for 1 hour.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.KSvkfMqMQ8mlGLiz]{Effect:
+          Obsidian Goggles}</p>
       rules:
         - key: FlatModifier
-          label: Goggles of Night (sight)
           predicate:
-            - sight
+            - visual
           selector: perception
           type: item
           value: 1
-      slug: goggles-of-night
+      slug: obsidian-goggles
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1392,10 +1381,10 @@ items:
           - magical
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 1
@@ -1412,6 +1401,8 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
+        inSlot: false
       containerId: null
       size: med
       material:
@@ -1441,14 +1432,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868088920
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973925
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: BvXkmS81sSPh5ezM
     _key: '!actors.items!UbJYpTXUy6ry4658.BvXkmS81sSPh5ezM'
-  - img: systems/pf2e/icons/equipment/held-items/holy-prayer-beads.webp
+  - img: icons/equipment/neck/necklace-runed-white-red.webp
     name: Holy Prayer Beads
     system:
       description:
@@ -1463,19 +1454,18 @@ items:
 
           <p>Whenever you cast a divine spell from your own spell slots while
           holding the prayer beads, you recover [[/r 1[vitality,healing]]]{1 Hit
-          Point}; this is a positive healing effect. If the spell you cast was a
+          Point}; this is a vitality healing effect. If the spell you cast was a
           healing spell, you can grant this additional healing to one of the
           spell's targets instead of yourself.</p>
 
-          <p><strong>Activate</strong> Cast a Spell</p>
-
           <hr />
 
+          <p><strong>Activate</strong> Cast a Spell</p>
+
           <p><strong>Effect</strong> Cast
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}</em>
-          or
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</em>,
-          each once per day.</p>
+          @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless} or
+          @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}, each
+          once per day.</p>
 
           <hr />
 
@@ -1486,10 +1476,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1518,6 +1505,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1547,11 +1535,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868093853
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315973995
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: CnthMgeUhTzB5FAj
     _key: '!actors.items!UbJYpTXUy6ry4658.CnthMgeUhTzB5FAj'
   - img: >-
@@ -1561,8 +1549,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>An antidote protects you against toxins. Upon drinking an antidote,
           you gain a +3 item bonus to Fortitude saving throws against poisons
@@ -1575,10 +1565,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1588,10 +1575,10 @@ items:
           - healing
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 6
       quantity: 2
@@ -1632,6 +1619,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1644,11 +1632,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868101058
-      modifiedTime: 1686868238456
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974063
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 6CTq6G8VoZR14vSz
     _key: '!actors.items!UbJYpTXUy6ry4658.6CTq6G8VoZR14vSz'
   - img: >-
@@ -1658,8 +1646,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>Antiplague can fortify the body's defenses against diseases. Upon
           drinking an antiplague, you gain a +3 item bonus to Fortitude saving
@@ -1673,10 +1663,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1686,10 +1673,10 @@ items:
           - healing
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 6
       quantity: 2
@@ -1730,6 +1717,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1742,21 +1730,20 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868106374
-      modifiedTime: 1686868238106
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974132
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: KyGssc0bqmm5g8Vn
     _key: '!actors.items!UbJYpTXUy6ry4658.KyGssc0bqmm5g8Vn'
-  - img: >-
-      systems/pf2e/icons/equipment/alchemical-items/alchemical-tools/bloodhound-mask.webp
+  - img: icons/equipment/head/mask-carved-wood-white.webp
     name: Bloodhound Mask (Moderate)
     system:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           Interact</p>
 
           <p><strong>Duration</strong> 1 hour</p>
@@ -1782,10 +1769,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1812,6 +1796,7 @@ items:
           gp: 40
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1836,6 +1821,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1848,11 +1834,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868115009
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974201
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: wYvwrJHzcqYP9MzO
     _key: '!actors.items!UbJYpTXUy6ry4658.wYvwrJHzcqYP9MzO'
   - img: >-
@@ -1862,8 +1848,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>Enzymatic compounds in this elixir strengthen and excite the
           muscles in your legs. You gain a +10 foot status bonus to your Speed
@@ -1876,10 +1864,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1888,10 +1873,10 @@ items:
           - elixir
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 4
@@ -1932,6 +1917,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1944,11 +1930,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868120889
-      modifiedTime: 1686868236545
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974270
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: UQBNd7MLv734HI1R
     _key: '!actors.items!UbJYpTXUy6ry4658.UQBNd7MLv734HI1R'
   - img: >-
@@ -1958,8 +1944,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>After you drink this elixir, your sight becomes sharper in
           darkness. You gain darkvision for 1 hour.</p>
@@ -1971,10 +1959,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1983,10 +1968,10 @@ items:
           - elixir
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 4
       quantity: 2
@@ -2027,6 +2012,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2039,11 +2025,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868127473
-      modifiedTime: 1686868234984
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974341
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: FoICYedtQnhp20cS
     _key: '!actors.items!UbJYpTXUy6ry4658.FoICYedtQnhp20cS'
   - img: >-
@@ -2053,8 +2039,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>After you drink this elixir, you notice subtle visual details. For
           the next hour, you gain a +2 item bonus to Perception checks, or +3
@@ -2067,10 +2055,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2079,10 +2064,10 @@ items:
           - elixir
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 2
@@ -2123,6 +2108,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2135,21 +2121,20 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868133757
-      modifiedTime: 1686868234618
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974424
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: hrqYOFYDR4DZzrbN
     _key: '!actors.items!UbJYpTXUy6ry4658.hrqYOFYDR4DZzrbN'
-  - img: >-
-      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/juggernaut-mutagen.webp
+  - img: icons/consumables/potions/bottle-metal-yellow-gray.webp
     name: Juggernaut Mutagen (Moderate)
     system:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Interact</p>
 
           <hr />
@@ -2175,10 +2160,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2233,6 +2215,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2245,11 +2228,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868139239
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974493
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: EeBi7MoU582KoKjH
     _key: '!actors.items!UbJYpTXUy6ry4658.EeBi7MoU582KoKjH'
   - img: >-
@@ -2259,8 +2242,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>A faint mist emanates from your skin, making you
           @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
@@ -2275,10 +2260,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2289,10 +2271,10 @@ items:
           - visual
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 6
       quantity: 1
@@ -2308,6 +2290,7 @@ items:
           gp: 56
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2332,6 +2315,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2344,11 +2328,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868147372
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974561
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: nVAQi91l5PJATB3r
     _key: '!actors.items!UbJYpTXUy6ry4658.nVAQi91l5PJATB3r'
   - img: >-
@@ -2358,8 +2342,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>A faint mist emanates from your skin, making you
           @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
@@ -2374,10 +2360,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2388,10 +2371,10 @@ items:
           - visual
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 4
       quantity: 4
@@ -2432,6 +2415,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2444,11 +2428,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868148895
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974629
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 8cEik3Bb5zh3cPKD
     _key: '!actors.items!UbJYpTXUy6ry4658.8cEik3Bb5zh3cPKD'
   - img: >-
@@ -2479,10 +2463,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
@@ -2532,6 +2513,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2544,11 +2526,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868155171
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974698
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Co00XbNZHVsdKVeI
     _key: '!actors.items!UbJYpTXUy6ry4658.Co00XbNZHVsdKVeI'
   - img: systems/pf2e/icons/equipment/consumables/oils/salve-of-antiparalysis.webp
@@ -2557,21 +2539,20 @@ items:
       description:
         gm: ''
         value: >-
-          <p>Applying this filmy salve to a creature helps it overcome magical
-          paralysis. The creature recovers as if it were the target of a
-          3rd-level remove paralysis spell.</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <hr />
+
+          <p>Applying this filmy salve to a creature helps it overcome magical
+          paralysis. The salve attempts to counteract the paralysis (counteract
+          rank 3rd, counteract modifier +22)</p>
       rules: []
       slug: salve-of-antiparalysis
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2581,10 +2562,10 @@ items:
           - oil
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 6
       quantity: 1
@@ -2600,6 +2581,7 @@ items:
           gp: 40
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2624,6 +2606,7 @@ items:
         value: held-in-two-hands
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2636,11 +2619,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868160240
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974766
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: hC4PhHf4XOIgbudN
     _key: '!actors.items!UbJYpTXUy6ry4658.hC4PhHf4XOIgbudN'
   - img: >-
@@ -2650,8 +2633,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>This briny concoction alters the skin on your hands and feet. The
           spaces between your fingers and toes become webbed, granting you a
@@ -2664,10 +2649,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2677,10 +2659,10 @@ items:
           - polymorph
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 7
@@ -2721,6 +2703,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2733,11 +2716,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868166587
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974838
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Tvd4ZegJuL9xbJhu
     _key: '!actors.items!UbJYpTXUy6ry4658.Tvd4ZegJuL9xbJhu'
   - img: >-
@@ -2747,8 +2730,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>Your fists become hard as stone. For 1 hour, your fists deal 1d6
           bludgeoning damage and lose the nonlethal trait.</p>
@@ -2760,10 +2745,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2773,10 +2755,10 @@ items:
           - morph
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 4
       quantity: 1
@@ -2792,6 +2774,7 @@ items:
           gp: 13
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -2816,6 +2799,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2828,11 +2812,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868172205
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974849
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: hyd6GXNaC7zfXUWV
     _key: '!actors.items!UbJYpTXUy6ry4658.hyd6GXNaC7zfXUWV'
   - img: >-
@@ -2842,7 +2826,7 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           Interact</p>
 
           <p>You sprinkle these salts onto a single object up to 10 cubic feet
@@ -2852,20 +2836,17 @@ items:
           When sprinkled on a corpse, this extends the period in which a
           creature can be revived by magic, as well as the wait time required
           before a corpse can be targeted again with
-          <em>@UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{Talking
-          Corpse}</em>. The salts prevent ordinary pests from consuming the
-          target (such as maggots for a corpse or moths for a piece of
-          clothing). Any creature can use an Interact action to disperse the
-          salts from an unattended object and end this effect.</p>
+          @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{Talking
+          Corpse}. The salts prevent ordinary pests from consuming the target
+          (such as maggots for a corpse or moths for a piece of clothing). Any
+          creature can use an Interact action to disperse the salts from an
+          unattended object and end this effect.</p>
       rules: []
       slug: timeless-salts
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2917,6 +2898,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2929,11 +2911,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868177337
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974918
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: jIWoluBOWzZjb25U
     _key: '!actors.items!UbJYpTXUy6ry4658.jIWoluBOWzZjb25U'
   - img: >-
@@ -2943,7 +2925,7 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">3</span>
+          <p><strong>Activate</strong> <span class="action-glyph">3</span>
           Interact</p>
 
           <hr />
@@ -2989,10 +2971,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3019,6 +2998,7 @@ items:
           gp: 8
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -3043,6 +3023,7 @@ items:
         value: held-in-two-hands
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3055,21 +3036,20 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868182970
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315974994
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 8BZSaFs0SWy5jiV1
     _key: '!actors.items!UbJYpTXUy6ry4658.8BZSaFs0SWy5jiV1'
-  - img: >-
-      systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/winter-wolf-elixir.webp
+  - img: icons/consumables/potions/bottle-round-ring-teal.webp
     name: Winter Wolf Elixir (Lesser)
     system:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           Interact</p>
 
           <p>This elixir warms your core and improves your circulation. For 24
@@ -3079,10 +3059,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3110,6 +3087,7 @@ items:
           gp: 15
       equipped:
         carryType: worn
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -3134,6 +3112,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3146,11 +3125,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868188078
-      modifiedTime: 1686868220085
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315975066
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: U64CtpYYdLxbkOjD
     _key: '!actors.items!UbJYpTXUy6ry4658.U64CtpYYdLxbkOjD'
   - img: >-
@@ -3160,8 +3139,10 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
-          Interact</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
+
+          <hr />
 
           <p>Elixirs of life accelerate a living creatures natural healing
           processes and immune system. Upon drinking this elixir, you regain
@@ -3175,10 +3156,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -3188,10 +3166,10 @@ items:
           - healing
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 5
@@ -3235,6 +3213,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -3247,11 +3226,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.0-beta2
-      coreVersion: '11.301'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1686868217122
-      modifiedTime: 1686868232825
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712315975138
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 2LKWJvVAA4cgCZqN
     _key: '!actors.items!UbJYpTXUy6ry4658.2LKWJvVAA4cgCZqN'
 effects: []
@@ -3360,7 +3339,7 @@ _stats:
   systemVersion: 5.15.0
   coreVersion: '11.315'
   createdTime: 1686850696517
-  modifiedTime: 1712315294935
+  modifiedTime: 1712315975138
   lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!UbJYpTXUy6ry4658'
 

@@ -15,7 +15,7 @@ items:
           weapon, which might allow it to be passed off as a weapon-shaped
           decoration.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Interact</p>
 
           <hr />
@@ -37,10 +37,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -112,13 +109,13 @@ items:
           - grievous
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 1
-          striking: 1
           property:
             - grievous
+          striking: 1
       subitems: []
       property1:
         value: ''
@@ -141,26 +138,26 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033573431
-      modifiedTime: 1687033573431
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316008826
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: GcjPFK2NynpD7Xi6
     _key: '!actors.items!a2y3WhzVAv31TsiX.GcjPFK2NynpD7Xi6'
   - img: >-
       systems/pf2e/icons/equipment/weapons/specific-magic-weapons/dagger-of-venom.webp
-    name: Dagger of Venom
+    name: Serpent Dagger
     system:
       description:
         gm: ''
         value: >-
-          <p>The serrated blade of this <em>+1 striking</em> dagger has a
+          <p>The serrated blade of this <em>+1 striking dagger</em> has a
           greenish tinge, and the hilt is sculpted to look like the head of a
           serpent about to strike.</p>
 
-          <p>When you critically succeed at an attack roll with the dagger of
-          venom, the target becomes
+          <p>When you critically succeed at an attack roll with the <em>serpent
+          dagger</em>, the target becomes
           @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
           1} unless it succeeds at a @Check[type:fortitude|dc:19] save. This is
           a poison effect.</p>
@@ -168,37 +165,42 @@ items:
           <p>In addition, you can activate the dagger to poison a creature with
           a more potent poison.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">F</span>
-          Interact</p>
+          <hr />
+
+          <p><strong>Activate—Drip Poison</strong> <span
+          class="action-glyph">F</span> (manipulate)</p>
 
           <p><strong>Frequency</strong> once per day</p>
 
-          <p><strong>Trigger</strong> You damage a creature with the <em>dagger
-          of venom</em></p>
-
-          <hr />
+          <p><strong>Trigger</strong> You damage a creature with the <em>serpent
+          dagger</em></p>
 
           <p><strong>Effect</strong> You poison the creature you hit with dagger
           venom.</p>
+
+          <hr />
 
           <p><strong>Dagger Venom</strong> (poison)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:21]</p>
 
-          <p><strong>Maximum Duration</strong> 4 rounds.</p>
+          <p><strong>Maximum Duration</strong> 4 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d8[poison]]] damage and
+          <p><strong>Stage 1</strong> @Damage[1d8[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
-          1}.</p>
-      rules: []
-      slug: dagger-of-venom
+          1}</p>
+      rules:
+        - key: Note
+          outcome:
+            - criticalSuccess
+          selector: '{item|id}-attack'
+          text: PF2E.SpecificRule.Equipment.SerpentDagger.Note
+          title: '{item|name}'
+      slug: serpent-dagger
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -210,10 +212,10 @@ items:
           - versatile-s
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 1
@@ -247,6 +249,7 @@ items:
         misidentified: {}
       usage:
         value: held-in-one-hand
+        canBeAmmo: false
       category: simple
       group: knife
       bonus:
@@ -259,7 +262,7 @@ items:
       bonusDamage:
         value: 0
       splashDamage:
-        value: null
+        value: 0
       range: null
       reload:
         value: '-'
@@ -269,12 +272,12 @@ items:
         property: []
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 1
-          striking: 1
           property: []
+          striking: 1
       subitems: []
       property1:
         value: ''
@@ -297,15 +300,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033575158
-      modifiedTime: 1687033575158
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316008835
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: jNUCSivP6ciJKzAd
     _key: '!actors.items!a2y3WhzVAv31TsiX.jNUCSivP6ciJKzAd'
-  - img: >-
-      systems/pf2e/icons/equipment/weapons/specific-magic-weapons/poisonous-dagger.webp
+  - img: icons/weapons/daggers/dagger-bone-engraved-black.webp
     name: Poisonous Dagger
     system:
       description:
@@ -313,8 +315,8 @@ items:
         value: >-
           <p>This +1 striking dagger has an image of a snake emblazoned on its
           blade. When you critically succeed at an attack roll with the dagger,
-          magical fangs emerge and poison the target, dealing [[/r
-          1d4[persistent,poison]]].</p>
+          magical fangs emerge and poison the target, dealing
+          @Damage[1d4[persistent,poison]].</p>
       rules:
         - category: persistent
           critical: true
@@ -327,10 +329,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -401,12 +400,12 @@ items:
         property: []
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 1
-          striking: 1
           property: []
+          striking: 1
       subitems: []
       property1:
         value: ''
@@ -429,15 +428,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033578240
-      modifiedTime: 1687033578240
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316008902
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 8w7FnNSa52aOk7D8
     _key: '!actors.items!a2y3WhzVAv31TsiX.8w7FnNSa52aOk7D8'
-  - img: >-
-      systems/pf2e/icons/equipment/weapons/specific-magic-weapons/flaying-knife.webp
+  - img: icons/weapons/daggers/dagger-crooked-black.webp
     name: Flaying Knife
     system:
       description:
@@ -449,24 +447,26 @@ items:
           other.</p>
 
           <p>Its persistent bleed damage comes from slicing away long strips of
-          the target's flesh, and it deals [[/r 1d8[bleed]]] on a hit instead of
-          1d6. A creature takes a -2 status penalty to saving throws against
+          the target's flesh, and it deals @Damage[1d8[bleed]] on a hit instead
+          of 1d6. A creature takes a -2 status penalty to saving throws against
           diseases for as long as it has persistent bleed damage from this
           knife.</p>
       rules:
-        - key: DamageDice
-          selector: '{item|_id}-damage'
-          diceNumber: 1
-          dieSize: d8
-          damageType: bleed
+        - key: Note
+          outcome:
+            - success
+          selector: '{item|_id}-attack'
+          text: PF2E.PersistentDamage.Bleed1d8.success
+        - key: Note
+          outcome:
+            - criticalSuccess
+          selector: '{item|_id}-attack'
+          text: PF2E.PersistentDamage.Bleed1d8.criticalSuccess
       slug: flaying-knife
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -506,8 +506,8 @@ items:
       identification:
         status: identified
         unidentified:
-          name: Unusual Dagger
-          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          name: ''
+          img: ''
           data:
             description:
               value: ''
@@ -536,12 +536,13 @@ items:
         property: []
       specific:
         material:
-          type: null
           grade: null
+          type: null
         runes:
           potency: 1
+          property:
+            - wounding
           striking: 1
-          property: []
       subitems: []
       property1:
         value: ''
@@ -552,10 +553,6 @@ items:
         critDie: ''
         critDamage: ''
         critDamageType: ''
-        strikeConditionType: ''
-        strikeConditionValue: null
-        criticalConditionType: ''
-        criticalConditionValue: null
     type: weapon
     flags:
       core:
@@ -568,48 +565,45 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033583128
-      modifiedTime: 1687033604598
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316008912
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: RQXFEkhUKLHBSQdf
     _key: '!actors.items!a2y3WhzVAv31TsiX.RQXFEkhUKLHBSQdf'
-  - img: systems/pf2e/icons/equipment/adventuring-gear/thieves-tools.webp
-    name: Thieves' Tools
+  - img: icons/tools/hand/lockpicks-steel-grey.webp
+    name: Thieves' Toolkit
     system:
       description:
         gm: ''
         value: >-
-          <p>You need thieves' tools to
+          <p>You need a thieves' toolkit to
           @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick Locks}
           or @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable
           Devices} (of some types) using the Thievery skill.</p>
 
-          <p>If your thieves' tools are broken, you can repair them by replacing
+          <p>If your thieves' toolkit is broken, you can repair it by replacing
           the lock picks with
           @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{Replacement
-          Picks} appropriate to your tools; this doesn't require using the
-          Repair action. If you wear your thieves' tools, you can draw and
-          replace them as part of the action that uses them.</p>
+          Picks} appropriate to your toolkit; this doesn't require using the
+          Repair action. If you wear your thieves' toolkit, you can draw and
+          replace it as part of the action that uses it.</p>
       rules: []
-      slug: thieves-tools
+      slug: thieves-toolkit
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
@@ -626,6 +620,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -641,7 +636,7 @@ items:
               value: ''
         misidentified: {}
       usage:
-        value: held-in-two-hands
+        value: other
       subitems: []
     type: equipment
     flags:
@@ -655,32 +650,32 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033615607
-      modifiedTime: 1687033615607
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316008922
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 96IAzqgVMpiihjBF
     _key: '!actors.items!a2y3WhzVAv31TsiX.96IAzqgVMpiihjBF'
-  - img: systems/pf2e/icons/equipment/adventuring-gear/thieves-tools.webp
-    name: Thieves' Tools (Infiltrator)
+  - img: icons/tools/hand/lockpicks-steel-grey.webp
+    name: Thieves' Toolkit (Infiltrator)
     system:
       description:
         gm: ''
         value: >-
-          <p>You need thieves' tools to
+          <p>You need a thieves' toolkit to
           @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick Locks}
           or @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable
-          Devices} (of some types) using the Thievery skill. Infiltrator
-          thieves' tools add a +1 item bonus to checks to Pick Locks and Disable
-          Devices.</p>
+          Devices} (of some types) using the Thievery skill. An infiltrator
+          thieves' toolkit add a +1 item bonus to checks to Pick Locks and
+          Disable Devices.</p>
 
-          <p>If your thieves' tools are broken, you can repair them by replacing
+          <p>If your thieves' toolkit is broken, you can repair it by replacing
           the lock picks with
           @UUID[Compendium.pf2e.equipment-srd.Item.BznmPaRjI4Orb0IH]{Replacement
           Picks} appropriate to your tools; this doesn't require using the
-          Repair action. If you wear your thieves' tools, you can draw and
-          replace them as part of the action that uses them.</p>
+          Repair action. If you wear your thieves' toolkit, you can draw and
+          replace it as part of the action that uses it.</p>
       rules:
         - key: FlatModifier
           predicate:
@@ -690,23 +685,20 @@ items:
           selector: thievery
           type: item
           value: 1
-      slug: thieves-tools-infiltrator
+      slug: thieves-toolkit-infiltrator
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 3
       quantity: 1
@@ -723,6 +715,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -738,7 +731,7 @@ items:
               value: ''
         misidentified: {}
       usage:
-        value: held-in-two-hands
+        value: other
       subitems: []
     type: equipment
     flags:
@@ -752,46 +745,43 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033619347
-      modifiedTime: 1687033619347
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316008931
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: qKnclAk2eWKYG9Yq
     _key: '!actors.items!a2y3WhzVAv31TsiX.qKnclAk2eWKYG9Yq'
-  - img: systems/pf2e/icons/equipment/adventuring-gear/thieves-tools.webp
-    name: Thieves' Tools (Replacement Picks)
+  - img: icons/tools/hand/lockpicks-steel-grey.webp
+    name: Thieves' Toolkit (Replacement Picks)
     system:
       description:
         gm: ''
         value: >-
-          <p>These are replacement picks for
+          <p>These are replacement picks for a
           @UUID[Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc]{Thieves'
-          Tools}.</p>
+          Toolkit}.</p>
       rules: []
-      slug: thieves-tools-replacement-picks
+      slug: thieves-toolkit-replacement-picks
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 0
       quantity: 1
       baseItem: null
       bulk:
-        value: 0.1
+        value: 0
       hp:
         value: 0
         max: 0
@@ -802,6 +792,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -817,7 +808,7 @@ items:
               value: ''
         misidentified: {}
       usage:
-        value: held-in-one-hand
+        value: other
       subitems: []
     type: equipment
     flags:
@@ -831,46 +822,43 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033621902
-      modifiedTime: 1687033621902
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316008940
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 6fGIATFILnRJPSBL
     _key: '!actors.items!a2y3WhzVAv31TsiX.6fGIATFILnRJPSBL'
-  - img: systems/pf2e/icons/equipment/adventuring-gear/thieves-tools.webp
-    name: Thieves' Tools (Infiltrator Picks)
+  - img: icons/tools/hand/lockpicks-steel-grey.webp
+    name: Thieves' Toolkit (Infiltrator Picks)
     system:
       description:
         gm: ''
         value: >-
           <p>These are replacement picks for
           @UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{Thieves'
-          Tools (Infiltrator)}.</p>
+          Toolkit (Infiltrator)}.</p>
       rules: []
-      slug: thieves-tools-infiltrator-picks
+      slug: thieves-toolkit-infiltrator-picks
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder Player Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 3
       quantity: 1
       baseItem: null
       bulk:
-        value: 0.1
+        value: 0
       hp:
         value: 0
         max: 0
@@ -881,6 +869,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -896,7 +885,7 @@ items:
               value: ''
         misidentified: {}
       usage:
-        value: held-in-one-hand
+        value: other
       subitems: []
     type: equipment
     flags:
@@ -910,14 +899,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033623498
-      modifiedTime: 1687033623498
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316008948
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: k6S1DMF3v6ldMuYx
     _key: '!actors.items!a2y3WhzVAv31TsiX.k6S1DMF3v6ldMuYx'
-  - img: systems/pf2e/icons/equipment/adventuring-gear/thieves-tools.webp
+  - img: icons/tools/hand/lockpicks-steel-grey.webp
     name: Thieves' Tools (Concealable)
     system:
       description:
@@ -961,10 +950,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
@@ -990,6 +976,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1019,14 +1006,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033626343
-      modifiedTime: 1687033626343
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009013
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: gFyS21Nc0C8cwfqZ
     _key: '!actors.items!a2y3WhzVAv31TsiX.gFyS21Nc0C8cwfqZ'
-  - img: systems/pf2e/icons/equipment/adventuring-gear/thieves-tools.webp
+  - img: icons/tools/hand/lockpicks-steel-grey.webp
     name: Thieves' Tools (Concealable Picks)
     system:
       description:
@@ -1040,10 +1027,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value: []
@@ -1069,6 +1053,7 @@ items:
       equipped:
         carryType: worn
         invested: null
+        handsHeld: 0
       containerId: null
       size: med
       material:
@@ -1098,15 +1083,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033627852
-      modifiedTime: 1687033627852
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009080
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: bqXI8X16NLuy4dGo
     _key: '!actors.items!a2y3WhzVAv31TsiX.bqXI8X16NLuy4dGo'
-  - img: >-
-      systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/arsenic.webp
+  - img: icons/commodities/materials/bowl-powder-teal.webp
     name: Arsenic
     system:
       description:
@@ -1117,8 +1101,8 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span> Interact
-          (Ingested)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:18]</p>
 
@@ -1126,15 +1110,15 @@ items:
 
           <p><strong>Maximum Duration</strong> 5 minutes</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d4[poison]]] damage and
+          <p><strong>Stage 1</strong> @Damage[1d4[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
           1} (1 minute)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d6[poison]]] damage and
+          <p><strong>Stage 2</strong> @Damage[1d6[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
           2} (1 minute)</p>
 
-          <p><strong>Stage 3</strong> [[/r 2d6[poison]]] damage and
+          <p><strong>Stage 3</strong> @Damage[1d8[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
           3} (1 minute)</p>
       rules: []
@@ -1142,10 +1126,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1155,10 +1136,10 @@ items:
           - poison
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 1
       quantity: 5
@@ -1199,6 +1180,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1211,11 +1193,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033632485
-      modifiedTime: 1687033721423
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009146
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: aj1HiOOpBJIcUCg7
     _key: '!actors.items!a2y3WhzVAv31TsiX.aj1HiOOpBJIcUCg7'
   - img: >-
@@ -1230,16 +1212,16 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Interact
-          (Injury)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          Interact (Injury)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:15]</p>
 
           <p><strong>Maximum Duration</strong> 6 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d4[poison]]] damage (1 round)</p>
+          <p><strong>Stage 1</strong> @Damage[1d4[poison]] damage (1 round)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d6[poison]]] damage and
+          <p><strong>Stage 2</strong> @Damage[1d6[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
           1} (1 round)</p>
       rules: []
@@ -1247,10 +1229,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1304,6 +1283,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1316,11 +1296,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033637258
-      modifiedTime: 1687033720633
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009217
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: W8MlIt3NGgegvybc
     _key: '!actors.items!a2y3WhzVAv31TsiX.W8MlIt3NGgegvybc'
   - img: >-
@@ -1332,31 +1312,32 @@ items:
         value: >-
           <p>Giant centipede venom causes severe muscle stiffness.</p>
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Interact
-          (Injury)</p>
+          <hr />
+
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          (manipulate)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:17]</p>
 
           <p><strong>Maximum Duration</strong> 6 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d6[poison]]] damage (1 round)</p>
+          <p><strong>Stage 1</strong> @Damage[1d4[poison]] damage (1 round)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d8[poison]]] damage and
-          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+          <p><strong>Stage 2</strong> @Damage[1d4[poison]] damage and
+          @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}
           (1 round)</p>
 
-          <p><strong>Stage 3</strong> [[/r 1d12[poison]]] damage,
+          <p><strong>Stage 3</strong> @Damage[1d4[poison]] damage,
           @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1},
-          and off-guard (1 round)</p>
+          and
+          @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}
+          (1 round)</p>
       rules: []
       slug: giant-centipede-venom
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1366,10 +1347,10 @@ items:
           - poison
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 1
       quantity: 5
@@ -1407,9 +1388,10 @@ items:
         autoDestroy: true
       damage: null
       usage:
-        value: held-in-one-hand
+        value: held-in-two-hands
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1422,11 +1404,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033642102
-      modifiedTime: 1687033719865
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009293
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: RhbWFFKECnjkHHQr
     _key: '!actors.items!a2y3WhzVAv31TsiX.RhbWFFKECnjkHHQr'
   - img: >-
@@ -1441,8 +1423,8 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Interact
-          (Ingested)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          Interact (Ingested)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:19]</p>
 
@@ -1454,11 +1436,11 @@ items:
           @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}
           (10 minutes)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d6[poison]]] damage and
+          <p><strong>Stage 2</strong> @Damage[1d6[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
           1} (10 minutes)</p>
 
-          <p><strong>Stage 3</strong> [[/r 1d6[poison]]] damage,
+          <p><strong>Stage 3</strong> @Damage[1d6[poison]] damage,
           @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused},
           and sickened 1 (1 minute)</p>
       rules: []
@@ -1466,10 +1448,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1523,6 +1502,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1535,15 +1515,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033647950
-      modifiedTime: 1687033719104
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009367
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: UWvDwU0vCd6mdacZ
     _key: '!actors.items!a2y3WhzVAv31TsiX.UWvDwU0vCd6mdacZ'
-  - img: >-
-      systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/black-lotus-extract.webp
+  - img: icons/consumables/potions/potion-flask-corked-tied-necklace-teal.webp
     name: Black Smear Poison
     system:
       description:
@@ -1554,20 +1533,20 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">T</span> Interact
-          (Injury)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">3</span>
+          Interact (Injury)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:16]</p>
 
           <p><strong>Maximum Duration</strong> 6 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d6[poison]]] damage and
+          <p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
           1} (1 round)</p>
 
           <p><strong>Stage 2</strong> As stage 1</p>
 
-          <p><strong>Stage 3</strong> [[/r 1d6[poison]]] damage, and
+          <p><strong>Stage 3</strong> @Damage[1d6[poison]] damage, and
           @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
           2} (1 round)</p>
       rules: []
@@ -1575,10 +1554,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1632,6 +1608,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1644,11 +1621,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033653326
-      modifiedTime: 1687033718282
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009431
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: S2Vj7ta4G7j0LQK8
     _key: '!actors.items!a2y3WhzVAv31TsiX.S2Vj7ta4G7j0LQK8'
   - img: >-
@@ -1662,27 +1639,24 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Interact
-          (Injury)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          (manipulate)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:18]</p>
 
           <p><strong>Maximum Duration</strong> 3 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d8[poison]]] damage (1 round)</p>
+          <p><strong>Stage 1</strong> @Damage[1d4[poison]] damage (1 round)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d10[poison]]] damage (1 round)</p>
+          <p><strong>Stage 2</strong> @Damage[1d6[poison]] damage (1 round)</p>
 
-          <p><strong>Stage 3</strong> [[/r 2d6[poison]]] damage (1 round)</p>
+          <p><strong>Stage 3</strong> @Damage[1d8[poison]] damage (1 round)</p>
       rules: []
       slug: black-adder-venom
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1692,10 +1666,10 @@ items:
           - poison
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 2
       quantity: 5
@@ -1733,9 +1707,10 @@ items:
         autoDestroy: true
       damage: null
       usage:
-        value: held-in-one-hand
+        value: held-in-two-hands
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1748,11 +1723,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033656007
-      modifiedTime: 1687033717493
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009496
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: XRcVinv7eMVpkCTJ
     _key: '!actors.items!a2y3WhzVAv31TsiX.XRcVinv7eMVpkCTJ'
   - img: >-
@@ -1762,7 +1737,7 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">3</span>
+          <p><strong>Activate</strong> <span class="action-glyph">3</span>
           Interact</p>
 
           <p>The poison known as looter's lethargy ensures no thieves are strong
@@ -1791,10 +1766,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1848,6 +1820,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1860,11 +1833,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033659637
-      modifiedTime: 1687033716746
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009561
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 3K44Hy4OtD5VUrcW
     _key: '!actors.items!a2y3WhzVAv31TsiX.3K44Hy4OtD5VUrcW'
   - img: >-
@@ -1883,8 +1856,8 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span> Interact
-          (Ingested)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          Interact (Ingested)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:19]</p>
 
@@ -1904,10 +1877,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -1961,6 +1931,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -1973,11 +1944,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033663912
-      modifiedTime: 1687033716005
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009627
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: yCoOoMGrL2aqEA3g
     _key: '!actors.items!a2y3WhzVAv31TsiX.yCoOoMGrL2aqEA3g'
   - img: >-
@@ -1987,17 +1958,17 @@ items:
       description:
         gm: ''
         value: >-
-          <p>Lethargy poison is commonly used in hit-and-run tactics by drow and
-          others who want their victims alive; the ambusher retreats until the
-          poison sets in and the victim falls unconscious. Further exposure to
-          lethargy poison does not require the target to attempt additional
+          <p>Lethargy poison is commonly used in hit-and-run tactics by
+          attackers who want their victims alive; the ambusher retreats until
+          the poison sets in and the victim falls unconscious. Further exposure
+          to lethargy poison does not require the target to attempt additional
           saving throws; only failing an saving throw against an ongoing
           exposure can progress its stage.</p>
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Interact
-          (Injury)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          (manipulate)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:18]</p>
 
@@ -2007,37 +1978,39 @@ items:
           @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
           (1 round)</p>
 
-          <p><strong>Stage 2</strong> slowed 1 (1 minute)</p>
+          <p><strong>Stage 2</strong>
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          (1 minute)</p>
 
           <p><strong>Stage 3</strong>
           @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}
           with no Perception check to wake up (1 round)</p>
 
-          <p><strong>Stage 4</strong> unconscious with no Perception check to
-          wake up ([[/br 1d4 #hours]]{1d4 hours}).</p>
+          <p><strong>Stage 4</strong>
+          @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}
+          with no Perception check to wake up ([[/br 1d4 #hours]]{1d4
+          hours}).</p>
       rules: []
       slug: lethargy-poison
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
           - alchemical
+          - consumable
           - incapacitation
           - injury
           - poison
           - sleep
         rarity: uncommon
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 2
       quantity: 3
@@ -2075,9 +2048,10 @@ items:
         autoDestroy: true
       damage: null
       usage:
-        value: held-in-one-hand
+        value: held-in-two-hands
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2090,11 +2064,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033667960
-      modifiedTime: 1687033723375
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009697
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: nhNMptpv9xKY5WXv
     _key: '!actors.items!a2y3WhzVAv31TsiX.nhNMptpv9xKY5WXv'
   - img: >-
@@ -2108,8 +2082,8 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span> Interact
-          (Inhaled)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          Interact (Inhaled)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:will|dc:16]</p>
 
@@ -2127,10 +2101,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2185,6 +2156,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2197,11 +2169,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033674179
-      modifiedTime: 1687033723761
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009762
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: WalWEiw2u7rnuMZz
     _key: '!actors.items!a2y3WhzVAv31TsiX.WalWEiw2u7rnuMZz'
   - img: >-
@@ -2211,7 +2183,7 @@ items:
       description:
         gm: ''
         value: >-
-          <p><strong>Activate</strong> <span class="pf2-icon">1</span>
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
           Interact</p>
 
           <p>Boggards brew a potent toxin made from blue dragonflies. Swampseers
@@ -2240,10 +2212,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2253,10 +2222,10 @@ items:
           - poison
         rarity: uncommon
       publication:
-        title: Pathfinder Treasure Vault
+        title: Pathfinder Monster Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 3
       quantity: 3
@@ -2297,6 +2266,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2309,15 +2279,14 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033680978
-      modifiedTime: 1687033724137
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009830
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: mA5DLjwHoEYBuYqQ
     _key: '!actors.items!a2y3WhzVAv31TsiX.mA5DLjwHoEYBuYqQ'
-  - img: >-
-      systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/cytillesh-oil.webp
+  - img: icons/commodities/materials/liquid-purple.webp
     name: Cytillesh Oil
     system:
       description:
@@ -2328,27 +2297,24 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Interact
-          (Injury)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          Interact (Injury)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:19]</p>
 
           <p><strong>Maximum Duration</strong> 4 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d10[poison]]] damage (1 round)</p>
+          <p><strong>Stage 1</strong> @Damage[1d10[poison]] damage (1 round)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d12[poison]]] damage (1 round)</p>
+          <p><strong>Stage 2</strong> @Damage[1d12[poison]] damage (1 round)</p>
 
-          <p><strong>Stage 3</strong> [[/r 2d10[poison]]] damage (1 round)</p>
+          <p><strong>Stage 3</strong> @Damage[2d10[poison]] damage (1 round)</p>
       rules: []
       slug: cytillesh-oil
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2402,6 +2368,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2414,11 +2381,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033685740
-      modifiedTime: 1687033724529
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009896
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: 3iTUEpFTYpmQD3Z0
     _key: '!actors.items!a2y3WhzVAv31TsiX.3iTUEpFTYpmQD3Z0'
   - img: >-
@@ -2432,20 +2399,20 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Interact
-          (Injury)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          (manipulate)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:19]</p>
 
           <p><strong>Maximum Duration</strong> 4 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d10[poison]]] damage (1 round)</p>
+          <p><strong>Stage 1</strong> @Damage[1d8[poison]] damage (1 round)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d12[poison]]] damage and
+          <p><strong>Stage 2</strong> @Damage[1d10[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied
           1} (1 round)</p>
 
-          <p><strong>Stage 3</strong> [[/r 2d6[poison]]] damage and
+          <p><strong>Stage 3</strong> @Damage[2d6[poison]] damage and
           @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied
           2} (1 round)</p>
       rules: []
@@ -2453,10 +2420,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2466,10 +2430,10 @@ items:
           - poison
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 3
       quantity: 3
@@ -2510,6 +2474,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2522,11 +2487,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033691137
-      modifiedTime: 1687033725069
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316009965
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: WSukpUqT9OAS3mV3
     _key: '!actors.items!a2y3WhzVAv31TsiX.WSukpUqT9OAS3mV3'
   - img: >-
@@ -2543,8 +2508,8 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span> Interact
-          (Contact)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          Interact (Contact)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:17]</p>
 
@@ -2552,25 +2517,22 @@ items:
 
           <p><strong>Maximum Duration</strong> 6 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d6[poison]]] damage plus
+          <p><strong>Stage 1</strong> @Damage[1d6[poison]] damage plus
           @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
           1} (1 round)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d6[poison]]] damage plus
+          <p><strong>Stage 2</strong> @Damage[1d6[poison]] damage plus
           @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}
           (1 round)</p>
 
-          <p><strong>Stage 3</strong> [[/r 2d6[poison]]] damage plus enfeebled 1
-          (1 round)</p>
+          <p><strong>Stage 3</strong> @Damage[2d6[poison]] damage plus enfeebled
+          1 (1 round)</p>
       rules: []
       slug: violet-venom
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2624,6 +2586,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2636,11 +2599,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033695187
-      modifiedTime: 1687033725711
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316010036
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: FxWuViE2ODNH8ITQ
     _key: '!actors.items!a2y3WhzVAv31TsiX.FxWuViE2ODNH8ITQ'
   - img: >-
@@ -2655,30 +2618,27 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">2</span> Interact
-          (Injury)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          Interact (Injury)</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:20]</p>
 
           <p><strong>Maximum Duration</strong> 6 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d10[poison]]] damage and -5-foot
+          <p><strong>Stage 1</strong> @Damage[1d10[poison]] damage and -5-foot
           status penalty to all Speeds (1 round)</p>
 
-          <p><strong>Stage 2</strong> [[/r 2d6[poison]]] damage and -10-foot
+          <p><strong>Stage 2</strong> @Damage[2d6[poison]] damage and -10-foot
           status penalty to all Speeds (1 round)</p>
 
-          <p><strong>Stage 3</strong> [[/r 2d6[poison]]] damage and -20-foot
+          <p><strong>Stage 3</strong> @Damage[2d6[poison]] damage and -20-foot
           status penalty to all Speeds (1 round)</p>
       rules: []
       slug: leadenleg
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2732,6 +2692,7 @@ items:
         value: held-in-two-hands
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2744,11 +2705,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033699678
-      modifiedTime: 1687033726302
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316010101
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: IBJ6RYENtohUL3wG
     _key: '!actors.items!a2y3WhzVAv31TsiX.IBJ6RYENtohUL3wG'
   - img: >-
@@ -2770,7 +2731,7 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
           Interact</p>
 
           <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:18]</p>
@@ -2779,9 +2740,9 @@ items:
 
           <p><strong>Maximum Duration</strong> 5 days</p>
 
-          <p><strong>Stage
-          1</strong><strong>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy
-          2}</strong> (1 round)</p>
+          <p><strong>Stage 1</strong>
+          @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}
+          (1 round)</p>
 
           <p><strong>Stage 2</strong> unconscious (1 hour)</p>
 
@@ -2791,10 +2752,7 @@ items:
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2848,6 +2806,7 @@ items:
         value: held-in-one-hand
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2860,16 +2819,16 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033703682
-      modifiedTime: 1687033726664
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316010165
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: dOdy3cFdyQVGsZeu
     _key: '!actors.items!a2y3WhzVAv31TsiX.dOdy3cFdyQVGsZeu'
   - img: >-
       systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/hunting-spider-venom.webp
-    name: Hunting Spider Venom
+    name: Spider Venom
     system:
       description:
         gm: ''
@@ -2879,33 +2838,34 @@ items:
 
           <hr />
 
-          <p><strong>Activate</strong> <span class="pf2-icon">D</span> Interact
-          (Injury)</p>
+          <p><strong>Activate</strong> <span class="action-glyph">2</span>
+          (manipulate)</p>
 
-          <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:21]</p>
+          <p><strong>Saving Throw</strong> @Check[type:fortitude|dc:22]</p>
 
           <p><strong>Maximum Duration</strong> 6 rounds</p>
 
-          <p><strong>Stage 1</strong> [[/r 1d10[poison]]] damage and
-          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
-          (1 round)</p>
+          <p><strong>Stage 1</strong> @Damage[1d10[poison]] damage and
+          @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
+          1} (1 round)</p>
 
-          <p><strong>Stage 2</strong> [[/r 1d12[poison]]] damage,
+          <p><strong>Stage 2</strong> @Damage[1d12[poison]] damage,
           @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1},
-          and off-guard (1 round)</p>
+          and
+          @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
+          2} (1 round)</p>
 
-          <p><strong>Stage 3</strong> [[/r 2d6[poison]]] damage,
+          <p><strong>Stage 3</strong> @Damage[2d6[poison]] damage,
           @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2},
-          and off-guard (1 round)</p>
+          and
+          @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
+          3} (1 round)</p>
       rules: []
-      slug: hunting-spider-venom
+      slug: spider-venom
       _migration:
         version: 0.925
         lastMigration: null
-        previous:
-          schema: 0.842
-          foundry: '11.315'
-          system: 5.15.0
+        previous: null
       traits:
         otherTags: []
         value:
@@ -2915,10 +2875,10 @@ items:
           - poison
         rarity: common
       publication:
-        title: Pathfinder Core Rulebook
+        title: Pathfinder GM Core
         authors: ''
-        license: OGL
-        remaster: false
+        license: ORC
+        remaster: true
       level:
         value: 5
       quantity: 3
@@ -2956,9 +2916,10 @@ items:
         autoDestroy: true
       damage: null
       usage:
-        value: held-in-one-hand
+        value: held-in-two-hands
       stackGroup: null
       spell: null
+      subitems: []
     type: consumable
     flags:
       core:
@@ -2971,11 +2932,11 @@ items:
       eJdAkXPIlso4614X: 3
     _stats:
       systemId: pf2e
-      systemVersion: 5.0.1
-      coreVersion: '11.302'
+      systemVersion: 5.15.0
+      coreVersion: '11.315'
       createdTime: 1687033708281
-      modifiedTime: 1687033727056
-      lastModifiedBy: eJdAkXPIlso4614X
+      modifiedTime: 1712316010231
+      lastModifiedBy: bPBBb4WESqtrNJTN
     _id: Gq6xBr2lkXigiz27
     _key: '!actors.items!a2y3WhzVAv31TsiX.Gq6xBr2lkXigiz27'
 effects: []
@@ -3079,7 +3040,7 @@ _stats:
   systemVersion: 5.15.0
   coreVersion: '11.315'
   createdTime: 1686850703482
-  modifiedTime: 1712315301754
+  modifiedTime: 1712316010231
   lastModifiedBy: bPBBb4WESqtrNJTN
 _key: '!actors!a2y3WhzVAv31TsiX'
 
